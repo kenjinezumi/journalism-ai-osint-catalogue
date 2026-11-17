@@ -1,0 +1,16 @@
+# repo	spdx_verified	archived	last_push	latest_release	reldate	notes
+alephdata/aleph	MIT	active	2026-02-20	4.1.7	2025-10-27	superseded by openaleph fork
+openaleph/openaleph	MIT	active	2026-11-16	5.4.0	2026-11-16	active fork of Aleph by DARC
+ICIJ/datashare	AGPL-3.0	active	2026-11-16	21.24.1	2026-11-12	
+huridocs/uwazi	MIT	active	2026-11-16	1.229.312	2026-11-16	
+mvt-project/mvt	MVT-License-1.1	active	2026-11-10	-	-	NOT OSI: consensual use restriction s3.0
+mvt-project/androidqf	MVT-License-1.1	active	2026-11-07	v1.8.3	2026-05-12	NOT OSI
+forensic-architecture/timemap	Do-No-Harm	active	2025-06-02	-	-	NOT OSI ethical source
+freedomofpress/securedrop	AGPL-3.0	active	2026-11-14	2.16.2	2026-10-29	
+freedomofpress/dangerzone	AGPL-3.0	active	2026-11-09	v0.11.1	2026-10-22	
+onionshare/onionshare	GPL-3.0	active	2026-11-07	v2.7.2	2026-11-07	LICENSE.txt heading = GPLv3
+jvoisin/mat2	LGPL-3.0	active	2026-11-15	0.15.0	2026-08-04	
+freelawproject/x-ray	BSD-2-Clause	active	2026-10-15	v0.3.5	2025-12-08	bad-redaction detector
+LonamiWebs/Telethon	MIT	ARCHIVED	2026-02-21	-	-	ARCHIVED
+duckduckgo/tracker-radar	CC-BY-NC-SA-4.0	active	2026-11-11	2026.11.10	2026-11-10	DATASET not OSS
+the-markup/blacklight-collector	GPL-3.0	active	2026-09-03	-	-	

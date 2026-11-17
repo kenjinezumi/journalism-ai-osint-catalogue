@@ -1,0 +1,13 @@
+https://docs.opencellid.org/
+https://www.sipri.org/databases/national-reports
+https://www.wassenaar.org/control-lists/
+https://ted.europa.eu/en/simple-search
+https://data.europa.eu/data/datasets?locale=en
+https://www.usaspending.gov/download_center/custom_award_data
+https://sam.gov/
+https://www.opensecrets.org/federal-lobbying
+https://lda.senate.gov/system/public/
+https://www.stopspying.org/latest-research
+https://standards.open-contracting.org/
+https://github.com/EFForg/rayhunter/blob/main/LICENSE
+https://exodus-privacy.eu.org/en/page/trackers/

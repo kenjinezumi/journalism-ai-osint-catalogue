@@ -1,0 +1,120 @@
+- 4get || type=platform bucket=verified-oss lic=AGPL-3.0-only mdl= || NO-GH-META url=https://git.lolcat.ca/lolcat/4get
+    use: Query several engines without logging in or running JavaScript, and compare how different engines rank the same target.
+    lim: Not on GitHub (self-hosted forge), smaller contributor base than SearXNG; scraper breakage is routine. | deps: Upstream search engines; PHP runtime | flow: Your instance proxies queries to upstream engines; public instance operator sees queries
+- ArchiveBot || type=platform bucket=verified-oss lic=MIT mdl= || ArchiveTeam/ArchiveBot spdx=MIT arch=False push=2026-09-08 rel=None@None tag=None stars=429 iss=194
+    use: Mobilise community archiving capacity when a large site must be preserved faster than one newsroom can manage.
+    lim: Not a private tool; you are requesting work from a community, with public logs. | deps: IRC network, ArchiveTeam pipelines, Internet Archive | flow: Captures are ingested into public ArchiveTeam/IA collections — not private
+- ArchiveWeb.page || type=browser-extension bucket=verified-oss lic=AGPL-3.0 mdl= || webrecorder/archiveweb.page spdx=AGPL-3.0 arch=False push=2026-11-09 rel=v0.17.1@2026-09-04 tag=v0.17.1 stars=1629 iss=115
+    use: Manually capture a social post, story or logged-in page exactly as seen, producing a replayable file for the evidence locker.
+    lim: Manual, one-page-at-a-time workflow; large captures strain browser storage. | deps: Chromium-based browser | flow: Archive stored in the browser profile until exported; nothing uploaded by default
+- Browsertrix || type=platform bucket=verified-oss lic=AGPL-3.0 mdl= || webrecorder/browsertrix spdx=AGPL-3.0 arch=False push=2026-11-17 rel=v1.26.6@2026-11-05 tag=v1.27.0-beta.0 stars=501 iss=341
+    use: Team-scale archiving programme where multiple reporters schedule crawls and share replayable collections.
+    lim: Kubernetes operational burden for self-hosting; small newsrooms usually end up on the paid service. | deps: Kubernetes, S3-compatible storage; hosted plan is paid | flow: Crawls and WACZ stored in your cluster, or in Webrecorder's hosted service if using SaaS
+- browsertrix-behaviors || type=library bucket=verified-oss lic=AGPL-3.0 mdl= || webrecorder/browsertrix-behaviors spdx=AGPL-3.0 arch=False push=2026-11-10 rel=v0.16.0@2026-11-10 tag=v0.16.0 stars=60 iss=7
+    use: Make automated captures of infinite-scroll social feeds and video pages actually complete, rather than capturing the first screen.
+    lim: Only as good as the per-site behaviour coverage. | deps: Browser capture host (Browsertrix/ArchiveWeb.page) | flow: Runs inside the capture browser
+- brozzler || type=app bucket=verified-oss lic=Apache-2.0 mdl= || internetarchive/brozzler spdx=Apache-2.0 arch=False push=2026-11-14 rel=v1.10.0@2026-11-14 tag=v1.10.0 stars=824 iss=63
+    use: Archive JavaScript-dependent pages at scale where a plain crawler would capture empty shells.
+    lim: Operationally complex multi-service deployment; IA-internal priorities drive development. | deps: Chrome/Chromium, warcprox, RethinkDB | flow: Captured traffic proxied through warcprox into WARC files you hold
+- Conifer || type=platform bucket=verified-oss lic=Apache-2.0 mdl= || Rhizome-Conifer/conifer spdx=Apache-2.0 arch=False push=2026-07-22 rel=None@None tag=None stars=1549 iss=128
+    use: Capture a dynamic page or social feed through a remote browser session and keep it in an organised, replayable collection.
+    lim: Slower cadence than Webrecorder's newer tools (4 months since last push); hosted quotas are small. | deps: Docker stack; hosted instance storage quotas | flow: Captures held by the hosted instance unless you self-host
+- CouncilSearcher || type=app bucket=verified-oss lic=MIT mdl= || bellingcat/CouncilSearcher spdx=MIT arch=False push=2026-01-07 rel=None@None tag=None stars=17 iss=7
+    use: Local-government accountability reporting: find what a named councillor actually said about an issue across many meeting transcripts.
+    lim: Scoped to UK/Ireland; small project, 10 months since last push. | deps: Council websites/transcript sources | flow: Fetches public council records to local storage
+- Crawlee || type=library bucket=verified-oss lic=Apache-2.0 mdl= || apify/crawlee spdx=Apache-2.0 arch=False push=2026-11-17 rel=v3.18.2@2026-09-29 tag=v4.0.0-rc.2 stars=26475 iss=145
+    use: Collect JavaScript-heavy public pages (dynamic dashboards, infinite-scroll listings) that simple HTTP crawlers cannot render.
+    lim: Engineering-heavy; no investigative UI or evidence packaging. | deps: Node.js, browsers; optional paid proxy providers and Apify cloud | flow: Target requests via your host or third-party proxies; proxy vendors see target URLs
+- dorks_hunter || type=cli bucket=uncertain lic=not verified mdl= || six2dez/dorks_hunter spdx=None arch=False push=2026-07-14 rel=v1.0@2022-08-03 tag=v1.0 stars=350 iss=0
+    use: One of the few dorking helpers still receiving commits after pagodo's archival, for quick exposed-file discovery on a domain.
+    lim: Unlicensed; reliability now bounded by Google's 2026 anti-scraping changes. | deps: Google search scraping libraries | flow: Dork queries issued to Google from your IP
+- grab-site || type=cli bucket=verified-oss lic=MIT mdl= || ArchiveTeam/grab-site spdx=NOASSERTION arch=False push=2025-05-23 rel=None@None tag=2.2.7 stars=1617 iss=103
+    use: Rapid-response archiving of a site at risk of deletion, with the ability to steer the crawl while it runs.
+    lim: 18 months since last push; depends on wpull, itself last pushed 2024-04. | deps: Python, wpull | flow: WARC + logs written locally
+- Heritrix 3 || type=app bucket=verified-oss lic=Apache-2.0 mdl= || internetarchive/heritrix3 spdx=NOASSERTION arch=False push=2026-11-17 rel=3.18.0@2026-10-06 tag=3.18.0 stars=3351 iss=44
+    use: Large-scale archival crawls of whole domains where the capture must be WARC-based and defensible.
+    lim: Steep learning curve; weak on dynamic content — use Browsertrix Crawler for high-fidelity social captures. | deps: Java; substantial storage | flow: WARCs written to your storage
+- HTTrack || type=app bucket=verified-oss lic=GPL-3.0 mdl= || xroche/httrack spdx=GPL-3.0 arch=False push=2026-11-17 rel=3.51.0@2026-10-28 tag=3.51.0 stars=4844 iss=5
+    use: Take a quick offline mirror of a site likely to be edited or taken down, for later reading and keyword search.
+    lim: Produces a loose file tree, not WARC — weak as evidence of record; poor with dynamic sites. | deps: None significant | flow: Direct downloads from target to local disk
+- Hyphe || type=platform bucket=verified-oss lic=AGPL-3.0 mdl= || medialab/hyphe spdx=AGPL-3.0 arch=False push=2026-05-18 rel=v1.12.2@2025-07-07 tag=v1.12.2 stars=392 iss=56
+    use: Map an ecosystem — e.g. a disinformation or lobbying network — by curating which sites belong to the corpus and visualising how they link.
+    lim: Heavy install; six months since last push; curation is manual and labour-intensive. | deps: Docker, MongoDB/ScrapyD components | flow: Crawled pages and link graph stored in your instance
+- katana || type=cli bucket=verified-oss lic=MIT mdl= || projectdiscovery/katana spdx=MIT arch=False push=2026-11-17 rel=v1.8.0@2026-10-05 tag=v1.8.0 stars=17862 iss=28
+    use: Enumerate every reachable page and document on a target site (PDFs, archives, staging paths) before mirroring or analysis.
+    lim: Discovers URLs rather than preserving content — pair with a WARC capture tool for evidence. | deps: Chromium for headless mode | flow: Direct HTTP(S) requests from your host to the target
+- LibreY || type=platform bucket=verified-oss lic=AGPL-3.0 mdl= || Ahwxorg/LibreY spdx=AGPL-3.0 arch=False push=2026-06-10 rel=None@None tag=None stars=328 iss=25
+    use: Lightweight self-hosted meta-search for quick multi-engine checks when a full SearXNG deployment is overkill.
+    lim: Smaller engine coverage and slower cadence than SearXNG (5 months since last push). | deps: PHP runtime; upstream engines | flow: Queries proxied to upstream engines
+- Marginalia Search || type=platform bucket=verified-oss lic=AGPL-3.0 mdl= || MarginaliaSearch/MarginaliaSearch spdx=NOASSERTION arch=False push=2026-11-16 rel=v24.10.0@2024-10-14 tag=v24.10.0 stars=2240 iss=31
+    use: Surface obscure personal pages, forums and old sites that mainstream engines suppress — useful for finding early traces of a person or organisation.
+    lim: Deliberately partial index (de-prioritises commercial web); not a Google replacement. | deps: Large storage/CPU for self-hosted index | flow: Queries to the public instance go to the operator; self-hosted keeps everything local
+- Metabigor || type=cli bucket=verified-oss lic=MIT mdl= || j3ssie/metabigor spdx=MIT arch=False push=2026-08-08 rel=v2.2.0@2026-08-08 tag=v2.2.0 stars=1871 iss=2
+    use: Quickly map an organisation's internet footprint (netblocks, ASNs, related hosts) from public sources before deeper investigation.
+    lim: Infrastructure-oriented rather than social-media oriented; output needs manual validation. | deps: Public third-party web services | flow: Queries sent from your host to third-party services
+- monolith || type=cli bucket=verified-oss lic=0BSD mdl= || Y2Z/monolith spdx=0BSD arch=False push=2026-11-13 rel=v2.12.0@2026-11-02 tag=v2.12.0 stars=15609 iss=49
+    use: Scriptable bulk preservation of many URLs as portable single-file snapshots for later reading or diffing.
+    lim: No JS execution path for complex pages; not WARC. | deps: None significant | flow: Fetches target assets from your host; writes a local file
+- name-variant-search || type=app bucket=verified-oss lic=MIT mdl= || bellingcat/name-variant-search spdx=MIT arch=False push=2026-06-25 rel=None@None tag=None stars=56 iss=2
+    use: Expand searches for a person whose name is transliterated inconsistently across Russian, Ukrainian, Arabic or other scripts.
+    lim: Heuristic variant generation only; no search execution or results. | deps: None beyond a browser | flow: Name input processed client-side in the hosted static page
+- OSINT Framework || type=app bucket=verified-oss lic=MIT mdl= || lockfale/OSINT-Framework spdx=MIT arch=False push=2026-10-31 rel=None@None tag=None stars=12467 iss=194
+    use: Starting point for choosing a collection method or source type when you know the identifier you hold but not the tooling.
+    lim: Directory, not a tool; link quality and freshness vary widely. | deps: Third-party tools and sites it links to | flow: No investigative data flows; it is a link index
+- OutbackCDX || type=platform bucket=verified-oss lic=Apache-2.0 mdl= || iipc/outbackcdx spdx=Apache-2.0 arch=False push=2026-11-13 rel=1.3.0@2026-09-30 tag=1.3.0 stars=46 iss=19
+    use: Index a large in-house WARC collection so investigators can query by URL and timestamp like the public Wayback Machine.
+    lim: Infrastructure component only; requires a pywb/OpenWayback front-end and real ops capacity. | deps: Java, RocksDB storage | flow: Index queries stay within your infrastructure
+- pagodo || type=cli bucket=verified-oss lic=GPL-3.0 mdl= || opsdisk/pagodo spdx=GPL-3.0 arch=True push=2026-11-01 rel=v2.8.0@2026-11-01 tag=v2.8.0 stars=3418 iss=0
+    use: Reference implementation of bulk dorking workflows; its GHDB scraper still documents dork syntax useful for manual searching.
+    lim: Automated Google dorking is broadly non-functional as of late 2026 — treat dorking as a manual technique. | deps: Google search (unofficial scraping); GHDB (Offensive Security) | flow: Dork queries issued directly to Google from your IP
+- Perma || type=platform bucket=verified-oss lic=MIT AND GPL-3.0 (dual, per README) mdl= || harvard-lil/perma spdx=None arch=False push=2026-11-16 rel=None@None tag=v-.59.1 stars=540 iss=95
+    use: Preserve cited sources as stable links so a published investigation does not rot when the source page changes or disappears.
+    lim: Self-hosting is heavy; licence is declared in README rather than a LICENSE file. | deps: Django stack, storage; hosted service requires a perma.cc account (institutional tiers) | flow: On perma.cc, captures and target URLs are held by Harvard LIL and links are public
+- Photon || type=cli bucket=verified-oss lic=GPL-3.0 mdl= || s0md3v/Photon spdx=GPL-3.0 arch=False push=2026-10-17 rel=v1.3.0@2019-04-05 tag=v1.3.0 stars=13350 iss=61
+    use: Harvest contact details, document links and handles scattered across a target website in a single pass.
+    lim: Light maintenance cadence relative to its age; no JS rendering. | deps: Python; optional Internet Archive CDX | flow: Crawls target directly; results written to local JSON/text
+- py-wacz || type=library bucket=verified-oss lic=MIT mdl= || webrecorder/py-wacz spdx=MIT arch=False push=2026-10-13 rel=v0.6.0@2026-09-10 tag=v0.6.0 stars=63 iss=21
+    use: Package captures into a single self-contained WACZ for archiving, sharing with lawyers, or embedding in a published story.
+    lim: Niche utility, small user base; spec-tracking rather than feature-rich. | deps: Python; WARC inputs | flow: Local file packaging only
+- ReplayWeb.page || type=app bucket=verified-oss lic=AGPL-3.0 mdl= || webrecorder/replayweb.page spdx=AGPL-3.0 arch=False push=2026-11-17 rel=v2.5.4@2026-10-22 tag=v2.5.4 stars=1015 iss=119
+    use: Let editors, lawyers and readers open and inspect an archived page themselves, offline, from a single file.
+    lim: Fidelity is bounded by the original capture; very large archives load slowly. | deps: Modern browser; the WACZ/WARC file | flow: Replay happens entirely client-side; archives are not uploaded
+- Scrapy || type=framework bucket=verified-oss lic=BSD-3-Clause mdl= || scrapy/scrapy spdx=BSD-3-Clause arch=False push=2026-11-16 rel=2.20.0@2026-11-06 tag=scrapy-0.25.1-sc stars=65442 iss=176
+    use: Build repeatable bulk collection of structured public records (court listings, registries, classifieds) into datasets for analysis.
+    lim: Developer tool: no UI, no archiving/evidentiary output by default. | deps: Optional proxy/headless services | flow: Requests from your infrastructure to targets; data stored locally
+- SearXNG || type=platform bucket=verified-oss lic=AGPL-3.0 mdl= || searxng/searxng spdx=AGPL-3.0 arch=False push=2026-11-17 rel=None@None tag=None stars=39634 iss=208
+    use: Run queries across dozens of engines from one self-hosted instance, compare result sets, and avoid personalised/filtered results during research.
+    lim: Result completeness varies by engine health; no persistent archiving of results. | deps: Upstream search engines; optional API keys for some engines | flow: Queries leave your instance to upstream engines; self-hosting keeps query logs local
+- SingleFile || type=browser-extension bucket=verified-oss lic=AGPL-3.0 mdl= || gildas-lormeau/SingleFile spdx=AGPL-3.0 arch=False push=2026-11-17 rel=v1.38.0@2026-11-17 tag=v1.38.0 stars=22931 iss=99
+    use: One-click preservation of a page or social post exactly as rendered in your browser, including content behind a login you legitimately hold.
+    lim: Not WARC: single HTML snapshots are weaker provenance evidence and lack HTTP headers. | deps: Browser | flow: Saved file written locally; no upload by default
+- SiteOne Crawler || type=cli bucket=verified-oss lic=MIT mdl= || janreges/siteone-crawler spdx=MIT arch=False push=2026-09-27 rel=v2.5.1@2026-06-27 tag=v2.6.1 stars=1015 iss=17
+    use: Inventory a target site's structure, assets and third-party components, and keep an offline copy for reference.
+    lim: Analysis/export focus rather than archival WARC output; vendor-led project. | deps: None significant | flow: Direct crawl of target; reports written locally
+- uncover || type=cli bucket=verified-oss lic=MIT mdl= || projectdiscovery/uncover spdx=MIT arch=False push=2026-11-17 rel=v1.2.1@2026-05-20 tag=v1.2.1 stars=3120 iss=6
+    use: Find exposed servers, cameras or panels tied to an entity under investigation across several scan databases with one query.
+    lim: Infrastructure focus; useful for entity-to-server mapping rather than social research. | deps: API keys for Shodan/Censys/Fofa/Hunter/Zoomeye etc., several paid | flow: Your queries and target identifiers are sent to commercial scan vendors
+- wabac.js || type=library bucket=verified-oss lic=AGPL-3.0 mdl= || webrecorder/wabac.js spdx=AGPL-3.0 arch=False push=2026-11-13 rel=v2.27.4@2026-10-22 tag=v2.27.4 stars=130 iss=16
+    use: Embed archive replay directly into a newsroom web application or story page without a replay server.
+    lim: Library-level component; not used directly by journalists. | deps: Modern browser with service worker support | flow: Client-side only
+- warcio || type=library bucket=verified-oss lic=Apache-2.0 mdl= || webrecorder/warcio spdx=Apache-2.0 arch=False push=2026-10-28 rel=v1.8.2@2026-10-28 tag=v1.8.2 stars=486 iss=63
+    use: Programmatically verify, index and extract records from WARC evidence, or convert captures for analysis pipelines.
+    lim: Low-level library; no capture or replay capability of its own. | deps: Python | flow: Operates on local files only
+- warcprox || type=cli bucket=verified-oss lic=GPL-2.0-or-later mdl= || internetarchive/warcprox spdx=None arch=False push=2026-06-17 rel=v2.13.1@2026-05-11 tag=v2.13.1 stars=469 iss=27
+    use: Record every request made during a browsing or scraping session into WARC, so collection and evidence capture happen in one pass.
+    lim: Licence declared only in packaging metadata, not a LICENSE file; operator-level tool. | deps: Python; local CA certificate installed in the browser | flow: All proxied traffic, including credentials, is written to your WARCs
+- WebScrapBook || type=browser-extension bucket=verified-oss lic=MPL-2.0 mdl= || danny0838/webscrapbook spdx=MPL-2.0 arch=False push=2026-09-28 rel=None@None tag=2.27.3 stars=1251 iss=37
+    use: Build an annotated personal archive of captured pages, with highlighting and notes kept alongside the evidence.
+    lim: Single-user tool, idiosyncratic data format, modest ecosystem. | deps: Browser; optional self-hosted backend | flow: Captures to local disk or your own backend server
+- Whoogle Search || type=app bucket=verified-oss lic=MIT mdl= || benbusby/whoogle-search spdx=MIT arch=True push=2026-08-14 rel=v1.2.4@2026-04-15 tag=v1.2.4 stars=11551 iss=1
+    use: Historically used to query Google without a personalised session; now mainly a reference for why self-hosted Google front-ends are no longer viable.
+    lim: Archived and dependent on a scraping path Google has closed. | deps: Google (scraping) or paid Google Custom Search API (100 free queries/day then paid) | flow: Queries proxied from your instance to Google
+- wpull || type=cli bucket=verified-oss lic=GPL-3.0 mdl= || ArchiveTeam/wpull spdx=GPL-3.0 arch=False push=2024-04-29 rel=None@None tag=v2.0.3 stars=613 iss=208
+    use: Wget-style recursive capture when you need WARC output and wget's familiar flag semantics.
+    lim: Effectively dormant; prefer browsertrix-crawler or wget --warc for new work. | deps: Python | flow: WARC written locally
+- YaCy || type=platform bucket=verified-oss lic=GPL-2.0-or-later mdl= || yacy/yacy_search_server spdx=NOASSERTION arch=False push=2026-11-03 rel=None@None tag=Release_1.941 stars=4110 iss=248
+    use: Build a private searchable index over a defined set of target sites (ministries, forums, company sites) for repeatable full-text investigation.
+    lim: Heavy resource use; relevance ranking weaker than commercial engines; UI dated. | deps: Java runtime; disk for index | flow: Crawled content stored locally; P2P mode shares index fragments with other peers
+- Zoekplaatje || type=browser-extension bucket=verified-oss lic=MPL-2.0 mdl= || digitalmethodsinitiative/zoekplaatje spdx=NOASSERTION arch=False push=2026-11-17 rel=v1.12@2026-01-23 tag=v1.12 stars=14 iss=8
+    use: Document what a search engine actually showed, when, and in what order — evidence for algorithmic-bias and disinformation-ranking stories.
+    lim: Small user base; Firefox-only; engine coverage limited to implemented parsers. | deps: Firefox; the search engines you visit | flow: Captured SERP data stored locally in the browser and exported by the user

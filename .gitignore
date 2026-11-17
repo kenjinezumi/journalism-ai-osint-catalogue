@@ -1,0 +1,13 @@
+# Transient build and tooling output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Transient sweep progress output (the sweep's actual result, work/meta.jsonl, IS tracked)
+work/sweep.log
+
+# OS and editor noise
+.DS_Store
+*.swp
+*~
