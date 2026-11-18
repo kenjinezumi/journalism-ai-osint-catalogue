@@ -14,6 +14,9 @@
 | **Maintainer** | OpenSanctions |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT (code) |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Mixed |
+| **Software price** | **No software fee** — code free (MIT); the OpenSanctions data it serves requires a paid licence for commercial use — quote required |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/opensanctions/yente) · [Documentation](https://www.opensanctions.org/docs/yente/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 3/5 · licence+cost 3/5 → **weighted 88/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | MIT (code) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | OpenSanctions data is CC-BY-NC-4.0; commercial use requires a paid licence (price not publicly listed — quote required). |
+| **Restrictions** | The restriction is on the data, not the code. Commercial newsrooms cannot assume NGO-style non-commercial status. Loading your own FtM data instead avoids the issue entirely. |
+| **Open-source status** | **Mixed** — Open-source code, restricted data licence |
+| **Software price** | **No software fee** — code free (MIT); the OpenSanctions data it serves requires a paid licence for commercial use — quote required |
+| **Additional costs** | **Mandatory paid dependency** — mandatory paid data licence for commercial use (quote); self-hosted Elasticsearch/OpenSearch |
+| **Cost conditions** | **Mandatory paid dependency**; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Software free. Infrastructure: Elasticsearch/OpenSearch node plus periodic bulk data loads — estimate one 8-16GB VM for a newsroom-scale index. Data licence for commercial use: quote required, not publicly listed (verified 2026-11-16). OpenSanctions also sells a hosted Screening API using prepaid credit bundles with free credits on signup.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://www.opensanctions.org/licensing/
+- https://github.com/opensanctions/yente
+- https://www.opensanctions.org/docs/yente/
+- `../sources/evidence/leads.md`
 
 ---
 

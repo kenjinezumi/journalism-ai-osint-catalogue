@@ -14,6 +14,9 @@
 | **Maintainer** | multimodal-ai-lab (TU Darmstadt) |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/multimodal-ai-lab/DEFAME) · [Documentation](https://github.com/multimodal-ai-lab/DEFAME#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 2/5 · privacy 1/5 · usability 2/5 · licence+cost 3/5 → **weighted 49/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a by default — uses hosted LLMs (GPT-4o default); optional local GPU components pull third-party models whose licences were not verified. |
+| **Restrictions** | Code permissive. The operative constraints are the third-party API terms for the LLM and search services. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | **Mandatory paid dependency** — mandatory paid dependency; self-hosted infrastructure |
+| **Cost conditions** | **Mandatory paid dependency**; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Software free. Operation requires paid API keys: an LLM provider (GPT-4o-class token charges) plus search and reverse-image services — per-claim cost, rates not verified here. Optional CUDA GPU for local components. Real cost is per-use, not infrastructure.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/multimodal-ai-lab/DEFAME/blob/main/LICENSE
+- https://github.com/multimodal-ai-lab/DEFAME
 
 ---
 

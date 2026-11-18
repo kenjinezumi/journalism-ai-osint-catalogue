@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/OpenDroneMap/ODM","https://docs.opendronemap.org/","https://github.com/OpenDroneMap/ODM/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Photogrammetry toolkit that turns overlapping aerial or drone images into orthophotos, digital elevation models…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C2-47","name":"dump1090 (FlightAware fork)","maintainer":"FlightAware","pillar":"OSINT","segment":"C2","subcategory":"Aviation tracking (ADS-B receiver)","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/flightaware/dump1090","docs_url":"https://github.com/flightaware/dump1090#readme",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/flightaware/dump1090","https://github.com/flightaware/dump1090/blob/master/LICENSE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Mode S and ADS-B decoder for RTL-SDR software-defined radio receivers, decoding aircraft transponder broadcasts into position…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["hardware", "infrastructure"],"additional_costs_note":"dedicated hardware; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C2-48","name":"adsb-history","maintainer":"Bellingcat","pillar":"OSINT","segment":"C2","subcategory":"Aviation tracking (historical analysis)","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/bellingcat/adsb-history","docs_url":"https://github.com/bellingcat/adsb-history#readme",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/bellingcat/adsb-history","https://github.com/bellingcat/adsb-history/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Tool to collect and query historical ADS-B aircraft data by geographic region, altitude and time…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":3,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-49","name":"rtl-ais","maintainer":"Daniel Giardini (dgiardini)","pillar":"OSINT","segment":"C2","subcategory":"Maritime tracking (AIS receiver)","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/dgiardini/rtl-ais","docs_url":"https://github.com/dgiardini/rtl-ais#readme",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/dgiardini/rtl-ais","https://github.com/dgiardini/rtl-ais/blob/master/LICENCE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Software-defined-radio AIS receiver that tunes both marine AIS frequencies with an RTL-SDR dongle and decodes vessel position…","licence_type":"Unresolved","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["hardware", "infrastructure"],"additional_costs_note":"dedicated hardware; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C2-50","name":"Global Fishing Watch API client","maintainer":"Global Fishing Watch","pillar":"OSINT","segment":"C2","subcategory":"Maritime behaviour analysis","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/GlobalFishingWatch/gfw-api-python-client","docs_url":"https://globalfishingwatch.org/our-apis/documentation",
@@ -87,5 +91,6 @@
 "blockers":["Data terms and current access tiers not verified — confirm before publishing derived datasets"],
 "evidence_urls":["https://github.com/GlobalFishingWatch/gfw-api-python-client","https://globalfishingwatch.org/our-apis/documentation","https://github.com/GlobalFishingWatch/gfw-api-python-client/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Python client for Global Fishing Watch APIs, providing access to processed vessel-tracking data including apparent fishing…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":3,"usability":4,"licence_cost":4}}
 ]

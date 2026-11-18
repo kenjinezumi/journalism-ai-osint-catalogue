@@ -14,6 +14,9 @@
 | **Maintainer** | Google |
 | **Maintenance** | Uncertain |
 | **Licence** | Not applicable (hosted service under Google API Terms of Service); specific terms not verified in this survey |
+| **Licence type** | Proprietary |
+| **Open-source status** | Proprietary |
+| **Software price** | **Unknown / not verified** — not established by the records |
 | **Confidence** | low · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Documentation](https://developers.google.com/fact-check/tools/api) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 2/5 · privacy 1/5 · usability 4/5 · licence+cost 2/5 → **weighted 57/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Proprietary |
+| **Exact licence (as recorded)** | Not applicable (hosted service under Google API Terms of Service); specific terms not verified in this survey |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. Note that the underlying ClaimReview content belongs to the publishing fact-checkers. |
+| **Restrictions** | Service terms rather than a software licence. Documentation states an attribution obligation to end users. Republishing aggregated fact-check content raises the publishers' own rights, separate from Google's terms. |
+| **Open-source status** | **Proprietary** — Hosted service or proprietary software — governed by service terms, not a software licence |
+| **Software price** | **Unknown / not verified** — not established by the records |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **low** |
+
+**Recorded cost detail.** Pricing and quota NOT verified in this survey — treat as not publicly confirmed here and check the current terms before relying on it. Historically free within quota; a Google API key is required, and Search Console verification is required for the ClaimReview write API.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://developers.google.com/fact-check/tools/api
+
+> **Unresolved:** the price is not established by these records — this is not a statement that it is free.
 
 ---
 

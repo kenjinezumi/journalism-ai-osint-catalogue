@@ -14,6 +14,9 @@
 | **Maintainer** | Hervé Bredin / pyannote (commercial arm pyannote.ai) |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** — library free (MIT); optional hosted pyannote.ai: Precision-3 batch EUR 0.112/audio-hour, Community-1 EUR 0.035/h, Live-1 EUR 0.198/h, Developer EUR 19/month, Starter EUR 99/month (verified 2026-11-16) |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/pyannote/pyannote-audio) · [Documentation](https://github.com/pyannote/pyannote-audio#readme) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 5/5 · privacy 4/5 · usability 3/5 · licence+cost 4/5 → **weighted 81/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | MIT but GATED — the speaker-diarization-3.1 card requires agreeing to share your HuggingFace information to access the model. The card also states the pipeline will remain open-source. |
+| **Restrictions** | No field-of-use restriction, but access is conditioned on identity disclosure to HuggingFace and the model authors. That is an access barrier with privacy consequences rather than a licence limitation. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** — library free (MIT); optional hosted pyannote.ai: Precision-3 batch EUR 0.112/audio-hour, Community-1 EUR 0.035/h, Live-1 EUR 0.198/h, Developer EUR 19/month, Starter EUR 99/month (verified 2026-11-16) |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Open library free. GPU recommended for throughput. The hosted pyannote.ai alternative is priced per audio-hour (Precision-3 batch EUR0.112/h; Community-1 batch EUR0.035/h; Live-1 EUR0.198/h) with Developer EUR19/month and Starter EUR99/month tiers including matching credit — verified 2026-11-16, EUR, usage-based. Using the hosted service means uploading audio.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://huggingface.co/pyannote/speaker-diarization-3.1
+- https://github.com/pyannote/pyannote-audio
+- https://www.pyannote.ai/pricing
+- `../sources/recovered/cat/pricing.tsv`
 
 ---
 

@@ -14,11 +14,41 @@
 | **Maintainer** | Bellingcat |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/bellingcat/name-variant-search) · [Documentation](https://bellingcat.github.io/name-variant-search/) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 5/5 · licence+cost 5/5 → **weighted 80/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. No infrastructure; self-hosting is a static file.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/bellingcat/name-variant-search/blob/main/LICENSE
+- https://github.com/bellingcat/name-variant-search
+- https://bellingcat.github.io/name-variant-search/
 
 ---
 

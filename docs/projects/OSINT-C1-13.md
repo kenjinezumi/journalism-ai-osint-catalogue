@@ -14,11 +14,41 @@
 | **Maintainer** | lockfale |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/lockfale/OSINT-Framework) · [Documentation](https://osintframework.com/) |
 
 **Scores** — relevance 3/5 · capability 2/5 · maintenance 3/5 · privacy 2/5 · usability 4/5 · licence+cost 5/5 → **weighted 59/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a — links only. |
+| **Restrictions** | None. Forking and pruning is explicitly easy under MIT, which is the recommended use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Many linked services are paid or freemium, and their costs are not catalogued — a hidden cost of following the tree.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/lockfale/OSINT-Framework/blob/master/LICENSE
+- https://github.com/lockfale/OSINT-Framework
+- https://osintframework.com/
 
 ---
 

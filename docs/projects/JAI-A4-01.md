@@ -14,11 +14,41 @@
 | **Maintainer** | Meedan |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/meedan/check) · [Documentation](https://meedan.com/check) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 4/5 · usability 3/5 · licence+cost 5/5 → **weighted 80/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a for the platform; bundled ML components live in Alegre and carry their own terms. |
+| **Restrictions** | None material. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. Infrastructure estimate: a multi-container deployment with PostgreSQL, Elasticsearch/OpenSearch and Redis — realistically one well-provisioned VM minimum, more for tipline volume. Optional paid dependencies if you enable Google Translate or a messaging provider (not priced here). Operating effort is the dominant cost.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/meedan/check/blob/develop/LICENSE
+- https://github.com/meedan/check
+- https://meedan.com/check
 
 ---
 

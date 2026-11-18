@@ -14,11 +14,40 @@
 | **Maintainer** | Vicente Vivanco Cepeda and collaborators |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/VicenteVivan/geo-clip) · [Documentation](https://github.com/VicenteVivan/geo-clip#readme) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 79/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Not separately stated; pretrained weights are distributed with the MIT-licensed package. |
+| **Restrictions** | None identified. Note the model derives from CLIP, whose own terms flow through in principle — worth checking if you redistribute weights. |
+| **Open-source status** | **Open source** — Open model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. PyTorch plus CLIP backbone; GPU helpful. Weights download on first use. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/VicenteVivan/geo-clip/blob/main/LICENSE
+- https://github.com/VicenteVivan/geo-clip
 
 ---
 

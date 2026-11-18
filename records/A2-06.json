@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/miso-belica/sumy","https://github.com/miso-belica/sumy/blob/main/LICENSE.rst"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Classical extractive summarisation library implementing LexRank, LSA, TextRank, Luhn…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-52","name":"Surya","maintainer":"Datalab (datalab-to, transferred from VikParuchuri)","pillar":"JAI","segment":"A2","subcategory":"OCR and layout models","project_type":"model","bucket":"source-available-weights","repo_url":"https://github.com/datalab-to/surya","docs_url":"https://github.com/datalab-to/surya#readme",
@@ -33,6 +34,7 @@
 "blockers":["Weights are OpenRAIL-M with a $5M revenue-or-funding commercial threshold"],
 "evidence_urls":["https://github.com/datalab-to/surya","https://www.datalab.to/pricing","../sources/recovered/cat/pricing.tsv","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Document OCR model suite covering text detection and recognition in 90+ languages, layout analysis, reading-order detection…","licence_type":"Mixed (code vs weights/data)","oss_status":"Mixed","oss_detail":"Open-source code, restricted model weights","price_class":"No fee below threshold","software_price_note":"code free; weights free below USD 5M revenue OR funding, commercial licence above — quote required (verified 2026-11-16)","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":5,"privacy":3,"usability":3,"licence_cost":2}},
 
 {"id":"JAI-A2-53","name":"Tabula","maintainer":"Tabula / Manuel Aristarán, Mike Tigas, Jeremy Merrill (OpenNews lineage)","pillar":"JAI","segment":"A2","subcategory":"Table extraction (no-code)","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/tabulapdf/tabula","docs_url":"https://tabula.technology/",
@@ -51,6 +53,7 @@
 "blockers":["No release since 2018 and 541 open issues — frozen GUI; use the maintained libraries for anything new"],
 "evidence_urls":["https://github.com/tabulapdf/tabula","https://tabula.technology/","https://github.com/tabulapdf/tabula/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Desktop application (served as a local web UI) that lets a user draw selection boxes around tables in a PDF and export them as…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":1,"privacy":5,"usability":5,"licence_cost":5}},
 
 {"id":"JAI-A2-54","name":"Tesseract OCR","maintainer":"tesseract-ocr community (Google-originated; UB Mannheim builds)","pillar":"JAI","segment":"A2","subcategory":"OCR engine","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/tesseract-ocr/tesseract","docs_url":"https://tesseract-ocr.github.io/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/tesseract-ocr/tesseract","https://tesseract-ocr.github.io/","https://github.com/tesseract-ocr/tesseract/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"LSTM line-recognition OCR engine for 100+ languages with a CLI and the libtesseract C/C++ API, outputting text, hOCR, ALTO…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-55","name":"txtai","maintainer":"NeuML","pillar":"JAI","segment":"A2","subcategory":"Semantic search framework","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/neuml/txtai","docs_url":"https://neuml.github.io/txtai/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/neuml/txtai","https://neuml.github.io/txtai/","https://github.com/neuml/txtai/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"All-in-one embeddings database and workflow framework combining vector search, sparse/hybrid search, graph components…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-56","name":"uroman","maintainer":"USC Information Sciences Institute (isi-nlp)","pillar":"JAI","segment":"A2","subcategory":"Transliteration","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/isi-nlp/uroman","docs_url":"https://github.com/isi-nlp/uroman#readme",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/isi-nlp/uroman","https://github.com/isi-nlp/uroman/blob/master/LICENSE.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Universal romaniser that converts text in virtually any script to the Latin alphabet using rule tables…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":1,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"JAI-A2-57","name":"VisiData","maintainer":"Saul Pwanson","pillar":"JAI","segment":"A2","subcategory":"Tabular data exploration","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/saulpw/visidata","docs_url":"https://www.visidata.org/docs/",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/saulpw/visidata","https://www.visidata.org/docs/","https://github.com/saulpw/visidata/blob/develop/LICENSE.gpl3"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Terminal spreadsheet and data-exploration tool that opens dozens of formats (CSV, JSON, SQLite, Parquet, XLSX…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"JAI-A2-58","name":"Whisper","maintainer":"OpenAI","pillar":"JAI","segment":"A2","subcategory":"Transcription (reference model)","project_type":"model","bucket":"verified-oss","repo_url":"https://github.com/openai/whisper","docs_url":"https://github.com/openai/whisper#readme",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/openai/whisper","https://github.com/openai/whisper/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Encoder-decoder speech model trained on 680,000 hours of multilingual audio, performing transcription…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open model weights","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":3,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-59","name":"whisper.cpp","maintainer":"Georgi Gerganov / ggml-org","pillar":"JAI","segment":"A2","subcategory":"Transcription (CPU runtime)","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/ggml-org/whisper.cpp","docs_url":"https://github.com/ggml-org/whisper.cpp#readme",
@@ -159,6 +167,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/ggml-org/whisper.cpp","https://github.com/ggml-org/whisper.cpp/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Plain C/C++ implementation of Whisper inference using the ggml tensor library, with quantised GGUF models, no Python dependency…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-60","name":"WhisperX","maintainer":"Max Bain (m-bain)","pillar":"JAI","segment":"A2","subcategory":"Transcription with alignment and diarisation","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/m-bain/whisperX","docs_url":"https://github.com/m-bain/whisperX#readme",
@@ -177,6 +186,7 @@
 "blockers":["Gated pyannote diarisation weights — plan a central download for air-gapped deployments"],
 "evidence_urls":["https://github.com/m-bain/whisperX","https://github.com/m-bain/whisperX/blob/main/LICENSE","https://huggingface.co/pyannote/speaker-diarization-3.1"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Pipeline combining faster-whisper transcription, wav2vec2 forced alignment for word-level timestamps…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":5,"maintenance":4,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"JAI-A2-61","name":"yente","maintainer":"OpenSanctions","pillar":"JAI","segment":"A2","subcategory":"Sanctions and PEP screening API","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/opensanctions/yente","docs_url":"https://www.opensanctions.org/docs/yente/",
@@ -195,5 +205,6 @@
 "blockers":["OpenSanctions data is CC-BY-NC-4.0 — commercial-use licence required, price not publicly listed"],
 "evidence_urls":["https://github.com/opensanctions/yente","https://www.opensanctions.org/docs/yente/","https://www.opensanctions.org/licensing/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Self-hostable entity-matching API that indexes OpenSanctions (or your own FollowTheMoney) data in Elasticsearch/OpenSearch and…","licence_type":"Mixed (code vs weights/data)","oss_status":"Mixed","oss_detail":"Open-source code, restricted data licence","price_class":"No software fee","software_price_note":"code free (MIT); the OpenSanctions data it serves requires a paid licence for commercial use — quote required","cost_flags":["mandatory-paid", "infrastructure"],"additional_costs_note":"mandatory paid data licence for commercial use (quote); self-hosted Elasticsearch/OpenSearch",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":3}}
 ]

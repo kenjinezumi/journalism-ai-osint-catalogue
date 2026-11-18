@@ -14,6 +14,9 @@
 | **Maintainer** | Martin Raifer (tyrasd) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT (licence blob read 2026-11-17, which notes bundled libraries have their own licences; GitHub reports NOASSERTION) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/tyrasd/overpass-turbo) · [Documentation](https://overpass-turbo.eu/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 3/5 · privacy 2/5 · usability 5/5 · licence+cost 5/5 → **weighted 71/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (licence blob read 2026-11-17, which notes bundled libraries have their own licences; GitHub reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | OpenStreetMap data is ODbL 1.0. |
+| **Restrictions** | MIT on the application. ODbL obligations attach to exported OSM data if you publish a derived database. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. The public instance is free and rate-limited; self-hosting the front end is a static deployment.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/tyrasd/overpass-turbo/blob/gh-pages/LICENSE
+- https://github.com/tyrasd/overpass-turbo
+- https://overpass-turbo.eu/
 
 ---
 

@@ -14,11 +14,41 @@
 | **Maintainer** | Protomaps |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-3-Clause for the reference implementations; the PMTiles SPECIFICATION is public domain or CC0 where applicable; bundled sample tilesets have their own terms (licence blob read 2026-11-17; GitHub reports NOASSERTION) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/protomaps/PMTiles) · [Documentation](https://docs.protomaps.com/pmtiles/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 4/5 · licence+cost 5/5 → **weighted 85/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause for the reference implementations; the PMTiles SPECIFICATION is public domain or CC0 where applicable; bundled sample tilesets have their own terms (licence blob read 2026-11-17; GitHub reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Sample tilesets in the repository are subject to their own licence terms, as the licence file states explicitly. |
+| **Restrictions** | Essentially none: implementations are permissive and the format itself is unencumbered, so there is no lock-in risk. Check the terms of any bundled sample tileset you use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Static storage for the tile archive — pennies per month for a national-scale tileset on object storage. The cheapest map-publishing path available. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/protomaps/PMTiles/blob/main/LICENSE
+- https://docs.protomaps.com/pmtiles/
+- `../sources/evidence/leads.md`
 
 ---
 

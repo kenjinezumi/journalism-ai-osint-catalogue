@@ -14,6 +14,9 @@
 | **Maintainer** | Libr-AI |
 | **Maintenance** | Dormant |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/Libr-AI/OpenFactVerification) · [Documentation](https://github.com/Libr-AI/OpenFactVerification#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 2/5 · capability 2/5 · maintenance 1/5 · privacy 1/5 · usability 3/5 · licence+cost 3/5 → **weighted 38/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a — calls hosted LLM APIs rather than bundling weights; those providers' terms govern use. |
+| **Restrictions** | Code unrestricted. The binding constraints are the third-party API terms you must accept to run it at all. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | **Mandatory paid dependency** — mandatory paid dependency; self-hosted infrastructure |
+| **Cost conditions** | **Mandatory paid dependency**; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Software free, but operation requires paid APIs: an OpenAI key (token charges — current rates not verified here) and a Serper search key (paid above free tier — not verified here). Running it over a long document is a real per-use cost, not an estimate of infrastructure.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/Libr-AI/OpenFactVerification/blob/main/LICENSE
+- https://github.com/Libr-AI/OpenFactVerification
 
 ---
 

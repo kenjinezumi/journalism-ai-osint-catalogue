@@ -14,11 +14,41 @@
 | **Maintainer** | GeoPandas developers |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-3-Clause |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/geopandas/geopandas) · [Documentation](https://geopandas.org/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 4/5 · licence+cost 5/5 → **weighted 94/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Datasets carry their own licences. |
+| **Restrictions** | None material. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. CPU and RAM proportional to dataset size; memory is the binding constraint on large joins. Negligible infrastructure for typical newsroom datasets.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/geopandas/geopandas/blob/main/LICENSE.txt
+- https://github.com/geopandas/geopandas
+- https://geopandas.org/
 
 ---
 

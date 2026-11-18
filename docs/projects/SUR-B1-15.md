@@ -14,11 +14,41 @@
 | **Maintainer** | dgtlmoon and contributors |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/dgtlmoon/changedetection.io) · [Documentation](https://changedetection.io/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 4/5 · usability 5/5 · licence+cost 5/5 → **weighted 93/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None material. Note the project also sells a hosted version — that is a separate service under its own terms, not a licence restriction on the self-hosted code. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee for self-hosting. Infrastructure estimate: a small container; add a Playwright/Chromium container for JS-heavy pages, which roughly doubles the resource footprint. The project's hosted service is priced separately and was not verified in this survey. Operating effort is low.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/dgtlmoon/changedetection.io/blob/master/LICENSE
+- https://github.com/dgtlmoon/changedetection.io
+- https://changedetection.io/
 
 ---
 

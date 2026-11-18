@@ -14,6 +14,9 @@
 | **Maintainer** | Open Contracting Partnership |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 for the standard and schemas (confirm the repository licence file for your records) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/open-contracting/standard) · [Documentation](https://www.open-contracting.org/data-standard/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 79/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 for the standard and schemas (confirm the repository licence file for your records) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Published OCDS datasets carry each publisher's own licence, which varies by government and must be checked per source. |
+| **Restrictions** | The standard is openly licensed. The data is the variable: individual publishers' licences differ and some restrict reuse, so check per jurisdiction before republishing. |
+| **Open-source status** | **Open source** — Open data licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Engineer time for schema work; negligible infrastructure.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/open-contracting/standard
+- https://www.open-contracting.org/data-standard/
+- `../sources/evidence/b2-sources.md`
 
 ---
 

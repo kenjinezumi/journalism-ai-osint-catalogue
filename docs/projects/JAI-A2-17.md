@@ -14,11 +14,41 @@
 | **Maintainer** | SYSTRAN (transferred from guillaumekln) |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/SYSTRAN/faster-whisper) · [Documentation](https://github.com/SYSTRAN/faster-whisper#readme) |
 
 **Scores** — relevance 4/5 · capability 5/5 · maintenance 4/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 87/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | MIT — Whisper weights, CTranslate2-converted. |
+| **Restrictions** | None material. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Cost is compute: a single mid-range NVIDIA GPU transcribes faster than real time by a wide margin, so a modest on-prem GPU is usually cheaper than per-minute commercial ASR for sustained volume. CPU int8 works for light use. Infrastructure estimate; assumes self-hosted GPU and large-v3-class model.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/SYSTRAN/faster-whisper/blob/master/LICENSE
+- https://github.com/SYSTRAN/faster-whisper
+- `../sources/evidence/leads.md`
 
 ---
 

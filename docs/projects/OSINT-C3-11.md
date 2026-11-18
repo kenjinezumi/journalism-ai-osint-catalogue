@@ -14,6 +14,9 @@
 | **Maintainer** | Free Law Project |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 (verified in session 1 by reading the licence text, resolving a GitHub NOASSERTION) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/freelawproject/courtlistener) · [Documentation](https://www.courtlistener.com/help/api/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 4/5 · capability 5/5 · maintenance 5/5 · privacy 3/5 · usability 4/5 · licence+cost 4/5 → **weighted 84/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 (verified in session 1 by reading the licence text, resolving a GitHub NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Court opinions are generally public records; API terms govern bulk access and were not itemised in this survey. |
+| **Restrictions** | AGPL-3.0 on the platform code. API terms and rate limits govern use of the service — check before heavy automated use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free to use the public service and API within limits; bulk access terms not verified in this survey. PACER itself charges per page, which RECAP mitigates. Self-hosting would be a substantial infrastructure and storage commitment and is not recommended. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/freelawproject/courtlistener/blob/main/LICENSE
+- https://github.com/freelawproject/courtlistener
+- https://www.courtlistener.com/help/api/
+- `../sources/recovered/a1disc/notes.md`
 
 ---
 

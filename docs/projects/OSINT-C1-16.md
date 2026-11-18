@@ -14,11 +14,41 @@
 | **Maintainer** | Zyte and the Scrapy community |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-3-Clause |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/scrapy/scrapy) · [Documentation](https://docs.scrapy.org/) |
 
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 5/5 · privacy 4/5 · usability 4/5 · licence+cost 5/5 → **weighted 95/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Collected content belongs to the source publishers. |
+| **Restrictions** | None material for the framework. Scraping engages target sites' terms and, for personal data, data-protection law — both separate from the licence and both real considerations for a registry crawl. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Infrastructure: a VM for long crawls; optional paid proxy or headless-browser services if the target blocks you (vendor costs not priced here). Engineer time is the main cost.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/scrapy/scrapy/blob/master/LICENSE
+- https://github.com/scrapy/scrapy
+- https://docs.scrapy.org/
 
 ---
 

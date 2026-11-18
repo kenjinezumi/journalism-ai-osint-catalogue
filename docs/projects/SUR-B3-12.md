@@ -14,11 +14,41 @@
 | **Maintainer** | SpyGuard project (fork of Kaspersky's TinyCheck) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/SpyGuard/SpyGuard) · [Documentation](https://github.com/SpyGuard/SpyGuard#readme) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 76/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Indicator sets come from third-party sources with their own terms. |
+| **Restrictions** | None material — a clean OSI licence, which is a notable contrast with MVT in the same workflow. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Dedicated hardware; self-hosted infrastructure |
+| **Cost conditions** | Dedicated hardware; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Hardware: a Raspberry Pi class device with two network interfaces plus a screen or remote access (low hundreds in hardware, estimate). Build and maintenance time for the appliance.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/SpyGuard/SpyGuard/blob/main/LICENSE
+- https://github.com/SpyGuard/SpyGuard
+- `../sources/evidence/leads.md`
 
 ---
 

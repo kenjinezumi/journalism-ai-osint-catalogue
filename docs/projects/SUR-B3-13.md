@@ -14,6 +14,9 @@
 | **Maintainer** | Electronic Frontier Foundation |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/EFForg/rayhunter) · [Documentation](https://eff.org/rayhunter) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 90/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | GPL-3.0; immaterial for internal use. Note that operating cellular-monitoring equipment may engage local radio or wiretapping law — a legal question entirely separate from the licence, and one to check in each jurisdiction where you deploy. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Dedicated hardware; self-hosted infrastructure |
+| **Cost conditions** | Dedicated hardware; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Hardware: a supported mobile hotspot (low tens to low hundreds, estimate) per deployment plus a mobile data plan if you want it operating in the field. Among the best capability-per-cost items in the catalogue.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/EFForg/rayhunter/blob/main/LICENSE
+- https://github.com/EFForg/rayhunter
+- https://eff.org/rayhunter
 
 ---
 

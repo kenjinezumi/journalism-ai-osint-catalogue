@@ -14,11 +14,40 @@
 | **Maintainer** | Gildas Lormeau |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/gildas-lormeau/SingleFile) · [Documentation](https://github.com/gildas-lormeau/SingleFile#readme) |
 
 **Scores** — relevance 5/5 · capability 3/5 · maintenance 5/5 · privacy 5/5 · usability 5/5 · licence+cost 4/5 → **weighted 90/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Captured content belongs to the original publisher. |
+| **Restrictions** | AGPL-3.0: redistributing a modified version or offering it as a network service obliges source publication. Ordinary use as an extension is unaffected. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free. No infrastructure. Disk for saved files.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/gildas-lormeau/SingleFile/blob/master/LICENSE
+- https://github.com/gildas-lormeau/SingleFile
 
 ---
 

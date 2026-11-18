@@ -14,6 +14,9 @@
 | **Maintainer** | Development Seed |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/developmentseed/titiler) · [Documentation](https://developmentseed.org/titiler/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 5/5 · privacy 4/5 · usability 3/5 · licence+cost 4/5 → **weighted 75/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Served imagery carries the provider's licence — commercial scenes often restrict redistribution, which publishing tiles would constitute. |
+| **Restrictions** | Software permissive. The real constraint is imagery rights: publishing tiles of commercial satellite imagery is redistribution and usually requires specific permission. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Infrastructure: a running server with compute per tile request plus egress — the cost scales with readership, unlike static tiles. Put a CDN in front. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/developmentseed/titiler/blob/main/LICENSE
+- https://github.com/developmentseed/titiler
+- https://developmentseed.org/titiler/
 
 ---
 

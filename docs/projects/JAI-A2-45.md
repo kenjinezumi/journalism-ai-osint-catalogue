@@ -14,12 +14,44 @@
 | **Maintainer** | Hugging Face (transferred from UKPLab) |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 (code) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/huggingface/sentence-transformers) · [Documentation](https://sbert.net/) |
 | **Also known as** | SBERT |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 86/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 (code) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Apache-2.0 for sentence-transformers/LaBSE; MIT for intfloat/multilingual-e5-large (both read from their HuggingFace cards). Other checkpoints vary and must be checked individually. |
+| **Restrictions** | Code and the two verified checkpoints are unrestricted. The hazard is checkpoint-specific: some popular embedding models carry non-commercial terms. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. GPU strongly recommended for embedding large corpora (hours versus days); inference for queries is cheap on CPU. Vector storage adds a FAISS index or vector DB. Infrastructure estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/huggingface/sentence-transformers/blob/master/LICENSE
+- https://github.com/huggingface/sentence-transformers
+- https://huggingface.co/sentence-transformers/LaBSE
+- https://huggingface.co/intfloat/multilingual-e5-large
+- `../sources/evidence/leads.md`
 
 ---
 

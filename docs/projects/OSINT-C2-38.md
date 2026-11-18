@@ -14,11 +14,41 @@
 | **Maintainer** | Brandon Rhodes (skyfielders) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/skyfielders/python-skyfield) · [Documentation](https://rhodesmill.org/skyfield/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 3/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 80/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | JPL ephemeris files are US government data; TLE satellite element sets come from sources with their own terms (for example Space-Track registration requirements). |
+| **Restrictions** | None on the code. Satellite TLE sources may require registration and restrict redistribution — check the source you use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Ephemeris files are a one-off download of tens to hundreds of MB. Negligible compute.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/skyfielders/python-skyfield/blob/master/LICENSE
+- https://github.com/skyfielders/python-skyfield
+- https://rhodesmill.org/skyfield/
 
 ---
 

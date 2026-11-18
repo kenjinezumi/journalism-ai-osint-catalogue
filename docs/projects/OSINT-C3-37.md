@@ -14,11 +14,41 @@
 | **Maintainer** | Google (open source) |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/google/timesketch) · [Documentation](https://timesketch.org/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 2/5 · licence+cost 5/5 → **weighted 81/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None material. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Infrastructure: OpenSearch plus PostgreSQL plus the application — one well-provisioned VM minimum, more as event volume grows. Importer development is the other real cost. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/google/timesketch/blob/master/LICENSE
+- https://github.com/google/timesketch
+- https://timesketch.org/
 
 ---
 

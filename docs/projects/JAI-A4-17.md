@@ -14,6 +14,9 @@
 | **Maintainer** | photoholmes (Universidad de la República, Uruguay) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | Apache-2.0 (base library only) |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Mixed |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/photoholmes/photoholmes) · [Documentation](https://github.com/photoholmes/photoholmes#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 4/5 · usability 2/5 · licence+cost 2/5 → **weighted 59/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | Apache-2.0 (base library only) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Varies per bundled method; the README flags TruFor as restricted to non-profit use. Several bundled methods carry non-OSI academic terms. |
+| **Restrictions** | Material: the harness is permissive but the methods inside it are not uniformly so. A commercial newsroom must audit and selectively disable methods. Do not treat the Apache-2.0 badge as covering the ensemble. |
+| **Open-source status** | **Mixed** — Open-source code, restricted model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. GPU helpful for some methods; per-method weights downloaded from third-party hosts. Cost is engineer time for the licence audit and integration. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/photoholmes/photoholmes/blob/main/LICENSE
+- https://github.com/photoholmes/photoholmes
 
 ---
 

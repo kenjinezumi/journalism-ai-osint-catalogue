@@ -14,6 +14,9 @@
 | **Maintainer** | Roland Olbricht (drolbr) |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/drolbr/Overpass-API) · [Documentation](https://dev.overpass-api.de/overpass-doc/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 2/5 · privacy 3/5 · usability 2/5 · licence+cost 4/5 → **weighted 73/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | OpenStreetMap data is ODbL 1.0 — a share-alike database licence with attribution and, for derived databases, share-alike obligations. |
+| **Restrictions** | AGPL-3.0 on the engine. More importantly, ODbL on the DATA: publishing a derived database (not merely a map image) obliges you to license it under ODbL and attribute OSM. This catches newsrooms that publish extracted datasets without realising. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Public instances are free but rate-limited. Self-hosting estimate: a regional extract is feasible on one VM with a few hundred GB of disk; a full planet instance needs terabyte-class storage and a long import. Assumptions: self-hosted regional extract.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/drolbr/Overpass-API/blob/master/LICENSE
+- https://github.com/drolbr/Overpass-API
+- https://dev.overpass-api.de/overpass-doc/
 
 ---
 

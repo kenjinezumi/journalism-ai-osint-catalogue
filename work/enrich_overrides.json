@@ -1,0 +1,116 @@
+{
+  "_README": [
+    "Hand-reviewed corrections applied by work/enrich_records.py on top of the derived",
+    "values. Every entry below was checked against the project's own `costs`,",
+    "`licence` and `model_or_data_licence` fields. No price here is invented: amounts",
+    "are copied from the verified pricing evidence in sources/evidence/pricing.md and",
+    "sources/recovered/cat/pricing.tsv.",
+    "Reason codes: FP = derived flag was a false positive; MISS = derivation missed a",
+    "real condition; AMT = surface a verified amount; TYPE = licence-type correction."
+  ],
+
+  "JAI-A2-27": {
+    "_reason": "FP — the paid tiers belong to the hosted libretranslate.com service, not to self-hosting",
+    "cost_flags": ["optional-hosted", "infrastructure"]
+  },
+  "JAI-A4-26": {
+    "_reason": "FP — access requires a Google Form application and approval, which is gated but not paid",
+    "cost_flags": ["infrastructure", "staff-effort"],
+    "additional_costs_note": "gated dataset access (application and approval); self-hosted infrastructure; staff effort"
+  },
+  "JAI-A4-30": {
+    "_reason": "FP — MATLAB is needed only for the original GMM baselines; Python ports avoid it",
+    "cost_flags": ["optional-hosted", "infrastructure"],
+    "additional_costs_note": "MATLAB (paid) only for the original baselines — Python ports avoid it; self-hosted infrastructure"
+  },
+  "OSINT-C3-28": {
+    "_reason": "FP — runs without API keys; paid sources widen coverage",
+    "cost_flags": ["optional-hosted", "infrastructure"]
+  },
+  "OSINT-C3-29": {
+    "_reason": "FP — the open edition runs without keys; many modules need paid keys for full capability",
+    "cost_flags": ["optional-hosted", "infrastructure"],
+    "additional_costs_note": "optional paid API keys for many modules (realistic capability has a recurring cost); self-hosted infrastructure"
+  },
+  "OSINT-C3-30": {
+    "_reason": "FP — runs without keys; several modules need paid keys",
+    "cost_flags": ["optional-hosted", "infrastructure"]
+  },
+  "JAI-A2-28": {
+    "_reason": "FP+AMT — the commercial licence is threshold-conditional, already carried by price_class",
+    "cost_flags": ["optional-hosted", "infrastructure"],
+    "software_price_note": "code free; weights free below USD 5M revenue OR funding, commercial licence above (price not publicly listed). Hosted Datalab API: Free USD 0 with USD 20/10 monthly allowance, Team USD 400/month (verified 2026-11-16)"
+  },
+  "JAI-A2-52": {
+    "_reason": "AMT — same Datalab threshold as Marker",
+    "software_price_note": "code free; weights free below USD 5M revenue OR funding, commercial licence above — quote required (verified 2026-11-16)"
+  },
+
+  "OSINT-C3-01": {
+    "_reason": "MISS+AMT — commercial use of the data requires a paid licence; code is MIT",
+    "cost_flags": ["mandatory-paid", "optional-hosted", "infrastructure"],
+    "software_price_note": "code free (MIT); the DATA is CC-BY-NC-4.0 — commercial use requires a paid licence, price not publicly listed (verified 2026-11-16)",
+    "additional_costs_note": "mandatory paid data licence for commercial use (quote); optional hosted Screening API (prepaid credits); self-hosted Elasticsearch"
+  },
+  "JAI-A2-61": {
+    "_reason": "MISS — inherits the OpenSanctions CC-BY-NC data licence for commercial use",
+    "cost_flags": ["mandatory-paid", "infrastructure"],
+    "software_price_note": "code free (MIT); the OpenSanctions data it serves requires a paid licence for commercial use — quote required",
+    "additional_costs_note": "mandatory paid data licence for commercial use (quote); self-hosted Elasticsearch/OpenSearch"
+  },
+  "OSINT-C1-10": {
+    "_reason": "MISS — the scan-database API keys are the capability; free tiers are tightly quotaed",
+    "cost_flags": ["mandatory-paid", "infrastructure"],
+    "additional_costs_note": "mandatory paid scan-database API keys for useful coverage (Shodan, Censys, FOFA, Hunter, ZoomEye — prices not verified); negligible compute"
+  },
+  "OSINT-C3-20": {
+    "_reason": "MISS — requires archive-node access or a commercial node provider",
+    "cost_flags": ["mandatory-paid", "infrastructure"],
+    "additional_costs_note": "mandatory archive-node access — self-run (multi-terabyte storage) or a paid commercial node provider (not priced); warehouse storage"
+  },
+  "OSINT-C3-07": {
+    "_reason": "AMT — SMS gateway charges are per-message and mandatory for the SMS channel",
+    "additional_costs_note": "mandatory per-message SMS gateway charges for the SMS channel (rates vary by country, not priced); self-hosted infrastructure; staff triage effort"
+  },
+
+  "JAI-A2-46": {
+    "_reason": "FP — 'runs on cheap hardware' is not a dedicated-hardware requirement",
+    "cost_flags": ["staff-effort"],
+    "additional_costs_note": "engineering time for integration; runs on existing or low-cost hardware"
+  },
+  "SUR-B3-19": {
+    "_reason": "FP — a USB stick per user is explicitly negligible",
+    "cost_flags": ["staff-effort"],
+    "additional_costs_note": "staff time to prepare and verify images; a USB stick per user (negligible)"
+  },
+
+  "OSINT-C3-36": {
+    "_reason": "AMT — proprietary with a free Community Edition and verified paid tiers",
+    "software_price_note": "Community Edition free forever (200 credits/month, graph only); Entry EUR 3,000/year (incl. Hunchly); Professional EUR 7,500/year per seat, up to 5 users; Enterprise quote (verified 2026-11-16)"
+  },
+  "OSINT-C3-35": {
+    "_reason": "AMT — Community free under GPL-3; Enterprise quote-only; AuraDB metered",
+    "software_price_note": "Community Edition free (GPL-3.0); Enterprise and Infinigraph quote-only; AuraDB Free USD 0, Professional from USD 0.09/GB/hour, Business Critical from USD 0.20/GB/hour (verified 2026-11-16)",
+    "additional_costs_note": "optional paid Enterprise licence or metered AuraDB hosting; self-hosted JVM infrastructure"
+  },
+  "JAI-A2-41": {
+    "_reason": "AMT — open library free; the hosted pyannote.ai service is metered per audio-hour",
+    "software_price_note": "library free (MIT); optional hosted pyannote.ai: Precision-3 batch EUR 0.112/audio-hour, Community-1 EUR 0.035/h, Live-1 EUR 0.198/h, Developer EUR 19/month, Starter EUR 99/month (verified 2026-11-16)"
+  },
+  "OSINT-C2-43": {
+    "_reason": "AMT+MISS — the library is inert without a Sentinel Hub subscription, whose price is not published",
+    "cost_flags": ["mandatory-paid", "infrastructure"],
+    "software_price_note": "library free (MIT); Sentinel Hub / Planet service pricing NOT publicly listed — quote required (re-verified 2026-11-17)",
+    "additional_costs_note": "mandatory paid satellite-imagery service for commercial constellations (quote required); self-hosted compute"
+  },
+  "SUR-B2-19": {
+    "_reason": "FP+MISS — access terms were not verified; a free tier existed historically",
+    "cost_flags": ["optional-hosted", "infrastructure"],
+    "additional_costs_note": "API access tiers not verified (a free tier existed historically); bulk download avoids per-query cost"
+  },
+
+  "JAI-A1-24": {
+    "_reason": "TYPE — reference implementations are BSD-3-Clause; the specification is public domain",
+    "licence_type": "Permissive"
+  }
+}

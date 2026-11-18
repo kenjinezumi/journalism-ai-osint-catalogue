@@ -14,11 +14,40 @@
 | **Maintainer** | Jeongsoo Park / Owens Lab (University of Michigan) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT (code) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/JeongsooP/Community-Forensics) · [Documentation](https://github.com/JeongsooP/Community-Forensics#readme) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 4/5 · usability 2/5 · licence+cost 5/5 → **weighted 65/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (code) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | MIT, stated on the OwensLab/commfor-model-384 HuggingFace model card. |
+| **Restrictions** | None material — unusually clean for a forensic model. The training dataset aggregates outputs from many third-party generators, whose own terms are a residual consideration if you redistribute the dataset. |
+| **Open-source status** | **Open source** — Open model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. GPU for practical inference throughput; weight and dataset downloads from HuggingFace and Dropbox. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://huggingface.co/OwensLab/commfor-model-384
+- https://github.com/JeongsooP/Community-Forensics
 
 ---
 

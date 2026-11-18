@@ -14,6 +14,9 @@
 | **Maintainer** | OCCRP (original; development has moved to the OpenAleph fork) |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/alephdata/aleph) · [Documentation](https://docs.aleph.occrp.org/) |
@@ -21,6 +24,35 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 2/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 77/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Loaded datasets carry their own licences. |
+| **Restrictions** | None material on the code. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Infrastructure equivalent to OpenAleph's (Elasticsearch cluster, PostgreSQL, Redis, workers) — a four-figure annual commitment plus ops time, which is not worth spending on the less-maintained line. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/alephdata/aleph/blob/main/LICENSE
+- https://github.com/alephdata/aleph
+- https://github.com/openaleph/openaleph
+- `../sources/evidence/leads.md`
+- `../sources/recovered/cat/ground_truth.tsv`
 
 ---
 

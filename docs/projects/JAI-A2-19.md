@@ -14,6 +14,9 @@
 | **Maintainer** | Urchade Zaratiana and contributors |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 (code) |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/urchade/GLiNER) · [Documentation](https://github.com/urchade/GLiNER#readme) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 81/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | Apache-2.0 (code) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | SPLIT AND MATERIAL: v2.1 checkpoints (urchade/gliner_small-v2.1, urchade/gliner_multi-v2.1) are Apache-2.0; older v0/v1 checkpoints (urchade/gliner_base, gliner_multi, gliner_small/medium/large-v1) are CC-BY-NC-4.0, research only. |
+| **Restrictions** | Using a v0/v1 checkpoint in commercially published journalism breaches CC-BY-NC-4.0. The code licence does not cure this. Verify the checkpoint, not the repository. |
+| **Open-source status** | **Open source** — Open model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee for the Apache-2.0 path. CPU inference is viable; a small GPU speeds bulk sweeps. No paid dependencies. Estimate only.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/urchade/GLiNER/blob/main/LICENSE
+- https://github.com/urchade/GLiNER
+- https://huggingface.co/urchade/gliner_multi-v2.1
 
 ---
 

@@ -14,6 +14,9 @@
 | **Maintainer** | Internet Society |
 | **Maintenance** | Uncertain |
 | **Licence** | Not verified — dashboard code is not public; the public pulse-data repository carries no licence file |
+| **Licence type** | Proprietary |
+| **Open-source status** | Proprietary |
+| **Software price** | **No software fee** |
 | **Confidence** | low · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/InternetSociety/pulse-data) · [Documentation](https://pulse.internetsociety.org/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 2/5 · privacy 4/5 · usability 5/5 · licence+cost 2/5 → **weighted 62/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Proprietary |
+| **Exact licence (as recorded)** | Not verified — dashboard code is not public; the public pulse-data repository carries no licence file |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Upstream measurement providers' terms apply to the underlying data; Pulse's own presentation terms were not verified in this survey. |
+| **Restrictions** | Unverified. Do not assume figures may be redistributed as a dataset; cite and link rather than republish. |
+| **Open-source status** | **Proprietary** — Hosted service or proprietary software — governed by service terms, not a software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **low** |
+
+**Recorded cost detail.** Free to use. No infrastructure. Not self-hostable.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/InternetSociety/pulse-data
+- https://pulse.internetsociety.org/
 
 ---
 

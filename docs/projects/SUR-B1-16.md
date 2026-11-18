@@ -14,11 +14,41 @@
 | **Maintainer** | Thomas Perl (thp) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | BSD-3-Clause (LICENSE file read directly; GitHub API reports NOASSERTION) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/thp/urlwatch) · [Documentation](https://urlwatch.readthedocs.io/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 3/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 80/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause (LICENSE file read directly; GitHub API reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None material. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Runs as a cron job on any small host. Optional Playwright for browser jobs adds resource cost. Negligible.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/thp/urlwatch/blob/master/COPYING
+- https://github.com/thp/urlwatch
+- https://urlwatch.readthedocs.io/
 
 ---
 

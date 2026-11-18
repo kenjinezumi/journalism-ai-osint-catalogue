@@ -14,6 +14,9 @@
 | **Maintainer** | n8n GmbH |
 | **Maintenance** | Actively maintained |
 | **Licence** | Sustainable Use Licence (fair-code) — NOT an OSI open-source licence; GitHub reports NOASSERTION |
+| **Licence type** | Restricted / non-OSI |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/n8n-io/n8n) · [Documentation](https://docs.n8n.io/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 4/5 · capability 5/5 · maintenance 5/5 · privacy 4/5 · usability 5/5 · licence+cost 2/5 → **weighted 85/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Restricted / non-OSI |
+| **Exact licence (as recorded)** | Sustainable Use Licence (fair-code) — NOT an OSI open-source licence; GitHub reports NOASSERTION |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a for the platform; AI nodes use whichever model provider you configure, under that provider's terms. |
+| **Restrictions** | Material: the Sustainable Use Licence permits internal business use but restricts commercial redistribution and hosting n8n as a service for third parties. A newsroom running it internally is fine; a newsroom offering workflow hosting to partners should read the licence and probably choose differently. |
+| **Open-source status** | **Source available** — Source published under a restricted, non-OSI licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Self-hosting the community edition has no licence fee under the Sustainable Use Licence. Hosted n8n Cloud and enterprise editions are priced per workflow-execution or per seat (not verified in this survey). If AI nodes call hosted models, those token costs apply. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/n8n-io/n8n/blob/master/LICENSE.md
+- `../sources/recovered/a1disc/notes.md`
 
 ---
 

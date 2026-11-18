@@ -14,11 +14,41 @@
 | **Maintainer** | International Consortium of Investigative Journalists |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ICIJ/datashare) · [Documentation](https://icij.gitbook.io/datashare/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 4/5 · licence+cost 4/5 → **weighted 92/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a for the platform; bundled NER models carry their own terms and were not individually verified. |
+| **Restrictions** | AGPL-3.0 network copyleft: modifying Datashare and offering it over a network to third parties obliges you to publish your modified source. Running it unmodified for your own newsroom is unaffected. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Desktop mode: zero infrastructure. Server mode estimate: an Elasticsearch node with 8-16GB RAM, PostgreSQL, Redis and worker capacity — realistically one well-provisioned VM for a few hundred thousand documents, scaling with OCR load. Assumptions: self-hosted, no managed Elasticsearch. Operating effort is the dominant cost in server mode.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ICIJ/datashare/blob/master/LICENSE
+- https://github.com/ICIJ/datashare
+- https://icij.gitbook.io/datashare/
 
 ---
 

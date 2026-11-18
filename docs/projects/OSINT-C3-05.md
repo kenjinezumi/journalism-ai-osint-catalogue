@@ -14,11 +14,42 @@
 | **Maintainer** | HURIDOCS |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/huridocs/uwazi) · [Documentation](https://uwazi.io/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 4/5 · licence+cost 5/5 → **weighted 94/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None material. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Infrastructure estimate: Node application, MongoDB and Elasticsearch — one well-provisioned VM for a moderate collection, more as it grows. HURIDOCS offers hosting and support services (prices not verified). Assumptions: self-hosted, curated collection scale.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/huridocs/uwazi/blob/production/LICENSE
+- https://github.com/huridocs/uwazi
+- https://uwazi.io/
+- `../sources/recovered/cat/ground_truth.tsv`
 
 ---
 

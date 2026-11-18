@@ -14,6 +14,9 @@
 | **Maintainer** | Max Bain (m-bain) |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-2-Clause |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/m-bain/whisperX) · [Documentation](https://github.com/m-bain/whisperX#readme) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 4/5 · privacy 4/5 · usability 3/5 · licence+cost 4/5 → **weighted 88/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-2-Clause |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Mixed: Whisper MIT; wav2vec2 aligners vary by language; pyannote diarisation weights MIT but gated on HuggingFace. |
+| **Restrictions** | No field-of-use restrictions found. The practical constraint is the pyannote access gate; check individual wav2vec2 aligner licences for less common languages. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. GPU with ~10GB VRAM recommended; CPU operation is impractical for the full pipeline. One GPU host serves a small newsroom's audio needs. Infrastructure estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/m-bain/whisperX/blob/main/LICENSE
+- https://github.com/m-bain/whisperX
+- https://huggingface.co/pyannote/speaker-diarization-3.1
 
 ---
 

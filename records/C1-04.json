@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/ArchiveBox/ArchiveBox","https://docs.archivebox.io/","https://github.com/ArchiveBox/ArchiveBox/blob/dev/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Self-hosted web-archiving application that takes URLs from many input formats and saves each as HTML, PDF, screenshot, WARC…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C1-29","name":"browsertrix-crawler","maintainer":"Webrecorder","pillar":"OSINT","segment":"C1","subcategory":"High-fidelity capture","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/webrecorder/browsertrix-crawler","docs_url":"https://crawler.docs.browsertrix.com/",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/webrecorder/browsertrix-crawler","https://crawler.docs.browsertrix.com/","https://github.com/webrecorder/browsertrix-crawler/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Dockerised browser-based crawler that drives Chromium to produce high-fidelity WARC/WACZ captures, with configurable scope…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C1-30","name":"Browsertrix","maintainer":"Webrecorder","pillar":"OSINT","segment":"C1","subcategory":"Archiving platform","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/webrecorder/browsertrix","docs_url":"https://docs.browsertrix.com/",
@@ -51,6 +53,7 @@
 "blockers":["Kubernetes requirement for self-hosting; hosted option places captures in third-party custody"],
 "evidence_urls":["https://github.com/webrecorder/browsertrix","https://docs.browsertrix.com/","https://github.com/webrecorder/browsertrix/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Multi-user web-archiving platform that orchestrates browsertrix-crawler on Kubernetes, with crawl scheduling…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure", "staff-effort"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":5,"maintenance":5,"privacy":4,"usability":3,"licence_cost":3}},
 
 {"id":"OSINT-C1-31","name":"ArchiveWeb.page","maintainer":"Webrecorder","pillar":"OSINT","segment":"C1","subcategory":"Manual browser capture","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/webrecorder/archiveweb.page","docs_url":"https://archiveweb.page/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/webrecorder/archiveweb.page","https://archiveweb.page/","https://github.com/webrecorder/archiveweb.page/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Chromium browser extension and desktop app that records your browsing session into a WARC/WACZ archive…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":5,"licence_cost":4}},
 
 {"id":"OSINT-C1-32","name":"ReplayWeb.page","maintainer":"Webrecorder","pillar":"OSINT","segment":"C1","subcategory":"Archive replay","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/webrecorder/replayweb.page","docs_url":"https://replayweb.page/docs/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/webrecorder/replayweb.page","https://replayweb.page/docs/","https://github.com/webrecorder/replayweb.page/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Browser-based, fully client-side viewer that opens WARC and WACZ archives and replays them without any server…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":5,"licence_cost":4}},
 
 {"id":"OSINT-C1-33","name":"wabac.js","maintainer":"Webrecorder","pillar":"OSINT","segment":"C1","subcategory":"Archive replay component","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/webrecorder/wabac.js","docs_url":"https://github.com/webrecorder/wabac.js#readme",
@@ -105,6 +110,7 @@
 "blockers":["AGPL-3.0 embedding in a public web application — legal review required"],
 "evidence_urls":["https://github.com/webrecorder/wabac.js","https://github.com/webrecorder/wabac.js/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"JavaScript service-worker library that implements web-archive replay in the browser…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":5,"usability":2,"licence_cost":3}},
 
 {"id":"OSINT-C1-34","name":"browsertrix-behaviors","maintainer":"Webrecorder","pillar":"OSINT","segment":"C1","subcategory":"Capture behaviours","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/webrecorder/browsertrix-behaviors","docs_url":"https://github.com/webrecorder/browsertrix-behaviors#readme",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/webrecorder/browsertrix-behaviors","https://github.com/webrecorder/browsertrix-behaviors/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Library of site-specific and generic in-page behaviours (autoscroll, autoplay, expand-comments, platform-specific handlers)…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C1-35","name":"Conifer","maintainer":"Rhizome (transferred from webrecorder/conifer)","pillar":"OSINT","segment":"C1","subcategory":"Hosted capture platform","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/Rhizome-Conifer/conifer","docs_url":"https://conifer.rhizome.org/",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/Rhizome-Conifer/conifer","https://conifer.rhizome.org/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Web-archiving platform providing remote-browser capture sessions and organised, replayable collections…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":2,"privacy":3,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C1-36","name":"Scoop","maintainer":"Harvard Library Innovation Lab","pillar":"OSINT","segment":"C1","subcategory":"Provenance-attested capture","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/harvard-lil/scoop","docs_url":"https://github.com/harvard-lil/scoop#readme",
@@ -159,5 +167,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/harvard-lil/scoop","https://github.com/harvard-lil/scoop/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Single-page capture engine that records a URL to WARC/WACZ with extensive provenance metadata — capture timestamps…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}}
 ]

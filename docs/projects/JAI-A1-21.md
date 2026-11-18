@@ -14,11 +14,41 @@
 | **Maintainer** | Volodymyr Agafonkin and contributors |
 | **Maintenance** | Stable with low activity |
 | **Licence** | BSD-2-Clause |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/Leaflet/Leaflet) · [Documentation](https://leafletjs.com/reference.html) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 3/5 · privacy 3/5 · usability 5/5 · licence+cost 5/5 → **weighted 74/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-2-Clause |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Map tiles carry the tile provider's licence and attribution requirements (OpenStreetMap tiles require ODbL attribution). |
+| **Restrictions** | Library permissive. Attribution obligations attach to the tiles and data you display, which is a real publication requirement rather than a formality. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Tile serving is the cost: third-party providers have usage limits and paid tiers (not priced here), while self-hosted PMTiles on static storage is nearly free. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/Leaflet/Leaflet/blob/main/LICENSE
+- https://github.com/Leaflet/Leaflet
+- https://leafletjs.com/reference.html
 
 ---
 

@@ -14,11 +14,41 @@
 | **Maintainer** | QGIS.org (OSGeo project) |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-2.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/qgis/QGIS) · [Documentation](https://docs.qgis.org/) |
 
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 5/5 · privacy 4/5 · usability 3/5 · licence+cost 4/5 → **weighted 91/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Data layers you load (satellite imagery, OSM extracts, commercial basemaps) carry their own licences, which is where the real restrictions sit. |
+| **Restrictions** | GPL-2.0 on the application; plugins distributed for QGIS generally inherit copyleft expectations. The practical licence risk in GIS work is the DATA — commercial satellite imagery and some national mapping data forbid redistribution of derived products, so check before publishing a map. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Staff effort |
+| **Cost conditions** | Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Runs on an analyst workstation; large raster work wants plenty of RAM and SSD. The costs that bite are data: commercial satellite imagery and tasking are priced per scene or per km² by the vendor (not priced here; see Sentinel Hub/Planet entry). Analyst training time is the other real cost.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/qgis/QGIS/blob/master/COPYING
+- https://github.com/qgis/QGIS
+- https://docs.qgis.org/
 
 ---
 

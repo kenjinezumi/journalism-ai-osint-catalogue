@@ -14,6 +14,9 @@
 | **Maintainer** | GRIP-UNINA (University of Naples Federico II) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | NOT OSS — custom GRIP-UNINA terms: LICENSE.txt restricts use to informational and non-profit purposes |
+| **Licence type** | Restricted / non-OSI |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/grip-unina/TruFor) · [Documentation](https://grip-unina.github.io/TruFor/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 3/5 · privacy 4/5 · usability 2/5 · licence+cost 1/5 → **weighted 61/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Restricted / non-OSI |
+| **Exact licence (as recorded)** | NOT OSS — custom GRIP-UNINA terms: LICENSE.txt restricts use to informational and non-profit purposes |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same custom non-commercial GRIP-UNINA terms apply to the weights. |
+| **Restrictions** | Commercial use is not permitted without separate permission. 'Informational and non-profit' does not clearly cover a commercially published investigation, and should not be assumed to. Redistribution is similarly restricted. |
+| **Open-source status** | **Source available** — Restricted model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee for permitted non-profit/informational use. Commercial use requires permission — terms not publicly listed. GPU and Docker for inference.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/grip-unina/TruFor
+- https://grip-unina.github.io/TruFor/
 
 ---
 

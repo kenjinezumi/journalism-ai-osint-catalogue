@@ -14,6 +14,9 @@
 | **Maintainer** | Nextcloud GmbH and community |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/nextcloud/server) · [Documentation](https://docs.nextcloud.com/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 5/5 · maintenance 5/5 · privacy 3/5 · usability 4/5 · licence+cost 4/5 → **weighted 84/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Some enterprise-oriented apps and integrations have separate commercial terms. |
+| **Restrictions** | AGPL-3.0: a modified instance offered to users obliges source publication. Nextcloud GmbH also sells enterprise subscriptions with support and some additional components — a commercial relationship, not a licence restriction on the server. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee for the community server. Infrastructure estimate: one VM with a database for a small newsroom, scaling with storage — the cost is storage plus permanent administrator time, which is the dominant item. Nextcloud GmbH enterprise subscriptions are priced per user (not verified in this survey). Assumptions: self-hosted, small team, moderate storage.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/nextcloud/server/blob/master/COPYING
+- https://github.com/nextcloud/server
+- https://docs.nextcloud.com/
 
 ---
 

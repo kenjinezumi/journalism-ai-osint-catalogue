@@ -14,11 +14,40 @@
 | **Maintainer** | Full Fact |
 | **Maintenance** | Stable with low activity |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/FullFact/benchmark-public-release) · [Documentation](https://fullfact.org/) |
 
 **Scores** — relevance 3/5 · capability 2/5 · maintenance 3/5 · privacy 3/5 · usability 2/5 · licence+cost 5/5 → **weighted 58/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a — evaluates third-party models and distributes none. |
+| **Restrictions** | None. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. Running it incurs the API charges of whichever models you benchmark (rates vary by provider and were not verified here). Cost is proportional to the number of models and prompts.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/FullFact/benchmark-public-release/blob/main/LICENSE
+- https://github.com/FullFact/benchmark-public-release
 
 ---
 

@@ -14,11 +14,41 @@
 | **Maintainer** | CAIDA (UC San Diego) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | BSD-2-Clause |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/CAIDA/pybgpstream) · [Documentation](https://bgpstream.caida.org/docs) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 3/5 · privacy 5/5 · usability 2/5 · licence+cost 5/5 → **weighted 78/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-2-Clause |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | RouteViews and RIPE RIS MRT archives are public data under their respective providers' terms (not separately verified here). |
+| **Restrictions** | None material for the code. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Infrastructure: compute and disk for MRT archive processing — a shutdown-window analysis is modest, a multi-month study is substantial. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/CAIDA/pybgpstream/blob/master/LICENSE
+- https://github.com/CAIDA/pybgpstream
+- https://bgpstream.caida.org/docs
 
 ---
 

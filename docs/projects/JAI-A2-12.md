@@ -14,11 +14,41 @@
 | **Maintainer** | docling-project (IBM Research origin, now LF AI & Data) |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/docling-project/docling) · [Documentation](https://docling-project.github.io/docling/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 4/5 · usability 4/5 · licence+cost 5/5 → **weighted 91/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | NOT individually verified. Layout and TableFormer models are distributed via HuggingFace under the docling-project organisation; per-model terms unconfirmed as of 2026-11-17. |
+| **Restrictions** | Code is unrestricted. Residual uncertainty at the weights layer — confirm the licence of each model you pull before relying on it for commercial publication. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. CPU-viable for born-digital documents; a GPU materially helps the VLM pipelines and large scanned batches. First run downloads models from HuggingFace (one-off egress; can be pre-staged). Infrastructure estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/docling-project/docling/blob/main/LICENSE
+- https://github.com/docling-project/docling
+- https://docling-project.github.io/docling/
 
 ---
 

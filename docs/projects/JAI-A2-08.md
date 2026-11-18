@@ -14,11 +14,41 @@
 | **Maintainer** | OpenNMT / SYSTRAN |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Mixed |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/OpenNMT/CTranslate2) · [Documentation](https://opennmt.net/CTranslate2/) |
 
 **Scores** — relevance 3/5 · capability 5/5 · maintenance 5/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 84/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Engine only. Converted weights retain the licence of the source model — converting a CC-BY-NC checkpoint does not make it permissive. |
+| **Restrictions** | None from the engine. The frequent error is assuming the MIT engine licence launders a restricted model licence; it does not. |
+| **Open-source status** | **Mixed** — Open-source code, data or models you load carrying their own terms, some non-commercial |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. The point of the project is to reduce infrastructure cost: CPU-only int8 inference on existing laptops versus GPU rental. Optional CUDA path needs a GPU. Estimate; assumes self-hosted.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/OpenNMT/CTranslate2/blob/master/LICENSE
+- https://github.com/OpenNMT/CTranslate2
+- https://opennmt.net/CTranslate2/
 
 ---
 

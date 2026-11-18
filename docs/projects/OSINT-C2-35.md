@@ -14,6 +14,9 @@
 | **Maintainer** | Computer Vision and Geometry Group, ETH Zurich (cvg) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | Apache-2.0 (framework) |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Mixed |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/cvg/Hierarchical-Localization) · [Documentation](https://github.com/cvg/Hierarchical-Localization#readme) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 5/5 · maintenance 3/5 · privacy 4/5 · usability 1/5 · licence+cost 3/5 → **weighted 67/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | Apache-2.0 (framework) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | MIXED AND MATERIAL: the framework is Apache-2.0, but default pipelines can fetch SuperGlue weights under Magic Leap's noncommercial academic agreement. Component weights must be audited individually. |
+| **Restrictions** | The framework imposes nothing, but enabling SuperGlue imports a noncommercial restriction that would bar commercial publication. Select and document permissive components explicitly. |
+| **Open-source status** | **Mixed** — Open-source code, restricted model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Significant GPU and compute for reconstruction and localisation; engineer time is the dominant cost. Estimate; assumes self-hosted GPU and an existing reference imagery set.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/cvg/Hierarchical-Localization/blob/master/LICENSE
+- https://github.com/cvg/Hierarchical-Localization
+- `../sources/evidence/leads.md`
 
 ---
 

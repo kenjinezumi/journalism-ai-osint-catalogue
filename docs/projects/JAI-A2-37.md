@@ -14,11 +14,41 @@
 | **Maintainer** | PaddlePaddle (Baidu) |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 (code) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/PaddlePaddle/PaddleOCR) · [Documentation](https://paddlepaddle.github.io/PaddleOCR/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 4/5 · usability 3/5 · licence+cost 4/5 → **weighted 78/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 (code) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | NOT verified. Per-model weights are distributed via HuggingFace/ModelScope and were not individually confirmed as of 2026-11-17. |
+| **Restrictions** | Code permissive. Unresolved uncertainty at the weights layer — check the specific model card before commercial redistribution. Do not assume the Apache-2.0 code licence covers the weights. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. CPU inference is workable; GPU is much faster for bulk. First run fetches weights (can be pre-staged). Engineering time for the PaddlePaddle runtime is the real cost. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE
+- https://github.com/PaddlePaddle/PaddleOCR
+- https://paddlepaddle.github.io/PaddleOCR/
 
 ---
 

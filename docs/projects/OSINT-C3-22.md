@@ -14,6 +14,9 @@
 | **Maintainer** | OWASP Amass Project |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 (project licensing — confirm from the repository licence file) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/owasp-amass/amass) · [Documentation](https://github.com/owasp-amass/amass/wiki) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 3/5 · usability 3/5 · licence+cost 4/5 → **weighted 75/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 (project licensing — confirm from the repository licence file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Third-party data sources have their own terms; several require API keys. |
+| **Restrictions** | Permissive as published. The constraints are legal (active scanning) and contractual (data-source API terms) rather than licence-based. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Several optional data sources require paid API keys (prices vary; not verified here). Compute is modest. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/owasp-amass/amass
+- https://github.com/owasp-amass/amass/wiki
 
 ---
 

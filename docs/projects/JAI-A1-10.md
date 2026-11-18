@@ -14,11 +14,41 @@
 | **Maintainer** | Unstructured Technologies |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/Unstructured-IO/unstructured) · [Documentation](https://docs.unstructured.io/) |
 
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 5/5 · privacy 3/5 · usability 4/5 · licence+cost 4/5 → **weighted 74/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Optional model-based partitioning uses models with their own licences — verify what you enable. |
+| **Restrictions** | Library is permissive. The hosted API and some connectors are commercial products under separate terms. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Library free. Hosted API and enterprise features are priced separately (not verified in this survey). Self-hosted costs are CPU, or GPU if model-based partitioning is enabled. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/Unstructured-IO/unstructured/blob/main/LICENSE.md
+- https://github.com/Unstructured-IO/unstructured
+- https://docs.unstructured.io/
 
 ---
 

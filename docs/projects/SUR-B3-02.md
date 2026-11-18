@@ -14,6 +14,9 @@
 | **Maintainer** | Freedom of the Press Foundation |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/freedomofpress/securedrop-workstation) · [Documentation](https://workstation.securedrop.org/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 87/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | AGPL-3.0; immaterial for internal deployment. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Dedicated hardware; self-hosted infrastructure; staff effort |
+| **Cost conditions** | Dedicated hardware; Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Qubes-certified laptop per journalist handling submissions (estimate: upper four figures for a small team), plus training and support time. Replaces the SVS hardware cost rather than adding to it.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/freedomofpress/securedrop-workstation/blob/main/LICENSE
+- https://github.com/freedomofpress/securedrop-workstation
+- https://workstation.securedrop.org/
 
 ---
 

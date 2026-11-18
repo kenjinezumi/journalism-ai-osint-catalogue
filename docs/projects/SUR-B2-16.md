@@ -14,6 +14,9 @@
 | **Maintainer** | US Senate Office of Public Records |
 | **Maintenance** | Uncertain |
 | **Licence** | US government records; specific reuse terms NOT verified in this survey |
+| **Licence type** | Proprietary |
+| **Open-source status** | Proprietary |
+| **Software price** | **No software fee** |
 | **Confidence** | low · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Documentation](https://lda.senate.gov/system/public/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 3/5 · privacy 4/5 · usability 2/5 · licence+cost 4/5 → **weighted 69/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Proprietary |
+| **Exact licence (as recorded)** | US government records; specific reuse terms NOT verified in this survey |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same. |
+| **Restrictions** | Not verified. US government records are generally freely reusable; confirm before publishing bulk extracts. |
+| **Open-source status** | **Proprietary** — Hosted service or proprietary software — governed by service terms, not a software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **low** |
+
+**Recorded cost detail.** Free. Cost is collection effort given bot protection, plus name normalisation.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://lda.senate.gov/system/public/
+- `../sources/evidence/b2-sources.md`
 
 ---
 

@@ -15,6 +15,7 @@
 "blockers":["Document keys travel in URLs — link handling is key handling"],
 "evidence_urls":["https://github.com/cryptpad/cryptpad","https://docs.cryptpad.org/","https://github.com/cryptpad/cryptpad/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"End-to-end encrypted collaborative office suite — documents, spreadsheets, kanban, forms, polls…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B3-28","name":"Nextcloud","maintainer":"Nextcloud GmbH and community","pillar":"SUR","segment":"B3","subcategory":"Self-hosted collaboration","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/nextcloud/server","docs_url":"https://docs.nextcloud.com/",
@@ -33,6 +34,7 @@
 "blockers":["Server-side encryption does not protect documents from the server operator or a host compromise"],
 "evidence_urls":["https://github.com/nextcloud/server","https://docs.nextcloud.com/","https://github.com/nextcloud/server/blob/master/COPYING"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Self-hosted file-sync, sharing and collaboration platform with an app ecosystem covering documents, calendars, chat…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":5,"privacy":3,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B3-29","name":"Tor Browser Launcher","maintainer":"Tor Project (transferred from micahflee)","pillar":"SUR","segment":"B3","subcategory":"Anonymous browsing","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/torproject/torbrowser-launcher","docs_url":"https://torproject.org/download/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/torproject/torbrowser-launcher","https://torproject.org/download/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Linux helper that downloads, verifies the signature of, installs and launches Tor Browser…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":5,"usability":5,"licence_cost":5}},
 
 {"id":"SUR-B3-30","name":"Orbot","maintainer":"Guardian Project","pillar":"SUR","segment":"B3","subcategory":"Anonymous networking (mobile)","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/guardianproject/orbot-android","docs_url":"https://orbot.app/",
@@ -69,6 +72,7 @@
 "blockers":["Presence of the app may itself be incriminating in some jurisdictions"],
 "evidence_urls":["https://github.com/guardianproject/orbot-android","https://orbot.app/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Android application that provides Tor connectivity for the device, either as a VPN-mode tunnel for selected applications or…","licence_type":"Unresolved","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B3-31","name":"Outline","maintainer":"Outline Foundation (transferred from Jigsaw-Code)","pillar":"SUR","segment":"B3","subcategory":"Censorship circumvention","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/OutlineFoundation/outline-apps","docs_url":"https://getoutline.org/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/OutlineFoundation/outline-apps","https://getoutline.org/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"VPN system built on Shadowsocks that lets an organisation run its own servers and distribute access keys…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":4,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B3-32","name":"ProofMode","maintainer":"Guardian Project","pillar":"SUR","segment":"B3","subcategory":"Capture provenance","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/guardianproject/proofmode-android","docs_url":"https://proofmode.org/",
@@ -105,6 +110,7 @@
 "blockers":["Proof-strengthening metadata can identify the photographer — configuration is a safety trade-off"],
 "evidence_urls":["https://github.com/guardianproject/proofmode-android","https://proofmode.org/","https://github.com/guardianproject/proofmode-android/blob/main/LICENSE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Android application and library that attaches verifiable provenance to photos and videos at capture time — cryptographic hashes…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":3,"maintenance":4,"privacy":3,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B3-33","name":"Privacy Badger","maintainer":"Electronic Frontier Foundation","pillar":"SUR","segment":"B3","subcategory":"Tracking protection","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/EFForg/privacybadger","docs_url":"https://privacybadger.org/",
@@ -123,5 +129,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/EFForg/privacybadger","https://privacybadger.org/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Browser extension that learns to block third-party trackers by observing cross-site tracking behaviour rather than relying solely…","licence_type":"Unresolved","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":5,"privacy":4,"usability":5,"licence_cost":4}}
 ]

@@ -14,6 +14,9 @@
 | **Maintainer** | Citizen Lab (University of Toronto) |
 | **Maintenance** | Actively maintained |
 | **Licence** | CC-BY-NC-SA-4.0 (asserted in project documentation; no LICENSE file in the repository root and GitHub reports no SPDX) |
+| **Licence type** | Restricted / non-OSI |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/citizenlab/test-lists) · [Documentation](https://github.com/citizenlab/test-lists#readme) |
@@ -21,6 +24,31 @@
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 5/5 · usability 4/5 · licence+cost 2/5 → **weighted 75/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Restricted / non-OSI |
+| **Exact licence (as recorded)** | CC-BY-NC-SA-4.0 (asserted in project documentation; no LICENSE file in the repository root and GitHub reports no SPDX) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same — this is a dataset, not software. |
+| **Restrictions** | NonCommercial bars commercial redistribution or productisation; ShareAlike requires derived lists to carry the same licence. A commercially operated newsroom cannot assume its use is non-commercial. Reading and testing against the lists is ordinary use; republishing them is not. |
+| **Open-source status** | **Source available** — Restricted data licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. No infrastructure. Cost is the effort of submitting additions and tracking whether they are merged.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/citizenlab/test-lists
 
 ---
 

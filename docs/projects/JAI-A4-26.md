@@ -14,6 +14,9 @@
 | **Maintainer** | Technical University of Munich (ondyari) |
 | **Maintenance** | Dormant |
 | **Licence** | MIT (code); data under the separate 'FaceForensics Terms of Use' research agreement — not an SPDX open licence |
+| **Licence type** | Restricted / non-OSI |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ondyari/FaceForensics) · [Documentation](https://github.com/ondyari/FaceForensics#readme) |
@@ -21,6 +24,31 @@
 **Scores** — relevance 2/5 · capability 3/5 · maintenance 1/5 · privacy 3/5 · usability 2/5 · licence+cost 1/5 → **weighted 42/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Restricted / non-OSI |
+| **Exact licence (as recorded)** | MIT (code); data under the separate 'FaceForensics Terms of Use' research agreement — not an SPDX open licence |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | FaceForensics Terms of Use (research-oriented PDF agreement, approval required). |
+| **Restrictions** | Dataset access is gated and governed by a research-use agreement. Not usable as commercial infrastructure; redistribution is prohibited. Terms must be read before any use. |
+| **Open-source status** | **Source available** — Restricted data licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Gated dataset access (application and approval); self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Access requires a Google Form application and approval. Large download; GPU for any training. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ondyari/FaceForensics
 
 ---
 

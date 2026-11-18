@@ -14,6 +14,9 @@
 | **Maintainer** | US General Services Administration |
 | **Maintenance** | Actively maintained |
 | **Licence** | US federal government works are generally not subject to copyright in the United States; portal terms and API usage conditions NOT verified in this survey |
+| **Licence type** | Proprietary |
+| **Open-source status** | Proprietary |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Documentation](https://sam.gov/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 3/5 · usability 3/5 · licence+cost 5/5 → **weighted 73/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Proprietary |
+| **Exact licence (as recorded)** | US federal government works are generally not subject to copyright in the United States; portal terms and API usage conditions NOT verified in this survey |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same. |
+| **Restrictions** | Not verified here. API access conditions and any registration requirements should be checked before building a monitoring pipeline. |
+| **Open-source status** | **Proprietary** — Hosted service or proprietary software — governed by service terms, not a software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Free. API access may require registration. Infrastructure only if you build monitoring. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://sam.gov/
+- `../sources/evidence/b2-sources.md`
 
 ---
 

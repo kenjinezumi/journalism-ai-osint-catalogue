@@ -14,11 +14,42 @@
 | **Maintainer** | The Markup |
 | **Maintenance** | Stable with low activity |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/the-markup/blacklight-collector) · [Documentation](https://themarkup.org/blacklight) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 3/5 · privacy 4/5 · usability 3/5 · licence+cost 4/5 → **weighted 81/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Tracker-identification lists it relies on may have their own sources. |
+| **Restrictions** | GPL-3.0: embedding in a distributed product triggers copyleft. Internal survey use is unaffected. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Compute for browser-based scanning — a survey of a few hundred sites is hours on one machine. Negligible infrastructure. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/the-markup/blacklight-collector/blob/main/LICENSE
+- https://github.com/the-markup/blacklight-collector
+- https://themarkup.org/blacklight
+- `../sources/evidence/leads.md`
 
 ---
 

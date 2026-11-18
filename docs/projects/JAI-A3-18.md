@@ -14,6 +14,9 @@
 | **Maintainer** | Kùzu Inc. |
 | **Maintenance** | Archived or discontinued |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/kuzudb/kuzu) · [Documentation](https://docs.kuzudb.com/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 2/5 · capability 4/5 · maintenance 0/5 · privacy 5/5 · usability 4/5 · licence+cost 5/5 → **weighted 61/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None, and the MIT licence means a fork is legally straightforward — though maintaining a database engine is not. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Not worth adopting; any use means accepting fork-and-maintain responsibility for a database engine.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/kuzudb/kuzu/blob/master/LICENSE
+- https://github.com/kuzudb/kuzu
+- `../sources/evidence/leads.md`
 
 ---
 

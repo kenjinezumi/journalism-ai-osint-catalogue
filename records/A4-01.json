@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/meedan/check","https://meedan.com/check","https://github.com/meedan/check/blob/develop/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Collaborative platform for fact-checking desks: ingests claims from tiplines and social monitoring…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":4,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A4-02","name":"Alegre (Meedan)","maintainer":"Meedan","pillar":"JAI","segment":"A4","subcategory":"Similarity matching service","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/meedan/alegre","docs_url":"https://github.com/meedan/alegre#readme",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/meedan/alegre","https://github.com/meedan/alegre/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Multilingual and multimodal similarity service exposing text, image, audio and video similarity search over a vector index…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":4,"usability":2,"licence_cost":4}},
 
 {"id":"JAI-A4-03","name":"Fetch (Meedan ClaimReview aggregator)","maintainer":"Meedan","pillar":"JAI","segment":"A4","subcategory":"Fact-check feed aggregation","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/meedan/fetch","docs_url":"https://github.com/meedan/fetch#readme",
@@ -51,6 +53,7 @@
 "blockers":["Archived by the maintainer — do not build on it"],
 "evidence_urls":["https://github.com/meedan/fetch","https://github.com/meedan/fetch/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Service that pulls fact-check outputs from heterogeneous publisher feeds and normalises them into ClaimReview-structured records…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":2,"capability":2,"maintenance":0,"privacy":3,"usability":2,"licence_cost":5}},
 
 {"id":"JAI-A4-04","name":"InVID-WeVerify Verification Plugin","maintainer":"AFP Medialab / vera.ai consortium","pillar":"JAI","segment":"A4","subcategory":"Media verification toolkit","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/AFP-Medialab/verification-plugin","docs_url":"https://weverify.eu/verification-plugin/",
@@ -69,6 +72,7 @@
 "blockers":["Uploads media to third-party backends — unsuitable for unpublished or source-sensitive material"],
 "evidence_urls":["https://github.com/AFP-Medialab/verification-plugin","https://weverify.eu/verification-plugin/","https://github.com/AFP-Medialab/verification-plugin/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Browser extension aggregating verification tools: video keyframe extraction, reverse image search across multiple engines…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":1,"usability":5,"licence_cost":4}},
 
 {"id":"JAI-A4-05","name":"ClaimBuster-Spotter","maintainer":"University of Texas at Arlington (utaresearch)","pillar":"JAI","segment":"A4","subcategory":"Check-worthiness detection","project_type":"prototype","bucket":"verified-oss","repo_url":"https://github.com/utaresearch/claimbuster-spotter","docs_url":"https://idir.uta.edu/claimbuster/",
@@ -87,6 +91,7 @@
 "blockers":["Dormant since 2023; checkpoint licensing unresolved"],
 "evidence_urls":["https://github.com/utaresearch/claimbuster-spotter","https://idir.uta.edu/claimbuster/","https://github.com/utaresearch/claimbuster-spotter/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Transformer-based model that scores sentences for check-worthiness — how much a statement looks like a factual claim a…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":2,"maintenance":1,"privacy":4,"usability":2,"licence_cost":3}},
 
 {"id":"JAI-A4-06","name":"FEVER platform and baselines","maintainer":"FEVER workshop organisers (repository under awslabs)","pillar":"JAI","segment":"A4","subcategory":"Fact-verification benchmark","project_type":"prototype","bucket":"verified-oss","repo_url":"https://github.com/awslabs/fever","docs_url":"https://fever.ai/",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/awslabs/fever","https://fever.ai/","https://github.com/awslabs/fever/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Benchmark dataset, annotation platform and baseline systems for fact extraction and verification: given a claim…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":2,"capability":3,"maintenance":3,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"JAI-A4-07","name":"AVeriTeC dataset and baseline","maintainer":"Michael Schlichtkrull and collaborators (academic)","pillar":"JAI","segment":"A4","subcategory":"Fact-verification benchmark","project_type":"prototype","bucket":"uncertain","repo_url":"https://github.com/MichSchli/AVeriTeC","docs_url":"https://fever.ai/dataset/averitec.html",
@@ -123,6 +129,7 @@
 "blockers":["No licence file — redistribution and commercial use legally unresolved","Requires Google Search API; not a local pipeline"],
 "evidence_urls":["https://github.com/MichSchli/AVeriTeC","https://fever.ai/dataset/averitec.html"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"repo-inspected","provisional":true,
+"summary":"Benchmark of real-world claims checked by fact-checking organisations, modelling verification as question generation…","licence_type":"Unresolved","oss_status":"Unverified","oss_detail":"Licence could not be confirmed — reuse legally unresolved","price_class":"No software fee","software_price_note":"","cost_flags":["mandatory-paid", "infrastructure"],"additional_costs_note":"mandatory paid dependency; self-hosted infrastructure",
 "scores":{"relevance":2,"capability":3,"maintenance":1,"privacy":1,"usability":2,"licence_cost":1}},
 
 {"id":"JAI-A4-08","name":"X-FACT","maintainer":"University of Utah NLP (utahnlp)","pillar":"JAI","segment":"A4","subcategory":"Multilingual fact-verification benchmark","project_type":"prototype","bucket":"verified-oss","repo_url":"https://github.com/utahnlp/x-fact","docs_url":"https://github.com/utahnlp/x-fact#readme",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/utahnlp/x-fact","https://github.com/utahnlp/x-fact/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Multilingual benchmark of claims and fact-check verdicts drawn from fact-checking sites in 25 languages…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":2,"capability":2,"maintenance":1,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"JAI-A4-09","name":"ClaimsKG extractor","maintainer":"ClaimsKG project (academic consortium)","pillar":"JAI","segment":"A4","subcategory":"Fact-check aggregation","project_type":"cli","bucket":"uncertain","repo_url":"https://github.com/claimskg/claimskg-extractor","docs_url":"https://data.gesis.org/claimskg/",
@@ -159,6 +167,7 @@
 "blockers":["No licence file and fork provenance unclear — legally unresolved","Four-year-old scraper against changed target sites"],
 "evidence_urls":["https://github.com/claimskg/claimskg-extractor","https://data.gesis.org/claimskg/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"repo-inspected","provisional":true,
+"summary":"Scraper and knowledge-graph builder that extracts published fact-checks from fact-checking websites and emits a structured RDF…","licence_type":"Unresolved","oss_status":"Unverified","oss_detail":"Licence could not be confirmed — reuse legally unresolved","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":2,"capability":1,"maintenance":1,"privacy":2,"usability":1,"licence_cost":1}},
 
 {"id":"JAI-A4-10","name":"Loki (OpenFactVerification)","maintainer":"Libr-AI","pillar":"JAI","segment":"A4","subcategory":"LLM-assisted claim verification","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/Libr-AI/OpenFactVerification","docs_url":"https://github.com/Libr-AI/OpenFactVerification#readme",
@@ -177,5 +186,6 @@
 "blockers":["Requires OpenAI and Serper API keys — text leaves your infrastructure by design","Dormant since October 2024"],
 "evidence_urls":["https://github.com/Libr-AI/OpenFactVerification","https://github.com/Libr-AI/OpenFactVerification/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Pipeline that decomposes a text into discrete checkable claims, retrieves evidence via a search API…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["mandatory-paid", "infrastructure"],"additional_costs_note":"mandatory paid dependency; self-hosted infrastructure",
 "scores":{"relevance":2,"capability":2,"maintenance":1,"privacy":1,"usability":3,"licence_cost":3}}
 ]

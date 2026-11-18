@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/apache/solr","https://solr.apache.org/guide/","https://github.com/apache/solr/blob/main/LICENSE.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Mature Lucene-based search server with sharding, faceting, highlighting and a rich query DSL…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":5,"maintenance":5,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A2-02","name":"Apache Tika","maintainer":"Apache Software Foundation","pillar":"JAI","segment":"A2","subcategory":"Document ingestion and extraction","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/apache/tika","docs_url":"https://tika.apache.org/",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/apache/tika","https://tika.apache.org/","https://github.com/apache/tika/blob/main/LICENSE.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"One API over roughly 1,400 file formats that detects type, extracts text and returns metadata, available as a Java library…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":5,"privacy":4,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A2-03","name":"Argos Translate","maintainer":"Argos Open Technologies (argosopentech)","pillar":"JAI","segment":"A2","subcategory":"Machine translation","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/argosopentech/argos-translate","docs_url":"https://www.argosopentech.com/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/argosopentech/argos-translate","https://www.argosopentech.com/","https://github.com/argosopentech/argos-translate/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Offline neural machine translation library and CLI built on CTranslate2 and SentencePiece…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":4,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"JAI-A2-04","name":"BERTopic","maintainer":"Maarten Grootendorst","pillar":"JAI","segment":"A2","subcategory":"Topic modelling and corpus triage","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/MaartenGr/BERTopic","docs_url":"https://maartengr.github.io/BERTopic/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/MaartenGr/BERTopic","https://maartengr.github.io/BERTopic/","https://github.com/MaartenGr/BERTopic/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Topic modelling pipeline that embeds documents, reduces dimensionality with UMAP…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-05","name":"Buzz","maintainer":"Chidi Williams","pillar":"JAI","segment":"A2","subcategory":"Transcription (desktop application)","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/chidiwilliams/buzz","docs_url":"https://chidiwilliams.github.io/buzz/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/chidiwilliams/buzz","https://chidiwilliams.github.io/buzz/","https://github.com/chidiwilliams/buzz/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Cross-platform desktop GUI over Whisper, whisper.cpp and faster-whisper that transcribes and translates audio and video files…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":4,"usability":5,"licence_cost":5}},
 
 {"id":"JAI-A2-06","name":"Camelot","maintainer":"camelot-dev community (fork of the archived atlanhq/camelot)","pillar":"JAI","segment":"A2","subcategory":"Table extraction","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/camelot-dev/camelot","docs_url":"https://camelot-py.readthedocs.io/",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/camelot-dev/camelot","https://camelot-py.readthedocs.io/","https://github.com/camelot-dev/camelot/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library that extracts tables from born-digital PDFs using two strategies…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure", "staff-effort"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-07","name":"Carrot2","maintainer":"Carrot Search (open-source core)","pillar":"JAI","segment":"A2","subcategory":"Search-result clustering","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/carrot2/carrot2","docs_url":"https://carrot2.github.io/release/latest/doc/",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/carrot2/carrot2","https://github.com/carrot2/carrot2/blob/master/carrot2.LICENSE","https://carrot2.github.io/release/latest/doc/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Search-results clustering engine that groups a result set into labelled thematic clusters…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"JAI-A2-08","name":"CTranslate2","maintainer":"OpenNMT / SYSTRAN","pillar":"JAI","segment":"A2","subcategory":"Local inference runtime","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/OpenNMT/CTranslate2","docs_url":"https://opennmt.net/CTranslate2/",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/OpenNMT/CTranslate2","https://opennmt.net/CTranslate2/","https://github.com/OpenNMT/CTranslate2/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"C++/Python inference engine for transformer models with aggressive quantisation (int8, int16, float16)…","licence_type":"Mixed (code vs weights/data)","oss_status":"Mixed","oss_detail":"Open-source code, data or models you load carrying their own terms, some non-commercial","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":5,"maintenance":5,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A2-09","name":"Datasette","maintainer":"Simon Willison","pillar":"JAI","segment":"A2","subcategory":"Data publishing and exploration","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/simonw/datasette","docs_url":"https://docs.datasette.io/",
@@ -159,6 +167,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/simonw/datasette","https://docs.datasette.io/","https://github.com/simonw/datasette/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Web application that serves one or more SQLite databases as a browsable, queryable, JSON-API-exposed website…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":4,"usability":5,"licence_cost":5}},
 
 {"id":"JAI-A2-10","name":"datasketch","maintainer":"Eric Zhu","pillar":"JAI","segment":"A2","subcategory":"Near-duplicate detection","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/ekzhu/datasketch","docs_url":"https://ekzhu.com/datasketch/",
@@ -177,5 +186,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/ekzhu/datasketch","https://ekzhu.com/datasketch/","https://github.com/ekzhu/datasketch/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Probabilistic data-structure library providing MinHash, MinHash LSH, LSH Forest, Weighted MinHash…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":3,"licence_cost":5}}
 ]

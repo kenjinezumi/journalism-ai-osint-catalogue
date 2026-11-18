@@ -14,11 +14,41 @@
 | **Maintainer** | Explosion AI |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/explosion/spaCy) · [Documentation](https://spacy.io/usage) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 5/5 · licence+cost 5/5 → **weighted 90/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Varies by pipeline package: en_core_web_* are MIT; some non-English packages carry corpus-derived terms. Not individually verified in this survey. |
+| **Restrictions** | Code unrestricted. Check the specific language pipeline's licence before commercial use — a few derive from restrictively licensed treebanks. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. CPU-efficient; large-scale NER over millions of documents is a compute-hours cost on commodity hardware. Explosion sells Prodigy (annotation tool) separately — a paid product, price not verified here, and not required.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/explosion/spaCy/blob/master/LICENSE
+- https://github.com/explosion/spaCy
+- https://spacy.io/usage
 
 ---
 

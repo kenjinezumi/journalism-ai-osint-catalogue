@@ -14,11 +14,41 @@
 | **Maintainer** | OpenAleph / DARC (maintained fork of the archived alephdata/ingest-file) |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/openaleph/ingest-file) · [Documentation](https://openaleph.org/docs/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 2/5 · licence+cost 4/5 → **weighted 79/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | AGPL-3.0: modified network-service redistribution triggers source-release obligations. Internal use is unaffected. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Infrastructure: containerised workers sized to OCR load, plus the OpenAleph stack it feeds. Estimate only.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/openaleph/ingest-file/blob/main/LICENSE
+- https://github.com/openaleph/ingest-file
+- https://openaleph.org/docs/
 
 ---
 

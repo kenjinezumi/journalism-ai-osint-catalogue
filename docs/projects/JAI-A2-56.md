@@ -14,11 +14,40 @@
 | **Maintainer** | USC Information Sciences Institute (isi-nlp) |
 | **Maintenance** | Dormant |
 | **Licence** | MIT-style permissive with an added acknowledgement condition (LICENSE.txt grants MIT-equivalent rights but states 'Any publication of projects using uroman shall acknowledge its use'; GitHub API reports NOASSERTION) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/isi-nlp/uroman) · [Documentation](https://github.com/isi-nlp/uroman#readme) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 1/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 62/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT-style permissive with an added acknowledgement condition (LICENSE.txt grants MIT-equivalent rights but states 'Any publication of projects using uroman shall acknowledge its use'; GitHub API reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a — rule tables, no trained weights. |
+| **Restrictions** | Acknowledgement is a publication obligation: any publication of a project using uroman must acknowledge it. Not a use restriction, but it must be tracked so the credit actually appears. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee, negligible resources, no paid dependencies.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/isi-nlp/uroman/blob/master/LICENSE.txt
+- https://github.com/isi-nlp/uroman
 
 ---
 

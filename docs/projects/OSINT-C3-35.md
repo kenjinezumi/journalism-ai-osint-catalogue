@@ -14,6 +14,9 @@
 | **Maintainer** | Neo4j Inc. |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-3.0 (Community Edition); Enterprise and Infinigraph editions are commercially licensed |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** — Community Edition free (GPL-3.0); Enterprise and Infinigraph quote-only; AuraDB Free USD 0, Professional from USD 0.09/GB/hour, Business Critical from USD 0.20/GB/hour (verified 2026-11-16) |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/neo4j/neo4j) · [Documentation](https://neo4j.com/docs/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 5/5 · privacy 4/5 · usability 4/5 · licence+cost 3/5 → **weighted 81/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 (Community Edition); Enterprise and Infinigraph editions are commercially licensed |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | GPL-3.0 on Community Edition: embedding in a distributed product triggers copyleft, which is the deliberate commercial boundary. Enterprise features (clustering, role-based access control, multi-database) require a paid licence at a price not publicly listed. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** — Community Edition free (GPL-3.0); Enterprise and Infinigraph quote-only; AuraDB Free USD 0, Professional from USD 0.09/GB/hour, Business Critical from USD 0.20/GB/hour (verified 2026-11-16) |
+| **Additional costs** | Optional paid Enterprise licence or metered AuraDB hosting; self-hosted JVM infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Community Edition: no licence fee, free download (verified 2026-11-16). Enterprise/Infinigraph: quote required, no public price. AuraDB: Free $0; Professional from $0.09/GB/hour (min 1GB); Business Critical from $0.20/GB/hour (min 2GB); Virtual Dedicated Cloud contact sales — hourly metering includes storage, compute, IO, network and backups (all verified 2026-11-16, USD). Self-hosting infrastructure: a JVM host with substantial RAM. Estimate for self-hosting.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://neo4j.com/pricing/
+- https://github.com/neo4j/neo4j
+- `../sources/recovered/cat/pricing.tsv`
+- `../sources/evidence/pricing.md`
 
 ---
 

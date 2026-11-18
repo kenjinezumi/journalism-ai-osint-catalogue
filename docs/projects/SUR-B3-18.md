@@ -14,11 +14,40 @@
 | **Maintainer** | Basis Technology / Sleuth Kit project |
 | **Maintenance** | Stable with low activity |
 | **Licence** | Apache-2.0 per the project's own documentation; GitHub API reports no detected licence (confirm the LICENSE file for compliance records) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/sleuthkit/autopsy) · [Documentation](https://www.autopsy.com/) |
 
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 3/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 72/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 per the project's own documentation; GitHub API reports no detected licence (confirm the LICENSE file for compliance records) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. Hash sets and keyword lists you import carry their own terms. |
+| **Restrictions** | None material if Apache-2.0 as documented; verify the licence file before redistributing a bundled product. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure; staff effort |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. A workstation with substantial disk for images (a full disk image is the size of the drive) and RAM. Commercial support and training are available from the vendor at prices not verified here.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/sleuthkit/autopsy
+- https://www.autopsy.com/
 
 ---
 

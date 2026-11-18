@@ -14,6 +14,9 @@
 | **Maintainer** | Nuria Chandra and collaborators |
 | **Maintenance** | Dormant |
 | **Licence** | NOT CONFIRMED — no licence for code or data visible on the repository page |
+| **Licence type** | Unresolved |
+| **Open-source status** | Unverified |
+| **Software price** | **No software fee** |
 | **Confidence** | medium · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/nuriachandra/Deepfake-Eval-2024) · [Documentation](https://github.com/nuriachandra/Deepfake-Eval-2024#readme) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 2/5 · maintenance 1/5 · privacy 4/5 · usability 2/5 · licence+cost 1/5 → **weighted 47/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Unresolved |
+| **Exact licence (as recorded)** | NOT CONFIRMED — no licence for code or data visible on the repository page |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | NOT confirmed — dataset distributed via HuggingFace under terms not stated at the repository page. |
+| **Restrictions** | Unresolved for both code and data. Citing the published finding is unproblematic; redistributing the dataset is not advisable until terms are confirmed. The underlying media is third-party content with its own rights. |
+| **Open-source status** | **Unverified** — Licence could not be confirmed — reuse legally unresolved |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Dataset retrieval from HuggingFace; no runtime service. Minimal cost.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/nuriachandra/Deepfake-Eval-2024
+
+> **Unresolved:** the licence could not be confirmed from the evidence gathered.
 
 ---
 

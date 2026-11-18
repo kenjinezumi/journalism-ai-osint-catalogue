@@ -14,11 +14,41 @@
 | **Maintainer** | Exiv2 community |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-2.0-or-later (GitHub reports NOASSERTION) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/Exiv2/exiv2) · [Documentation](https://exiv2.org/) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 4/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 71/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-2.0-or-later (GitHub reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | GPL-2.0-or-later: linking it into a closed-source product triggers copyleft. Historically a commercial licence has been available from the project — confirm current terms if you need one. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. C++ build toolchain; optional zlib/expat. Negligible runtime cost.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/Exiv2/exiv2/blob/main/COPYING
+- https://github.com/Exiv2/exiv2
+- https://exiv2.org/
 
 ---
 

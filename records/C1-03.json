@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/janreges/siteone-crawler","https://crawler.siteone.io/","https://github.com/janreges/siteone-crawler/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"PHP-based crawler that inventories a website's structure, assets, third-party components…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C1-20","name":"Photon","maintainer":"s0md3v","pillar":"OSINT","segment":"C1","subcategory":"Web reconnaissance","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/s0md3v/Photon","docs_url":"https://github.com/s0md3v/Photon#readme",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/s0md3v/Photon","https://github.com/s0md3v/Photon/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Fast Python crawler that harvests URLs, email addresses, social handles, document links…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":3,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C1-21","name":"Hyphe","maintainer":"Sciences Po médialab","pillar":"OSINT","segment":"C1","subcategory":"Web corpus and network mapping","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/medialab/hyphe","docs_url":"https://hyphe.medialab.sciences-po.fr/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/medialab/hyphe","https://hyphe.medialab.sciences-po.fr/","https://github.com/medialab/hyphe/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Research web crawler that builds a curated corpus of websites with human decisions about inclusion…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":4,"maintenance":2,"privacy":4,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C1-22","name":"Heritrix 3","maintainer":"Internet Archive","pillar":"OSINT","segment":"C1","subcategory":"Archival web crawling","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/internetarchive/heritrix3","docs_url":"https://heritrix.readthedocs.io/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/internetarchive/heritrix3","https://heritrix.readthedocs.io/"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"The Internet Archive's production archival crawler: a Java system for large-scale…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":4,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"OSINT-C1-23","name":"brozzler","maintainer":"Internet Archive","pillar":"OSINT","segment":"C1","subcategory":"Archival web crawling","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/internetarchive/brozzler","docs_url":"https://github.com/internetarchive/brozzler#readme",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/internetarchive/brozzler","https://github.com/internetarchive/brozzler/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Distributed crawler that drives real Chrome instances, proxying all traffic through warcprox to produce WARCs…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":4,"usability":2,"licence_cost":5}},
 
 {"id":"OSINT-C1-24","name":"grab-site","maintainer":"ArchiveTeam","pillar":"OSINT","segment":"C1","subcategory":"Rapid-response archiving","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/ArchiveTeam/grab-site","docs_url":"https://github.com/ArchiveTeam/grab-site#readme",
@@ -105,6 +110,7 @@
 "blockers":["Dormant since May 2025; depends on wpull, dormant since April 2024"],
 "evidence_urls":["https://github.com/ArchiveTeam/grab-site","https://github.com/ArchiveTeam/wpull"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Archival crawler built on wpull that produces WARCs with a live dashboard, allowing the operator to add ignore patterns and…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":1,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C1-25","name":"wpull","maintainer":"ArchiveTeam","pillar":"OSINT","segment":"C1","subcategory":"Archival web crawling","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/ArchiveTeam/wpull","docs_url":"https://github.com/ArchiveTeam/wpull#readme",
@@ -123,6 +129,7 @@
 "blockers":["Dormant since April 2024 with a 208-issue backlog; superseded by wget's own WARC support"],
 "evidence_urls":["https://github.com/ArchiveTeam/wpull","https://github.com/ArchiveTeam/wpull/blob/master/LICENSE.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python reimplementation of wget with WARC output, wget-compatible flags, a plugin/hook system and database-backed crawl state","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":2,"capability":3,"maintenance":1,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C1-26","name":"ArchiveBot","maintainer":"ArchiveTeam","pillar":"OSINT","segment":"C1","subcategory":"Community rapid archiving","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/ArchiveTeam/ArchiveBot","docs_url":"https://wiki.archiveteam.org/index.php/ArchiveBot",
@@ -141,6 +148,7 @@
 "blockers":["Requests and captures are public — unusable for confidential investigation"],
 "evidence_urls":["https://github.com/ArchiveTeam/ArchiveBot","https://wiki.archiveteam.org/index.php/ArchiveBot"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"IRC-driven distributed archiving system where volunteers request crawls of at-risk sites…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":4,"maintenance":3,"privacy":1,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C1-27","name":"pywb","maintainer":"Webrecorder","pillar":"OSINT","segment":"C1","subcategory":"Archive replay","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/webrecorder/pywb","docs_url":"https://pywb.readthedocs.io/",
@@ -159,5 +167,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/webrecorder/pywb","https://pywb.readthedocs.io/","https://github.com/webrecorder/pywb/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python web-archiving toolkit providing high-fidelity replay of WARC and WACZ collections, a recording proxy mode…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":3,"licence_cost":4}}
 ]

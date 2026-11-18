@@ -14,11 +14,42 @@
 | **Maintainer** | Meteostat |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/meteostat/meteostat) · [Documentation](https://dev.meteostat.net/python/) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 5/5 · privacy 5/5 · usability 5/5 · licence+cost 5/5 → **weighted 86/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Underlying observations come from national meteorological services (NOAA, DWD and others) under their own terms; Meteostat documents the sources and their licences. |
+| **Restrictions** | Code permissive. Check the source agency's attribution requirements before republishing observation data as a dataset; most require attribution. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee for the library and bulk data. Negligible compute. Meteostat offers a hosted API with paid tiers for higher volume — prices not verified in this survey.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/meteostat/meteostat/blob/main/LICENSE
+- https://github.com/meteostat/meteostat
+- https://dev.meteostat.net/python/
+- `../sources/evidence/leads.md`
 
 ---
 

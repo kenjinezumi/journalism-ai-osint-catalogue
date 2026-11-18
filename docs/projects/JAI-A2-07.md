@@ -14,11 +14,41 @@
 | **Maintainer** | Carrot Search (open-source core) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | BSD-3-Clause-style (custom Carrot2 BSD-style text read directly from carrot2.LICENSE; GitHub SPDX null) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/carrot2/carrot2) · [Documentation](https://carrot2.github.io/release/latest/doc/) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 4/5 · usability 3/5 · licence+cost 4/5 → **weighted 65/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause-style (custom Carrot2 BSD-style text read directly from carrot2.LICENSE; GitHub SPDX null) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | Open engine is permissive. The restriction is commercial rather than legal: the best clustering algorithm (Lingo3G) is not included and requires a paid licence from Carrot Search — price not publicly listed, quote required. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Open engine free. Lingo3G is a separate paid product with no public price list (quote required; not verified). Infrastructure: a small JVM service alongside your index. Estimate only.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/carrot2/carrot2/blob/master/carrot2.LICENSE
+- https://github.com/carrot2/carrot2
+- https://carrot2.github.io/release/latest/doc/
 
 ---
 

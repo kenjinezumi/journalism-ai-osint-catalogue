@@ -14,11 +14,41 @@
 | **Maintainer** | Apache Software Foundation |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/apache/tika) · [Documentation](https://tika.apache.org/) |
 
 **Scores** — relevance 4/5 · capability 5/5 · maintenance 5/5 · privacy 4/5 · usability 3/5 · licence+cost 5/5 → **weighted 87/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None material; note that Tika bundles many third-party parsers whose own notices are aggregated in NOTICE.txt and must be reproduced if you redistribute. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Operating cost is a JVM service: 2-4GB RAM per tika-server instance plus CPU proportional to corpus size; OCR, if enabled through Tesseract, dominates compute. Infrastructure estimate only, assuming self-hosted containers.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/apache/tika/blob/main/LICENSE.txt
+- https://github.com/apache/tika
+- https://tika.apache.org/
 
 ---
 

@@ -15,6 +15,7 @@
 "blockers":["Hosted captures and links are public — discloses what you archived and when"],
 "evidence_urls":["https://github.com/harvard-lil/perma","https://perma.cc/docs"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Link-preservation service and platform: captures a cited web page and issues a permanent 'perma link'…","licence_type":"Dual-licensed","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"Unknown / not verified","software_price_note":"not established by the records","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":2,"usability":5,"licence_cost":3}},
 
 {"id":"OSINT-C1-38","name":"SingleFile","maintainer":"Gildas Lormeau","pillar":"OSINT","segment":"C1","subcategory":"Single-page capture","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/gildas-lormeau/SingleFile","docs_url":"https://github.com/gildas-lormeau/SingleFile#readme",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/gildas-lormeau/SingleFile","https://github.com/gildas-lormeau/SingleFile/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Browser extension (and CLI) that saves a complete web page as a single self-contained HTML file with all assets inlined…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":3,"maintenance":5,"privacy":5,"usability":5,"licence_cost":4}},
 
 {"id":"OSINT-C1-39","name":"monolith","maintainer":"Sunshine (Y2Z)","pillar":"OSINT","segment":"C1","subcategory":"Single-page capture","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/Y2Z/monolith","docs_url":"https://github.com/Y2Z/monolith#readme",
@@ -51,6 +53,7 @@
 "blockers":["No JavaScript execution — fails silently on client-rendered pages"],
 "evidence_urls":["https://github.com/Y2Z/monolith","https://github.com/Y2Z/monolith/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Rust CLI that downloads a web page and embeds all assets (CSS, images, fonts, scripts) into a single portable HTML file","licence_type":"Public domain","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":3,"maintenance":5,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C1-40","name":"WebScrapBook","maintainer":"Danny Lin (danny0838)","pillar":"OSINT","segment":"C1","subcategory":"Annotated personal archive","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/danny0838/webscrapbook","docs_url":"https://github.com/danny0838/webscrapbook/wiki",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/danny0838/webscrapbook","https://github.com/danny0838/webscrapbook/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Browser extension that captures web pages into an organised personal archive with folder structure, annotations…","licence_type":"Weak copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C1-41","name":"warcio","maintainer":"Webrecorder","pillar":"OSINT","segment":"C1","subcategory":"WARC tooling","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/webrecorder/warcio","docs_url":"https://github.com/webrecorder/warcio#readme",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/webrecorder/warcio","https://github.com/webrecorder/warcio/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Streaming Python library and CLI for reading, writing, validating and recompressing WARC and ARC files…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C1-42","name":"warcprox","maintainer":"Internet Archive","pillar":"OSINT","segment":"C1","subcategory":"Recording proxy","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/internetarchive/warcprox","docs_url":"https://github.com/internetarchive/warcprox#readme",
@@ -105,6 +110,7 @@
 "blockers":["WARCs contain credentials and session tokens from proxied traffic; requires installing a local CA certificate"],
 "evidence_urls":["https://github.com/internetarchive/warcprox"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"HTTP/HTTPS man-in-the-middle proxy that writes every request and response passing through it into WARC files…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":3,"privacy":3,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C1-43","name":"py-wacz","maintainer":"Webrecorder","pillar":"OSINT","segment":"C1","subcategory":"WACZ packaging","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/webrecorder/py-wacz","docs_url":"https://github.com/webrecorder/py-wacz#readme",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/webrecorder/py-wacz","https://github.com/webrecorder/py-wacz/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library and CLI that packages WARC files into the WACZ (Web Archive Collection Zipped) format…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C1-44","name":"OutbackCDX","maintainer":"International Internet Preservation Consortium (IIPC)","pillar":"OSINT","segment":"C1","subcategory":"Archive indexing","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/iipc/outbackcdx","docs_url":"https://github.com/iipc/outbackcdx#readme",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/iipc/outbackcdx","https://github.com/iipc/outbackcdx/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"RocksDB-backed CDX index server that provides fast URL and timestamp lookup over large WARC collections…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"OSINT-C1-45","name":"yt-dlp","maintainer":"yt-dlp community","pillar":"OSINT","segment":"C1","subcategory":"Media capture","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/yt-dlp/yt-dlp","docs_url":"https://github.com/yt-dlp/yt-dlp#readme",
@@ -159,5 +167,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/yt-dlp/yt-dlp","https://github.com/yt-dlp/yt-dlp/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Command-line media downloader supporting well over a thousand sites, retrieving video, audio, subtitles…","licence_type":"Public domain","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}}
 ]

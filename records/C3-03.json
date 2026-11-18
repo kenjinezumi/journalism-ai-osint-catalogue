@@ -15,6 +15,7 @@
 "blockers":["Publish-by-default discloses requests; US jurisdiction only; service fees unverified"],
 "evidence_urls":["https://github.com/MuckRock/muckrock","https://www.muckrock.com/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Platform for filing, tracking and publishing US public-records requests, handling agency correspondence…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"Unknown / not verified","software_price_note":"not established by the records","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":2,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C3-16","name":"bellingcat/EDGAR","maintainer":"Bellingcat","pillar":"OSINT","segment":"C3","subcategory":"Corporate filings","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/bellingcat/EDGAR","docs_url":"https://github.com/bellingcat/EDGAR#readme",
@@ -33,6 +34,7 @@
 "blockers":["Eighteen months without maintenance against a changing official interface"],
 "evidence_urls":["https://github.com/bellingcat/EDGAR","https://github.com/bellingcat/EDGAR/blob/main/LICENSE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Tool for searching the US Securities and Exchange Commission's EDGAR full-text and filing-index systems…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":2,"privacy":4,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C3-17","name":"edgartools","maintainer":"Dwight Gunning (dgunning)","pillar":"OSINT","segment":"C3","subcategory":"Corporate filings","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/dgunning/edgartools","docs_url":"https://github.com/dgunning/edgartools#readme",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/dgunning/edgartools"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Python library for accessing SEC EDGAR data with a high-level API over companies, filings and financial statements…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C3-18","name":"Arelle","maintainer":"Arelle Project / XBRL community","pillar":"OSINT","segment":"C3","subcategory":"Financial data processing","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/Arelle/Arelle","docs_url":"https://arelle.readthedocs.io/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/Arelle/Arelle","https://arelle.readthedocs.io/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Open-source XBRL platform for loading, validating and querying XBRL financial reports against taxonomies…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":3,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"OSINT-C3-19","name":"sugartrail","maintainer":"Bellingcat","pillar":"OSINT","segment":"C3","subcategory":"Corporate network analysis","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/bellingcat/sugartrail","docs_url":"https://github.com/bellingcat/sugartrail#readme",
@@ -87,6 +91,7 @@
 "blockers":["UK only; shared addresses and officers indicate association, not wrongdoing"],
 "evidence_urls":["https://github.com/bellingcat/sugartrail"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Tool that builds a network graph from UK Companies House data, following officers…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C3-20","name":"ethereum-etl","maintainer":"blockchain-etl","pillar":"OSINT","segment":"C3","subcategory":"Blockchain analysis","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/blockchain-etl/ethereum-etl","docs_url":"https://ethereum-etl.readthedocs.io/",
@@ -105,6 +110,7 @@
 "blockers":["Requires archive-node access or a commercial provider; address attribution is not solved by this tool"],
 "evidence_urls":["https://github.com/blockchain-etl/ethereum-etl","https://ethereum-etl.readthedocs.io/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Tool that exports Ethereum blockchain data — blocks, transactions, token transfers, logs, contracts — into CSV…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["mandatory-paid", "infrastructure"],"additional_costs_note":"mandatory archive-node access — self-run (multi-terabyte storage) or a paid commercial node provider (not priced); warehouse storage",
 "scores":{"relevance":3,"capability":4,"maintenance":3,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C3-21","name":"GraphSense","maintainer":"Iknaio / GraphSense community (AIT origin)","pillar":"OSINT","segment":"C3","subcategory":"Blockchain analysis","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/graphsense/graphsense-lib","docs_url":"https://graphsense.github.io/",
@@ -123,5 +129,6 @@
 "blockers":["Substantial ingestion infrastructure required; clustering heuristics are probabilistic and must be stated as such"],
 "evidence_urls":["https://github.com/graphsense/graphsense-lib","https://graphsense.github.io/"],
 "verification_date":"2026-11-17","confidence":"low","depth":"metadata-verified","provisional":true,
+"summary":"Open-source cryptocurrency analytics platform providing address clustering, entity tagging…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":2,"privacy":4,"usability":2,"licence_cost":4}}
 ]

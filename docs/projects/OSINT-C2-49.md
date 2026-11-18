@@ -14,11 +14,43 @@
 | **Maintainer** | Daniel Giardini (dgiardini) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | GPL (from source headers: derived from rtl_fm by Kyle Keen, AISDecoder by Astra Paging/AISHub and GNUAIS; GitHub reports NOASSERTION) |
+| **Licence type** | Unresolved |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/dgiardini/rtl-ais) · [Documentation](https://github.com/dgiardini/rtl-ais#readme) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 2/5 · licence+cost 4/5 → **weighted 72/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Unresolved |
+| **Exact licence (as recorded)** | GPL (from source headers: derived from rtl_fm by Kyle Keen, AISDecoder by Astra Paging/AISHub and GNUAIS; GitHub reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. Received AIS broadcasts are transmitted in the clear; your recordings are your own. |
+| **Restrictions** | GPL from the upstream lineage. Receiving AIS is lawful in most jurisdictions; confirm local radio law before deploying, as with any SDR receiver. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Dedicated hardware; self-hosted infrastructure |
+| **Cost conditions** | Dedicated hardware; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. Hardware: RTL-SDR dongle plus a VHF antenna (tens of dollars/euros) and a small always-on computer. Storage is modest. Satellite AIS, if you need open-ocean coverage, is a commercial service not priced here.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/dgiardini/rtl-ais/blob/master/LICENCE
+- https://github.com/dgiardini/rtl-ais
+- `../sources/evidence/leads.md`
+
+> **Unresolved:** the licence could not be confirmed from the evidence gathered.
 
 ---
 

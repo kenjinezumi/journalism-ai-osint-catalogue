@@ -14,11 +14,42 @@
 | **Maintainer** | Kurt McKee (kurtmckee) |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-2-Clause (resolved by reading the repository licence; GitHub reports NOASSERTION — independently recorded in session 1's a1disc/notes.md) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/kurtmckee/feedparser) · [Documentation](https://feedparser.readthedocs.io/) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 5/5 · privacy 5/5 · usability 5/5 · licence+cost 5/5 → **weighted 86/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-2-Clause (resolved by reading the repository licence; GitHub reports NOASSERTION — independently recorded in session 1's a1disc/notes.md) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None material. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee, negligible resources.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/kurtmckee/feedparser/blob/develop/LICENSE
+- https://github.com/kurtmckee/feedparser
+- https://feedparser.readthedocs.io/
+- `../sources/recovered/a1disc/notes.md`
 
 ---
 

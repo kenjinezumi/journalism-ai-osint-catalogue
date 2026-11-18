@@ -14,11 +14,40 @@
 | **Maintainer** | Internet Archive |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 (GitHub API reports NOASSERTION) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/internetarchive/heritrix3) · [Documentation](https://heritrix.readthedocs.io/) |
 
 **Scores** — relevance 4/5 · capability 5/5 · maintenance 4/5 · privacy 5/5 · usability 2/5 · licence+cost 5/5 → **weighted 85/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 (GitHub API reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. Captured content belongs to the original publishers. |
+| **Restrictions** | None material. Confirm the licence file reference for compliance records given the SPDX gap. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Infrastructure estimate: a JVM host plus substantial storage — WARC collections are large (expect the raw site size plus overhead), and a domain crawl can be hundreds of GB. Add storage for the CDX index. Assumptions: self-hosted, single-domain crawls.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/internetarchive/heritrix3
+- https://heritrix.readthedocs.io/
 
 ---
 

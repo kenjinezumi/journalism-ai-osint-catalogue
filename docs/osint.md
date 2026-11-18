@@ -160,159 +160,159 @@ Other pillars: [Journalism and AI](journalism-ai.md) · [Surveillance and journa
 
 45 projects.
 
-| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence |
-|--:|--:|---|---|--:|---|---|---|
-| 1 | 4 | [Scrapy](projects/OSINT-C1-16.md) | Structured web scraping | **95** | Adopt | Actively maintained | BSD-3-Clause |
-| 2 | 6 | [yt-dlp](projects/OSINT-C1-45.md) | Media capture | **95** | Adopt | Actively maintained | Unlicense |
-| 3 | 7 | [browsertrix-crawler](projects/OSINT-C1-29.md) | High-fidelity capture | **94** | Adopt | Actively maintained | AGPL-3.0 |
-| 4 | 9 | [ArchiveWeb.page](projects/OSINT-C1-31.md) | Manual browser capture | **94** | Adopt | Actively maintained | AGPL-3.0 |
-| 5 | 16 | [ReplayWeb.page](projects/OSINT-C1-32.md) | Archive replay | **94** | Adopt | Actively maintained | AGPL-3.0 |
-| 6 | 30 | [ArchiveBox](projects/OSINT-C1-28.md) | Self-hosted archiving | **91** | Adopt | Actively maintained | MIT |
-| 7 | 34 | [Scoop](projects/OSINT-C1-36.md) | Provenance-attested capture | **91** | Adopt | Actively maintained | MIT |
-| 8 | 42 | [SingleFile](projects/OSINT-C1-38.md) | Single-page capture | **90** | Adopt | Actively maintained | AGPL-3.0 |
-| 9 | 47 | [SearXNG](projects/OSINT-C1-01.md) | Meta-search | **89** | Adopt | Actively maintained | AGPL-3.0 |
-| 10 | 78 | [warcio](projects/OSINT-C1-41.md) | WARC tooling | **86** | Adopt | Actively maintained | Apache-2.0 |
-| 11 | 86 | [Heritrix 3](projects/OSINT-C1-22.md) | Archival web crawling | **85** | Integrate | Actively maintained | Apache-2.0 (GitHub API reports NOASSERTION) |
-| 12 | 110 | [monolith](projects/OSINT-C1-39.md) | Single-page capture | **84** | Adopt | Actively maintained | 0BSD |
-| 13 | 116 | [Browsertrix](projects/OSINT-C1-30.md) | Archiving platform | **83** | Pilot | Actively maintained | AGPL-3.0 |
-| 14 | 128 | [Crawlee](projects/OSINT-C1-17.md) | Structured web scraping | **82** | Integrate | Actively maintained | Apache-2.0 |
-| 15 | 131 | [katana](projects/OSINT-C1-15.md) | Web crawling and URL discovery | **82** | Adopt | Actively maintained | MIT |
-| 16 | 145 | [pywb](projects/OSINT-C1-27.md) | Archive replay | **81** | Adopt | Actively maintained | GPL-3.0 |
-| 17 | 156 | [name-variant-search](projects/OSINT-C1-12.md) | Name variant generation | **80** | Adopt | Stable with low activity | MIT |
-| 18 | 181 | [browsertrix-behaviors](projects/OSINT-C1-34.md) | Capture behaviours | **78** | Integrate | Actively maintained | AGPL-3.0 |
-| 19 | 189 | [Zoekplaatje](projects/OSINT-C1-11.md) | Search-results capture | **77** | Pilot | Actively maintained | MPL-2.0 (GitHub API reports NOASSERTION) |
-| 20 | 205 | [uncover](projects/OSINT-C1-10.md) | Exposed-infrastructure discovery | **75** | Integrate | Actively maintained | MIT |
-| 21 | 216 | [OutbackCDX](projects/OSINT-C1-44.md) | Archive indexing | **75** | Monitor | Actively maintained | Apache-2.0 |
-| 22 | 218 | [HTTrack](projects/OSINT-C1-18.md) | Site mirroring | **75** | Integrate | Actively maintained | GPL-3.0 |
-| 23 | 223 | [Perma](projects/OSINT-C1-37.md) | Citation preservation | **74** | Integrate | Actively maintained | MIT AND GPL-3.0 (dual, per README; GitHub re |
-| 24 | 234 | [wabac.js](projects/OSINT-C1-33.md) | Archive replay component | **74** | Monitor | Actively maintained | AGPL-3.0 |
-| 25 | 237 | [Marginalia Search](projects/OSINT-C1-05.md) | Independent search index | **73** | Adopt | Actively maintained | AGPL-3.0 (per project documentation; GitHub  |
-| 26 | 245 | [py-wacz](projects/OSINT-C1-43.md) | WACZ packaging | **73** | Integrate | Actively maintained | MIT |
-| 27 | 254 | [brozzler](projects/OSINT-C1-23.md) | Archival web crawling | **72** | Monitor | Actively maintained | Apache-2.0 |
-| 28 | 264 | [Hyphe](projects/OSINT-C1-21.md) | Web corpus and network mapping | **70** | Pilot | Maintenance appears to be declining | AGPL-3.0 |
-| 29 | 267 | [Metabigor](projects/OSINT-C1-09.md) | Infrastructure footprinting | **70** | Adopt | Stable with low activity | MIT |
-| 30 | 272 | [WebScrapBook](projects/OSINT-C1-40.md) | Annotated personal archive | **70** | Monitor | Stable with low activity | MPL-2.0 |
-| 31 | 276 | [SiteOne Crawler](projects/OSINT-C1-19.md) | Site inventory and analysis | **69** | Monitor | Stable with low activity | MIT |
-| 32 | 278 | [4get](projects/OSINT-C1-02.md) | Meta-search | **68** | Monitor | Actively maintained | AGPL-3.0-only |
-| 33 | 289 | [YaCy](projects/OSINT-C1-06.md) | Self-hosted search index | **66** | Pilot | Stable with low activity | GPL-2.0-or-later (GitHub API reports NOASSER |
-| 34 | 293 | [warcprox](projects/OSINT-C1-42.md) | Recording proxy | **64** | Integrate | Stable with low activity | GPL-2.0-or-later (declared in packaging meta |
-| 35 | 296 | [Photon](projects/OSINT-C1-20.md) | Web reconnaissance | **64** | Integrate | Stable with low activity | GPL-3.0 |
-| 36 | 304 | [Conifer](projects/OSINT-C1-35.md) | Hosted capture platform | **63** | Monitor | Maintenance appears to be declining | Apache-2.0 |
-| 37 | 308 | [CouncilSearcher](projects/OSINT-C1-14.md) | Local-government records search | **63** | Monitor | Maintenance appears to be declining | MIT |
-| 38 | 309 | [ArchiveBot](projects/OSINT-C1-26.md) | Community rapid archiving | **62** | Integrate | Stable with low activity | MIT |
-| 39 | 317 | [LibreY](projects/OSINT-C1-03.md) | Meta-search | **61** | Monitor | Stable with low activity | AGPL-3.0 |
-| 40 | 321 | [grab-site](projects/OSINT-C1-24.md) | Rapid-response archiving | **60** | Monitor | Dormant | MIT (GitHub API reports NOASSERTION) |
-| 41 | 330 | [OSINT Framework](projects/OSINT-C1-13.md) | Tool directory | **59** | Reference only | Stable with low activity | MIT |
-| 42 | 338 | [wpull](projects/OSINT-C1-25.md) | Archival web crawling | **54** | Avoid for new deployment | Dormant | GPL-3.0 |
-| 43 | 351 | [dorks_hunter](projects/OSINT-C1-08.md) | Search dorking | **43** | Avoid for new deployment | Stable with low activity | NOT CONFIRMED — no licence detected by the G |
-| 44 | 355 | [Whoogle Search](projects/OSINT-C1-04.md) | Meta-search | **39** | Avoid for new deployment | Archived or discontinued | MIT |
-| 45 | 359 | [pagodo](projects/OSINT-C1-07.md) | Search dorking | **36** | Reference only | Archived or discontinued | GPL-3.0 |
+| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence | Open-source status | Software price |
+|--:|--:|---|---|--:|---|---|---|---|---|
+| 1 | 4 | [Scrapy](projects/OSINT-C1-16.md) | Structured web scraping | **95** | Adopt | Actively maintained | BSD-3-Clause | Open source | No software fee |
+| 2 | 6 | [yt-dlp](projects/OSINT-C1-45.md) | Media capture | **95** | Adopt | Actively maintained | Unlicense | Open source | No software fee |
+| 3 | 7 | [browsertrix-crawler](projects/OSINT-C1-29.md) | High-fidelity capture | **94** | Adopt | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 4 | 9 | [ArchiveWeb.page](projects/OSINT-C1-31.md) | Manual browser capture | **94** | Adopt | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 5 | 16 | [ReplayWeb.page](projects/OSINT-C1-32.md) | Archive replay | **94** | Adopt | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 6 | 30 | [ArchiveBox](projects/OSINT-C1-28.md) | Self-hosted archiving | **91** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 7 | 34 | [Scoop](projects/OSINT-C1-36.md) | Provenance-attested capture | **91** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 8 | 42 | [SingleFile](projects/OSINT-C1-38.md) | Single-page capture | **90** | Adopt | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 9 | 47 | [SearXNG](projects/OSINT-C1-01.md) | Meta-search | **89** | Adopt | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 10 | 78 | [warcio](projects/OSINT-C1-41.md) | WARC tooling | **86** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 11 | 86 | [Heritrix 3](projects/OSINT-C1-22.md) | Archival web crawling | **85** | Integrate | Actively maintained | Apache-2.0 (GitHub API reports NOASSERTION) | Open source | No software fee |
+| 12 | 110 | [monolith](projects/OSINT-C1-39.md) | Single-page capture | **84** | Adopt | Actively maintained | 0BSD | Open source | No software fee |
+| 13 | 116 | [Browsertrix](projects/OSINT-C1-30.md) | Archiving platform | **83** | Pilot | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 14 | 128 | [Crawlee](projects/OSINT-C1-17.md) | Structured web scraping | **82** | Integrate | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 15 | 131 | [katana](projects/OSINT-C1-15.md) | Web crawling and URL discovery | **82** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 16 | 145 | [pywb](projects/OSINT-C1-27.md) | Archive replay | **81** | Adopt | Actively maintained | GPL-3.0 | Open source | No software fee |
+| 17 | 156 | [name-variant-search](projects/OSINT-C1-12.md) | Name variant generation | **80** | Adopt | Stable with low activity | MIT | Open source | No software fee |
+| 18 | 181 | [browsertrix-behaviors](projects/OSINT-C1-34.md) | Capture behaviours | **78** | Integrate | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 19 | 189 | [Zoekplaatje](projects/OSINT-C1-11.md) | Search-results capture | **77** | Pilot | Actively maintained | MPL-2.0 (GitHub API reports NOASSERTION) | Open source | No software fee |
+| 20 | 205 | [uncover](projects/OSINT-C1-10.md) | Exposed-infrastructure discovery | **75** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 21 | 216 | [OutbackCDX](projects/OSINT-C1-44.md) | Archive indexing | **75** | Monitor | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 22 | 218 | [HTTrack](projects/OSINT-C1-18.md) | Site mirroring | **75** | Integrate | Actively maintained | GPL-3.0 | Open source | No software fee |
+| 23 | 223 | [Perma](projects/OSINT-C1-37.md) | Citation preservation | **74** | Integrate | Actively maintained | MIT AND GPL-3.0 (dual, per README … | Open source | Unknown / not verified |
+| 24 | 234 | [wabac.js](projects/OSINT-C1-33.md) | Archive replay component | **74** | Monitor | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 25 | 237 | [Marginalia Search](projects/OSINT-C1-05.md) | Independent search index | **73** | Adopt | Actively maintained | AGPL-3.0 (per project documentation; GitHub API reports NOASSERTION) | Open source | No software fee |
+| 26 | 245 | [py-wacz](projects/OSINT-C1-43.md) | WACZ packaging | **73** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 27 | 254 | [brozzler](projects/OSINT-C1-23.md) | Archival web crawling | **72** | Monitor | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 28 | 264 | [Hyphe](projects/OSINT-C1-21.md) | Web corpus and network mapping | **70** | Pilot | Maintenance appears to be declining | AGPL-3.0 | Open source | No software fee |
+| 29 | 267 | [Metabigor](projects/OSINT-C1-09.md) | Infrastructure footprinting | **70** | Adopt | Stable with low activity | MIT | Open source | No software fee |
+| 30 | 272 | [WebScrapBook](projects/OSINT-C1-40.md) | Annotated personal archive | **70** | Monitor | Stable with low activity | MPL-2.0 | Open source | No software fee |
+| 31 | 276 | [SiteOne Crawler](projects/OSINT-C1-19.md) | Site inventory and analysis | **69** | Monitor | Stable with low activity | MIT | Open source | No software fee |
+| 32 | 278 | [4get](projects/OSINT-C1-02.md) | Meta-search | **68** | Monitor | Actively maintained | AGPL-3.0-only | Open source | No software fee |
+| 33 | 289 | [YaCy](projects/OSINT-C1-06.md) | Self-hosted search index | **66** | Pilot | Stable with low activity | GPL-2.0-or-later (GitHub API reports NOASSERTION) | Open source | No software fee |
+| 34 | 293 | [warcprox](projects/OSINT-C1-42.md) | Recording proxy | **64** | Integrate | Stable with low activity | GPL-2.0-or-later (declared in packaging metadata … | Open source | No software fee |
+| 35 | 296 | [Photon](projects/OSINT-C1-20.md) | Web reconnaissance | **64** | Integrate | Stable with low activity | GPL-3.0 | Open source | No software fee |
+| 36 | 304 | [Conifer](projects/OSINT-C1-35.md) | Hosted capture platform | **63** | Monitor | Maintenance appears to be declining | Apache-2.0 | Open source | No software fee |
+| 37 | 308 | [CouncilSearcher](projects/OSINT-C1-14.md) | Local-government records search | **63** | Monitor | Maintenance appears to be declining | MIT | Open source | No software fee |
+| 38 | 309 | [ArchiveBot](projects/OSINT-C1-26.md) | Community rapid archiving | **62** | Integrate | Stable with low activity | MIT | Open source | No software fee |
+| 39 | 317 | [LibreY](projects/OSINT-C1-03.md) | Meta-search | **61** | Monitor | Stable with low activity | AGPL-3.0 | Open source | No software fee |
+| 40 | 321 | [grab-site](projects/OSINT-C1-24.md) | Rapid-response archiving | **60** | Monitor | Dormant | MIT (GitHub API reports NOASSERTION) | Open source | No software fee |
+| 41 | 330 | [OSINT Framework](projects/OSINT-C1-13.md) | Tool directory | **59** | Reference only | Stable with low activity | MIT | Open source | No software fee |
+| 42 | 338 | [wpull](projects/OSINT-C1-25.md) | Archival web crawling | **54** | Avoid for new deployment | Dormant | GPL-3.0 | Open source | No software fee |
+| 43 | 351 | [dorks_hunter](projects/OSINT-C1-08.md) | Search dorking | **43** | Avoid for new deployment | Stable with low activity | NOT CONFIRMED — no licence detected by the GitHub API and no LICENSE … | Unverified | No software fee |
+| 44 | 355 | [Whoogle Search](projects/OSINT-C1-04.md) | Meta-search | **39** | Avoid for new deployment | Archived or discontinued | MIT | Open source | No software fee |
+| 45 | 359 | [pagodo](projects/OSINT-C1-07.md) | Search dorking | **36** | Reference only | Archived or discontinued | GPL-3.0 | Open source | No software fee |
 
 ## C2 · Image/video verification, geolocation, satellite, aviation and maritime
 
 50 projects.
 
-| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence |
-|--:|--:|---|---|--:|---|---|---|
-| 1 | 1 | [ExifTool](projects/OSINT-C2-01.md) | Metadata extraction | **96** | Adopt | Actively maintained | GPL-3.0 |
-| 2 | 11 | [geopandas](projects/OSINT-C2-21.md) | Geospatial analysis (Python) | **94** | Adopt | Actively maintained | BSD-3-Clause |
-| 3 | 15 | [PySceneDetect](projects/OSINT-C2-10.md) | Video shot detection | **94** | Adopt | Actively maintained | BSD-3-Clause |
-| 4 | 29 | [QGIS](projects/OSINT-C2-19.md) | Geospatial analysis (desktop) | **91** | Adopt | Actively maintained | GPL-2.0 |
-| 5 | 35 | [ShadowFinder](projects/OSINT-C2-17.md) | Chronolocation | **91** | Adopt | Actively maintained | MIT |
-| 6 | 56 | [MediaInfo](projects/OSINT-C2-04.md) | Video container analysis | **88** | Adopt | Actively maintained | BSD-2-Clause |
-| 7 | 60 | [osm-search](projects/OSINT-C2-27.md) | Feature-based geolocation | **87** | Adopt | Stable with low activity | MIT |
-| 8 | 72 | [GDAL](projects/OSINT-C2-20.md) | Geospatial data translation | **86** | Adopt | Actively maintained | Aggregate — LICENSE.TXT (read 2026-11-17) co |
-| 9 | 75 | [rasterio](projects/OSINT-C2-22.md) | Raster and satellite imagery analysis | **86** | Adopt | Actively maintained | BSD-3-Clause (LICENSE.txt read 2026-11-17, M |
-| 10 | 77 | [Stellarium](projects/OSINT-C2-37.md) | Night-sky verification | **86** | Adopt | Actively maintained | GPL-2.0 |
-| 11 | 80 | [meteostat](projects/OSINT-C2-40.md) | Historical weather data | **86** | Adopt | Actively maintained | MIT |
-| 12 | 82 | [adsb-history](projects/OSINT-C2-48.md) | Aviation tracking (historical analysis) | **85** | Adopt | Actively maintained | MIT |
-| 13 | 93 | [OSMnx](projects/OSINT-C2-26.md) | Street network analysis | **85** | Adopt | Actively maintained | MIT |
-| 14 | 94 | [Photon (komoot geocoder)](projects/OSINT-C2-29.md) | Geocoding | **85** | Adopt | Actively maintained | Apache-2.0 |
-| 15 | 107 | [Nominatim](projects/OSINT-C2-28.md) | Geocoding | **84** | Integrate | Actively maintained | GPL-3.0 |
-| 16 | 112 | [SunCalc](projects/OSINT-C2-18.md) | Solar position computation | **84** | Integrate | Actively maintained | BSD-2-Clause |
-| 17 | 115 | [Global Fishing Watch API client](projects/OSINT-C2-50.md) | Maritime behaviour analysis | **83** | Adopt | Actively maintained | Apache-2.0 (client library) |
-| 18 | 119 | [PySTAC](projects/OSINT-C2-44.md) | Satellite imagery catalogues | **83** | Adopt | Actively maintained | Apache-2.0 (licence blob read 2026-11-17; Gi |
-| 19 | 136 | [c2pa-rs / c2patool](projects/OSINT-C2-13.md) | Content provenance | **81** | Pilot | Actively maintained | Apache-2.0 OR MIT (dual; GitHub reports NOAS |
-| 20 | 137 | [dump1090 (FlightAware fork)](projects/OSINT-C2-47.md) | Aviation tracking (ADS-B receiver) | **81** | Adopt | Actively maintained | GPL-2.0-or-later (licence blob read 2026-11- |
-| 21 | 148 | [streetlevel](projects/OSINT-C2-32.md) | Street-level imagery | **80** | Integrate | Actively maintained | MIT |
-| 22 | 153 | [Sherloq](projects/OSINT-C2-12.md) | Image forensics workbench | **80** | Adopt | Stable with low activity | GPL-3.0 |
-| 23 | 154 | [Skyfield](projects/OSINT-C2-38.md) | Astronomical computation | **80** | Integrate | Stable with low activity | MIT |
-| 24 | 159 | [wetterdienst](projects/OSINT-C2-42.md) | Weather data access | **80** | Integrate | Actively maintained | MIT |
-| 25 | 167 | [GeoCLIP](projects/OSINT-C2-16.md) | Image geolocation (model) | **79** | Adopt | Actively maintained | MIT |
-| 26 | 171 | [Atlos](projects/OSINT-C2-36.md) | Collaborative visual verification | **78** | Pilot | Maintenance appears to be declining | GPL-3.0 |
-| 27 | 177 | [ThreatExchange (PDQ / TMK+PDQF / vPDQ and HMA)](projects/OSINT-C2-06.md) | Perceptual hashing at scale | **78** | Integrate | Actively maintained | BSD-3-Clause (repository LICENSE; README not |
-| 28 | 179 | [ImageHash](projects/OSINT-C2-05.md) | Perceptual hashing | **78** | Adopt | Stable with low activity | BSD-2-Clause |
-| 29 | 183 | [OpenDroneMap (ODM)](projects/OSINT-C2-46.md) | Photogrammetry | **78** | Pilot | Actively maintained | AGPL-3.0 |
-| 30 | 210 | [python-overpy](projects/OSINT-C2-25.md) | OpenStreetMap querying | **75** | Integrate | Stable with low activity | MIT |
-| 31 | 215 | [Open-Meteo](projects/OSINT-C2-41.md) | Weather API (self-hostable) | **75** | Integrate | Actively maintained | AGPL-3.0 |
-| 32 | 235 | [Overpass API](projects/OSINT-C2-23.md) | OpenStreetMap querying | **73** | Integrate | Maintenance appears to be declining | AGPL-3.0 |
-| 33 | 250 | [PyExifTool](projects/OSINT-C2-02.md) | Metadata extraction | **72** | Integrate | Dormant | GPL-3.0-or-later OR BSD (dual-licensed; user |
-| 34 | 251 | [rtl-ais](projects/OSINT-C2-49.md) | Maritime tracking (AIS receiver) | **72** | Pilot | Stable with low activity | GPL (from source headers: derived from rtl_f |
-| 35 | 258 | [suncalc-py](projects/OSINT-C2-39.md) | Solar position computation | **72** | Integrate | Stable with low activity | MIT |
-| 36 | 260 | [overpass-turbo](projects/OSINT-C2-24.md) | OpenStreetMap querying | **71** | Integrate | Stable with low activity | MIT (licence blob read 2026-11-17, which not |
-| 37 | 263 | [Exiv2](projects/OSINT-C2-03.md) | Metadata extraction | **71** | Monitor | Actively maintained | GPL-2.0-or-later (GitHub reports NOASSERTION |
-| 38 | 265 | [sentinelhub-py](projects/OSINT-C2-43.md) | Satellite imagery access | **70** | Pilot | Actively maintained | MIT (library) |
-| 39 | 268 | [Pelias](projects/OSINT-C2-30.md) | Geocoding | **70** | Monitor | Stable with low activity | MIT |
-| 40 | 284 | [Hierarchical-Localization (hloc)](projects/OSINT-C2-35.md) | Visual localisation pipeline | **67** | Pilot | Stable with low activity | Apache-2.0 (framework) |
-| 41 | 286 | [LoFTR](projects/OSINT-C2-34.md) | Image feature matching | **66** | Pilot | Dormant | Apache-2.0 |
-| 42 | 287 | [imagededup](projects/OSINT-C2-07.md) | Image deduplication | **66** | Integrate | Maintenance appears to be declining | Apache-2.0 |
-| 43 | 288 | [pHash](projects/OSINT-C2-08.md) | Perceptual hashing (audio/video) | **66** | Monitor | Stable with low activity | GPL-3.0 |
-| 44 | 294 | [Katna](projects/OSINT-C2-11.md) | Video keyframe selection | **64** | Monitor | Dormant | MIT |
-| 45 | 312 | [mapillary_tools](projects/OSINT-C2-31.md) | Street-level imagery | **62** | Monitor | Actively maintained | BSD-2-Clause |
-| 46 | 319 | [Microsoft Planetary Computer](projects/OSINT-C2-45.md) | Satellite imagery platform | **60** | Pilot | Uncertain | MIT on the public repository (documentation  |
-| 47 | 323 | [VFRAME](projects/OSINT-C2-14.md) | Conflict-footage triage | **60** | Reference only | Dormant | MIT |
-| 48 | 329 | [Bellingcat smart-image-sorter](projects/OSINT-C2-15.md) | Image triage | **59** | Monitor | Dormant | Apache-2.0 |
-| 49 | 339 | [blockhash-python](projects/OSINT-C2-09.md) | Perceptual hashing | **54** | Reference only | Dormant | MIT |
-| 50 | 340 | [SuperGlue (pretrained network)](projects/OSINT-C2-33.md) | Image feature matching | **53** | Avoid for new deployment | Dormant | NOT OSS — Magic Leap 'SOFTWARE LICENSE AGREE |
+| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence | Open-source status | Software price |
+|--:|--:|---|---|--:|---|---|---|---|---|
+| 1 | 1 | [ExifTool](projects/OSINT-C2-01.md) | Metadata extraction | **96** | Adopt | Actively maintained | GPL-3.0 | Open source | No software fee |
+| 2 | 11 | [geopandas](projects/OSINT-C2-21.md) | Geospatial analysis (Python) | **94** | Adopt | Actively maintained | BSD-3-Clause | Open source | No software fee |
+| 3 | 15 | [PySceneDetect](projects/OSINT-C2-10.md) | Video shot detection | **94** | Adopt | Actively maintained | BSD-3-Clause | Open source | No software fee |
+| 4 | 29 | [QGIS](projects/OSINT-C2-19.md) | Geospatial analysis (desktop) | **91** | Adopt | Actively maintained | GPL-2.0 | Open source | No software fee |
+| 5 | 35 | [ShadowFinder](projects/OSINT-C2-17.md) | Chronolocation | **91** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 6 | 56 | [MediaInfo](projects/OSINT-C2-04.md) | Video container analysis | **88** | Adopt | Actively maintained | BSD-2-Clause | Open source | No software fee |
+| 7 | 60 | [osm-search](projects/OSINT-C2-27.md) | Feature-based geolocation | **87** | Adopt | Stable with low activity | MIT | Open source | No software fee |
+| 8 | 72 | [GDAL](projects/OSINT-C2-20.md) | Geospatial data translation | **86** | Adopt | Actively maintained | Aggregate — LICENSE.TXT collects the licences applying across the tree: … | Open source | No software fee |
+| 9 | 75 | [rasterio](projects/OSINT-C2-22.md) | Raster and satellite imagery analysis | **86** | Adopt | Actively maintained | BSD-3-Clause (LICENSE.txt read 2026-11-17, Mapbox copyright … | Open source | No software fee |
+| 10 | 77 | [Stellarium](projects/OSINT-C2-37.md) | Night-sky verification | **86** | Adopt | Actively maintained | GPL-2.0 | Open source | No software fee |
+| 11 | 80 | [meteostat](projects/OSINT-C2-40.md) | Historical weather data | **86** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 12 | 82 | [adsb-history](projects/OSINT-C2-48.md) | Aviation tracking (historical analysis) | **85** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 13 | 93 | [OSMnx](projects/OSINT-C2-26.md) | Street network analysis | **85** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 14 | 94 | [Photon (komoot geocoder)](projects/OSINT-C2-29.md) | Geocoding | **85** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 15 | 107 | [Nominatim](projects/OSINT-C2-28.md) | Geocoding | **84** | Integrate | Actively maintained | GPL-3.0 | Open source | No software fee |
+| 16 | 112 | [SunCalc](projects/OSINT-C2-18.md) | Solar position computation | **84** | Integrate | Actively maintained | BSD-2-Clause | Open source | No software fee |
+| 17 | 115 | [Global Fishing Watch API client](projects/OSINT-C2-50.md) | Maritime behaviour analysis | **83** | Adopt | Actively maintained | Apache-2.0 (client library) | Open source | No software fee |
+| 18 | 119 | [PySTAC](projects/OSINT-C2-44.md) | Satellite imagery catalogues | **83** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 19 | 136 | [c2pa-rs / c2patool](projects/OSINT-C2-13.md) | Content provenance | **81** | Pilot | Actively maintained | Apache-2.0 OR MIT (dual; GitHub reports NOASSERTION) | Open source | No software fee |
+| 20 | 137 | [dump1090 (FlightAware fork)](projects/OSINT-C2-47.md) | Aviation tracking (ADS-B receiver) | **81** | Adopt | Actively maintained | GPL-2.0-or-later | Open source | No software fee |
+| 21 | 148 | [streetlevel](projects/OSINT-C2-32.md) | Street-level imagery | **80** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 22 | 153 | [Sherloq](projects/OSINT-C2-12.md) | Image forensics workbench | **80** | Adopt | Stable with low activity | GPL-3.0 | Open source | No software fee |
+| 23 | 154 | [Skyfield](projects/OSINT-C2-38.md) | Astronomical computation | **80** | Integrate | Stable with low activity | MIT | Open source | No software fee |
+| 24 | 159 | [wetterdienst](projects/OSINT-C2-42.md) | Weather data access | **80** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 25 | 167 | [GeoCLIP](projects/OSINT-C2-16.md) | Image geolocation (model) | **79** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 26 | 171 | [Atlos](projects/OSINT-C2-36.md) | Collaborative visual verification | **78** | Pilot | Maintenance appears to be declining | GPL-3.0 | Open source | No software fee |
+| 27 | 177 | [ThreatExchange (PDQ / TMK+PDQF / vPDQ and HMA)](projects/OSINT-C2-06.md) | Perceptual hashing at scale | **78** | Integrate | Actively maintained | BSD-3-Clause (repository LICENSE … | Open source | No software fee |
+| 28 | 179 | [ImageHash](projects/OSINT-C2-05.md) | Perceptual hashing | **78** | Adopt | Stable with low activity | BSD-2-Clause | Open source | No software fee |
+| 29 | 183 | [OpenDroneMap (ODM)](projects/OSINT-C2-46.md) | Photogrammetry | **78** | Pilot | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 30 | 210 | [python-overpy](projects/OSINT-C2-25.md) | OpenStreetMap querying | **75** | Integrate | Stable with low activity | MIT | Open source | No software fee |
+| 31 | 215 | [Open-Meteo](projects/OSINT-C2-41.md) | Weather API (self-hostable) | **75** | Integrate | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 32 | 235 | [Overpass API](projects/OSINT-C2-23.md) | OpenStreetMap querying | **73** | Integrate | Maintenance appears to be declining | AGPL-3.0 | Open source | No software fee |
+| 33 | 250 | [PyExifTool](projects/OSINT-C2-02.md) | Metadata extraction | **72** | Integrate | Dormant | GPL-3.0-or-later OR BSD (dual-licensed … | Open source | No software fee |
+| 34 | 251 | [rtl-ais](projects/OSINT-C2-49.md) | Maritime tracking (AIS receiver) | **72** | Pilot | Stable with low activity | GPL | Open source | No software fee |
+| 35 | 258 | [suncalc-py](projects/OSINT-C2-39.md) | Solar position computation | **72** | Integrate | Stable with low activity | MIT | Open source | No software fee |
+| 36 | 260 | [overpass-turbo](projects/OSINT-C2-24.md) | OpenStreetMap querying | **71** | Integrate | Stable with low activity | MIT | Open source | No software fee |
+| 37 | 263 | [Exiv2](projects/OSINT-C2-03.md) | Metadata extraction | **71** | Monitor | Actively maintained | GPL-2.0-or-later | Open source | No software fee |
+| 38 | 265 | [sentinelhub-py](projects/OSINT-C2-43.md) | Satellite imagery access | **70** | Pilot | Actively maintained | MIT (library) | Open source | No software fee |
+| 39 | 268 | [Pelias](projects/OSINT-C2-30.md) | Geocoding | **70** | Monitor | Stable with low activity | MIT | Open source | No software fee |
+| 40 | 284 | [Hierarchical-Localization (hloc)](projects/OSINT-C2-35.md) | Visual localisation pipeline | **67** | Pilot | Stable with low activity | Apache-2.0 (framework) | Mixed | No software fee |
+| 41 | 286 | [LoFTR](projects/OSINT-C2-34.md) | Image feature matching | **66** | Pilot | Dormant | Apache-2.0 | Open source | No software fee |
+| 42 | 287 | [imagededup](projects/OSINT-C2-07.md) | Image deduplication | **66** | Integrate | Maintenance appears to be declining | Apache-2.0 | Open source | No software fee |
+| 43 | 288 | [pHash](projects/OSINT-C2-08.md) | Perceptual hashing (audio/video) | **66** | Monitor | Stable with low activity | GPL-3.0 | Open source | No software fee |
+| 44 | 294 | [Katna](projects/OSINT-C2-11.md) | Video keyframe selection | **64** | Monitor | Dormant | MIT | Open source | No software fee |
+| 45 | 312 | [mapillary_tools](projects/OSINT-C2-31.md) | Street-level imagery | **62** | Monitor | Actively maintained | BSD-2-Clause | Open source | No software fee |
+| 46 | 319 | [Microsoft Planetary Computer](projects/OSINT-C2-45.md) | Satellite imagery platform | **60** | Pilot | Uncertain | MIT on the public repository (documentation and tracker) … | Proprietary | Unknown / not verified |
+| 47 | 323 | [VFRAME](projects/OSINT-C2-14.md) | Conflict-footage triage | **60** | Reference only | Dormant | MIT | Open source | No software fee |
+| 48 | 329 | [Bellingcat smart-image-sorter](projects/OSINT-C2-15.md) | Image triage | **59** | Monitor | Dormant | Apache-2.0 | Open source | No software fee |
+| 49 | 339 | [blockhash-python](projects/OSINT-C2-09.md) | Perceptual hashing | **54** | Reference only | Dormant | MIT | Open source | No software fee |
+| 50 | 340 | [SuperGlue (pretrained network)](projects/OSINT-C2-33.md) | Image feature matching | **53** | Avoid for new deployment | Dormant | NOT OSS — Magic Leap 'SOFTWARE LICENSE AGREEMENT: ACADEMIC OR … | Source available | No software fee |
 
 ## C3 · Public records, corporate ownership, finance, infrastructure, link analysis, collaboration
 
 42 projects.
 
-| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence |
-|--:|--:|---|---|--:|---|---|---|
-| 1 | 8 | [OpenSanctions (dataset)](projects/OSINT-C3-01.md) | Sanctions and PEP data | **94** | Adopt | Actively maintained | MIT (code) |
-| 2 | 17 | [Uwazi](projects/OSINT-C3-05.md) | Document collection platform | **94** | Adopt | Actively maintained | MIT |
-| 3 | 48 | [Tella](projects/OSINT-C3-06.md) | Secure field documentation | **89** | Adopt | Actively maintained | GPL-3.0 (project licensing — confirm from th |
-| 4 | 57 | [NetworkX](projects/OSINT-C3-31.md) | Link analysis | **88** | Adopt | Actively maintained | BSD-3-Clause |
-| 5 | 97 | [Quarto](projects/OSINT-C3-39.md) | Reproducible publishing | **85** | Adopt | Actively maintained | MIT |
-| 6 | 104 | [CourtListener](projects/OSINT-C3-11.md) | Court records | **84** | Adopt | Actively maintained | AGPL-3.0 (verified in session 1 by reading t |
-| 7 | 120 | [Querido Diário](projects/OSINT-C3-14.md) | Official gazette records | **83** | Integrate | Actively maintained | MIT (project licensing — confirm from the re |
-| 8 | 125 | [subfinder](projects/OSINT-C3-23.md) | Internet infrastructure mapping | **83** | Adopt | Actively maintained | MIT |
-| 9 | 130 | [edgartools](projects/OSINT-C3-17.md) | Corporate filings | **82** | Adopt | Actively maintained | MIT (project licensing — confirm from the re |
-| 10 | 142 | [Neo4j Community Edition](projects/OSINT-C3-35.md) | Graph database | **81** | Integrate | Actively maintained | GPL-3.0 (Community Edition); Enterprise and  |
-| 11 | 146 | [Timesketch](projects/OSINT-C3-37.md) | Collaborative timeline analysis | **81** | Pilot | Actively maintained | Apache-2.0 |
-| 12 | 149 | [Gephi](projects/OSINT-C3-33.md) | Network visualisation | **80** | Adopt | Stable with low activity | GPL-3.0 and CDDL dual licensing (project lic |
-| 13 | 162 | [httpx](projects/OSINT-C3-24.md) | Internet infrastructure probing | **79** | Adopt | Actively maintained | MIT |
-| 14 | 184 | [Aleph (alephdata, original)](projects/OSINT-C3-02.md) | Investigative data platform | **77** | Reference only | Maintenance appears to be declining | MIT |
-| 15 | 192 | [openstates-scrapers](projects/OSINT-C3-13.md) | Legislative records | **77** | Integrate | Actively maintained | MIT (project licensing — confirm from the re |
-| 16 | 203 | [OWASP Amass](projects/OSINT-C3-22.md) | Internet infrastructure mapping | **75** | Adopt | Actively maintained | Apache-2.0 (project licensing — confirm from |
-| 17 | 206 | [Ushahidi Platform](projects/OSINT-C3-07.md) | Crowdsourced incident mapping | **75** | Pilot | Stable with low activity | AGPL-3.0 (project licensing — confirm from t |
-| 18 | 208 | [dnstwist](projects/OSINT-C3-25.md) | Domain analysis | **75** | Adopt | Stable with low activity | Apache-2.0 (project licensing — confirm from |
-| 19 | 212 | [sugartrail](projects/OSINT-C3-19.md) | Corporate network analysis | **75** | Adopt | Stable with low activity | MIT (project licensing — confirm from the re |
-| 20 | 214 | [igraph](projects/OSINT-C3-32.md) | Link analysis | **75** | Adopt | Actively maintained | GPL-2.0 (project licensing — confirm from th |
-| 21 | 222 | [MuckRock](projects/OSINT-C3-15.md) | Freedom of information | **74** | Integrate | Actively maintained | AGPL-3.0 (project licensing — confirm from t |
-| 22 | 224 | [ICIJ Prophecies](projects/OSINT-C3-08.md) | Collaborative data verification | **74** | Pilot | Stable with low activity | AGPL-3.0 (project licensing — confirm from t |
-| 23 | 227 | [OpenTimestamps](projects/OSINT-C3-41.md) | Evidence timestamping | **74** | Integrate | Stable with low activity | LGPL-3.0 (project licensing — confirm from t |
-| 24 | 229 | [DVC (Data Version Control)](projects/OSINT-C3-38.md) | Data versioning and provenance | **74** | Monitor | Actively maintained | Apache-2.0 |
-| 25 | 243 | [Juriscraper](projects/OSINT-C3-12.md) | Court records scraping | **73** | Integrate | Actively maintained | BSD-2-Clause (project licensing — confirm fr |
-| 26 | 247 | [asn (nitefood)](projects/OSINT-C3-27.md) | Network attribution | **72** | Integrate | Stable with low activity | MIT (project licensing — confirm from the re |
-| 27 | 252 | [Arelle](projects/OSINT-C3-18.md) | Financial data processing | **72** | Monitor | Stable with low activity | Apache-2.0 (project licensing — confirm from |
-| 28 | 255 | [Frictionless Data (frictionless-py)](projects/OSINT-C3-40.md) | Data packaging and validation | **72** | Integrate | Stable with low activity | MIT (project licensing — confirm from the re |
-| 29 | 266 | [bellingcat/EDGAR](projects/OSINT-C3-16.md) | Corporate filings | **70** | Monitor | Maintenance appears to be declining | GPL-3.0 |
-| 30 | 270 | [sigma.js](projects/OSINT-C3-34.md) | Network visualisation (web) | **70** | Integrate | Actively maintained | MIT |
-| 31 | 271 | [unitedstates/congress](projects/OSINT-C3-42.md) | Legislative records | **70** | Integrate | Stable with low activity | Public domain / CC0 (unitedstates project co |
-| 32 | 274 | [ethereum-etl](projects/OSINT-C3-20.md) | Blockchain analysis | **69** | Monitor | Stable with low activity | MIT (project licensing — confirm from the re |
-| 33 | 292 | [GraphSense](projects/OSINT-C3-21.md) | Blockchain analysis | **64** | Monitor | Uncertain | MIT (project licensing — confirm from the re |
-| 34 | 295 | [Overview](projects/OSINT-C3-04.md) | Document analysis platform | **64** | Reference only | Maintenance appears to be declining | AGPL-3.0 (verified in session 1 by reading t |
-| 35 | 297 | [SSLyze](projects/OSINT-C3-26.md) | TLS analysis | **64** | Integrate | Stable with low activity | AGPL-3.0 (project licensing — confirm from t |
-| 36 | 301 | [SpiderFoot](projects/OSINT-C3-29.md) | OSINT automation | **63** | Monitor | Stable with low activity | MIT (project licensing — confirm from the re |
-| 37 | 305 | [Hoover](projects/OSINT-C3-03.md) | Document search platform | **63** | Monitor | Uncertain | MIT (project licensing — confirm from the re |
-| 38 | 306 | [HURIDOCS preserve](projects/OSINT-C3-10.md) | Evidence preservation | **63** | Monitor | Uncertain | MIT (project licensing — confirm from the re |
-| 39 | 307 | [juditha](projects/OSINT-C3-09.md) | Entity lookup service | **63** | Monitor | Uncertain | MIT (project licensing — confirm from the re |
-| 40 | 316 | [theHarvester](projects/OSINT-C3-28.md) | Public-source footprinting | **61** | Integrate | Stable with low activity | GPL-2.0 (project licensing — confirm from th |
-| 41 | 325 | [Maltego](projects/OSINT-C3-36.md) | Link analysis platform | **59** | Reference only | Actively maintained | Proprietary commercial licence; Community Ed |
-| 42 | 328 | [recon-ng](projects/OSINT-C3-30.md) | OSINT automation | **59** | Monitor | Maintenance appears to be declining | GPL-3.0 (project licensing — confirm from th |
+| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence | Open-source status | Software price |
+|--:|--:|---|---|--:|---|---|---|---|---|
+| 1 | 8 | [OpenSanctions (dataset)](projects/OSINT-C3-01.md) | Sanctions and PEP data | **94** | Adopt | Actively maintained | MIT (code) | Source available | No software fee |
+| 2 | 17 | [Uwazi](projects/OSINT-C3-05.md) | Document collection platform | **94** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 3 | 48 | [Tella](projects/OSINT-C3-06.md) | Secure field documentation | **89** | Adopt | Actively maintained | GPL-3.0 | Open source | No software fee |
+| 4 | 57 | [NetworkX](projects/OSINT-C3-31.md) | Link analysis | **88** | Adopt | Actively maintained | BSD-3-Clause | Open source | No software fee |
+| 5 | 97 | [Quarto](projects/OSINT-C3-39.md) | Reproducible publishing | **85** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 6 | 104 | [CourtListener](projects/OSINT-C3-11.md) | Court records | **84** | Adopt | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 7 | 120 | [Querido Diário](projects/OSINT-C3-14.md) | Official gazette records | **83** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 8 | 125 | [subfinder](projects/OSINT-C3-23.md) | Internet infrastructure mapping | **83** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 9 | 130 | [edgartools](projects/OSINT-C3-17.md) | Corporate filings | **82** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 10 | 142 | [Neo4j Community Edition](projects/OSINT-C3-35.md) | Graph database | **81** | Integrate | Actively maintained | GPL-3.0 (Community Edition) … | Open source | No software fee |
+| 11 | 146 | [Timesketch](projects/OSINT-C3-37.md) | Collaborative timeline analysis | **81** | Pilot | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 12 | 149 | [Gephi](projects/OSINT-C3-33.md) | Network visualisation | **80** | Adopt | Stable with low activity | GPL-3.0 and CDDL dual licensing | Open source | No software fee |
+| 13 | 162 | [httpx](projects/OSINT-C3-24.md) | Internet infrastructure probing | **79** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 14 | 184 | [Aleph (alephdata, original)](projects/OSINT-C3-02.md) | Investigative data platform | **77** | Reference only | Maintenance appears to be declining | MIT | Open source | No software fee |
+| 15 | 192 | [openstates-scrapers](projects/OSINT-C3-13.md) | Legislative records | **77** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 16 | 203 | [OWASP Amass](projects/OSINT-C3-22.md) | Internet infrastructure mapping | **75** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 17 | 206 | [Ushahidi Platform](projects/OSINT-C3-07.md) | Crowdsourced incident mapping | **75** | Pilot | Stable with low activity | AGPL-3.0 | Open source | No software fee |
+| 18 | 208 | [dnstwist](projects/OSINT-C3-25.md) | Domain analysis | **75** | Adopt | Stable with low activity | Apache-2.0 | Open source | No software fee |
+| 19 | 212 | [sugartrail](projects/OSINT-C3-19.md) | Corporate network analysis | **75** | Adopt | Stable with low activity | MIT | Open source | No software fee |
+| 20 | 214 | [igraph](projects/OSINT-C3-32.md) | Link analysis | **75** | Adopt | Actively maintained | GPL-2.0 | Open source | No software fee |
+| 21 | 222 | [MuckRock](projects/OSINT-C3-15.md) | Freedom of information | **74** | Integrate | Actively maintained | AGPL-3.0 | Open source | Unknown / not verified |
+| 22 | 224 | [ICIJ Prophecies](projects/OSINT-C3-08.md) | Collaborative data verification | **74** | Pilot | Stable with low activity | AGPL-3.0 | Open source | No software fee |
+| 23 | 227 | [OpenTimestamps](projects/OSINT-C3-41.md) | Evidence timestamping | **74** | Integrate | Stable with low activity | LGPL-3.0 | Open source | No software fee |
+| 24 | 229 | [DVC (Data Version Control)](projects/OSINT-C3-38.md) | Data versioning and provenance | **74** | Monitor | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 25 | 243 | [Juriscraper](projects/OSINT-C3-12.md) | Court records scraping | **73** | Integrate | Actively maintained | BSD-2-Clause | Open source | No software fee |
+| 26 | 247 | [asn (nitefood)](projects/OSINT-C3-27.md) | Network attribution | **72** | Integrate | Stable with low activity | MIT | Open source | No software fee |
+| 27 | 252 | [Arelle](projects/OSINT-C3-18.md) | Financial data processing | **72** | Monitor | Stable with low activity | Apache-2.0 | Open source | No software fee |
+| 28 | 255 | [Frictionless Data (frictionless-py)](projects/OSINT-C3-40.md) | Data packaging and validation | **72** | Integrate | Stable with low activity | MIT | Open source | No software fee |
+| 29 | 266 | [bellingcat/EDGAR](projects/OSINT-C3-16.md) | Corporate filings | **70** | Monitor | Maintenance appears to be declining | GPL-3.0 | Open source | No software fee |
+| 30 | 270 | [sigma.js](projects/OSINT-C3-34.md) | Network visualisation (web) | **70** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 31 | 271 | [unitedstates/congress](projects/OSINT-C3-42.md) | Legislative records | **70** | Integrate | Stable with low activity | Public domain / CC0 (unitedstates project convention — confirm from the … | Open source | No software fee |
+| 32 | 274 | [ethereum-etl](projects/OSINT-C3-20.md) | Blockchain analysis | **69** | Monitor | Stable with low activity | MIT | Open source | No software fee |
+| 33 | 292 | [GraphSense](projects/OSINT-C3-21.md) | Blockchain analysis | **64** | Monitor | Uncertain | MIT | Open source | No software fee |
+| 34 | 295 | [Overview](projects/OSINT-C3-04.md) | Document analysis platform | **64** | Reference only | Maintenance appears to be declining | AGPL-3.0 | Open source | No software fee |
+| 35 | 297 | [SSLyze](projects/OSINT-C3-26.md) | TLS analysis | **64** | Integrate | Stable with low activity | AGPL-3.0 | Open source | No software fee |
+| 36 | 301 | [SpiderFoot](projects/OSINT-C3-29.md) | OSINT automation | **63** | Monitor | Stable with low activity | MIT | Open source | No software fee |
+| 37 | 305 | [Hoover](projects/OSINT-C3-03.md) | Document search platform | **63** | Monitor | Uncertain | MIT | Open source | No software fee |
+| 38 | 306 | [HURIDOCS preserve](projects/OSINT-C3-10.md) | Evidence preservation | **63** | Monitor | Uncertain | MIT | Open source | No software fee |
+| 39 | 307 | [juditha](projects/OSINT-C3-09.md) | Entity lookup service | **63** | Monitor | Uncertain | MIT | Mixed | No software fee |
+| 40 | 316 | [theHarvester](projects/OSINT-C3-28.md) | Public-source footprinting | **61** | Integrate | Stable with low activity | GPL-2.0 | Open source | No software fee |
+| 41 | 325 | [Maltego](projects/OSINT-C3-36.md) | Link analysis platform | **59** | Reference only | Actively maintained | Proprietary commercial licence … | Proprietary | Free tier |
+| 42 | 328 | [recon-ng](projects/OSINT-C3-30.md) | OSINT automation | **59** | Monitor | Maintenance appears to be declining | GPL-3.0 | Open source | No software fee |
 
 ## Distribution in this pillar
 

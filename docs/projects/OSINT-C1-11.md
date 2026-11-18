@@ -14,11 +14,39 @@
 | **Maintainer** | Digital Methods Initiative (University of Amsterdam) |
 | **Maintenance** | Actively maintained |
 | **Licence** | MPL-2.0 (GitHub API reports NOASSERTION) |
+| **Licence type** | Weak copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/digitalmethodsinitiative/zoekplaatje) · [Documentation](https://github.com/digitalmethodsinitiative/zoekplaatje#readme) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 77/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Weak copyleft |
+| **Exact licence (as recorded)** | MPL-2.0 (GitHub API reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. Captured SERP content belongs to the engines and publishers. |
+| **Restrictions** | MPL-2.0 file-level copyleft on modifications. Capturing SERPs may engage engine terms of service — a separate question from the licence, and worth considering before a large collection campaign. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. No infrastructure. Cost is analyst time performing searches.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/digitalmethodsinitiative/zoekplaatje
 
 ---
 

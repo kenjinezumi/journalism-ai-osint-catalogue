@@ -15,6 +15,7 @@
 "blockers":["Queries disclose your investigation targets to commercial scan vendors; several required APIs are paid"],
 "evidence_urls":["https://github.com/projectdiscovery/uncover","https://github.com/projectdiscovery/uncover/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Unified CLI that queries multiple internet-scan databases (Shodan, Censys, FOFA, Hunter, ZoomEye…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["mandatory-paid", "infrastructure"],"additional_costs_note":"mandatory paid scan-database API keys for useful coverage (Shodan, Censys, FOFA, Hunter, ZoomEye — prices not verified); negligible compute",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":2,"usability":4,"licence_cost":3}},
 
 {"id":"OSINT-C1-11","name":"Zoekplaatje","maintainer":"Digital Methods Initiative (University of Amsterdam)","pillar":"OSINT","segment":"C1","subcategory":"Search-results capture","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/digitalmethodsinitiative/zoekplaatje","docs_url":"https://github.com/digitalmethodsinitiative/zoekplaatje#readme",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/digitalmethodsinitiative/zoekplaatje"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Firefox extension that records the search-engine results pages a user visits — result order, snippets, ads, timestamps…","licence_type":"Weak copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":3,"maintenance":4,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C1-12","name":"name-variant-search","maintainer":"Bellingcat","pillar":"OSINT","segment":"C1","subcategory":"Name variant generation","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/bellingcat/name-variant-search","docs_url":"https://bellingcat.github.io/name-variant-search/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/bellingcat/name-variant-search","https://bellingcat.github.io/name-variant-search/","https://github.com/bellingcat/name-variant-search/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Browser-based tool that generates transliteration and spelling variants of a personal name across scripts and conventions…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":5,"usability":5,"licence_cost":5}},
 
 {"id":"OSINT-C1-13","name":"OSINT Framework","maintainer":"lockfale","pillar":"OSINT","segment":"C1","subcategory":"Tool directory","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/lockfale/OSINT-Framework","docs_url":"https://osintframework.com/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/lockfale/OSINT-Framework","https://osintframework.com/","https://github.com/lockfale/OSINT-Framework/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Interactive tree-structured directory of OSINT resources and tools organised by the identifier or artefact you start from…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":2,"maintenance":3,"privacy":2,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C1-14","name":"CouncilSearcher","maintainer":"Bellingcat","pillar":"OSINT","segment":"C1","subcategory":"Local-government records search","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/bellingcat/CouncilSearcher","docs_url":"https://github.com/bellingcat/CouncilSearcher#readme",
@@ -87,6 +91,7 @@
 "blockers":["UK/Ireland only; scraper-dependent with ten months of no maintenance"],
 "evidence_urls":["https://github.com/bellingcat/CouncilSearcher","https://github.com/bellingcat/CouncilSearcher/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Tool that searches across UK and Ireland local-council meeting records and transcripts for keywords or named individuals","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":2,"maintenance":2,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C1-15","name":"katana","maintainer":"ProjectDiscovery","pillar":"OSINT","segment":"C1","subcategory":"Web crawling and URL discovery","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/projectdiscovery/katana","docs_url":"https://github.com/projectdiscovery/katana#readme",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/projectdiscovery/katana","https://github.com/projectdiscovery/katana/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Fast Go web crawler with both standard and headless (Chromium) modes, JavaScript parsing, form filling and configurable scope…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":3,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C1-16","name":"Scrapy","maintainer":"Zyte and the Scrapy community","pillar":"OSINT","segment":"C1","subcategory":"Structured web scraping","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/scrapy/scrapy","docs_url":"https://docs.scrapy.org/",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/scrapy/scrapy","https://docs.scrapy.org/","https://github.com/scrapy/scrapy/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Mature Python framework for building web crawlers that extract structured data, with built-in request scheduling, throttling…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C1-17","name":"Crawlee","maintainer":"Apify","pillar":"OSINT","segment":"C1","subcategory":"Structured web scraping","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/apify/crawlee","docs_url":"https://crawlee.dev/",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/apify/crawlee","https://crawlee.dev/","https://github.com/apify/crawlee/blob/master/LICENSE.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Node.js and Python crawling library with unified HTTP and browser (Playwright/Puppeteer) crawlers, automatic request queueing…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":3,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C1-18","name":"HTTrack","maintainer":"Xavier Roche (xroche)","pillar":"OSINT","segment":"C1","subcategory":"Site mirroring","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/xroche/httrack","docs_url":"https://www.httrack.com/",
@@ -159,5 +167,6 @@
 "blockers":["Not WARC: weak provenance, unsuitable as evidence of record"],
 "evidence_urls":["https://github.com/xroche/httrack","https://www.httrack.com/","https://github.com/xroche/httrack/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Website copier that recursively downloads a site to a local directory tree, rewriting links so the copy is browsable offline","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":5,"usability":5,"licence_cost":4}}
 ]

@@ -14,11 +14,42 @@
 | **Maintainer** | Electronic Frontier Foundation |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-family per EFF's licensing (GitHub reports NOASSERTION — read the repository licence file for records) |
+| **Licence type** | Unresolved |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/EFForg/privacybadger) · [Documentation](https://privacybadger.org/) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 5/5 · privacy 4/5 · usability 5/5 · licence+cost 4/5 → **weighted 81/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Unresolved |
+| **Exact licence (as recorded)** | GPL-family per EFF's licensing (GitHub reports NOASSERTION — read the repository licence file for records) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | Unverified exactly in this survey; immaterial for use as a browser extension. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Free. No infrastructure.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/EFForg/privacybadger
+- https://privacybadger.org/
+
+> **Unresolved:** the licence could not be confirmed from the evidence gathered.
 
 ---
 

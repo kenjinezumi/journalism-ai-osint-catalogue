@@ -14,11 +14,41 @@
 | **Maintainer** | Simon Willison |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/simonw/datasette) · [Documentation](https://docs.datasette.io/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 4/5 · usability 5/5 · licence+cost 5/5 → **weighted 93/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None material; permissive and safe for commercial publishing products. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Self-hosting is trivially cheap (a small VM or container). If you use the publish path to a commercial PaaS you pay that provider's rates — verify at point of use; not priced here. Operating effort is low, which is much of the value.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/simonw/datasette/blob/main/LICENSE
+- https://github.com/simonw/datasette
+- https://docs.datasette.io/
 
 ---
 

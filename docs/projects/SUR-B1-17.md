@@ -14,11 +14,41 @@
 | **Maintainer** | Mike Borsetti (mborsetti) |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT (repository licence file; GitHub API reports NOASSERTION) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/mborsetti/webchanges) · [Documentation](https://webchanges.readthedocs.io/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 4/5 · usability 4/5 · licence+cost 5/5 → **weighted 82/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (repository licence file; GitHub API reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a — the optional AI summary feature uses whichever LLM provider you configure, under that provider's terms. |
+| **Restrictions** | None material. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Small host; optional Playwright/Chromium adds resources. If the AI summary feature is enabled, you incur that provider's token charges (not priced here). Negligible otherwise.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/mborsetti/webchanges/blob/main/LICENSE
+- https://github.com/mborsetti/webchanges
+- https://webchanges.readthedocs.io/
 
 ---
 

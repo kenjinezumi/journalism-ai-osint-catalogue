@@ -14,11 +14,40 @@
 | **Maintainer** | Danny Lin (danny0838) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MPL-2.0 |
+| **Licence type** | Weak copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/danny0838/webscrapbook) · [Documentation](https://github.com/danny0838/webscrapbook/wiki) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 4/5 · licence+cost 4/5 → **weighted 70/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Weak copyleft |
+| **Exact licence (as recorded)** | MPL-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | MPL-2.0 file-level copyleft on modifications; immaterial for ordinary use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free. Optional self-hosted backend is a small service. Negligible.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/danny0838/webscrapbook/blob/master/LICENSE
+- https://github.com/danny0838/webscrapbook
 
 ---
 

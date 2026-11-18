@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/ICIJ/prophecies"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Collaborative data-checking application where a team is served records to verify or correct, with task assignment…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C3-09","name":"juditha","maintainer":"Data and Research Center (DARC)","pillar":"OSINT","segment":"C3","subcategory":"Entity lookup service","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/dataresearchcenter/juditha","docs_url":"https://github.com/dataresearchcenter/juditha#readme",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/dataresearchcenter/juditha"],
 "verification_date":"2026-11-17","confidence":"low","depth":"metadata-verified","provisional":true,
+"summary":"Fast lookup service for canonical entity names, built to check whether a string matches a known entity in a reference dataset…","licence_type":"Mixed (code vs weights/data)","oss_status":"Mixed","oss_detail":"Open-source code, data or models you load carrying their own terms, some non-commercial","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":2,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C3-10","name":"HURIDOCS preserve","maintainer":"HURIDOCS","pillar":"OSINT","segment":"C3","subcategory":"Evidence preservation","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/huridocs/preserve","docs_url":"https://github.com/huridocs/preserve#readme",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/huridocs/preserve"],
 "verification_date":"2026-11-17","confidence":"low","depth":"metadata-verified","provisional":true,
+"summary":"Service that captures and preserves web content referenced in human-rights documentation, producing screenshots…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":2,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C3-11","name":"CourtListener","maintainer":"Free Law Project","pillar":"OSINT","segment":"C3","subcategory":"Court records","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/freelawproject/courtlistener","docs_url":"https://www.courtlistener.com/help/api/",
@@ -69,6 +72,7 @@
 "blockers":["US jurisdiction only; state-court and RECAP coverage is incomplete"],
 "evidence_urls":["https://github.com/freelawproject/courtlistener","https://www.courtlistener.com/help/api/","../sources/recovered/a1disc/notes.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Platform and public database of US federal and state court opinions, dockets and filings, with full-text search…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":5,"privacy":3,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C3-12","name":"Juriscraper","maintainer":"Free Law Project","pillar":"OSINT","segment":"C3","subcategory":"Court records scraping","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/freelawproject/juriscraper","docs_url":"https://github.com/freelawproject/juriscraper#readme",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/freelawproject/juriscraper"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Library of scrapers for US federal and state court websites, retrieving opinions…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C3-13","name":"openstates-scrapers","maintainer":"Open States","pillar":"OSINT","segment":"C3","subcategory":"Legislative records","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/openstates/openstates-scrapers","docs_url":"https://docs.openstates.org/",
@@ -105,6 +110,7 @@
 "blockers":["US only; per-state coverage quality varies"],
 "evidence_urls":["https://github.com/openstates/openstates-scrapers","https://docs.openstates.org/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Collection of scrapers covering US state legislatures, collecting bills, votes, legislators…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C3-14","name":"Querido Diário","maintainer":"Open Knowledge Brasil","pillar":"OSINT","segment":"C3","subcategory":"Official gazette records","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/okfn-brasil/querido-diario","docs_url":"https://queridodiario.ok.org.br/",
@@ -123,5 +129,6 @@
 "blockers":["Brazil-specific coverage; per-municipality coverage is uneven"],
 "evidence_urls":["https://github.com/okfn-brasil/querido-diario","https://queridodiario.ok.org.br/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Collection of scrapers and a platform that gather Brazilian municipal official gazettes…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":4}}
 ]

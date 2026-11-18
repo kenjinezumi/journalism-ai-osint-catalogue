@@ -14,6 +14,9 @@
 | **Maintainer** | Steve Micallef (smicallef) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT (project licensing — confirm from the repository licence file; open edition alongside a commercial product) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/smicallef/spiderfoot) · [Documentation](https://www.spiderfoot.net/documentation/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 3/5 · privacy 2/5 · usability 4/5 · licence+cost 3/5 → **weighted 63/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (project licensing — confirm from the repository licence file; open edition alongside a commercial product) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Third-party data sources have their own terms; several restrict redistribution of results. |
+| **Restrictions** | Permissive as published. Data-source terms are the practical constraint, particularly for breach-data modules whose use and republication raise separate legal and ethical questions. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid API keys for many modules (realistic capability has a recurring cost); self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee for the open edition. Many modules require paid API keys (not priced here), so realistic capability has a recurring cost. SpiderFoot HX is a separate commercial product. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/smicallef/spiderfoot
+- https://www.spiderfoot.net/documentation/
 
 ---
 

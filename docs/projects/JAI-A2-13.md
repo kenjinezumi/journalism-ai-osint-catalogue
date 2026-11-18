@@ -14,6 +14,9 @@
 | **Maintainer** | MuckRock |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **Unknown / not verified** — not established by the records |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/MuckRock/documentcloud) · [Documentation](https://www.documentcloud.org/help/) |
@@ -21,6 +24,35 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 2/5 · usability 4/5 · licence+cost 4/5 → **weighted 74/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a for the platform. Cloud OCR add-ons operate under the respective vendor's terms. |
+| **Restrictions** | AGPL-3.0 network copyleft: if you modify DocumentCloud and offer it to users over a network, you must release your modified source. Material if you intend a customised newsroom deployment. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **Unknown / not verified** — not established by the records |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Hosted DocumentCloud access has historically been free to verified journalists with paid organisational tiers; current prices were NOT verified in this survey — treat as not publicly verified here and check with MuckRock. Cloud OCR add-ons incur the underlying vendor's per-page charges (not priced here). Self-hosting costs are Django app servers, object storage and a search index, plus substantial undocumented-deployment engineering effort.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/MuckRock/documentcloud/blob/master/LICENSE
+- https://github.com/MuckRock/documentcloud
+- https://www.documentcloud.org/help/
+
+> **Unresolved:** the price is not established by these records — this is not a statement that it is free.
 
 ---
 

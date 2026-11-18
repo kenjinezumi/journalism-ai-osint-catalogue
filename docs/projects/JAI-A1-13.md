@@ -14,11 +14,41 @@
 | **Maintainer** | RATOM project (University of North Carolina) |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/libratom/libratom) · [Documentation](https://libratom.github.io/libratom/) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 2/5 · privacy 5/5 · usability 4/5 · licence+cost 5/5 → **weighted 75/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | spaCy models used for entity extraction carry their own per-pipeline terms. |
+| **Restrictions** | None material for the library. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. CPU; disk for extracted content. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/libratom/libratom/blob/master/LICENSE
+- https://github.com/libratom/libratom
+- https://libratom.github.io/libratom/
 
 ---
 

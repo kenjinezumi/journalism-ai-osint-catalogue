@@ -14,11 +14,40 @@
 | **Maintainer** | OpenSanctions |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Mixed |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/opensanctions/nomenklatura) · [Documentation](https://github.com/opensanctions/nomenklatura#readme) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 5/5 · privacy 4/5 · usability 2/5 · licence+cost 5/5 → **weighted 81/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a for the code. Note that OpenSanctions DATA is CC-BY-NC-4.0 and separately licensed — see the OpenSanctions entry. |
+| **Restrictions** | Code unrestricted. The restriction appears if you resolve against OpenSanctions data commercially — that is a data-licence question, not a code one. |
+| **Open-source status** | **Mixed** — Open-source code, restricted data licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Optional Elasticsearch/OpenSearch and Redis for candidate generation at scale; CPU-bound otherwise. The dominant cost is human adjudication time on borderline pairs. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/opensanctions/nomenklatura/blob/main/LICENSE
+- https://github.com/opensanctions/nomenklatura
 
 ---
 

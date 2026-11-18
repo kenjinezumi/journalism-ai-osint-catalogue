@@ -14,6 +14,9 @@
 | **Maintainer** | Lucy Parsons Labs |
 | **Maintenance** | Stable with low activity |
 | **Licence** | GPL-3.0 (project licensing — confirm from the repository licence file) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/lucyparsons/OpenOversight) · [Documentation](https://github.com/lucyparsons/OpenOversight#readme) |
@@ -21,6 +24,31 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 3/5 · usability 3/5 · licence+cost 4/5 → **weighted 62/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 (project licensing — confirm from the repository licence file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | The database contents are compiled from public records and crowdsourced contributions; terms vary by instance and jurisdiction. |
+| **Restrictions** | Copyleft on the application. The substantive constraints are data-protection law and accuracy obligations, which differ by jurisdiction and are far more restrictive than the software licence. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. Self-hosting is a web application plus image storage — modest. The real costs are legal review and the editorial labour of verifying records. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/lucyparsons/OpenOversight
 
 ---
 

@@ -14,6 +14,9 @@
 | **Maintainer** | University of Texas at Arlington (utaresearch) |
 | **Maintenance** | Dormant |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/utaresearch/claimbuster-spotter) · [Documentation](https://idir.uta.edu/claimbuster/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 2/5 · maintenance 1/5 · privacy 4/5 · usability 2/5 · licence+cost 3/5 → **weighted 51/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | NOT verified — trained checkpoints are not clearly licensed in-repo; the hosted ClaimBuster API has its own terms. |
+| **Restrictions** | GPL-3.0 on code limits embedding in proprietary newsroom tooling. Checkpoint licensing is unresolved, so redistribution of trained weights is legally unclear. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. TensorFlow-era dependencies make the install awkward; CPU or modest GPU sufficient. ClaimBuster datasets requested separately.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/utaresearch/claimbuster-spotter/blob/master/LICENSE
+- https://github.com/utaresearch/claimbuster-spotter
+- https://idir.uta.edu/claimbuster/
 
 ---
 

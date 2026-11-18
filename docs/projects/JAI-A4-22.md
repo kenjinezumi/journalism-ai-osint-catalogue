@@ -14,6 +14,9 @@
 | **Maintainer** | GRIP-UNINA (University of Naples Federico II) |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | NOT OSS — custom GRIP-UNINA terms: LICENSE.txt restricts use to informational and non-profit purposes |
+| **Licence type** | Restricted / non-OSI |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/grip-unina/noiseprint) · [Documentation](https://grip-unina.github.io/noiseprint/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 2/5 · capability 3/5 · maintenance 2/5 · privacy 4/5 · usability 1/5 · licence+cost 1/5 → **weighted 46/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Restricted / non-OSI |
+| **Exact licence (as recorded)** | NOT OSS — custom GRIP-UNINA terms: LICENSE.txt restricts use to informational and non-profit purposes |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same custom non-commercial terms. |
+| **Restrictions** | Commercial use not permitted without separate permission; redistribution restricted. Do not assume a commercially published investigation is 'informational' use. |
+| **Open-source status** | **Source available** — Restricted model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee for permitted use. Hidden cost is the environment: a TensorFlow 1.2.1 pin realistically means a dedicated container and hours of engineer time.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/grip-unina/noiseprint
+- https://grip-unina.github.io/noiseprint/
 
 ---
 

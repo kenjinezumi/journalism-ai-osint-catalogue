@@ -14,11 +14,41 @@
 | **Maintainer** | Environmental Data and Governance Initiative (EDGI) |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-3-Clause |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/edgi-govdata-archiving/wayback) · [Documentation](https://wayback.readthedocs.io/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 3/5 · usability 4/5 · licence+cost 5/5 → **weighted 79/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Archived content belongs to the original publishers; Internet Archive access terms apply to retrieval. |
+| **Restrictions** | None material for the client. Republishing archived content raises the original publisher's rights, which is a separate editorial/legal judgement. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Negligible compute. The Internet Archive is a free service; heavy querying should be rate-limited out of courtesy rather than cost.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/edgi-govdata-archiving/wayback/blob/main/LICENSE
+- https://github.com/edgi-govdata-archiving/wayback
+- https://wayback.readthedocs.io/
 
 ---
 

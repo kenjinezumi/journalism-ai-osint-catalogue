@@ -14,6 +14,9 @@
 | **Maintainer** | blockchain-etl |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT (project licensing — confirm from the repository licence file) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/blockchain-etl/ethereum-etl) · [Documentation](https://ethereum-etl.readthedocs.io/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 3/5 · privacy 4/5 · usability 3/5 · licence+cost 4/5 → **weighted 69/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (project licensing — confirm from the repository licence file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Blockchain data is public by design. |
+| **Restrictions** | Permissive as published. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | **Mandatory paid dependency** — mandatory archive-node access — self-run (multi-terabyte storage) or a paid commercial node provider (not priced); warehouse storage |
+| **Cost conditions** | **Mandatory paid dependency**; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. The real costs are node access — running an archive node is multi-terabyte storage, and a commercial node provider charges per request (not priced here) — plus warehouse storage for exports. This is the most infrastructure-heavy item in this segment. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/blockchain-etl/ethereum-etl
+- https://ethereum-etl.readthedocs.io/
 
 ---
 

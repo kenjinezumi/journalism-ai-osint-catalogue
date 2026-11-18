@@ -14,6 +14,9 @@
 | **Maintainer** | Webrecorder |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/webrecorder/browsertrix) · [Documentation](https://docs.browsertrix.com/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 5/5 · maintenance 5/5 · privacy 4/5 · usability 3/5 · licence+cost 3/5 → **weighted 83/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | AGPL-3.0: a modified self-hosted instance offered to users obliges source publication — relevant if you customise it for partner organisations. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure; staff effort |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Self-hosting: no software fee but a Kubernetes cluster plus S3-compatible storage — a four-figure annual infrastructure and ops commitment at minimum, dominated by staff time. Hosted Browsertrix is a paid service whose current prices were NOT verified in this survey — check the vendor before budgeting. Assumptions for self-hosting: small cluster, moderate capture volume.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/webrecorder/browsertrix/blob/main/LICENSE
+- https://github.com/webrecorder/browsertrix
+- https://docs.browsertrix.com/
 
 ---
 

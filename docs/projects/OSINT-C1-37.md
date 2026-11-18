@@ -14,6 +14,9 @@
 | **Maintainer** | Harvard Library Innovation Lab |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT AND GPL-3.0 (dual, per README; GitHub reports no SPDX and there is no LICENSE file) |
+| **Licence type** | Dual-licensed |
+| **Open-source status** | Open source |
+| **Software price** | **Unknown / not verified** — not established by the records |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/harvard-lil/perma) · [Documentation](https://perma.cc/docs) |
@@ -22,6 +25,34 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 2/5 · usability 5/5 · licence+cost 3/5 → **weighted 74/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Dual-licensed |
+| **Exact licence (as recorded)** | MIT AND GPL-3.0 (dual, per README; GitHub reports no SPDX and there is no LICENSE file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. Archived content belongs to the original publishers. |
+| **Restrictions** | Dual-licence position is declared only in the README, which is weak for compliance purposes — confirm with the maintainers before self-hosting or redistributing. The GPL-3.0 element would constrain a proprietary derivative. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **Unknown / not verified** — not established by the records |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Hosted perma.cc uses institutional tiers (library and organisation subscriptions) whose current prices were NOT verified in this survey — check before budgeting. Self-hosting: no software fee but a Django stack plus storage, realistically a multi-VM deployment. Assumptions for self-hosting: moderate capture volume.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/harvard-lil/perma
+- https://perma.cc/docs
+
+> **Unresolved:** the price is not established by these records — this is not a statement that it is free.
 
 ---
 

@@ -14,11 +14,42 @@
 | **Maintainer** | Environmental Data and Governance Initiative (EDGI) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | CC0-1.0 |
+| **Licence type** | Public domain |
+| **Open-source status** | Open source |
+| **Software price** | **Unknown / not verified** — not established by the records |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring) · [Documentation](https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring#readme) |
 
 **Scores** — relevance 3/5 · capability 2/5 · maintenance 3/5 · privacy 5/5 · usability 4/5 · licence+cost 5/5 → **weighted 68/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Public domain |
+| **Exact licence (as recorded)** | CC0-1.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | CC0-1.0 — public domain dedication, so free to copy into internal docs. |
+| **Restrictions** | None whatsoever. |
+| **Open-source status** | **Open source** — Open data licence |
+| **Software price** | **Unknown / not verified** — not established by the records |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** None to read. Note that the commercial services it catalogues have their own pricing, none of which was verified in this survey.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring/blob/main/LICENSE
+- https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring
+
+> **Unresolved:** the price is not established by these records — this is not a statement that it is free.
 
 ---
 

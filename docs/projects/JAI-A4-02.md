@@ -14,11 +14,40 @@
 | **Maintainer** | Meedan |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/meedan/alegre) · [Documentation](https://github.com/meedan/alegre#readme) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 4/5 · usability 2/5 · licence+cost 4/5 → **weighted 63/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Varies — bundles third-party sentence-transformer/BERT checkpoints whose own licences were NOT verified in this survey. |
+| **Restrictions** | Code unrestricted; unresolved uncertainty at the bundled-model layer. Verify the specific checkpoints before commercial redistribution. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Infrastructure: Elasticsearch/OpenSearch plus PostgreSQL plus model-serving containers; GPU helpful for embedding throughput. Optional Google Translate API charges if enabled (not priced here). Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/meedan/alegre/blob/master/LICENSE
+- https://github.com/meedan/alegre
 
 ---
 

@@ -14,6 +14,9 @@
 | **Maintainer** | OpenStreetMap / osm-search |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/osm-search/Nominatim) · [Documentation](https://nominatim.org/release-docs/latest/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 84/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | OpenStreetMap data is ODbL 1.0. |
+| **Restrictions** | GPL-3.0 on the engine. ODbL applies to the data: publishing a geocoded derived database triggers attribution and share-alike obligations. The OSM public instance's usage policy additionally restricts bulk use — a service term, not a licence term. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Self-hosting estimate: a country-sized extract needs roughly tens to low hundreds of GB of disk and a few hours of import on a modest VM; a full planet instance needs terabyte-class storage and substantially more. Assumptions: PostgreSQL/PostGIS backend, regional extract.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/osm-search/Nominatim/blob/master/COPYING
+- https://github.com/osm-search/Nominatim
+- https://nominatim.org/release-docs/latest/
 
 ---
 

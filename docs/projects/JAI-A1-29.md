@@ -14,6 +14,9 @@
 | **Maintainer** | Open Knowledge Foundation Deutschland (okfde) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT (project licensing — confirm from the repository licence file) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/okfde/froide) · [Documentation](https://froide.readthedocs.io/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 2/5 · usability 3/5 · licence+cost 4/5 → **weighted 59/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (project licensing — confirm from the repository licence file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Published request and response content is public; disclosed documents remain subject to the releasing body's terms. |
+| **Restrictions** | Permissive as published; confirm the licence file before redistribution. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. Running an instance: Django host, database, mail infrastructure and moderation staff — the staff cost dominates. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/okfde/froide
+- https://froide.readthedocs.io/
 
 ---
 

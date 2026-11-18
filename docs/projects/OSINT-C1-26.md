@@ -14,6 +14,9 @@
 | **Maintainer** | ArchiveTeam |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ArchiveTeam/ArchiveBot) · [Documentation](https://wiki.archiveteam.org/index.php/ArchiveBot) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 3/5 · privacy 1/5 · usability 3/5 · licence+cost 5/5 → **weighted 62/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Captures enter public Internet Archive collections under their terms. |
+| **Restrictions** | None material for the code. The operational consequence is the point: captures become public. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free. You are using donated community capacity, which carries an etiquette obligation rather than a monetary one.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ArchiveTeam/ArchiveBot/blob/master/LICENSE
+- https://github.com/ArchiveTeam/ArchiveBot
+- https://wiki.archiveteam.org/index.php/ArchiveBot
 
 ---
 

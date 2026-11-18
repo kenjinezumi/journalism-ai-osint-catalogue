@@ -14,11 +14,40 @@
 | **Maintainer** | Guido Bartoli |
 | **Maintenance** | Stable with low activity |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/GuidoBartoli/sherloq) · [Documentation](https://github.com/GuidoBartoli/sherloq#readme) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 3/5 · privacy 5/5 · usability 4/5 · licence+cost 4/5 → **weighted 80/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a — classical signal-processing techniques, no trained models. |
+| **Restrictions** | GPL-3.0; immaterial for desktop use by analysts. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Staff effort |
+| **Cost conditions** | Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Runs on an analyst workstation; ExifTool binary and OpenCV required. Real cost is analyst training to interpret the outputs responsibly.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/GuidoBartoli/sherloq/blob/master/LICENSE
+- https://github.com/GuidoBartoli/sherloq
 
 ---
 

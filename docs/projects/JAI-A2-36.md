@@ -14,11 +14,41 @@
 | **Maintainer** | OpenRefine community (Code for Science & Society fiscal host) |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-3-Clause |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/OpenRefine/OpenRefine) · [Documentation](https://openrefine.org/docs) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 4/5 · privacy 3/5 · usability 5/5 · licence+cost 5/5 → **weighted 87/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None material. Reconciliation services you connect to have their own terms. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free. Runs on a reporter's laptop; JVM heap is the only tuning concern. No paid dependencies unless you use a commercial reconciliation service.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/OpenRefine/OpenRefine/blob/master/LICENSE.txt
+- https://github.com/OpenRefine/OpenRefine
+- https://openrefine.org/docs
 
 ---
 

@@ -54,6 +54,7 @@
   "verification_date": "2026-11-17",
   "confidence": "high",
   "depth": "metadata-verified",
+  "summary":"Open server and client implementations of the Network Diagnostic Tool (ndt7) and the multi-stream MSAK test…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
   "scores": {
    "relevance": 3,
    "capability": 4,
@@ -120,6 +121,7 @@
   "verification_date": "2026-11-17",
   "confidence": "high",
   "depth": "metadata-verified",
+  "summary":"Command-line client and Python libraries for scheduling and retrieving RIPE Atlas measurements — ping, traceroute, DNS, TLS…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
   "scores": {
    "relevance": 4,
    "capability": 4,
@@ -184,6 +186,7 @@
   "verification_date": "2026-11-17",
   "confidence": "medium",
   "depth": "metadata-verified",
+  "summary":"Platform computing and publishing per-AS and per-country internet health indicators — AS hegemony (transit dependency)…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
   "scores": {
    "relevance": 4,
    "capability": 3,
@@ -249,6 +252,7 @@
   "confidence": "low",
   "depth": "docs-reviewed",
   "provisional": true,
+  "summary":"Hosted dashboard aggregating third-party measurement sources into country-level views of internet shutdowns, resilience…","licence_type":"Proprietary","oss_status":"Proprietary","oss_detail":"Hosted service or proprietary software — governed by service terms, not a software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
   "scores": {
    "relevance": 3,
    "capability": 3,
@@ -314,6 +318,7 @@
   "verification_date": "2026-11-17",
   "confidence": "high",
   "depth": "metadata-verified",
+  "summary":"Self-hosted web-page change-detection service with CSS/XPath region selection, text and visual comparison…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
   "scores": {
    "relevance": 5,
    "capability": 4,
@@ -376,6 +381,7 @@
   "verification_date": "2026-11-17",
   "confidence": "high",
   "depth": "metadata-verified",
+  "summary":"Command-line tool that fetches URLs or runs shell commands on a schedule, applies filters to normalise the content…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
   "scores": {
    "relevance": 4,
    "capability": 4,
@@ -439,6 +445,7 @@
   "verification_date": "2026-11-17",
   "confidence": "high",
   "depth": "metadata-verified",
+  "summary":"Actively developed descendant of urlwatch that monitors web pages and documents, with HTML-formatted diff reports…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
   "scores": {
    "relevance": 4,
    "capability": 4,
@@ -504,6 +511,7 @@
   "verification_date": "2026-11-17",
   "confidence": "high",
   "depth": "metadata-verified",
+  "summary":"Self-hosted Rails application that lets non-technical users select page elements to watch via a point-and-click browser extension…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
   "scores": {
    "relevance": 4,
    "capability": 3,
@@ -568,6 +576,7 @@
   "verification_date": "2026-11-17",
   "confidence": "medium",
   "depth": "metadata-verified",
+  "summary":"Hosted reimplementation of Klaxon as a DocumentCloud Add-On, with a browser extension for selecting page regions…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
   "scores": {
    "relevance": 4,
    "capability": 3,

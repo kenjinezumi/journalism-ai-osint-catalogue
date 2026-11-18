@@ -14,11 +14,42 @@
 | **Maintainer** | DARC — Data and Research Center (independent fork of alephdata/aleph) |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Mixed |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/openaleph/openaleph) · [Documentation](https://openaleph.org/docs/) |
 
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 4/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 93/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Datasets you load carry their own licences — notably OpenSanctions data is CC-BY-NC-4.0. |
+| **Restrictions** | Code unrestricted. The licence risk sits in the data you ingest, not the platform. |
+| **Open-source status** | **Mixed** — Open-source code, data or models you load carrying their own terms, some non-commercial |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure; staff effort |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Infrastructure estimate for a few million documents: an Elasticsearch cluster (start at 2 nodes, 16-32GB RAM each), PostgreSQL, Redis, and worker containers for ingest/OCR — realistically a four-figure annual cloud bill or equivalent on-prem hardware, plus meaningful ops time. Assumptions: self-managed Elasticsearch, no managed service, OCR load moderate. The largest cost in the whole catalogue after human labour.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/openaleph/openaleph/blob/main/LICENSE
+- https://github.com/openaleph/openaleph
+- https://openaleph.org/docs/
+- `../sources/evidence/leads.md`
 
 ---
 

@@ -15,6 +15,7 @@
 "blockers":["Data is CC-BY-NC 4.0 — commercial-use licence required, price not publicly listed"],
 "evidence_urls":["https://github.com/opensanctions/opensanctions/blob/main/LICENSE","https://www.opensanctions.org/licensing/","../sources/evidence/leads.md","../sources/evidence/pricing.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"Continuously built dataset of sanctioned entities, politically exposed persons, companies of interest and related entities…","licence_type":"Mixed (code vs weights/data)","oss_status":"Source available","oss_detail":"Restricted data licence","price_class":"No software fee","software_price_note":"code free (MIT); the DATA is CC-BY-NC-4.0 — commercial use requires a paid licence, price not publicly listed (verified 2026-11-16)","cost_flags":["mandatory-paid", "optional-hosted", "infrastructure"],"additional_costs_note":"mandatory paid data licence for commercial use (quote); optional hosted Screening API (prepaid credits); self-hosted Elasticsearch",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":5,"usability":4,"licence_cost":3}},
 
 {"id":"OSINT-C3-02","name":"Aleph (alephdata, original)","maintainer":"OCCRP (original; development has moved to the OpenAleph fork)","pillar":"OSINT","segment":"C3","subcategory":"Investigative data platform","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/alephdata/aleph","docs_url":"https://docs.aleph.occrp.org/",
@@ -33,6 +34,7 @@
 "blockers":["Development has moved to the OpenAleph fork; no deprecation notice makes the stale line easy to adopt by mistake"],
 "evidence_urls":["https://github.com/alephdata/aleph","https://github.com/openaleph/openaleph","../sources/evidence/leads.md","../sources/recovered/cat/ground_truth.tsv"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Investigative data platform that indexes documents and structured datasets as FollowTheMoney entities, with search…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":4,"maintenance":2,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C3-03","name":"Hoover","maintainer":"Liquid Investigations","pillar":"OSINT","segment":"C3","subcategory":"Document search platform","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/liquidinvestigations/hoover-search","docs_url":"https://github.com/liquidinvestigations/hoover-search#readme",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/liquidinvestigations/hoover-search","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"low","depth":"metadata-verified","provisional":true,
+"summary":"Search service for collections of documents and email archives, indexing text and metadata across heterogeneous sources with a…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":2,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C3-04","name":"Overview","maintainer":"Overview Project (Jonathan Stray lineage)","pillar":"OSINT","segment":"C3","subcategory":"Document analysis platform","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/overview/overview-server","docs_url":"https://blog.overviewdocs.com/",
@@ -69,6 +72,7 @@
 "blockers":["Development pace has declined; the architecture is heavy relative to modern alternatives"],
 "evidence_urls":["https://github.com/overview/overview-server","../sources/recovered/a1disc/notes.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Document-analysis platform that clusters a document set by topic, provides tagging and full-text search…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":2,"privacy":4,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C3-05","name":"Uwazi","maintainer":"HURIDOCS","pillar":"OSINT","segment":"C3","subcategory":"Document collection platform","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/huridocs/uwazi","docs_url":"https://uwazi.io/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/huridocs/uwazi","https://uwazi.io/","../sources/recovered/cat/ground_truth.tsv"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Document and entity management platform built for human-rights documentation, with customisable entity templates, relationships…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C3-06","name":"Tella","maintainer":"Horizontal","pillar":"OSINT","segment":"C3","subcategory":"Secure field documentation","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/Horizontal-org/Tella-Android","docs_url":"https://tella-app.org/",
@@ -105,6 +110,7 @@
 "blockers":["Camouflage delays rather than prevents discovery; app presence may itself be incriminating"],
 "evidence_urls":["https://github.com/Horizontal-org/Tella-Android","https://tella-app.org/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Mobile application for documenting human-rights violations and collecting evidence in hostile environments…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C3-07","name":"Ushahidi Platform","maintainer":"Ushahidi","pillar":"OSINT","segment":"C3","subcategory":"Crowdsourced incident mapping","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/ushahidi/platform","docs_url":"https://docs.ushahidi.com/",
@@ -123,5 +129,6 @@
 "blockers":["Submitter database is a high-value target in repressive environments; SMS channel has real per-message costs"],
 "evidence_urls":["https://github.com/ushahidi/platform","https://docs.ushahidi.com/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Platform for collecting, verifying and mapping crowdsourced reports from SMS, email, web forms and social media…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["mandatory-paid", "infrastructure", "staff-effort"],"additional_costs_note":"mandatory per-message SMS gateway charges for the SMS channel (rates vary by country, not priced); self-hosted infrastructure; staff triage effort",
 "scores":{"relevance":4,"capability":4,"maintenance":3,"privacy":4,"usability":3,"licence_cost":4}}
 ]

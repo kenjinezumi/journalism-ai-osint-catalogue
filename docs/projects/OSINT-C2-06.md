@@ -14,11 +14,41 @@
 | **Maintainer** | Meta (repository transferred from facebook/ThreatExchange) |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-3-Clause (repository LICENSE; README notes pdq/cpp/CImg.h carries its own separate licence and tmk/LICENSE.txt is BSD-2-Clause) — GitHub reports NOASSERTION |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/meta/ThreatExchange) · [Documentation](https://github.com/meta/ThreatExchange#readme) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 4/5 · usability 3/5 · licence+cost 4/5 → **weighted 78/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause (repository LICENSE; README notes pdq/cpp/CImg.h carries its own separate licence and tmk/LICENSE.txt is BSD-2-Clause) — GitHub reports NOASSERTION |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. Hash banks you obtain from partners carry their own terms. |
+| **Restrictions** | Mixed sub-licences mean a per-directory review is needed before redistribution. The CImg dependency in the C++ PDQ implementation is the specific item to check, since CImg's own licence is not BSD. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. FFmpeg 4.1+ recommended for video hashing; optional OpenMP and FAISS. HMA implies container or cloud infrastructure — a small service for newsroom volumes. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/meta/ThreatExchange/blob/main/LICENSE
+- https://github.com/meta/ThreatExchange
+- `../sources/evidence/leads.md`
 
 ---
 

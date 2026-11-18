@@ -14,11 +14,40 @@
 | **Maintainer** | Citizen Lab (Munk School, University of Toronto) |
 | **Maintenance** | Actively maintained |
 | **Licence** | Citizen Lab publications are generally released under Creative Commons terms; specific per-report licences NOT verified in this survey |
+| **Licence type** | Proprietary |
+| **Open-source status** | Proprietary |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Documentation](https://citizenlab.ca/publication-directory/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 4/5 · privacy 4/5 · usability 4/5 · licence+cost 4/5 → **weighted 86/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Proprietary |
+| **Exact licence (as recorded)** | Citizen Lab publications are generally released under Creative Commons terms; specific per-report licences NOT verified in this survey |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same. Technical indicators published alongside reports carry the report's terms. |
+| **Restrictions** | Not verified per report. Quoting and citing research is ordinary journalistic use; republishing reports or indicator sets wholesale requires checking the specific licence. |
+| **Open-source status** | **Proprietary** — Hosted service or proprietary software — governed by service terms, not a software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Free. No infrastructure.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://citizenlab.ca/publication-directory/
+- `../sources/evidence/b2-sources.md`
 
 ---
 

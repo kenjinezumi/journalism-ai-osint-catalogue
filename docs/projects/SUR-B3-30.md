@@ -14,6 +14,9 @@
 | **Maintainer** | Guardian Project |
 | **Maintenance** | Actively maintained |
 | **Licence** | Not detected by the GitHub API — read the repository licence file (Guardian Project projects are predominantly BSD/GPL-family) |
+| **Licence type** | Unresolved |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/guardianproject/orbot-android) · [Documentation](https://orbot.app/) |
@@ -21,6 +24,35 @@
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 4/5 · licence+cost 4/5 → **weighted 92/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Unresolved |
+| **Exact licence (as recorded)** | Not detected by the GitHub API — read the repository licence file (Guardian Project projects are predominantly BSD/GPL-family) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | Unverified in this survey; confirm from the repository before redistribution. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Free. No infrastructure. Cost is battery life and connection speed for the user.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/guardianproject/orbot-android
+- https://orbot.app/
+- `../sources/evidence/leads.md`
+
+> **Unresolved:** the licence could not be confirmed from the evidence gathered.
 
 ---
 

@@ -14,11 +14,41 @@
 | **Maintainer** | Phil Harvey |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/exiftool/exiftool) · [Documentation](https://exiftool.org/) |
 
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 5/5 · privacy 5/5 · usability 4/5 · licence+cost 4/5 → **weighted 96/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | GPL-3.0 (the upstream distribution is also offered under the Artistic Licence — check the distribution you obtain). Embedding in a closed-source newsroom product would trigger copyleft; calling the CLI as a subprocess does not. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee, no infrastructure, no paid dependencies. Among the cheapest high-value capabilities here.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/exiftool/exiftool/blob/master/LICENSE
+- https://github.com/exiftool/exiftool
+- https://exiftool.org/
 
 ---
 

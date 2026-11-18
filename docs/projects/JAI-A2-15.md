@@ -14,11 +14,41 @@
 | **Maintainer** | Scripta / PSL (École Pratique des Hautes Études) |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://gitlab.com/scripta/escriptorium) · [Documentation](https://gitlab.com/scripta/escriptorium/-/wikis/home) |
 
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 2/5 · licence+cost 5/5 → **weighted 75/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a — uses externally supplied Kraken models, whose terms vary per model (Zenodo-published models carry individual licences). |
+| **Restrictions** | Code permissive. Verify the licence of any pretrained Kraken model you import. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Real costs: a GPU host for training and inference, a multi-service Django deployment, and — dominantly — human transcription labour to build ground truth. Estimate; assumes self-hosted GPU and a small transcription team.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://gitlab.com/scripta/escriptorium/-/blob/develop/LICENSE
+- https://gitlab.com/scripta/escriptorium
+- https://gitlab.com/scripta/escriptorium/-/wikis/home
 
 ---
 

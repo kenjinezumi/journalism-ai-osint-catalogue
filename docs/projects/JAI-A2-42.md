@@ -14,6 +14,9 @@
 | **Maintainer** | Artifex Software |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 (dual-licensed; Artifex sells a commercial licence) |
+| **Licence type** | Dual-licensed |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/pymupdf/PyMuPDF) · [Documentation](https://pymupdf.readthedocs.io/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 5/5 · maintenance 5/5 · privacy 5/5 · usability 4/5 · licence+cost 2/5 → **weighted 86/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Dual-licensed |
+| **Exact licence (as recorded)** | AGPL-3.0 (dual-licensed; Artifex sells a commercial licence) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | AGPL-3.0 network copyleft is material: offering a modified or even unmodified PyMuPDF-based service over a network obliges you to provide corresponding source under AGPL terms, unless you hold Artifex's commercial licence. Commercial licence price is not publicly listed — quote required. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free under AGPL-3.0. Commercial licence from Artifex: price not publicly listed (quote required, not verified in this survey). No infrastructure beyond Python; CPU-bound.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/pymupdf/PyMuPDF/blob/main/COPYING
+- https://github.com/pymupdf/PyMuPDF
+- https://pymupdf.readthedocs.io/
 
 ---
 

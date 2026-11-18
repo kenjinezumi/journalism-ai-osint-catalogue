@@ -14,11 +14,42 @@
 | **Maintainer** | Freedom of the Press Foundation |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/freedomofpress/dangerzone) · [Documentation](https://dangerzone.rocks/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 4/5 · licence+cost 4/5 → **weighted 92/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | AGPL-3.0: distributing a modified version or offering it as a service obliges source publication. Desktop use is unaffected. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. A container runtime and CPU time — conversion is the cost, measured in minutes per large document. No paid dependencies. For a large leak, budget compute time in the ingest plan.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/freedomofpress/dangerzone/blob/main/LICENSE
+- https://github.com/freedomofpress/dangerzone
+- https://dangerzone.rocks/
+- `../sources/recovered/cat/ground_truth.tsv`
 
 ---
 

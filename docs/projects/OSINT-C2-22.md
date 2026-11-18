@@ -14,11 +14,42 @@
 | **Maintainer** | Rasterio contributors (originally Mapbox) |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-3-Clause (LICENSE.txt read 2026-11-17, Mapbox copyright; GitHub reports NOASSERTION) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/rasterio/rasterio) · [Documentation](https://rasterio.readthedocs.io/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 86/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause (LICENSE.txt read 2026-11-17, Mapbox copyright; GitHub reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. Satellite imagery carries the provider's licence — this is where restrictions actually apply. |
+| **Restrictions** | Code permissive. The material restrictions are on imagery: Sentinel and Landsat are openly licensed, but commercial providers (Planet, Maxar) restrict redistribution of imagery and sometimes of derived products — check before publishing a processed image. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. CPU and disk proportional to scene size; satellite scenes are large (hundreds of MB to GB each). The real cost is imagery acquisition where commercial data is needed. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/rasterio/rasterio/blob/main/LICENSE.txt
+- https://github.com/rasterio/rasterio
+- https://rasterio.readthedocs.io/
+- `../sources/evidence/leads.md`
 
 ---
 

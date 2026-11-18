@@ -14,11 +14,41 @@
 | **Maintainer** | Sciences Po médialab |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/medialab/hyphe) · [Documentation](https://hyphe.medialab.sciences-po.fr/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 2/5 · privacy 4/5 · usability 2/5 · licence+cost 4/5 → **weighted 70/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Crawled content belongs to the original publishers. |
+| **Restrictions** | AGPL-3.0 network copyleft if you modify and expose an instance. Internal use unaffected. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Infrastructure estimate: a Docker host with MongoDB and crawler components — one reasonably sized VM for a modest corpus. The dominant cost is analyst curation time, realistically days per corpus. Assumptions: self-hosted, single-analyst workflow.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/medialab/hyphe/blob/master/LICENSE
+- https://github.com/medialab/hyphe
+- https://hyphe.medialab.sciences-po.fr/
 
 ---
 

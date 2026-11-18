@@ -14,6 +14,9 @@
 | **Maintainer** | Freedom of the Press Foundation |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 (project's own licensing; GitHub API reports NOASSERTION) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/freedomofpress/securedrop) · [Documentation](https://docs.securedrop.org/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 5/5 · privacy 5/5 · usability 2/5 · licence+cost 4/5 → **weighted 92/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 (project's own licensing; GitHub API reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | AGPL-3.0: a modified instance offered over a network obliges source publication. Running the released version for your own newsroom carries no obligation. Do not fork quietly — security-critical modifications should go upstream. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Dedicated hardware; self-hosted infrastructure; staff effort |
+| **Cost conditions** | Dedicated hardware; Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Real costs are hardware and staff: two servers plus an air-gapped Secure Viewing Station and a dedicated USB workflow (low four figures in hardware, estimate), a Tor-reachable hosting arrangement, and — dominantly — ongoing administrator time for updates and a journalist-training routine. Budget this as a permanent staffed service rather than a project.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/freedomofpress/securedrop/blob/develop/LICENSE
+- https://github.com/freedomofpress/securedrop
+- https://docs.securedrop.org/
+- `../sources/recovered/cat/ground_truth.tsv`
 
 ---
 

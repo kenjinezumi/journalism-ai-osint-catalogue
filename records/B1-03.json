@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/edgi-govdata-archiving/web-monitoring-db","https://github.com/edgi-govdata-archiving/web-monitoring-db/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Rails and PostgreSQL service that stores versions of monitored web pages, computes and serves diffs…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"SUR-B1-21","name":"EDGI web-monitoring-diff","maintainer":"Environmental Data and Governance Initiative (EDGI)","pillar":"SUR","segment":"B1","subcategory":"HTML diffing","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/edgi-govdata-archiving/web-monitoring-diff","docs_url":"https://edgi-govdata-archiving.github.io/web-monitoring-diff/",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/edgi-govdata-archiving/web-monitoring-diff","https://edgi-govdata-archiving.github.io/web-monitoring-diff/","https://github.com/edgi-govdata-archiving/web-monitoring-diff/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library and optional HTTP service providing multiple diff algorithms for web content — HTML source, rendered text, links…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"SUR-B1-22","name":"wayback (Python client for the Internet Archive Wayback Machine)","maintainer":"Environmental Data and Governance Initiative (EDGI)","pillar":"SUR","segment":"B1","subcategory":"Archive access","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/edgi-govdata-archiving/wayback","docs_url":"https://wayback.readthedocs.io/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/edgi-govdata-archiving/wayback","https://wayback.readthedocs.io/","https://github.com/edgi-govdata-archiving/wayback/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python client for the Internet Archive's Wayback Machine CDX and Memento endpoints…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":3,"usability":4,"licence_cost":5}},
 
 {"id":"SUR-B1-23","name":"shot-scraper","maintainer":"Simon Willison","pillar":"SUR","segment":"B1","subcategory":"Scheduled capture and monitoring","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/simonw/shot-scraper","docs_url":"https://shot-scraper.datasette.io/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/simonw/shot-scraper","https://shot-scraper.datasette.io/","https://github.com/simonw/shot-scraper/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"CLI wrapper over Playwright that takes screenshots of web pages, extracts content by executing JavaScript against them…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":3,"licence_cost":5}},
 
 {"id":"SUR-B1-24","name":"Awesome Website Change Monitoring","maintainer":"Environmental Data and Governance Initiative (EDGI)","pillar":"SUR","segment":"B1","subcategory":"Tool landscape reference","project_type":"dataset","bucket":"verified-oss","repo_url":"https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring","docs_url":"https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring#readme",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring","https://github.com/edgi-govdata-archiving/awesome-website-change-monitoring/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Curated list of website change-monitoring tools and services, open-source and commercial, with a linked comparison spreadsheet","licence_type":"Public domain","oss_status":"Open source","oss_detail":"Open data licence","price_class":"Unknown / not verified","software_price_note":"not established by the records","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":2,"maintenance":3,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"SUR-B1-25","name":"diffengine","maintainer":"Documenting the Now (DocNow; transferred from edsu)","pillar":"SUR","segment":"B1","subcategory":"Stealth-edit tracking","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/DocNow/diffengine","docs_url":"https://github.com/DocNow/diffengine#readme",
@@ -105,6 +110,7 @@
 "blockers":["Unmaintained since 2020; social integration depends on a withdrawn Twitter API"],
 "evidence_urls":["https://github.com/DocNow/diffengine","https://github.com/DocNow/diffengine/blob/main/LICENSE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Tool that watches RSS/Atom feeds, detects when article text changes after publication, generates a visual diff image…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":2,"maintenance":1,"privacy":3,"usability":1,"licence_cost":5}},
 
 {"id":"SUR-B1-26","name":"NewsDiffs","maintainer":"Eric Price (ecprice) and collaborators","pillar":"SUR","segment":"B1","subcategory":"Stealth-edit tracking","project_type":"prototype","bucket":"verified-oss","repo_url":"https://github.com/ecprice/newsdiffs","docs_url":"http://www.newsdiffs.org/",
@@ -123,6 +129,7 @@
 "blockers":["Python 2.6-era stack, abandoned since 2018, mixed per-file licensing"],
 "evidence_urls":["https://github.com/ecprice/newsdiffs","http://www.newsdiffs.org/"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Django application that scrapes news articles from configured sites on a schedule, stores every version…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":2,"capability":1,"maintenance":1,"privacy":3,"usability":1,"licence_cost":2}},
 
 {"id":"SUR-B1-27","name":"DataIndex.us (Federal Data Terminations Tracker)","maintainer":"Federation of American Scientists (FAS)","pillar":"SUR","segment":"B1","subcategory":"Public-dataset monitoring","project_type":"platform","bucket":"proprietary-service","repo_url":"","docs_url":"https://dataindex.us/",
@@ -141,5 +148,6 @@
 "blockers":["No public repository located; licence and terms unverified; hosted single point of failure"],
 "evidence_urls":["https://dataindex.us/"],
 "verification_date":"2026-11-17","confidence":"low","depth":"docs-reviewed","provisional":true,
+"summary":"Hosted tracker documenting US federal datasets that have been terminated, altered or had variables removed…","licence_type":"Proprietary","oss_status":"Proprietary","oss_detail":"Hosted service or proprietary software — governed by service terms, not a software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":2,"privacy":4,"usability":5,"licence_cost":2}}
 ]

@@ -14,6 +14,9 @@
 | **Maintainer** | Open Observatory of Network Interference (OONI) |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Mixed |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ooni/probe-multiplatform) · [Documentation](https://ooni.org/install/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 2/5 · usability 5/5 · licence+cost 4/5 → **weighted 85/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Measurement data published as OONI open data; Citizen Lab test lists are CC-BY-NC-SA-4.0. |
+| **Restrictions** | GPL-3.0; app-store distribution of GPL software has known friction on iOS — relevant only if you fork and redistribute. |
+| **Open-source status** | **Mixed** — Open-source code, restricted data licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free. No infrastructure. Cost is volunteer coordination and the duty-of-care briefing time.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ooni/probe-multiplatform/blob/main/LICENSE
+- https://github.com/ooni/probe-multiplatform
+- https://ooni.org/install/
 
 ---
 

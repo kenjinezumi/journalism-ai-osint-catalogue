@@ -14,6 +14,9 @@
 | **Maintainer** | Amnesty International Security Lab (AmnestyTech) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | NOT CONFIRMED — no licence detected by the GitHub API and no LICENSE file found (2026-11-17) |
+| **Licence type** | Unresolved |
+| **Open-source status** | Unverified |
+| **Software price** | **No software fee** |
 | **Confidence** | medium · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/AmnestyTech/investigations) · [Documentation](https://securitylab.amnesty.org/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 5/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 3/5 · licence+cost 2/5 → **weighted 76/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Unresolved |
+| **Exact licence (as recorded)** | NOT CONFIRMED — no licence detected by the GitHub API and no LICENSE file found (2026-11-17) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same — indicator data accompanying published research. |
+| **Restrictions** | Unresolved. Consuming indicators for your own examinations is low risk; redistribution is unclear. Amnesty's published reports have their own terms. |
+| **Open-source status** | **Unverified** — Licence could not be confirmed — reuse legally unresolved |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Negligible.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/AmnestyTech/investigations
+- https://securitylab.amnesty.org/
+
+> **Unresolved:** the licence could not be confirmed from the evidence gathered.
 
 ---
 

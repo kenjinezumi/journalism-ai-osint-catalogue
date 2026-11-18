@@ -15,6 +15,7 @@
 "blockers":["Gated weights requiring HuggingFace identity disclosure — plan a one-time central download for air-gapped or anonymity-sensitive deployments"],
 "evidence_urls":["https://github.com/pyannote/pyannote-audio","https://huggingface.co/pyannote/speaker-diarization-3.1","https://www.pyannote.ai/pricing","../sources/recovered/cat/pricing.tsv"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Neural speaker-diarisation toolkit providing pretrained pipelines for voice activity detection, speaker segmentation…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"library free (MIT); optional hosted pyannote.ai: Precision-3 batch EUR 0.112/audio-hour, Community-1 EUR 0.035/h, Live-1 EUR 0.198/h, Developer EUR 19/month, Starter EUR 99/month (verified 2026-11-16)","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"JAI-A2-42","name":"PyMuPDF","maintainer":"Artifex Software","pillar":"JAI","segment":"A2","subcategory":"PDF manipulation","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/pymupdf/PyMuPDF","docs_url":"https://pymupdf.readthedocs.io/",
@@ -33,6 +34,7 @@
 "blockers":["AGPL-3.0 network copyleft if deployed inside a public-facing service without a commercial licence"],
 "evidence_urls":["https://github.com/pymupdf/PyMuPDF","https://pymupdf.readthedocs.io/","https://github.com/pymupdf/PyMuPDF/blob/main/COPYING"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python bindings to MuPDF providing fast text and image extraction, page rendering, annotation…","licence_type":"Dual-licensed","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":5,"privacy":5,"usability":4,"licence_cost":2}},
 
 {"id":"JAI-A2-43","name":"RapidFuzz","maintainer":"Max Bachmann (rapidfuzz)","pillar":"JAI","segment":"A2","subcategory":"String matching","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/rapidfuzz/RapidFuzz","docs_url":"https://rapidfuzz.github.io/RapidFuzz/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/rapidfuzz/RapidFuzz","https://rapidfuzz.github.io/RapidFuzz/","https://github.com/rapidfuzz/RapidFuzz/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Fast C++-backed string-similarity library implementing Levenshtein, Jaro-Winkler…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-44","name":"rigour","maintainer":"OpenSanctions","pillar":"JAI","segment":"A2","subcategory":"Name and identifier normalisation","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/opensanctions/rigour","docs_url":"https://github.com/opensanctions/rigour#readme",
@@ -68,6 +71,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/opensanctions/rigour","https://github.com/opensanctions/rigour/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Library of data-cleaning primitives for investigative data: name normalisation and fingerprinting, company-type canonicalisation…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A2-45","name":"sentence-transformers","aka":"SBERT","maintainer":"Hugging Face (transferred from UKPLab)","pillar":"JAI","segment":"A2","subcategory":"Multilingual semantic search","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/huggingface/sentence-transformers","docs_url":"https://sbert.net/",
@@ -86,6 +90,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/huggingface/sentence-transformers","https://huggingface.co/sentence-transformers/LaBSE","https://huggingface.co/intfloat/multilingual-e5-large","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Framework for computing dense sentence and passage embeddings with hundreds of pretrained models, supporting semantic search…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A2-46","name":"sherpa-onnx","maintainer":"k2-fsa / Next-gen Kaldi","pillar":"JAI","segment":"A2","subcategory":"On-device speech recognition","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/k2-fsa/sherpa-onnx","docs_url":"https://k2-fsa.github.io/sherpa/onnx/",
@@ -104,6 +109,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/k2-fsa/sherpa-onnx","https://k2-fsa.github.io/sherpa/onnx/","https://github.com/k2-fsa/sherpa-onnx/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"ONNX-Runtime-based speech toolkit providing streaming and offline ASR, TTS, VAD…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["staff-effort"],"additional_costs_note":"engineering time for integration; runs on existing or low-cost hardware",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"JAI-A2-47","name":"spaCy","maintainer":"Explosion AI","pillar":"JAI","segment":"A2","subcategory":"Named entity recognition","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/explosion/spaCy","docs_url":"https://spacy.io/usage",
@@ -122,6 +128,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/explosion/spaCy","https://spacy.io/usage","https://github.com/explosion/spaCy/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Production-oriented NLP library providing tokenisation, part-of-speech tagging, dependency parsing…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":5,"usability":5,"licence_cost":5}},
 
 {"id":"JAI-A2-48","name":"Splink","maintainer":"UK Ministry of Justice Analytical Services","pillar":"JAI","segment":"A2","subcategory":"Probabilistic record linkage","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/moj-analytical-services/splink","docs_url":"https://moj-analytical-services.github.io/splink/",
@@ -140,6 +147,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/moj-analytical-services/splink","https://moj-analytical-services.github.io/splink/","https://github.com/moj-analytical-services/splink/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Probabilistic record-linkage library implementing the Fellegi-Sunter model with unsupervised parameter estimation (expectation…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":4,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A2-49","name":"Stanza","maintainer":"Stanford NLP Group","pillar":"JAI","segment":"A2","subcategory":"Multilingual NLP","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/stanfordnlp/stanza","docs_url":"https://stanfordnlp.github.io/stanza/",
@@ -158,6 +166,7 @@
 "blockers":["Model-archive licence is unstated — unresolved commercial-use risk for derived published datasets"],
 "evidence_urls":["https://github.com/stanfordnlp/stanza","https://stanfordnlp.github.io/stanza/available_models.html","https://github.com/stanfordnlp/stanza/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Neural NLP pipeline covering tokenisation, lemmatisation, POS tagging, dependency parsing, NER and coreference for 70+ languages…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":3,"licence_cost":3}},
 
 {"id":"JAI-A2-50","name":"Subtitle Edit","maintainer":"Nikolaj Olsson (SubtitleEdit)","pillar":"JAI","segment":"A2","subcategory":"Subtitle and caption editing","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/SubtitleEdit/subtitleedit","docs_url":"https://www.nikse.dk/subtitleedit/help",
@@ -176,5 +185,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/SubtitleEdit/subtitleedit","https://www.nikse.dk/subtitleedit/help","https://github.com/SubtitleEdit/subtitleedit/blob/main/LICENSE.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Desktop subtitle editor supporting 200+ subtitle formats with waveform and spectrogram display, synchronisation tools…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":4,"usability":3,"licence_cost":5}}
 ]

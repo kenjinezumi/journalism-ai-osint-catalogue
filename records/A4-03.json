@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/JeongsooP/Community-Forensics","https://huggingface.co/OwensLab/commfor-model-384"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Synthetic-image detector trained on a dataset assembled from thousands of community-published generative models…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open model weights","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":4,"usability":2,"licence_cost":5}},
 
 {"id":"JAI-A4-22","name":"Noiseprint","maintainer":"GRIP-UNINA (University of Naples Federico II)","pillar":"JAI","segment":"A4","subcategory":"Camera fingerprint forensics","project_type":"model","bucket":"source-available-restricted","repo_url":"https://github.com/grip-unina/noiseprint","docs_url":"https://grip-unina.github.io/noiseprint/",
@@ -33,6 +34,7 @@
 "blockers":["Non-commercial licence","TensorFlow 1.2.1 dependency pin"],
 "evidence_urls":["https://github.com/grip-unina/noiseprint","https://grip-unina.github.io/noiseprint/"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"CNN that extracts a camera-model noise fingerprint from an image, enabling detection of regions whose fingerprint differs from…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Restricted model weights","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":2,"capability":3,"maintenance":2,"privacy":4,"usability":1,"licence_cost":1}},
 
 {"id":"JAI-A4-23","name":"x-ray","maintainer":"Free Law Project","pillar":"JAI","segment":"A4","subcategory":"Redaction failure detection","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/freelawproject/x-ray","docs_url":"https://github.com/freelawproject/x-ray#readme",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/freelawproject/x-ray","https://github.com/freelawproject/x-ray/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library that inspects PDFs for bad redactions — text that remains in the content stream beneath a drawn black rectangle…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A4-24","name":"kuroi","maintainer":"International Consortium of Investigative Journalists","pillar":"JAI","segment":"A4","subcategory":"Pre-publication redaction","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/ICIJ/kuroi","docs_url":"https://github.com/ICIJ/kuroi#readme",
@@ -69,6 +72,7 @@
 "blockers":["Hosted-LLM configuration would transmit unredacted sensitive documents to a third party — must be pinned to a self-hosted model"],
 "evidence_urls":["https://github.com/ICIJ/kuroi","https://github.com/ICIJ/kuroi/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"CLI tool that uses an LLM backend to identify personal and source-identifying information in documents at scale…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure", "staff-effort"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":3,"maintenance":4,"privacy":3,"usability":3,"licence_cost":4}},
 
 {"id":"JAI-A4-25","name":"DeepfakeBench","maintainer":"SCLBD (Sun Yat-sen University)","pillar":"JAI","segment":"A4","subcategory":"Deepfake detection benchmark","project_type":"prototype","bucket":"source-available-restricted","repo_url":"https://github.com/SCLBD/DeepfakeBench","docs_url":"https://github.com/SCLBD/DeepfakeBench#readme",
@@ -87,6 +91,7 @@
 "blockers":["CC-BY-NC-4.0 — non-commercial only","Some referenced datasets are not rights-cleared"],
 "evidence_urls":["https://github.com/SCLBD/DeepfakeBench"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"Unified benchmark and training framework implementing many published face-manipulation detectors with standardised preprocessing…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Source published under a restricted, non-OSI licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":4,"maintenance":2,"privacy":4,"usability":2,"licence_cost":1}},
 
 {"id":"JAI-A4-26","name":"FaceForensics++","maintainer":"Technical University of Munich (ondyari)","pillar":"JAI","segment":"A4","subcategory":"Deepfake detection dataset","project_type":"dataset","bucket":"source-available-restricted","repo_url":"https://github.com/ondyari/FaceForensics","docs_url":"https://github.com/ondyari/FaceForensics#readme",
@@ -105,6 +110,7 @@
 "blockers":["Gated research-use dataset agreement — not usable as commercial infrastructure","Predates current generative models, limiting relevance"],
 "evidence_urls":["https://github.com/ondyari/FaceForensics"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"Large dataset of manipulated face videos produced with several face-swap and reenactment methods at multiple compression levels…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Restricted data licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"gated dataset access (application and approval); self-hosted infrastructure; staff effort",
 "scores":{"relevance":2,"capability":3,"maintenance":1,"privacy":3,"usability":2,"licence_cost":1}},
 
 {"id":"JAI-A4-27","name":"SelfBlendedImages (SBI)","maintainer":"Kaede Shiohara (mapooon), University of Tokyo","pillar":"JAI","segment":"A4","subcategory":"Deepfake detection","project_type":"prototype","bucket":"source-available-restricted","repo_url":"https://github.com/mapooon/SelfBlendedImages","docs_url":"https://github.com/mapooon/SelfBlendedImages#readme",
@@ -123,6 +129,7 @@
 "blockers":["Research-only licence; commercial use requires a separate agreement"],
 "evidence_urls":["https://github.com/mapooon/SelfBlendedImages"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"Face-manipulation detection method trained on synthetically self-blended images rather than on specific deepfake generators…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Source published under a restricted, non-OSI licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":2,"capability":3,"maintenance":3,"privacy":4,"usability":2,"licence_cost":1}},
 
 {"id":"JAI-A4-28","name":"LAA-Net","maintainer":"University of Luxembourg SnT (10Ring)","pillar":"JAI","segment":"A4","subcategory":"Deepfake detection","project_type":"prototype","bucket":"source-available-restricted","repo_url":"https://github.com/10Ring/LAA-Net","docs_url":"https://github.com/10Ring/LAA-Net#readme",
@@ -141,6 +148,7 @@
 "blockers":["Academic-only licence — not usable as commercial newsroom infrastructure"],
 "evidence_urls":["https://github.com/10Ring/LAA-Net"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"Localised artefact attention network for deepfake detection, designed to remain effective on low-quality and compressed video…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Source published under a restricted, non-OSI licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":2,"capability":3,"maintenance":3,"privacy":4,"usability":1,"licence_cost":1}},
 
 {"id":"JAI-A4-29","name":"AASIST","maintainer":"Clova AI Research (clovaai)","pillar":"JAI","segment":"A4","subcategory":"Audio spoofing detection","project_type":"prototype","bucket":"verified-oss","repo_url":"https://github.com/clovaai/aasist","docs_url":"https://github.com/clovaai/aasist#readme",
@@ -159,6 +167,7 @@
 "blockers":["Dormant since 2023; trained against pre-2024 synthesis methods"],
 "evidence_urls":["https://github.com/clovaai/aasist","https://github.com/clovaai/aasist/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Graph-attention-based anti-spoofing model for speech, detecting synthetic and converted voice using integrated spectro-temporal…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":2,"maintenance":1,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"JAI-A4-30","name":"ASVspoof 2021 baseline systems","maintainer":"ASVspoof challenge organisers","pillar":"JAI","segment":"A4","subcategory":"Audio spoofing evaluation","project_type":"prototype","bucket":"uncertain","repo_url":"https://github.com/asvspoof-challenge/2021","docs_url":"https://www.asvspoof.org/",
@@ -177,6 +186,7 @@
 "blockers":["No licence file — reuse legally unresolved","MATLAB dependency for original baselines"],
 "evidence_urls":["https://github.com/asvspoof-challenge/2021","https://www.asvspoof.org/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"repo-inspected","provisional":true,
+"summary":"Reference baseline implementations and the official evaluation/scoring code for the ASVspoof 2021 anti-spoofing challenge…","licence_type":"Unresolved","oss_status":"Unverified","oss_detail":"Licence could not be confirmed — reuse legally unresolved","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"MATLAB (paid) only for the original baselines — Python ports avoid it; self-hosted infrastructure",
 "scores":{"relevance":2,"capability":3,"maintenance":1,"privacy":5,"usability":1,"licence_cost":1}},
 
 {"id":"JAI-A4-31","name":"Deepfake-Eval-2024","maintainer":"Nuria Chandra and collaborators","pillar":"JAI","segment":"A4","subcategory":"In-the-wild deepfake evaluation","project_type":"dataset","bucket":"uncertain","repo_url":"https://github.com/nuriachandra/Deepfake-Eval-2024","docs_url":"https://github.com/nuriachandra/Deepfake-Eval-2024#readme",
@@ -195,5 +205,6 @@
 "blockers":["No licence for code or data — redistribution legally unresolved","No evaluation code included"],
 "evidence_urls":["https://github.com/nuriachandra/Deepfake-Eval-2024"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"repo-inspected","provisional":true,
+"summary":"Benchmark of in-the-wild deepfake media collected from real circulation in 2024, with documentation and labels…","licence_type":"Unresolved","oss_status":"Unverified","oss_detail":"Licence could not be confirmed — reuse legally unresolved","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":2,"maintenance":1,"privacy":4,"usability":2,"licence_cost":1}}
 ]

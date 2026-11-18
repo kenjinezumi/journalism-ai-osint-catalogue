@@ -1,0 +1,66 @@
+# Build the catalogue site from the tracked Markdown and publish it to GitHub Pages.
+#
+# The site is generated, never committed: tools/mksite.py renders every .md file
+# in the repository to HTML, so the published pages cannot drift from the Markdown
+# they came from. Pages source must be set to "GitHub Actions" in repository
+# settings for this to deploy.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['work/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time; let a running one finish rather than publishing a
+# half-built site.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install 'markdown-it-py~=3.0'
+
+      - name: Rebuild the generated Markdown and verify it is current
+        run: |
+          python3 build.py
+          if ! git diff --quiet; then
+            echo "::error::build.py output differs from the committed Markdown."
+            echo "Run 'python3 build.py' and commit the result."
+            git diff --stat
+            exit 1
+          fi
+
+      - name: Render the site
+        run: python3 tools/mksite.py . ../_site
+
+      - name: Check every internal link and anchor resolves
+        run: python3 tools/checkhtml.py ../_site
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ../_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

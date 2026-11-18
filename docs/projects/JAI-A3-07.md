@@ -14,11 +14,41 @@
 | **Maintainer** | Qdrant |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/qdrant/qdrant) · [Documentation](https://qdrant.tech/documentation/) |
 
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 4/5 · licence+cost 5/5 → **weighted 82/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Embeddings are derived from your documents using a model whose licence applies to that use. |
+| **Restrictions** | None material for the database. The managed cloud service is a separate commercial product. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee for self-hosting. Infrastructure: RAM-proportional to vector count (quantisation reduces this substantially) plus disk — one VM for several million vectors. Managed cloud priced separately (not verified). Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/qdrant/qdrant/blob/master/LICENSE
+- https://github.com/qdrant/qdrant
+- https://qdrant.tech/documentation/
 
 ---
 

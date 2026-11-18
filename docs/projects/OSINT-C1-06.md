@@ -14,6 +14,9 @@
 | **Maintainer** | YaCy community |
 | **Maintenance** | Stable with low activity |
 | **Licence** | GPL-2.0-or-later (GitHub API reports NOASSERTION) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/yacy/yacy_search_server) · [Documentation](https://yacy.net/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 2/5 · licence+cost 4/5 → **weighted 66/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-2.0-or-later (GitHub API reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Your crawl contains third-party content subject to the original publishers' rights. |
+| **Restrictions** | GPL-2.0-or-later on the software. Crawling may engage target sites' terms of service — a separate consideration from the licence. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Infrastructure estimate: a JVM host with substantial disk for the index — a few hundred GB for a meaningful multi-site crawl, scaling with scope. Assumptions: standalone mode, text-focused index.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/yacy/yacy_search_server
+- https://yacy.net/
 
 ---
 

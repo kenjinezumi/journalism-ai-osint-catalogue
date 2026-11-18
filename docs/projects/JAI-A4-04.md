@@ -14,6 +14,9 @@
 | **Maintainer** | AFP Medialab / vera.ai consortium |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT (extension code) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/AFP-Medialab/verification-plugin) · [Documentation](https://weverify.eu/verification-plugin/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 1/5 · usability 5/5 · licence+cost 4/5 → **weighted 82/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (extension code) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a for the extension; deepfake and forensics models run on AFP/vera.ai backend services, weights not distributed and model licences not verified. |
+| **Restrictions** | Extension code unrestricted. The backend services operate under the consortium's terms, not an open licence, so the analytical capability is not self-hostable. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free to use. No infrastructure. The cost is non-monetary: dependency on third-party backends you do not control and cannot audit.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/AFP-Medialab/verification-plugin/blob/master/LICENSE
+- https://github.com/AFP-Medialab/verification-plugin
+- https://weverify.eu/verification-plugin/
 
 ---
 

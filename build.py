@@ -22,6 +22,9 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.join(ROOT, "docs")
 PROJ = os.path.join(DOCS, "projects")
 
+# Where tools/mksite.py's output is published. Used only for the README banner.
+SITE_URL = "https://kenjinezumi.github.io/journalism-ai-osint-catalogue/"
+
 W = {"relevance": 30, "capability": 20, "maintenance": 15,
      "privacy": 15, "usability": 10, "licence_cost": 10}
 
@@ -52,7 +55,34 @@ SEG_OF_PILLAR = {"JAI": ["A1", "A2", "A3", "A4"], "SUR": ["B1", "B2", "B3"],
 REQ = ["id", "name", "pillar", "segment", "subcategory", "project_type", "bucket", "purpose",
        "journalism_use_case", "audience", "pros", "cons", "feedback", "assessment",
        "maintenance_status", "maintenance_evidence", "licence", "costs", "privacy", "verdict",
-       "evidence_urls", "verification_date", "confidence", "depth", "scores"]
+       "evidence_urls", "verification_date", "confidence", "depth", "scores",
+       "summary", "licence_type", "oss_status", "oss_detail", "price_class", "cost_flags"]
+
+# Licensing and payment are separate questions and are classified separately.
+# `licence_type` describes the terms; `oss_status` describes what those terms permit;
+# `price_class` describes the price of the project's own software only.
+LICENCE_TYPES = {"Permissive", "Weak copyleft", "Strong copyleft", "Dual-licensed",
+                 "Public domain", "Open data licence", "Restricted / non-OSI",
+                 "Mixed (code vs weights/data)", "Proprietary", "Unresolved"}
+OSS_STATUS = {"Open source", "Source available", "Mixed", "Proprietary", "Unverified"}
+PRICE_CLASSES = {"No software fee", "No fee below threshold", "Free tier", "Paid",
+                 "Quote required", "Unknown / not verified"}
+COST_FLAG_LABEL = {
+    "mandatory-paid": "Mandatory paid dependency",
+    "optional-hosted": "Optional paid hosting or commercial licence",
+    "infrastructure": "Self-hosting infrastructure",
+    "hardware": "Dedicated hardware",
+    "staff-effort": "Staff effort",
+    "none-material": "No material additional cost recorded",
+}
+LICENCE_TYPE_ORDER = ["Permissive", "Weak copyleft", "Strong copyleft", "Dual-licensed",
+                      "Public domain", "Open data licence", "Mixed (code vs weights/data)",
+                      "Restricted / non-OSI", "Proprietary", "Unresolved"]
+OSS_STATUS_ORDER = ["Open source", "Mixed", "Source available", "Proprietary", "Unverified"]
+PRICE_CLASS_ORDER = ["No software fee", "No fee below threshold", "Free tier", "Paid",
+                     "Quote required", "Unknown / not verified"]
+COST_FLAG_ORDER = ["mandatory-paid", "optional-hosted", "hardware", "infrastructure",
+                   "staff-effort", "none-material"]
 VERDICTS = {"Adopt", "Pilot", "Integrate", "Monitor", "Reference only",
             "Avoid for new deployment"}
 MSTATUS = {"Actively maintained", "Stable with low activity",
@@ -86,6 +116,13 @@ def load():
                 errs.append(f"{pid}: bad verdict {d.get('verdict')!r}")
             if d.get("maintenance_status") not in MSTATUS:
                 errs.append(f"{pid}: bad maintenance_status {d.get('maintenance_status')!r}")
+            for field, vocab in (("licence_type", LICENCE_TYPES), ("oss_status", OSS_STATUS),
+                                 ("price_class", PRICE_CLASSES)):
+                if d.get(field) not in vocab:
+                    errs.append(f"{pid}: bad {field} {d.get(field)!r}")
+            for f in d.get("cost_flags") or []:
+                if f not in COST_FLAG_LABEL:
+                    errs.append(f"{pid}: unknown cost flag {f!r}")
             s = d.get("scores") or {}
             for k in W:
                 v = s.get(k)
@@ -174,6 +211,61 @@ def score_line(d):
             f"**weighted {d['weighted_total']}/100**")
 
 
+def licence_cost_block(d, heading_level=2):
+    """The labelled "Licence and costs" section on every project page.
+
+    Licensing and payment are presented as two separate questions, with the
+    classifications used by the directory, the exact recorded terms, the
+    evidence links and the verification date. Nothing here is inferred at
+    render time — every value comes from the project's record.
+    """
+    h = "#" * heading_level
+    o = [f"{h} Licence and costs\n"]
+    o.append("_Licensing and payment are two separate questions. The classifications are "
+             "defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._\n")
+    o.append("| | |\n|---|---|")
+    o.append(f"| **Licence classification** | {md_esc(d['licence_type'])} |")
+    o.append(f"| **Exact licence (as recorded)** | {md_esc(d['licence'])} |")
+    o.append(f"| **SPDX identifier verified** | "
+             f"{'yes — read from the licence file' if d.get('licence_spdx_verified') else 'no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier'} |")
+    if d.get("model_or_data_licence"):
+        o.append(f"| **Model / dataset terms** | {md_esc(d['model_or_data_licence'])} |")
+    if d.get("licence_restrictions"):
+        o.append(f"| **Restrictions** | {md_esc(d['licence_restrictions'])} |")
+    o.append(f"| **Open-source status** | **{md_esc(d['oss_status'])}** — {md_esc(d['oss_detail'])} |")
+    o.append(f"| **Software price** | {md_esc(price_cell(d))} |")
+    o.append(f"| **Additional costs** | {md_esc(cost_cell(d))} |")
+    flags = d.get("cost_flags") or []
+    o.append(f"| **Cost conditions** | "
+             + "; ".join(("**" + COST_FLAG_LABEL[f] + "**") if f == "mandatory-paid"
+                         else COST_FLAG_LABEL[f]
+                         for f in COST_FLAG_ORDER if f in flags) + " |")
+    o.append(f"| **Verified** | {d['verification_date']} · confidence **{d['confidence']}** |")
+    o.append(f"\n**Recorded cost detail.** {d['costs']}\n")
+    ev, seen = [], set()
+    if d.get("licence_evidence_url"):
+        u = d["licence_evidence_url"]
+        seen.add(u)
+        ev.append(f"- Licence evidence: {u if u.startswith('http') else f'`{u}`'}")
+    for e in d["evidence_urls"]:
+        if e in seen:
+            continue
+        seen.add(e)
+        ev.append(f"- {e}" if str(e).startswith("http") else f"- `{e}`")
+    o.append("**Evidence for the licence and cost position** "
+             f"(verified {d['verification_date']}):\n")
+    o.append("\n".join(ev) if ev else "_none recorded_")
+    unresolved = []
+    if d["licence_type"] == "Unresolved" or d["oss_status"] == "Unverified":
+        unresolved.append("the licence could not be confirmed from the evidence gathered")
+    if d["price_class"] == "Unknown / not verified":
+        unresolved.append("the price is not established by these records — this is not a "
+                          "statement that it is free")
+    if unresolved:
+        o.append("\n> **Unresolved:** " + "; ".join(unresolved) + ".")
+    return "\n".join(o)
+
+
 def card_body(d, ctx, byname, heading_level=2):
     """The fourteen assessment fields. Shared by report.md and the per-project pages."""
     h = "#" * heading_level
@@ -239,6 +331,9 @@ def write_project_pages(order, byid, byname):
         o.append(f"| **Maintainer** | {md_esc(d.get('maintainer', 'not recorded'))} |")
         o.append(f"| **Maintenance** | {d['maintenance_status']} |")
         o.append(f"| **Licence** | {md_esc(d['licence'])} |")
+        o.append(f"| **Licence type** | {md_esc(d['licence_type'])} |")
+        o.append(f"| **Open-source status** | {md_esc(d['oss_status'])} |")
+        o.append(f"| **Software price** | {md_esc(price_cell(d))} |")
         o.append(f"| **Confidence** | {d['confidence']}"
                  + (" · **provisional**" if d.get("provisional") else "") + " |")
         o.append(f"| **Verified** | {d['verification_date']} |")
@@ -254,6 +349,8 @@ def write_project_pages(order, byid, byname):
         o.append(f"\n**Scores** — {score_line(d)}")
         if d.get("blockers"):
             o.append("\n> **Material blockers recorded.** See [section 12](#material-blockers).")
+        o.append("\n---\n")
+        o.append(licence_cost_block(d, heading_level=2))
         o.append("\n---\n")
         o.append(linkify(card_body(d, ctx, byname), ctx, byid))
         same = [x for x in order if x["segment"] == d["segment"] and x["id"] != d["id"]][:8]
@@ -276,6 +373,190 @@ def write_project_pages(order, byid, byname):
     return len(order)
 
 
+# ------------------------------------------------- licence and cost rendering
+
+def short_licence(d):
+    """A table-width form of the exact recorded licence.
+
+    The parenthetical caveats ("project licensing — confirm from the repository
+    licence file") are carried by the Open-source status column and stated in
+    full on the project page, so they are trimmed here rather than truncated
+    mid-sentence.
+    """
+    lic = str(d["licence"])
+    lic = re.sub(r"\s*\((?:project licensing|licence blob|verified in session|"
+                 r"GitHub reports|from source headers|SPDX|read |direct )[^)]*\)", "", lic)
+    lic = re.sub(r"\s+", " ", lic).strip(" ;,")
+    if len(lic) > 72:
+        cut = lic[:72].rsplit(";", 1)[0] if ";" in lic[:72] else lic[:72].rsplit(" ", 1)[0]
+        lic = cut.rstrip(" ,;") + " …"
+    return lic or "Not recorded"
+
+
+def price_cell(d):
+    """Software price only — the project's own fee, never a dependency's."""
+    cls = d["price_class"]
+    txt = f"**{cls}**" if cls != "Unknown / not verified" else f"**{cls}**"
+    note = (d.get("software_price_note") or "").strip()
+    return txt + (f" — {note}" if note else "")
+
+
+def cost_cell(d):
+    """Additional costs, with mandatory dependencies stated first and in bold."""
+    flags = d.get("cost_flags") or []
+    note = (d.get("additional_costs_note") or "").strip()
+    if "mandatory-paid" in flags:
+        return "**Mandatory paid dependency** — " + note
+    if not note:
+        return "Not recorded"
+    return note[0].upper() + note[1:]
+
+
+def legend_table():
+    o = []
+    o.append("Licensing and payment are recorded as two separate questions. A permissive "
+             "licence does not imply a free service, and a free download does not imply a "
+             "permissive licence. Nothing is treated as free merely because it is published "
+             "on GitHub or can be self-hosted.\n")
+    o.append("**Licence** — the exact licence as recorded from the evidence, classified as:\n")
+    o.append("| Classification | Meaning |\n|---|---|")
+    o.append("| **Permissive** | OSI-approved with no copyleft obligation (MIT, BSD, Apache-2.0) |")
+    o.append("| **Weak copyleft** | File- or library-scoped copyleft (LGPL, MPL-2.0) |")
+    o.append("| **Strong copyleft** | Whole-work copyleft, including network use for AGPL (GPL, AGPL) |")
+    o.append("| **Dual-licensed** | Offered under a choice of terms, one of which may be commercial |")
+    o.append("| **Public domain** | CC0 or a US-government public-records dedication |")
+    o.append("| **Open data licence** | A data licence rather than a software licence (CC-BY, ODbL) |")
+    o.append("| **Mixed (code vs weights/data)** | Open-source code with separate, more restrictive model or data terms |")
+    o.append("| **Restricted / non-OSI** | Source is published under terms that are not open source — field-of-use, non-commercial or source-available conditions |")
+    o.append("| **Proprietary** | A commercial licence or a hosted service governed by service terms |")
+    o.append("| **Unresolved** | The exact licence could not be confirmed from the evidence gathered |")
+    o.append("\n**Open-source status** — what those terms permit. Code, model weights, datasets "
+             "and service terms are kept distinct; a dataset is classified as an open or "
+             "restricted **data licence** rather than as open-source software.\n")
+    o.append("| Status | Meaning |\n|---|---|")
+    o.append("| **Open source** | Open-source software licence, or an open data or open model licence for a dataset or model |")
+    o.append("| **Mixed** | Open-source code with restricted weights, data or reference data |")
+    o.append("| **Source available** | Source published under restricted, non-OSI terms |")
+    o.append("| **Proprietary** | Proprietary software or a hosted service governed by service terms rather than a software licence |")
+    o.append("| **Unverified** | Licence status not established by the evidence gathered — reuse is legally unresolved |")
+    o.append("\n**Software price** — the price of the project's own software, separately from any "
+             "optional hosted subscription offered alongside it.\n")
+    o.append("| Price class | Meaning |\n|---|---|")
+    o.append("| **No software fee** | No fee to obtain and run the software itself |")
+    o.append("| **No fee below threshold** | Free below a stated vendor revenue or funding threshold; a paid licence applies above it |")
+    o.append("| **Free tier** | A free tier exists with paid tiers above it; amounts are given where verified |")
+    o.append("| **Paid** | A fee is required; verified amounts are given with currency and billing period |")
+    o.append("| **Quote required** | Priced, but no public price is published |")
+    o.append("| **Unknown / not verified** | The records do not establish a price. Not an assertion that it is free |")
+    o.append("\n**Additional costs** — everything that is not the software fee. Mandatory paid "
+             "dependencies are stated first and in bold, because they change whether a project "
+             "is usable at all:\n")
+    o.append("| Flag | Meaning |\n|---|---|")
+    o.append("| **Mandatory paid dependency** | A paid API, dataset, model, licence or tool is required for the project's core function |")
+    o.append("| Optional paid hosting or commercial licence | A paid hosted service or commercial licence exists but self-hosting does not require it |")
+    o.append("| Dedicated hardware | Specific hardware is required (a radio, a dongle, a certified machine) |")
+    o.append("| Self-hosting infrastructure | Compute, storage and operational cost you carry, stated as an estimate on the project page |")
+    o.append("| Staff effort | Material analyst, engineering or verification labour |")
+    o.append("| No material additional cost recorded | Nothing material recorded beyond the software itself |")
+    o.append("\nAmounts are quoted with their currency and billing period, with any seat count, "
+             "credit allowance or annual-billing condition preserved as recorded. Infrastructure "
+             "you operate is separated from charges a vendor levies. Estimates are labelled as "
+             "estimates on the project page, with the assumption stated. Prices were read from "
+             "vendor pages on the verification dates recorded against each project and change "
+             "without notice.")
+    return "\n".join(o)
+
+
+DIR_COLS = ["Rank", "Project", "What it does", "Category", "Licence",
+            "Open-source status", "Software price", "Additional costs", "Maintenance"]
+
+
+def directory_table(order, ctx):
+    """The complete directory: every project, one row, licence and cost visible.
+
+    Generated from the records like everything else — there is no hand-maintained
+    list to drift out of step with them.
+    """
+    o = ["| " + " | ".join(DIR_COLS) + " |",
+         "|--:|---|---|---|---|---|---|---|---|"]
+    for d in order:
+        o.append("| ".join([
+            f"| {d['rank_overall']} ",
+            f"{link_project(d, ctx)}<br>`{d['id']}` ",
+            f"{md_esc(d['summary'])} ",
+            f"{d['segment']} · {md_esc(d.get('subcategory', ''))} ",
+            f"**{md_esc(d['licence_type'])}**<br>{md_esc(short_licence(d))} ",
+            f"{md_esc(d['oss_status'])} ",
+            f"{md_esc(price_cell(d))} ",
+            f"{md_esc(cost_cell(d))} ",
+            f"{d['maintenance_status']} |",
+        ]))
+    return "\n".join(o)
+
+
+def write_directory_json(order):
+    """Machine-readable directory for the generated HTML site.
+
+    The site's interactive table is built from this file so that it cannot
+    diverge from the markdown directory — both are generated from the same
+    records in the same build.
+    """
+    out = {
+        "generated_from": "records/*.json",
+        "count": len(order),
+        "columns": DIR_COLS,
+        "vocabularies": {
+            "pillars": {k: PILLAR_NAME[k] for k in PILLAR_ORDER},
+            "segments": {k: SEGMENT_NAME[k] for k in SEG_ORDER},
+            "licence_type": LICENCE_TYPE_ORDER,
+            "oss_status": OSS_STATUS_ORDER,
+            "price_class": PRICE_CLASS_ORDER,
+            "cost_flags": {f: COST_FLAG_LABEL[f] for f in COST_FLAG_ORDER},
+            "maintenance_status": MSTATUS_ORDER,
+            "verdict": VERDICT_ORDER,
+        },
+        "projects": [{
+            "rank": d["rank_overall"],
+            "id": d["id"],
+            "name": d["name"],
+            "aka": d.get("aka", ""),
+            # Root-relative: the directory is rendered on the repository front page.
+            "page": f"docs/projects/{d['id']}.md",
+            "summary": d["summary"],
+            "pillar": d["pillar"],
+            "segment": d["segment"],
+            "subcategory": d.get("subcategory", ""),
+            "project_type": d["project_type"],
+            "bucket": d["bucket"],
+            "licence": d["licence"],
+            "licence_short": short_licence(d),
+            "licence_type": d["licence_type"],
+            "licence_spdx_verified": bool(d.get("licence_spdx_verified")),
+            "oss_status": d["oss_status"],
+            "oss_detail": d["oss_detail"],
+            "price_class": d["price_class"],
+            "software_price_note": d.get("software_price_note", ""),
+            "cost_flags": d.get("cost_flags") or [],
+            "additional_costs_note": d.get("additional_costs_note", ""),
+            "maintenance_status": d["maintenance_status"],
+            "verdict": d["verdict"],
+            "weighted_total": d["weighted_total"],
+            "confidence": d["confidence"],
+            "provisional": bool(d.get("provisional")),
+            "blockers": len(d.get("blockers") or []),
+            "search": " ".join([
+                d["name"], d.get("aka", ""), d["id"], d["summary"],
+                d.get("subcategory", ""), d["project_type"], d["licence"],
+                d["licence_type"], d["oss_status"], d["price_class"],
+                d.get("software_price_note", ""), d.get("additional_costs_note", ""),
+                d["maintenance_status"], d["verdict"], d.get("maintainer", ""),
+            ]).lower(),
+        } for d in order],
+    }
+    json.dump(out, open(os.path.join(DOCS, "directory.json"), "w", encoding="utf-8"),
+              indent=1, ensure_ascii=False)
+
+
 def master_table(order, ctx, head=None):
     rows = order if head is None else order[:head]
     o = ["| # | Project | ID | Seg | Total | Rel | Cap | Mnt | Priv | Use | Lic | Verdict | Maintenance | Conf |",
@@ -291,12 +572,14 @@ def master_table(order, ctx, head=None):
 
 
 def seg_table(rows, ctx):
-    o = ["| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence |",
-         "|--:|--:|---|---|--:|---|---|---|"]
+    o = ["| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance "
+         "| Licence | Open-source status | Software price |",
+         "|--:|--:|---|---|--:|---|---|---|---|---|"]
     for d in rows:
         o.append(f"| {d['rank_segment']} | {d['rank_overall']} | {link_project(d, ctx)} | "
                  f"{md_esc(d.get('subcategory', ''))} | **{d['weighted_total']}** | {d['verdict']} | "
-                 f"{d['maintenance_status']} | {md_esc(d['licence'])[:44]} |")
+                 f"{d['maintenance_status']} | {md_esc(short_licence(d))} | "
+                 f"{md_esc(d['oss_status'])} | {md_esc(d['price_class'])} |")
     return "\n".join(o)
 
 
@@ -409,6 +692,56 @@ def write_stacks(order, byid):
     open(os.path.join(DOCS, "stacks.md"), "w", encoding="utf-8").write(body + "\n")
 
 
+def unverified_section(order):
+    """What the licence and cost evidence does not establish, counted from the records.
+
+    These are deliberately listed rather than summarised away. An unknown price is
+    not a free price, and an unresolved licence is not a permissive one.
+    """
+    unres = [d for d in order if d["licence_type"] == "Unresolved"
+             or d["oss_status"] == "Unverified"]
+    nospdx = [d for d in order if not d.get("licence_spdx_verified")]
+    noprice = [d for d in order if d["price_class"] == "Unknown / not verified"]
+    mand = [d for d in order if "mandatory-paid" in (d.get("cost_flags") or [])]
+    o = ["## Licensing and pricing that remain unverified\n"]
+    o.append(f"Counted from [`records/`](../records/) at build time, across all {len(order)} "
+             "projects. Licensing and payment are counted separately because they are separate "
+             "questions.\n")
+    o.append("| Measure | Projects | What it means |\n|---|--:|---|")
+    o.append(f"| Licence unresolved or open-source status unverified | {len(unres)} | "
+             "No licence file, no SPDX identifier and no licence statement that the evidence "
+             "could confirm. Reuse is legally unresolved |")
+    o.append(f"| SPDX identifier not independently verified | {len(nospdx)} | "
+             "A licence is recorded and in most cases named by the GitHub API or the project's "
+             "documentation, but the licence file itself was not read in this survey. The "
+             "recorded licence is a research note, not a verified SPDX determination |")
+    o.append(f"| Software price not established | {len(noprice)} | "
+             "The records do not establish a price. **Not** a finding that the project is free |")
+    o.append(f"| Mandatory paid dependency recorded | {len(mand)} | "
+             "A paid API, dataset, model, licence or tool is required for the core function, "
+             "whatever the software itself costs |")
+    o.append("\n### Licence unresolved or status unverified "
+             f"({len(unres)})\n")
+    o.append("| Project | Recorded licence | Status |\n|---|---|---|")
+    for d in sorted(unres, key=lambda x: x["id"]):
+        o.append(f"| {link_project(d, 'docs')} | {md_esc(d['licence'])} | "
+                 f"{md_esc(d['oss_status'])} |")
+    o.append(f"\n### Software price not established ({len(noprice)})\n")
+    o.append("These are hosted services or platforms whose current terms were not confirmed in "
+             "this survey. Several have historically had free or free-for-journalists tiers; "
+             "that history is recorded on the project pages and is not treated as a current "
+             "price.\n")
+    o.append("| Project | Recorded cost position |\n|---|---|")
+    for d in sorted(noprice, key=lambda x: x["id"]):
+        o.append(f"| {link_project(d, 'docs')} | {md_esc(d['costs'])} |")
+    o.append(f"\n### Mandatory paid dependencies ({len(mand)})\n")
+    o.append("| Project | Software price | What must be paid for |\n|---|---|---|")
+    for d in sorted(mand, key=lambda x: x["id"]):
+        o.append(f"| {link_project(d, 'docs')} | {md_esc(d['price_class'])} | "
+                 f"{md_esc(d.get('additional_costs_note', ''))} |")
+    return "\n".join(o)
+
+
 def write_findings(order, byid):
     o = ["# Findings, blockers and limitations\n"]
     o.append("[← Catalogue home](../README.md) · [All rankings](rankings.md) · "
@@ -424,6 +757,8 @@ def write_findings(order, byid):
     for d in sorted(blocked, key=lambda x: -x["weighted_total"]):
         o.append(f"| {link_project(d, 'docs')} | {d['weighted_total']} | {d['verdict']} | "
                  + "<br>".join(md_esc(b) for b in d["blockers"]) + " |")
+    o.append("\n---\n")
+    o.append(unverified_section(order))
     o.append("\n---\n")
     o.append(linkify(frag("60-gaps.md"), "docs", byid))
     prov = [d for d in order if d.get("provisional")]
@@ -454,12 +789,22 @@ def write_methodology(byid):
 
 # -------------------------------------------------------------------- README
 
-def write_readme(cat, order, byid):
+def write_readme(cat, order, byid, cols):
     meta = cat["meta"]
     n = len(order)
     blocked = sum(1 for d in order if d.get("blockers"))
     o = []
     o.append("# Journalism AI, surveillance and OSINT tooling catalogue\n")
+    # GitHub renders only Markdown on the repository front page and strips the
+    # directory table's search, filter and sort controls, so point readers at the
+    # generated site where those work. tools/mksite.py strips this block when it
+    # renders README.md, because there the link would point at the page itself.
+    o.append("<!-- SITE_BANNER_START -->")
+    o.append(f"### \u25b6 [**Browse the catalogue \u2192**]({SITE_URL})\n")
+    o.append(f"All {n} projects in one searchable, sortable, filterable table, plus every "
+             "assessment, ranking and source rendered as a site. The Markdown below is the "
+             "same data, with the controls stripped out by GitHub.\n")
+    o.append("<!-- SITE_BANNER_END -->\n")
     o.append(f"An assessed, ranked and evidenced catalogue of **{n} open-source projects, "
              "datasets and services** used in investigative journalism, surveillance research "
              "and open-source investigation.\n")
@@ -483,6 +828,29 @@ def write_readme(cat, order, byid):
         segs = ", ".join(SEG_OF_PILLAR[pl])
         o.append(f"| **{PILLAR_NAME[pl]}** | {len(rows)} | segments {segs} | "
                  f"[{PILLAR_PAGE[pl]}](docs/{PILLAR_PAGE[pl]}) |")
+    o.append("\n## Complete directory\n")
+    o.append(f"Every project in the catalogue, in overall rank order, with its licence, "
+             f"open-source status and cost position on the same row. Archived, restricted, "
+             f"provisional and **Avoid for new deployment** entries are included and keep their "
+             f"labels — the directory is the full set, not a shortlist.\n")
+    o.append(f"**Showing {n} of {n} projects.**\n")
+    o.append(f"Each name links to its full assessment. The table is wide; it scrolls "
+             f"horizontally. For score breakdowns see the "
+             f"[complete ranking](docs/rankings.md). "
+             f"[The site]({SITE_URL}) renders this same table with search, filters and "
+             f"sorting, which GitHub strips from this page; see "
+             f"[Methodology](docs/methodology.md) for how it is generated.\n")
+    o.append("### How to read the licence and cost columns\n")
+    o.append(legend_table())
+    o.append(f"\n### Directory — all {n} projects\n")
+    o.append(f"_Showing {n} of {n} projects, sorted by overall rank._\n")
+    o.append("<!-- DIRECTORY_TABLE_START -->")
+    o.append(directory_table(order, "root"))
+    o.append("<!-- DIRECTORY_TABLE_END -->\n")
+    o.append("## The 20 projects to examine first\n")
+    o.append("A reading order through the directory above, not a separate ranking.\n")
+    o.append(linkify(frag("30-top20.md"), "root", byid)
+             .replace("## The 20 projects to examine first\n", "", 1).lstrip())
     o.append("\n## Summary statistics\n")
     o.append(f"Calculated from [`records/`](records/) at build time; {n} projects, "
              f"{meta['validation_errors_count']} validation errors.\n")
@@ -490,6 +858,21 @@ def write_readme(cat, order, byid):
     o.append(counts_table(order, "verdict", VERDICT_ORDER, "Verdict"))
     o.append("\n### Maintenance\n")
     o.append(counts_table(order, "maintenance_status", MSTATUS_ORDER, "Status"))
+    o.append("\n### Licence classification\n")
+    o.append(counts_table(order, "licence_type", LICENCE_TYPE_ORDER, "Licence type"))
+    o.append("\n### Open-source status\n")
+    o.append(counts_table(order, "oss_status", OSS_STATUS_ORDER, "Status"))
+    o.append("\n### Software price\n")
+    o.append(counts_table(order, "price_class", PRICE_CLASS_ORDER, "Price class"))
+    o.append("\n### Additional costs\n")
+    o.append("A project can carry more than one, so these do not sum to "
+             f"{n}.\n")
+    fc = Counter(f for d in order for f in (d.get("cost_flags") or []))
+    o.append("| Additional cost | Projects |\n|---|--:|")
+    for f in COST_FLAG_ORDER:
+        if f in fc:
+            lbl = COST_FLAG_LABEL[f]
+            o.append(f"| {'**' + lbl + '**' if f == 'mandatory-paid' else lbl} | {fc[f]} |")
     o.append("\n### Licence bucket\n")
     o.append(counts_table(order, "bucket", None, "Bucket"))
     o.append("\n### Evidence confidence\n")
@@ -507,6 +890,8 @@ def write_readme(cat, order, byid):
             o.append(f"| {SEGMENT_NAME[sg]} | {c} |")
     o.append("\n## Navigation\n")
     o.append("| Page | Contents |\n|---|---|")
+    o.append(f"| [Complete directory](#directory--all-{n}-projects) | All {n} projects on one "
+             "page with licence, open-source status and cost |")
     o.append("| [Complete ranking](docs/rankings.md) | All "
              f"{n} projects ranked, with score breakdowns and distributions |")
     o.append("| [Journalism and AI](docs/journalism-ai.md) | Pillar index and the A1–A4 segment rankings |")
@@ -523,13 +908,13 @@ def write_readme(cat, order, byid):
     o.append(f"| [`catalogue.json`](catalogue.json) | JSON | Complete structured export — "
              f"{n} projects with every field, plus computed ranks and summary counts |")
     o.append(f"| [`catalogue.csv`](catalogue.csv) | CSV | Spreadsheet-friendly export — {n} rows, "
-             "43 columns; list fields are pipe-separated |")
+             f"{len(cols)} columns; list fields are pipe-separated |")
+    o.append(f"| [`docs/directory.json`](docs/directory.json) | JSON | The directory above as "
+             "data — one row per project with its licence, open-source status and cost "
+             "classification; the site's filterable table is built from this file |")
     o.append("| [`records/`](records/) | JSON | Canonical hand-authored records; everything else is generated from these |")
     o.append("| [`sources/evidence/`](sources/evidence/) | Markdown, text | Resolved research leads, pricing evidence, source-URL verification, retrieved licence texts |")
     o.append("| [`work/meta.jsonl`](work/meta.jsonl) | JSON Lines | GitHub metadata sweep over 583 candidate repositories, 2026-11-17 |")
-    o.append("\n## The 20 projects to examine first\n")
-    o.append(linkify(frag("30-top20.md"), "root", byid)
-             .replace("## The 20 projects to examine first\n", "", 1).lstrip())
     o.append("\n## Reading an assessment\n")
     o.append("### Verdicts\n")
     o.append("| Verdict | Meaning |\n|---|---|")
@@ -578,10 +963,18 @@ def write_readme(cat, order, byid):
              "  journalism-ai.md  surveillance.md  osint.md\n"
              "  stacks.md\n"
              "  findings-and-limitations.md\n"
+             "  directory.json           machine-readable directory (generated)\n"
              "  projects/                one page per project, named by project ID\n"
+             "tools/                     site generator (not part of the catalogue data)\n"
+             "  mksite.py                renders every .md to HTML; output is published to Pages\n"
+             "  dirtable.py              builds the interactive directory table from directory.json\n"
+             "  checkhtml.py             verifies every link and anchor in the rendered site\n"
              "sources/evidence/          research leads, pricing, URL verification, licence texts\n"
              "sources/recovered/         first-session research artefacts, preserved unmodified\n"
              "work/                      metadata sweep output and the scripts that produced it\n"
+             "  enrich_records.py        derives the licence and cost classifications\n"
+             "  enrich_overrides.json    hand-reviewed corrections, each with its reason\n"
+             "  checklinks.py            relative-link and anchor checker\n"
              "STATE.md                   project state, open questions and next actions\n"
              "```\n")
     o.append("## Updating and regenerating\n")
@@ -719,6 +1112,19 @@ def main():
             "pillars": dict(Counter(d["pillar"] for d in order)),
             "segments": dict(Counter(d["segment"] for d in order)),
             "buckets": dict(Counter(d["bucket"] for d in order)),
+            "licence_types": dict(Counter(d["licence_type"] for d in order)),
+            "oss_status": dict(Counter(d["oss_status"] for d in order)),
+            "price_classes": dict(Counter(d["price_class"] for d in order)),
+            "cost_flags": dict(Counter(f for d in order
+                                       for f in (d.get("cost_flags") or []))),
+            "licence_unresolved": sum(1 for d in order if d["licence_type"] == "Unresolved"
+                                      or d["oss_status"] == "Unverified"),
+            "licence_spdx_unverified": sum(1 for d in order
+                                           if not d.get("licence_spdx_verified")),
+            "price_unknown": sum(1 for d in order
+                                 if d["price_class"] == "Unknown / not verified"),
+            "mandatory_paid": sum(1 for d in order
+                                  if "mandatory-paid" in (d.get("cost_flags") or [])),
             "verdicts": dict(Counter(d["verdict"] for d in order)),
             "maintenance": dict(Counter(d["maintenance_status"] for d in order)),
             "confidence": dict(Counter(d["confidence"] for d in order)),
@@ -735,7 +1141,10 @@ def main():
     cols = ["rank_overall", "id", "name", "pillar", "segment", "subcategory", "project_type",
             "bucket", "weighted_total", "score_relevance", "score_capability",
             "score_maintenance", "score_privacy", "score_usability", "score_licence_cost",
-            "verdict", "maintenance_status", "licence", "model_or_data_licence",
+            "verdict", "maintenance_status", "summary", "licence", "licence_type",
+            "licence_spdx_verified", "oss_status", "oss_detail", "price_class",
+            "software_price_note", "cost_flags", "additional_costs_note",
+            "model_or_data_licence",
             "licence_restrictions", "costs", "privacy", "purpose", "journalism_use_case",
             "audience", "pros", "cons", "feedback", "assessment", "maintenance_evidence",
             "alternatives", "blockers", "repo_url", "docs_url", "licence_evidence_url",
@@ -757,13 +1166,14 @@ def main():
 
     os.makedirs(DOCS, exist_ok=True)
     npages = write_project_pages(order, byid, byname)
+    write_directory_json(order)
     write_rankings(order, byid)
     for pl in PILLAR_ORDER:
         write_pillar_page(pl, order, byid)
     write_methodology(byid)
     write_stacks(order, byid)
     write_findings(order, byid)
-    write_readme(cat, order, byid)
+    write_readme(cat, order, byid, cols)
     write_report(cat, order, byid, byname)
 
     print(f"projects:            {len(items)}")
@@ -774,6 +1184,10 @@ def main():
     print(f"verdicts:            {cat['meta']['verdicts']}")
     print(f"provisional:         {cat['meta']['provisional']}")
     print(f"with blockers:       {cat['meta']['with_blockers']}")
+    print(f"licence unresolved:  {cat['meta']['licence_unresolved']}")
+    print(f"spdx unverified:     {cat['meta']['licence_spdx_unverified']}")
+    print(f"price unknown:       {cat['meta']['price_unknown']}")
+    print(f"mandatory paid dep:  {cat['meta']['mandatory_paid']}")
     print(f"validation errors:   {len(errs)}")
     for e in errs[:40]:
         print("  !", e)

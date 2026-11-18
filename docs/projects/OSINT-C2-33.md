@@ -14,6 +14,9 @@
 | **Maintainer** | Magic Leap |
 | **Maintenance** | Dormant |
 | **Licence** | NOT OSS — Magic Leap 'SOFTWARE LICENSE AGREEMENT: ACADEMIC OR NON-PROFIT ORGANIZATION NONCOMMERCIAL RESEARCH USE ONLY' (licence blob read 2026-11-17; GitHub reports NOASSERTION) |
+| **Licence type** | Restricted / non-OSI |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/magicleap/SuperGluePretrainedNetwork) · [Documentation](https://github.com/magicleap/SuperGluePretrainedNetwork#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 1/5 · privacy 4/5 · usability 2/5 · licence+cost 0/5 → **weighted 53/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Restricted / non-OSI |
+| **Exact licence (as recorded)** | NOT OSS — Magic Leap 'SOFTWARE LICENSE AGREEMENT: ACADEMIC OR NON-PROFIT ORGANIZATION NONCOMMERCIAL RESEARCH USE ONLY' (licence blob read 2026-11-17; GitHub reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same agreement covers the pretrained weights. |
+| **Restrictions** | Commercial use prohibited. The agreement is explicitly between an academic institution or non-profit (or an individual acting as such) and Magic Leap. A commercially operated newsroom has no licence, and NGO status does not automatically qualify — read the agreement before assuming it does. |
+| **Open-source status** | **Source available** — Restricted model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee for permitted academic/non-profit use; no commercial licence path is published. GPU for inference.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/magicleap/SuperGluePretrainedNetwork/blob/master/LICENSE
+- `../sources/evidence/leads.md`
 
 ---
 

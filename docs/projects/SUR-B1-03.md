@@ -14,11 +14,41 @@
 | **Maintainer** | Open Observatory of Network Interference (OONI) |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-3-Clause |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ooni/explorer) · [Documentation](https://explorer.ooni.org/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 4/5 · privacy 4/5 · usability 5/5 · licence+cost 5/5 → **weighted 90/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Displays OONI open measurement data; verify OONI's current data terms before bulk reuse. |
+| **Restrictions** | None material for the code. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free to use. Self-hosting the front end is possible but pointless for most users since the data is OONI's. No cost.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ooni/explorer/blob/master/LICENSE
+- https://github.com/ooni/explorer
+- https://explorer.ooni.org/
 
 ---
 

@@ -14,11 +14,41 @@
 | **Maintainer** | Kai Dröge (kaixxx) |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/kaixxx/noScribe) · [Documentation](https://github.com/kaixxx/noScribe#readme) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 5/5 · licence+cost 4/5 → **weighted 91/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Whisper weights MIT; pyannote diarisation weights MIT but gated behind a HuggingFace access agreement. |
+| **Restrictions** | GPL-3.0 limits incorporation into closed-source newsroom tooling. The pyannote gate is an access condition, not a use restriction, but it requires an account. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free. Real cost is wait time on CPU, or one shared GPU workstation. No paid dependencies.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/kaixxx/noScribe/blob/main/LICENSE
+- https://github.com/kaixxx/noScribe
+- https://huggingface.co/pyannote/speaker-diarization-3.1
 
 ---
 

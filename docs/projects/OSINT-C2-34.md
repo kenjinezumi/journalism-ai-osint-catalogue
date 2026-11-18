@@ -14,6 +14,9 @@
 | **Maintainer** | ZJU3DV (Zhejiang University) |
 | **Maintenance** | Dormant |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/zju3dv/LoFTR) · [Documentation](https://zju3dv.github.io/loftr/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 1/5 · privacy 5/5 · usability 2/5 · licence+cost 5/5 → **weighted 66/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Apache-2.0 per the repository; weights published by the authors under the same terms. |
+| **Restrictions** | None identified — the key contrast with SuperGlue. Verify the specific weights file you download, since research repositories occasionally distribute additional checkpoints under different terms. |
+| **Open-source status** | **Open source** — Open model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. GPU needed for practical throughput; weights are a modest download. Engineering time to containerise and integrate is the real cost. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/zju3dv/LoFTR/blob/master/LICENSE
+- https://github.com/zju3dv/LoFTR
+- https://zju3dv.github.io/loftr/
 
 ---
 

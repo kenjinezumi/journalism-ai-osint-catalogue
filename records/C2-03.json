@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/qgis/QGIS","https://docs.qgis.org/","https://github.com/qgis/QGIS/blob/master/COPYING"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Full desktop geographic information system for viewing, editing, analysing and publishing spatial data…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["staff-effort"],"additional_costs_note":"staff effort",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C2-20","name":"GDAL","maintainer":"OSGeo / GDAL contributors","pillar":"OSINT","segment":"C2","subcategory":"Geospatial data translation","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/OSGeo/gdal","docs_url":"https://gdal.org/",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/OSGeo/gdal","https://gdal.org/","https://github.com/OSGeo/gdal/blob/master/LICENSE.TXT","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Translator library and command-line suite for raster and vector geospatial formats, with reprojection, warping, mosaicking…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":5,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C2-21","name":"geopandas","maintainer":"GeoPandas developers","pillar":"OSINT","segment":"C2","subcategory":"Geospatial analysis (Python)","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/geopandas/geopandas","docs_url":"https://geopandas.org/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/geopandas/geopandas","https://geopandas.org/","https://github.com/geopandas/geopandas/blob/main/LICENSE.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library extending pandas with geometry columns, providing spatial joins, overlays, buffering, dissolving…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-22","name":"rasterio","maintainer":"Rasterio contributors (originally Mapbox)","pillar":"OSINT","segment":"C2","subcategory":"Raster and satellite imagery analysis","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/rasterio/rasterio","docs_url":"https://rasterio.readthedocs.io/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/rasterio/rasterio","https://rasterio.readthedocs.io/","https://github.com/rasterio/rasterio/blob/main/LICENSE.txt","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Pythonic interface to GDAL's raster capabilities, reading and writing geospatial raster datasets as NumPy arrays with windowed…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C2-23","name":"Overpass API","maintainer":"Roland Olbricht (drolbr)","pillar":"OSINT","segment":"C2","subcategory":"OpenStreetMap querying","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/drolbr/Overpass-API","docs_url":"https://dev.overpass-api.de/overpass-doc/",
@@ -87,6 +91,7 @@
 "blockers":["Public-instance queries disclose geolocation targets; self-hosting is required for private querying"],
 "evidence_urls":["https://github.com/drolbr/Overpass-API","https://dev.overpass-api.de/overpass-doc/","https://github.com/drolbr/Overpass-API/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Database engine and query language for OpenStreetMap data, allowing selection of map features by tag, area, proximity and time…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":2,"privacy":3,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C2-24","name":"overpass-turbo","maintainer":"Martin Raifer (tyrasd)","pillar":"OSINT","segment":"C2","subcategory":"OpenStreetMap querying","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/tyrasd/overpass-turbo","docs_url":"https://overpass-turbo.eu/",
@@ -105,6 +110,7 @@
 "blockers":["Public instance discloses queries and bounding boxes"],
 "evidence_urls":["https://github.com/tyrasd/overpass-turbo","https://overpass-turbo.eu/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Web-based interactive development environment for Overpass API queries, with a map view, query wizard…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":2,"usability":5,"licence_cost":5}},
 
 {"id":"OSINT-C2-25","name":"python-overpy","maintainer":"DinoTools","pillar":"OSINT","segment":"C2","subcategory":"OpenStreetMap querying","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/DinoTools/python-overpy","docs_url":"https://python-overpy.readthedocs.io/",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/DinoTools/python-overpy","https://python-overpy.readthedocs.io/","https://github.com/DinoTools/python-overpy/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python wrapper for the Overpass API that submits queries and parses the response into typed node, way and relation objects","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-26","name":"OSMnx","maintainer":"Geoff Boeing (gboeing)","pillar":"OSINT","segment":"C2","subcategory":"Street network analysis","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/gboeing/osmnx","docs_url":"https://osmnx.readthedocs.io/",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/gboeing/osmnx","https://osmnx.readthedocs.io/","https://github.com/gboeing/osmnx/blob/main/LICENSE.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library that downloads OpenStreetMap street networks and other geospatial features, builds them as NetworkX graphs…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-27","name":"osm-search","aka":"Bellingcat OSM Search","maintainer":"Bellingcat","pillar":"OSINT","segment":"C2","subcategory":"Feature-based geolocation","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/bellingcat/osm-search","docs_url":"https://osm-search.bellingcat.com/",
@@ -159,5 +167,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/bellingcat/osm-search","https://osm-search.bellingcat.com/","https://github.com/bellingcat/osm-search/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Tool that searches OpenStreetMap for combinations of features in proximity to each other…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":3,"privacy":4,"usability":5,"licence_cost":5}}
 ]

@@ -14,6 +14,9 @@
 | **Maintainer** | MVT Project (Amnesty International Security Lab lineage) |
 | **Maintenance** | Actively maintained |
 | **Licence** | MVT License 1.1 — NOT OSI-approved (MPL-2.0 derivative with a Consensual Use Restriction at §3.0); GitHub reports NOASSERTION |
+| **Licence type** | Restricted / non-OSI |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/mvt-project/mvt) · [Documentation](https://docs.mvt.re/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 5/5 · privacy 5/5 · usability 2/5 · licence+cost 3/5 → **weighted 90/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Restricted / non-OSI |
+| **Exact licence (as recorded)** | MVT License 1.1 — NOT OSI-approved (MPL-2.0 derivative with a Consensual Use Restriction at §3.0); GitHub reports NOASSERTION |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Indicators of compromise come from Amnesty and other publishers under their own terms. |
+| **Restrictions** | §3.0 Consensual Use Restriction (verbatim): use is permitted provided 'the Data Owner must explicitly consent to the procedure, free from any form of coercion, and must be fully informed about the nature of the procedure, its privacy implications, and any data retention and disposal policy.' Non-consensual forensic acquisition is prohibited. The restriction flows downstream on redistribution, and MPL-style file-level copyleft also applies. |
+| **Open-source status** | **Source available** — Source published under a restricted, non-OSI licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. A forensic workstation and storage for backups (phone backups are tens of GB each). The real cost is skilled analyst time per examination plus the consent and support process around it. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/mvt-project/mvt/blob/main/LICENSE
+- https://docs.mvt.re/
+- `../sources/evidence/leads.md`
+- `../sources/recovered/cat/mvt.txt`
 
 ---
 

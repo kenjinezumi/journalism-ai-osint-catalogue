@@ -14,6 +14,9 @@
 | **Maintainer** | Allen Institute for AI (AI2) |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/allenai/olmocr) · [Documentation](https://olmocr.allenai.org/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 2/5 · privacy 4/5 · usability 2/5 · licence+cost 5/5 → **weighted 72/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Apache-2.0 on the HuggingFace card for allenai/olmOCR-2-7B-1025; fine-tuned from Qwen2.5-VL-7B-Instruct, so Qwen's terms also apply to derivatives. AI2 additionally frames use under its Responsible Use Guidelines. |
+| **Restrictions** | No revenue threshold or NC clause found. Residual complexity: the base-model terms flow through, and AI2's guidelines are stated expectations rather than licence conditions. |
+| **Open-source status** | **Open source** — Open model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Requires a GPU host (24GB+ VRAM class for the 7B model with vLLM) — the dominant cost, whether owned or rented. Weights are free. Infrastructure estimate; assumes self-hosted GPU.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://huggingface.co/allenai/olmOCR-2-7B-1025
+- https://github.com/allenai/olmocr
+- https://olmocr.allenai.org/
 
 ---
 

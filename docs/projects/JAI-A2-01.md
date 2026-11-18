@@ -14,11 +14,41 @@
 | **Maintainer** | Apache Software Foundation |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/apache/solr) · [Documentation](https://solr.apache.org/guide/) |
 
 **Scores** — relevance 3/5 · capability 5/5 · maintenance 5/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 84/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None material. Permissive, patent grant included, safe to embed in a commercial newsroom product. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Cost is infrastructure plus operator time: a single-node index over a few million documents is comfortable on one 8-16GB-RAM VM plus SSD sized at roughly 30-50% of extracted text volume (estimate, assumptions: text-only index, no stored originals). SolrCloud with ZooKeeper triples the node count. Budget engineer time for schema design and an index-rebuild runbook; that labour, not licensing, is the dominant cost.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/apache/solr/blob/main/LICENSE.txt
+- https://github.com/apache/solr
+- https://solr.apache.org/guide/
 
 ---
 
