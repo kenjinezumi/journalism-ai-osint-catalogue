@@ -22,6 +22,9 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.join(ROOT, "docs")
 PROJ = os.path.join(DOCS, "projects")
 
+# Where tools/mksite.py's output is published. Used only for the README banner.
+SITE_URL = "https://kenjinezumi.github.io/journalism-ai-osint-catalogue/"
+
 W = {"relevance": 30, "capability": 20, "maintenance": 15,
      "privacy": 15, "usability": 10, "licence_cost": 10}
 
@@ -492,9 +495,9 @@ def directory_table(order, ctx):
 
 
 def write_directory_json(order):
-    """Machine-readable directory for the local HTML preview.
+    """Machine-readable directory for the generated HTML site.
 
-    The preview's interactive table is built from this file so that it cannot
+    The site's interactive table is built from this file so that it cannot
     diverge from the markdown directory — both are generated from the same
     records in the same build.
     """
@@ -792,6 +795,16 @@ def write_readme(cat, order, byid, cols):
     blocked = sum(1 for d in order if d.get("blockers"))
     o = []
     o.append("# Journalism AI, surveillance and OSINT tooling catalogue\n")
+    # GitHub renders only Markdown on the repository front page and strips the
+    # directory table's search, filter and sort controls, so point readers at the
+    # generated site where those work. tools/mksite.py strips this block when it
+    # renders README.md, because there the link would point at the page itself.
+    o.append("<!-- SITE_BANNER_START -->")
+    o.append(f"### \u25b6 [**Browse the catalogue \u2192**]({SITE_URL})\n")
+    o.append(f"All {n} projects in one searchable, sortable, filterable table, plus every "
+             "assessment, ranking and source rendered as a site. The Markdown below is the "
+             "same data, with the controls stripped out by GitHub.\n")
+    o.append("<!-- SITE_BANNER_END -->\n")
     o.append(f"An assessed, ranked and evidenced catalogue of **{n} open-source projects, "
              "datasets and services** used in investigative journalism, surveillance research "
              "and open-source investigation.\n")
@@ -823,8 +836,9 @@ def write_readme(cat, order, byid, cols):
     o.append(f"**Showing {n} of {n} projects.**\n")
     o.append(f"Each name links to its full assessment. The table is wide; it scrolls "
              f"horizontally. For score breakdowns see the "
-             f"[complete ranking](docs/rankings.md). The local HTML preview renders this same "
-             f"table with search, filters and sorting; see "
+             f"[complete ranking](docs/rankings.md). "
+             f"[The site]({SITE_URL}) renders this same table with search, filters and "
+             f"sorting, which GitHub strips from this page; see "
              f"[Methodology](docs/methodology.md) for how it is generated.\n")
     o.append("### How to read the licence and cost columns\n")
     o.append(legend_table())
@@ -897,7 +911,7 @@ def write_readme(cat, order, byid, cols):
              f"{len(cols)} columns; list fields are pipe-separated |")
     o.append(f"| [`docs/directory.json`](docs/directory.json) | JSON | The directory above as "
              "data — one row per project with its licence, open-source status and cost "
-             "classification; the local preview's filterable table is built from this file |")
+             "classification; the site's filterable table is built from this file |")
     o.append("| [`records/`](records/) | JSON | Canonical hand-authored records; everything else is generated from these |")
     o.append("| [`sources/evidence/`](sources/evidence/) | Markdown, text | Resolved research leads, pricing evidence, source-URL verification, retrieved licence texts |")
     o.append("| [`work/meta.jsonl`](work/meta.jsonl) | JSON Lines | GitHub metadata sweep over 583 candidate repositories, 2026-11-17 |")
@@ -951,6 +965,10 @@ def write_readme(cat, order, byid, cols):
              "  findings-and-limitations.md\n"
              "  directory.json           machine-readable directory (generated)\n"
              "  projects/                one page per project, named by project ID\n"
+             "tools/                     site generator (not part of the catalogue data)\n"
+             "  mksite.py                renders every .md to HTML; output is published to Pages\n"
+             "  dirtable.py              builds the interactive directory table from directory.json\n"
+             "  checkhtml.py             verifies every link and anchor in the rendered site\n"
              "sources/evidence/          research leads, pricing, URL verification, licence texts\n"
              "sources/recovered/         first-session research artefacts, preserved unmodified\n"
              "work/                      metadata sweep output and the scripts that produced it\n"

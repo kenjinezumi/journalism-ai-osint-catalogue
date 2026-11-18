@@ -1,5 +1,12 @@
 # Journalism AI, surveillance and OSINT tooling catalogue
 
+<!-- SITE_BANNER_START -->
+### ▶ [**Browse the catalogue →**](https://kenjinezumi.github.io/journalism-ai-osint-catalogue/)
+
+All 361 projects in one searchable, sortable, filterable table, plus every assessment, ranking and source rendered as a site. The Markdown below is the same data, with the controls stripped out by GitHub.
+
+<!-- SITE_BANNER_END -->
+
 An assessed, ranked and evidenced catalogue of **361 open-source projects, datasets and services** used in investigative journalism, surveillance research and open-source investigation.
 
 Every project carries a fourteen-field assessment, a six-dimension score, a maintenance classification with its evidence, a licence position verified against the licence file, and an explicit record of what could not be verified.
@@ -24,7 +31,7 @@ Every project in the catalogue, in overall rank order, with its licence, open-so
 
 **Showing 361 of 361 projects.**
 
-Each name links to its full assessment. The table is wide; it scrolls horizontally. For score breakdowns see the [complete ranking](docs/rankings.md). The local HTML preview renders this same table with search, filters and sorting; see [Methodology](docs/methodology.md) for how it is generated.
+Each name links to its full assessment. The table is wide; it scrolls horizontally. For score breakdowns see the [complete ranking](docs/rankings.md). [The site](https://kenjinezumi.github.io/journalism-ai-osint-catalogue/) renders this same table with search, filters and sorting, which GitHub strips from this page; see [Methodology](docs/methodology.md) for how it is generated.
 
 ### How to read the licence and cost columns
 
@@ -615,7 +622,7 @@ A project can carry more than one, so these do not sum to 361.
 |---|---|---|
 | [`catalogue.json`](catalogue.json) | JSON | Complete structured export — 361 projects with every field, plus computed ranks and summary counts |
 | [`catalogue.csv`](catalogue.csv) | CSV | Spreadsheet-friendly export — 361 rows, 52 columns; list fields are pipe-separated |
-| [`docs/directory.json`](docs/directory.json) | JSON | The directory above as data — one row per project with its licence, open-source status and cost classification; the local preview's filterable table is built from this file |
+| [`docs/directory.json`](docs/directory.json) | JSON | The directory above as data — one row per project with its licence, open-source status and cost classification; the site's filterable table is built from this file |
 | [`records/`](records/) | JSON | Canonical hand-authored records; everything else is generated from these |
 | [`sources/evidence/`](sources/evidence/) | Markdown, text | Resolved research leads, pricing evidence, source-URL verification, retrieved licence texts |
 | [`work/meta.jsonl`](work/meta.jsonl) | JSON Lines | GitHub metadata sweep over 583 candidate repositories, 2026-11-17 |
@@ -680,6 +687,10 @@ docs/                      browsable pages (generated)
   findings-and-limitations.md
   directory.json           machine-readable directory (generated)
   projects/                one page per project, named by project ID
+tools/                     site generator (not part of the catalogue data)
+  mksite.py                renders every .md to HTML; output is published to Pages
+  dirtable.py              builds the interactive directory table from directory.json
+  checkhtml.py             verifies every link and anchor in the rendered site
 sources/evidence/          research leads, pricing, URL verification, licence texts
 sources/recovered/         first-session research artefacts, preserved unmodified
 work/                      metadata sweep output and the scripts that produced it
