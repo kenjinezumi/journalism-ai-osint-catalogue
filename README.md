@@ -88,9 +88,9 @@ Amounts are quoted with their currency and billing period, with any seat count, 
 
 ### Directory — all 361 projects
 
+<!-- DIRECTORY_TABLE_START -->
 _Showing 361 of 361 projects, sorted by overall rank._
 
-<!-- DIRECTORY_TABLE_START -->
 | Rank | Project | What it does | Category | Licence | Open-source status | Software price | Additional costs | Maintenance |
 |--:|---|---|---|---|---|---|---|---|
 | 1 | [ExifTool](docs/projects/OSINT-C2-01.md)<br>`OSINT-C2-01` | Perl library and command-line tool that reads, writes and edits metadata in several hundred file formats, covering EXIF, IPTC… | C2 · Metadata extraction | **Strong copyleft**<br>GPL-3.0 | Open source | **No software fee** | Self-hosted infrastructure | Actively maintained |

@@ -843,8 +843,12 @@ def write_readme(cat, order, byid, cols):
     o.append("### How to read the licence and cost columns\n")
     o.append(legend_table())
     o.append(f"\n### Directory — all {n} projects\n")
-    o.append(f"_Showing {n} of {n} projects, sorted by overall rank._\n")
+    # Inside the markers: on GitHub this static count is the only one there is,
+    # but tools/mksite.py replaces everything between the markers with the
+    # interactive table, whose bar carries a live count and whose <noscript>
+    # block makes the same statement. Outside them it would contradict both.
     o.append("<!-- DIRECTORY_TABLE_START -->")
+    o.append(f"_Showing {n} of {n} projects, sorted by overall rank._\n")
     o.append(directory_table(order, "root"))
     o.append("<!-- DIRECTORY_TABLE_END -->\n")
     o.append("## The 20 projects to examine first\n")

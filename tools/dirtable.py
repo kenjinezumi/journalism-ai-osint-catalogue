@@ -70,14 +70,36 @@ def cost_cell(p):
 
 
 def controls(d):
+    """The filter bar: a compact row that stays on screen, plus an expandable panel.
+
+    The compact row carries search, the active-filter chips and the count, because
+    those are what a reader needs while scrolling 361 rows. The rest of the controls
+    sit in the panel behind the Filters button, so the bar stays shallow enough to
+    leave the table most of the viewport.
+
+    Everything is emitted with `hidden` and revealed by the script, so with
+    JavaScript off the page is still an ordinary, complete, readable table.
+    """
     v = d["vocabularies"]
     n = d["count"]
-    o = ['<div class="dirtools" id="dirtools" hidden>']
-    o.append('<div class="dirrow">')
-    o.append('<label class="grow"><span>Search</span>'
-             '<input type="search" id="q" placeholder="name, description, licence, '
-             'maintainer, category, project ID" autocomplete="off"></label>')
+    o = ['<div class="dirsticky" id="dirsticky" hidden>']
+
+    o.append('<div class="dirbar">')
+    o.append('<input type="search" id="q" aria-label="Search the directory" '
+             'placeholder="Search name, description, licence, maintainer, '
+             'category, project ID" autocomplete="off">')
+    o.append(f'<span class="count" id="count" role="status">Showing {n} of {n}</span>')
+    o.append('<button type="button" class="btn" id="toggle" aria-expanded="false" '
+             'aria-controls="dirtools">Filters'
+             '<span class="car" aria-hidden="true">▾</span></button>')
+    o.append('<button type="button" class="btn" id="reset" hidden>Reset</button>')
     o.append('</div>')
+
+    # Active filters as removable chips, so what is being excluded stays visible
+    # from anywhere in the table. Written by the script; empty until then.
+    o.append('<div class="chips" id="chips" hidden></div>')
+
+    o.append('<div class="dirtools" id="dirtools" hidden>')
 
     def sel(sid, label, options, all_option=True):
         s = [f'<label><span>{e(label)}</span><select id="{sid}">']
@@ -113,18 +135,17 @@ def controls(d):
                 if p["licence_type"] == "Unresolved" or p["oss_status"] == "Unverified")
     for key, label, title in COST_FILTERS:
         o.append(f'<label class="chk" title="{e(title)}">'
-                 f'<input type="checkbox" class="costchk" value="{e(key)}"> {e(label)}'
+                 f'<input type="checkbox" class="costchk" value="{e(key)}"'
+                 f' data-label="{e(label)}"> {e(label)}'
                  f' <span class="n">{tally[key]}</span></label>')
     o.append('<label class="chk" title="Licence classification could not be confirmed, '
              'or open-source status is unverified">'
-             '<input type="checkbox" id="f-licunres"> Unresolved licence'
+             '<input type="checkbox" id="f-licunres" data-label="Unresolved licence">'
+             ' Unresolved licence'
              f' <span class="n">{unres}</span></label>')
     o.append('</fieldset>')
-    o.append('<div class="dirrow actions">'
-             '<button type="button" id="reset">Reset all filters</button>'
-             f'<span class="count" id="count" role="status">Showing {n} of {n} projects</span>'
-             '</div>')
-    o.append('</div>')
+    o.append('</div>')   # .dirtools
+    o.append('</div>')   # .dirsticky
     return "\n".join(o)
 
 
@@ -167,30 +188,172 @@ def table(d):
     return "\n".join(o)
 
 
-SCRIPT = """
+SCRIPT = r"""
 <script>
 (function () {
-  var tools = document.getElementById('dirtools');
-  if (!tools) return;
-  tools.hidden = false;                 /* controls appear only when this runs */
-  var tbody = document.querySelector('#dirtable tbody');
-  var rows = Array.prototype.slice.call(tbody.querySelectorAll('tr'));
-  var total = rows.length;
-  var q = document.getElementById('q');
-  var sels = ['f-pillar', 'f-segment', 'f-oss', 'f-maint', 'f-sort', 'f-dir']
-    .map(function (id) { return document.getElementById(id); });
-  var pillar = sels[0], segment = sels[1], oss = sels[2], maint = sels[3],
-      sort = sels[4], dir = sels[5];
-  var licunres = document.getElementById('f-licunres');
-  var chks = Array.prototype.slice.call(document.querySelectorAll('.costchk'));
-  var count = document.getElementById('count');
-  var segOpts = Array.prototype.slice.call(segment.options);
+  var sticky = document.getElementById('dirsticky');
+  if (!sticky) return;
+  sticky.hidden = false;              /* controls appear only when this runs */
 
-  function terms() {
-    return (q.value || '').toLowerCase().split(/\\s+/).filter(Boolean);
+  var tools    = document.getElementById('dirtools');
+  var toggle   = document.getElementById('toggle');
+  var chipbox  = document.getElementById('chips');
+  var resetBtn = document.getElementById('reset');
+  var count    = document.getElementById('count');
+  var tbody    = document.querySelector('#dirtable tbody');
+  var wrap     = document.querySelector('.dirwrap');
+  var rows     = Array.prototype.slice.call(tbody.querySelectorAll('tr'));
+  var total    = rows.length;
+  var q        = document.getElementById('q');
+  var pillar   = document.getElementById('f-pillar');
+  var segment  = document.getElementById('f-segment');
+  var oss      = document.getElementById('f-oss');
+  var maint    = document.getElementById('f-maint');
+  var sort     = document.getElementById('f-sort');
+  var dir      = document.getElementById('f-dir');
+  var licunres = document.getElementById('f-licunres');
+  var chks     = Array.prototype.slice.call(document.querySelectorAll('.costchk'));
+  var segOpts  = Array.prototype.slice.call(segment.options);
+  var menus    = [pillar, segment, oss, maint];
+
+  /* The bar sticks below whatever chrome sits above it, and the table takes the
+     viewport that is left, so bar and rows stay on screen together. Measured
+     rather than hard-coded: this file does not own the page's header. */
+  function measure() {
+    var top = document.querySelector('.topbar');
+    var s = document.documentElement.style;
+    s.setProperty('--topbar-h', (top ? top.offsetHeight : 0) + 'px');
+    s.setProperty('--dirbar-h', sticky.offsetHeight + 'px');
   }
 
-  function apply() {
+  /* ---- state <-> URL ------------------------------------------------------
+     Filter state lives in the location hash so a filtered view can be linked
+     to and cited. Only non-default values are written, so an unfiltered table
+     leaves the URL clean and ordinary section anchors keep working. */
+
+  function state() {
+    var s = {};
+    if (q.value.trim()) s.q = q.value.trim();
+    if (pillar.value) s.pillar = pillar.value;
+    if (segment.value) s.segment = segment.value;
+    if (oss.value) s.oss = oss.value;
+    if (maint.value) s.maint = maint.value;
+    if (sort.value !== 'rank') s.sort = sort.value;
+    if (dir.value !== 'asc') s.dir = dir.value;
+    if (licunres.checked) s.licunres = '1';
+    var c = chks.filter(function (x) { return x.checked; })
+                .map(function (x) { return x.value; });
+    if (c.length) s.cost = c.join(',');
+    return s;
+  }
+
+  function toHash(s) {
+    var p = Object.keys(s).map(function (k) {
+      return encodeURIComponent(k) + '=' + encodeURIComponent(s[k]);
+    });
+    return p.length ? '#' + p.join('&') : '';
+  }
+
+  function readHash() {
+    var h = location.hash.replace(/^#/, '');
+    if (!h || h.indexOf('=') === -1) return null;   /* a plain section anchor */
+    var s = {};
+    h.split('&').forEach(function (kv) {
+      var i = kv.indexOf('=');
+      if (i < 1) return;
+      try {
+        s[decodeURIComponent(kv.slice(0, i))] =
+          decodeURIComponent(kv.slice(i + 1).replace(/\+/g, ' '));
+      } catch (err) { /* a malformed hash should not break the table */ }
+    });
+    return s;
+  }
+
+  /* Unknown values leave a <select> at '', so a stale or hand-edited link
+     degrades to a wider result set rather than an empty one. */
+  function setState(s) {
+    q.value = s.q || '';
+    pillar.value = s.pillar || '';
+    segment.value = s.segment || '';
+    oss.value = s.oss || '';
+    maint.value = s.maint || '';
+    sort.value = s.sort || 'rank';
+    dir.value = s.dir || 'asc';
+    if (!sort.value) sort.value = 'rank';
+    if (!dir.value) dir.value = 'asc';
+    licunres.checked = s.licunres === '1';
+    var want = (s.cost || '').split(',').filter(Boolean);
+    chks.forEach(function (c) { c.checked = want.indexOf(c.value) !== -1; });
+  }
+
+  var lastHash = null;
+  function syncURL(push) {
+    var h = toHash(state());
+    if (h === (location.hash || '')) { lastHash = h; return; }
+    try {
+      history[push ? 'pushState' : 'replaceState'](
+        null, '', location.pathname + location.search + h);
+    } catch (err) { /* history is unavailable on file:// in some browsers */ }
+    lastHash = location.hash || '';
+  }
+
+  /* ---- chips -------------------------------------------------------------- */
+
+  function chip(label, clear) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'chip';
+    b.setAttribute('aria-label', 'Remove filter: ' + label);
+    b.title = label;
+    /* The label truncates, the × does not: a long segment name must never push
+       its own remove control out of the chip. */
+    var l = document.createElement('span');
+    l.className = 'lbl';
+    l.textContent = label;
+    b.appendChild(l);
+    var x = document.createElement('span');
+    x.className = 'x';
+    x.setAttribute('aria-hidden', 'true');
+    x.textContent = '×';
+    b.appendChild(x);
+    b.addEventListener('click', function () { clear(); resort(); apply(true); });
+    return b;
+  }
+
+  function drawChips() {
+    while (chipbox.firstChild) chipbox.removeChild(chipbox.firstChild);
+    menus.forEach(function (s) {
+      if (!s.value) return;
+      chipbox.appendChild(chip(s.options[s.selectedIndex].text,
+                               function () { s.value = ''; }));
+    });
+    chks.forEach(function (c) {
+      if (!c.checked) return;
+      chipbox.appendChild(chip(c.dataset.label, function () { c.checked = false; }));
+    });
+    if (licunres.checked) {
+      chipbox.appendChild(chip(licunres.dataset.label,
+                               function () { licunres.checked = false; }));
+    }
+    if (sort.value !== 'rank' || dir.value !== 'asc') {
+      chipbox.appendChild(chip(
+        'Sorted: ' + sort.options[sort.selectedIndex].text +
+          (dir.value === 'desc' ? ' ↓' : ' ↑'),
+        function () { sort.value = 'rank'; dir.value = 'asc'; }));
+    }
+    chipbox.hidden = !chipbox.firstChild;
+    resetBtn.hidden = !(chipbox.firstChild || q.value.trim());
+  }
+
+  /* ---- filter and sort ---------------------------------------------------- */
+
+  function terms() {
+    return (q.value || '').toLowerCase().split(/\s+/).filter(Boolean);
+  }
+
+  /* push: true pushes a history entry, false replaces it, null leaves the URL
+     alone (used while typing, where the URL is written once on a timer). */
+  function apply(push) {
     var ts = terms();
     var wantCost = chks.filter(function (c) { return c.checked; })
                        .map(function (c) { return c.value; });
@@ -220,9 +383,13 @@ SCRIPT = """
                       return r.dataset.segment === o.value;
                     }).some(function (r) { return r.dataset.pillar !== pillar.value; }));
     });
-    count.textContent = 'Showing ' + shown + ' of ' + total + ' projects' +
-      (shown === total ? '' : ' (filtered)');
+    count.textContent = 'Showing ' + shown + ' of ' + total +
+      (shown === total ? ' projects' : ' (filtered)');
     count.classList.toggle('filtered', shown !== total);
+    count.classList.toggle('empty', shown === 0);
+    drawChips();
+    if (push !== null) syncURL(!!push);
+    measure();
   }
 
   function resort() {
@@ -237,56 +404,130 @@ SCRIPT = """
     }).forEach(function (r) { tbody.appendChild(r); });
   }
 
-  function reset() {
-    q.value = '';
-    [pillar, segment, oss, maint].forEach(function (s) { s.value = ''; });
-    sort.value = 'rank'; dir.value = 'asc';
-    licunres.checked = false;
-    chks.forEach(function (c) { c.checked = false; });
-    resort(); apply();
-  }
+  /* ---- wiring ------------------------------------------------------------- */
 
-  q.addEventListener('input', apply);
-  [pillar, segment, oss, maint].forEach(function (s) {
-    s.addEventListener('change', apply);
+  var typing = null;
+  q.addEventListener('input', function () {
+    apply(null);                        /* filter instantly */
+    clearTimeout(typing);
+    typing = setTimeout(function () { syncURL(false); }, 400);
+  });
+
+  menus.forEach(function (s) {
+    s.addEventListener('change', function () { apply(true); });
   });
   chks.concat([licunres]).forEach(function (c) {
-    c.addEventListener('change', apply);
+    c.addEventListener('change', function () { apply(true); });
   });
   [sort, dir].forEach(function (s) {
-    s.addEventListener('change', function () { resort(); apply(); });
+    s.addEventListener('change', function () { resort(); apply(true); });
   });
-  document.getElementById('reset').addEventListener('click', reset);
-  apply();
+
+  toggle.addEventListener('click', function () {
+    var open = tools.hidden;
+    tools.hidden = !open;
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    measure();
+  });
+
+  resetBtn.addEventListener('click', function () {
+    setState({});
+    resort();
+    apply(true);
+    q.focus();
+  });
+
+  /* Back, forward, a pasted link, or a nav link to a plain section anchor. */
+  function fromHistory() {
+    if ((location.hash || '') === lastHash) return;
+    setState(readHash() || {});
+    resort();
+    apply(null);
+    lastHash = location.hash || '';
+  }
+  window.addEventListener('hashchange', fromHistory);
+  window.addEventListener('popstate', fromHistory);
+  window.addEventListener('resize', measure);
+
+  var initial = readHash();
+  if (initial) setState(initial);
+  measure();
+  resort();
+  apply(null);                          /* never rewrite the URL on load */
+  lastHash = location.hash || '';
+  if (initial && wrap) {
+    /* A shared link should land on the filtered table, not the top of the page.
+       Aim at the section heading rather than the bar, so the reader arrives with
+       the heading in view instead of under the page header. */
+    var from = sticky.closest('.dirsection') || sticky;
+    var anchor = from.previousElementSibling;
+    while (anchor && !/^H[1-6]$/.test(anchor.tagName)) {
+      anchor = anchor.previousElementSibling;
+    }
+    /* This script runs while the document is still parsing, and a scroll issued
+       now loses to whatever the browser does for the rest of the load. Wait for
+       the load to finish so ours is the last word. */
+    var land = function () {
+      requestAnimationFrame(function () {
+        (anchor || sticky).scrollIntoView({ block: 'start' });
+      });
+    };
+    if (document.readyState === 'complete') land();
+    else window.addEventListener('load', land);
+  }
 })();
 </script>
 """
 
 CSS = """
+/* The filter bar sticks below the page's own header; both offsets are measured
+   by the script and published as custom properties, with fallbacks so the
+   layout is still sane before the script runs or if it never does. */
+.dirsticky{position:sticky;top:var(--topbar-h,0px);z-index:10;background:var(--bg);
+padding:.55rem 0 .5rem;margin:0 0 .7rem;border-bottom:1px solid var(--line);
+max-height:calc(100vh - var(--topbar-h,0px) - 1rem);overflow:auto}
+.dirbar{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
+.dirbar input[type=search]{flex:1 1 16rem;min-width:8rem;font:inherit;font-size:.86rem;
+color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;
+padding:.36rem .55rem}
+.dirbar input[type=search]:focus-visible{outline:2px solid var(--acc);outline-offset:-1px}
+.dirsticky .btn{font:inherit;font-size:.84rem;color:var(--fg);background:var(--bg);
+border:1px solid var(--line);border-radius:6px;padding:.34rem .7rem;cursor:pointer;
+display:inline-flex;align-items:center;gap:.3rem;white-space:nowrap}
+.dirsticky .btn:hover{border-color:var(--acc);color:var(--acc)}
+.dirsticky .car{font-size:.8em;transition:transform .12s ease}
+.dirsticky .btn[aria-expanded=true]{border-color:var(--acc);color:var(--acc)}
+.dirsticky .btn[aria-expanded=true] .car{transform:rotate(180deg)}
+.chips{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.45rem}
+.chip{font:inherit;font-size:.78rem;display:inline-flex;align-items:center;gap:.35rem;
+color:var(--fg);background:var(--bg);border:1px solid var(--acc);border-radius:999px;
+padding:.14rem .35rem .14rem .6rem;cursor:pointer;max-width:24rem;text-align:left}
+.chip:hover{background:color-mix(in srgb,var(--acc) 10%,transparent)}
+.chip .lbl{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.chip .x{flex:none;color:var(--mut);font-size:1.1em;line-height:1}
+.chip:hover .x{color:var(--acc)}
+.count{font-variant-numeric:tabular-nums;color:var(--mut);white-space:nowrap}
+.count.filtered{color:var(--fg);font-weight:600}
+.count.empty{color:var(--warn)}
+
 .dirtools{border:1px solid var(--line);border-radius:10px;padding:.8rem .9rem;
-margin:0 0 1rem;background:color-mix(in srgb,var(--code) 50%,transparent);font-size:.86rem}
+margin:.55rem 0 0;background:color-mix(in srgb,var(--code) 50%,transparent);font-size:.86rem}
 .dirrow{display:flex;gap:.7rem;flex-wrap:wrap;align-items:flex-end;margin-bottom:.6rem}
 .dirtools label{display:flex;flex-direction:column;gap:.18rem}
-.dirtools label.grow{flex:1 1 100%}
 .dirtools label span{font-size:.72rem;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}
-.dirtools input[type=search],.dirtools select{font:inherit;color:var(--fg);background:var(--bg);
+.dirtools select{font:inherit;color:var(--fg);background:var(--bg);
 border:1px solid var(--line);border-radius:6px;padding:.32rem .45rem;max-width:26rem}
-.dirtools input[type=search]{width:100%;max-width:none}
-.costset{border:1px solid var(--line);border-radius:8px;padding:.45rem .7rem .6rem;margin:0 0 .6rem;
+.costset{border:1px solid var(--line);border-radius:8px;padding:.45rem .7rem .6rem;margin:0;
 display:flex;flex-wrap:wrap;gap:.2rem 1rem}
 .costset legend{font-size:.72rem;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;padding:0 .3rem}
 .costset legend .hint{text-transform:none;letter-spacing:0}
 .dirtools label.chk{flex-direction:row;align-items:center;gap:.35rem;white-space:nowrap}
 .dirtools .n{font-variant-numeric:tabular-nums;color:var(--mut);font-size:.78em;
 border:1px solid var(--line);border-radius:999px;padding:0 .4rem}
-.dirtools .actions{align-items:center;margin-bottom:0}
-.dirtools button{font:inherit;font-size:.84rem;color:var(--fg);background:var(--bg);
-border:1px solid var(--line);border-radius:6px;padding:.34rem .8rem;cursor:pointer}
-.dirtools button:hover{border-color:var(--acc);color:var(--acc)}
-.count{font-variant-numeric:tabular-nums;color:var(--mut)}
-.count.filtered{color:var(--fg);font-weight:600}
-.dirwrap{overflow:auto;max-height:78vh;max-width:100%;border:1px solid var(--line);
-border-radius:10px;overscroll-behavior:contain}
+
+.dirwrap{overflow:auto;max-width:100%;
+max-height:min(78vh,calc(100vh - var(--topbar-h,0px) - var(--dirbar-h,0px) - 2.5rem));
+border:1px solid var(--line);border-radius:10px;overscroll-behavior:contain}
 table.dirtable{display:table;width:100%;margin:0;border:0;font-size:.82rem;border-collapse:collapse}
 table.dirtable th,table.dirtable td{border:0;border-bottom:1px solid var(--line);
 padding:.45rem .6rem;vertical-align:top}
@@ -301,18 +542,22 @@ table.dirtable .mand{color:var(--warn)}
 table.dirtable .prov{font-size:.7rem;color:var(--warn);border:1px solid currentColor;
 border-radius:999px;padding:0 .35rem;white-space:nowrap}
 table.dirtable code{font-size:.76em}
+
+@media (prefers-reduced-motion:reduce){.dirsticky .car{transition:none}}
 """
 
 
 def build(directory_json_path):
     """Return (css, html) for the interactive directory."""
     d = json.load(open(directory_json_path, encoding="utf-8"))
-    body = (controls(d)
+    body = ('<div class="dirsection">\n'
+            + controls(d)
             + '\n<noscript><p class="note">JavaScript is off, so the search, filter and '
               'sort controls are not shown. The directory below still lists all '
             + str(d["count"]) + ' projects in overall rank order, with every licence, '
               'open-source status and cost cell filled in.</p></noscript>\n'
-            + table(d) + "\n" + SCRIPT)
+            + table(d)
+            + '\n</div>\n' + SCRIPT)
     return CSS, body
 
 
