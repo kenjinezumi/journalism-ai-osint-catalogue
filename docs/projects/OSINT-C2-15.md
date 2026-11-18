@@ -14,6 +14,9 @@
 | **Maintainer** | Bellingcat |
 | **Maintenance** | Dormant |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/bellingcat/smart-image-sorter) · [Documentation](https://github.com/bellingcat/smart-image-sorter#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 2/5 · maintenance 1/5 · privacy 4/5 · usability 4/5 · licence+cost 5/5 → **weighted 59/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Depends on the vision-language model selected; weights fetched from third-party hubs and not individually verified in this survey. |
+| **Restrictions** | Code permissive. The imported risk is the model licence — verify the specific checkpoint before commercial use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee and no paid API. GB-scale model weight download; GPU helpful but not required. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/bellingcat/smart-image-sorter/blob/main/LICENSE
+- https://github.com/bellingcat/smart-image-sorter
 
 ---
 

@@ -14,11 +14,42 @@
 | **Maintainer** | Big Local News (Stanford) |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 (licence blob read 2026-11-17, Copyright 2025 Big Local News; GitHub reports NOASSERTION — also independently recorded in session 1's a1disc/notes.md) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/biglocalnews/warn-scraper) · [Documentation](https://warn-scraper.readthedocs.io/) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 4/5 · privacy 5/5 · usability 4/5 · licence+cost 5/5 → **weighted 75/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 (licence blob read 2026-11-17, Copyright 2025 Big Local News; GitHub reports NOASSERTION — also independently recorded in session 1's a1disc/notes.md) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Collected notices are US state government records, generally freely usable. |
+| **Restrictions** | Code permissive. Collected public records carry no material restriction in this case. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Negligible compute. The real cost is maintenance of per-state scrapers if you fork or extend it. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/biglocalnews/warn-scraper/blob/main/LICENSE
+- https://github.com/biglocalnews/warn-scraper
+- https://warn-scraper.readthedocs.io/
+- `../sources/recovered/a1disc/notes.md`
 
 ---
 

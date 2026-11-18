@@ -149,6 +149,62 @@ A project can therefore score well and still be unusable for a particular organi
 score answers "how good is this for this kind of work", and the blocker answers "can you
 actually use it".
 
+## Classifying licences and costs
+
+Licensing and payment are recorded as two separate questions, because conflating them produces
+the two most common errors in tool selection: assuming that a permissive licence implies a free
+service, and assuming that a free download implies permissive terms. Nothing in this catalogue
+is treated as free because it is published on GitHub or because it can be self-hosted.
+
+Each record carries six derived fields alongside its hand-written `licence` and `costs` prose:
+
+| Field | What it records |
+|---|---|
+| `licence_type` | The classification of the recorded terms — permissive, weak or strong copyleft, dual-licensed, public domain, open data, mixed code-versus-weights/data, restricted non-OSI, proprietary, or unresolved |
+| `oss_status` | What those terms permit, in five filterable values: Open source, Mixed, Source available, Proprietary, Unverified |
+| `oss_detail` | The precise wording behind that status, naming whether the restriction falls on code, model weights, a dataset, or service terms |
+| `price_class` | The price of the project's **own software**, separately from any hosted subscription sold alongside it |
+| `software_price_note` | Verified amounts, with currency, billing period, seat counts, credit allowances and threshold conditions preserved as recorded |
+| `cost_flags` | Conditions that are not the software fee: mandatory paid dependency, optional paid hosting, dedicated hardware, self-hosting infrastructure, staff effort, or none material |
+
+Four rules govern how these are filled in.
+
+**Code, model, dataset and service terms stay distinct.** A dataset is classified as carrying an
+open or restricted *data licence*, never as "open-source software". A project whose code is MIT
+but whose weights or reference data carry non-commercial terms is `Mixed`, with `oss_detail`
+naming which part is restricted. Where the restriction comes from data the project *consumes*
+rather than ships, that is stated too.
+
+**Unresolved stays unresolved.** Where no licence file, SPDX identifier or licence statement
+could be confirmed, `licence_type` is `Unresolved` and `oss_status` is `Unverified`. These are
+not quietly rounded to permissive. A separate flag, `licence_spdx_verified`, records whether the
+licence file itself was read, as distinct from the licence being named by the GitHub API or the
+project's documentation — the second is a research note, not a verified determination. Both
+counts are published in
+[Findings](findings-and-limitations.md#licensing-and-pricing-that-remain-unverified).
+
+**The software fee is separated from the subscription.** `price_class` describes what it costs
+to obtain and run the software, read from the project's own price statement. An optional hosted
+tier sold by the same vendor is recorded in `cost_flags` and priced in the note, not folded into
+the project's price. A dependency's free tier is never reported as the project's free tier.
+
+**A mandatory paid dependency is stated first.** Where a paid API, dataset, model, licence or
+tool is required for the core function, it is flagged and shown in bold ahead of every other
+cost, because it determines whether the project is usable at all rather than what it costs.
+Optional paid extras are labelled as optional. Infrastructure you operate is separated from
+charges a vendor levies, and infrastructure figures are labelled as estimates with the
+assumption stated.
+
+Where the records do not establish a price, the field reads **Unknown / not verified**. That is
+a statement about the evidence, not a finding that the project is free. Prices were read from
+vendor pages on the verification dates recorded against each project and change without notice.
+
+The derived fields are written into the records by `work/enrich_records.py`, which classifies
+from the hand-written licence and cost prose and then applies the hand-reviewed corrections in
+`work/enrich_overrides.json`. Each correction records its reason. They are stored in the records
+rather than computed during the build so that they are visible, diffable and reviewable in
+version control, and so that `build.py` validates them like any other field.
+
 ## Reproducibility
 
 The canonical data is [`records/`](../records/) — 43 hand-authored JSON files containing one

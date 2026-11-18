@@ -14,6 +14,9 @@
 | **Maintainer** | Tails project (Tor Project affiliated) |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-3.0-or-later (project licensing; the distribution aggregates many components under their own licences) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://gitlab.tails.boum.org/tails/tails) · [Documentation](https://tails.net/doc/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 92/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0-or-later (project licensing; the distribution aggregates many components under their own licences) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. The distribution bundles software under many licences. |
+| **Restrictions** | Aggregate free-software licensing; immaterial for use. Redistribution of a modified Tails image would require attention to the component licences. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Staff time to prepare and verify images; a USB stick per user (negligible) |
+| **Cost conditions** | Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. A USB stick per user (negligible) plus the time to prepare and verify images. Verification of the download signature is an essential, non-optional step and takes a few minutes.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://tails.net/doc/about/license/
+- https://tails.net/doc/
+- https://tails.net/news/index.en.html
+- https://gitlab.tails.boum.org/tails/tails
 
 ---
 

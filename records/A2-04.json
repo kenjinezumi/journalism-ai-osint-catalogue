@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/kaixxx/noScribe","https://github.com/kaixxx/noScribe/blob/main/LICENSE","https://huggingface.co/pyannote/speaker-diarization-3.1"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Desktop application that combines Whisper transcription with pyannote speaker diarisation and ships a built-in transcript editor…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":5,"usability":5,"licence_cost":4}},
 
 {"id":"JAI-A2-32","name":"NVIDIA NeMo Speech","maintainer":"NVIDIA (repository reorganised from NVIDIA/NeMo to NVIDIA-NeMo/Speech)","pillar":"JAI","segment":"A2","subcategory":"Transcription and diarisation framework","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/NVIDIA-NeMo/Speech","docs_url":"https://docs.nvidia.com/nemo-framework/",
@@ -33,6 +34,7 @@
 "blockers":["CC-BY-NC-4.0 on the Sortformer diarisation checkpoint — commercial-publication blocker for that specific model"],
 "evidence_urls":["https://github.com/NVIDIA-NeMo/Speech","https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2","https://huggingface.co/nvidia/diar_sortformer_4spk-v1","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Framework for training and running speech models — ASR (Parakeet, Canary), speaker diarisation (Sortformer), speech translation…","licence_type":"Mixed (code vs weights/data)","oss_status":"Mixed","oss_detail":"Open-source code, model weights that vary by checkpoint — some non-commercial","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":5,"maintenance":5,"privacy":4,"usability":2,"licence_cost":2}},
 
 {"id":"JAI-A2-33","name":"OCRmyPDF","maintainer":"James R. Barlow and contributors","pillar":"JAI","segment":"A2","subcategory":"OCR pipeline","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/ocrmypdf/OCRmyPDF","docs_url":"https://ocrmypdf.readthedocs.io/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/ocrmypdf/OCRmyPDF","https://ocrmypdf.readthedocs.io/","https://github.com/ocrmypdf/OCRmyPDF/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Adds a searchable text layer to scanned PDFs using Tesseract while preserving the original page images, with deskewing, cleaning…","licence_type":"Weak copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-34","name":"olmOCR","maintainer":"Allen Institute for AI (AI2)","pillar":"JAI","segment":"A2","subcategory":"Document parsing (VLM)","project_type":"model","bucket":"verified-oss","repo_url":"https://github.com/allenai/olmocr","docs_url":"https://olmocr.allenai.org/",
@@ -69,6 +72,7 @@
 "blockers":["No repository activity since March 2026 — do not build a long-lived pipeline on it without accepting fork responsibility"],
 "evidence_urls":["https://github.com/allenai/olmocr","https://huggingface.co/allenai/olmOCR-2-7B-1025","https://olmocr.allenai.org/"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Vision-language-model pipeline for linearising PDFs into clean text with correct reading order…","licence_type":"Mixed (code vs weights/data)","oss_status":"Open source","oss_detail":"Open model weights","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":2,"privacy":4,"usability":2,"licence_cost":5}},
 
 {"id":"JAI-A2-35","name":"OpenAleph","maintainer":"DARC — Data and Research Center (independent fork of alephdata/aleph)","pillar":"JAI","segment":"A2","subcategory":"Leak analysis platform","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/openaleph/openaleph","docs_url":"https://openaleph.org/docs/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/openaleph/openaleph","https://openaleph.org/docs/","https://github.com/openaleph/openaleph/blob/main/LICENSE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Self-hosted investigative data platform that indexes documents and structured datasets as FollowTheMoney entities…","licence_type":"Mixed (code vs weights/data)","oss_status":"Mixed","oss_detail":"Open-source code, data or models you load carrying their own terms, some non-commercial","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure", "staff-effort"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure; staff effort",
 "scores":{"relevance":5,"capability":5,"maintenance":4,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A2-36","name":"OpenRefine","maintainer":"OpenRefine community (Code for Science & Society fiscal host)","pillar":"JAI","segment":"A2","subcategory":"Data cleaning and reconciliation","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/OpenRefine/OpenRefine","docs_url":"https://openrefine.org/docs",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/OpenRefine/OpenRefine","https://openrefine.org/docs","https://github.com/OpenRefine/OpenRefine/blob/master/LICENSE.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Desktop application for exploring, cleaning and transforming messy tabular data, with faceting, clustering algorithms…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":3,"usability":5,"licence_cost":5}},
 
 {"id":"JAI-A2-37","name":"PaddleOCR / PP-StructureV3","maintainer":"PaddlePaddle (Baidu)","pillar":"JAI","segment":"A2","subcategory":"OCR and document structure","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/PaddlePaddle/PaddleOCR","docs_url":"https://paddlepaddle.github.io/PaddleOCR/",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/PaddlePaddle/PaddleOCR","https://paddlepaddle.github.io/PaddleOCR/","https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"OCR and document-structure toolkit covering text detection and recognition in 80+ languages…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"JAI-A2-38","name":"Paperless-ngx","maintainer":"paperless-ngx community","pillar":"JAI","segment":"A2","subcategory":"Document management","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/paperless-ngx/paperless-ngx","docs_url":"https://docs.paperless-ngx.com/",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/paperless-ngx/paperless-ngx","https://docs.paperless-ngx.com/","https://github.com/paperless-ngx/paperless-ngx/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Self-hosted document-management system that ingests scans and PDFs, OCRs them via the OCRmyPDF/Tesseract toolchain…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":5,"privacy":5,"usability":5,"licence_cost":4}},
 
 {"id":"JAI-A2-39","name":"pdfplumber","maintainer":"Jeremy Singer-Vine","pillar":"JAI","segment":"A2","subcategory":"PDF text and table extraction","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/jsvine/pdfplumber","docs_url":"https://github.com/jsvine/pdfplumber#readme",
@@ -159,6 +167,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/jsvine/pdfplumber","https://github.com/jsvine/pdfplumber/blob/stable/LICENSE.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library built on pdfminer.six that exposes every character, line, rectangle and curve in a PDF with coordinates…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-40","name":"Presidio","maintainer":"data-privacy-stack (transferred from microsoft/presidio)","pillar":"JAI","segment":"A2","subcategory":"PII detection and redaction","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/data-privacy-stack/presidio","docs_url":"https://microsoft.github.io/presidio/",
@@ -177,5 +186,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/data-privacy-stack/presidio","https://microsoft.github.io/presidio/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Framework for detecting and anonymising personally identifiable information in text and images, combining NER models…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":4,"usability":3,"licence_cost":5}}
 ]

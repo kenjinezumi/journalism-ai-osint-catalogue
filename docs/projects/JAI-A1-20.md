@@ -14,6 +14,9 @@
 | **Maintainer** | Zingg AI |
 | **Maintenance** | Uncertain |
 | **Licence** | AGPL-3.0 (project licensing — confirm from the repository licence file; open-core model with a separate commercial offering) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | low · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/zinggAI/zingg) · [Documentation](https://docs.zingg.ai/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 2/5 · capability 4/5 · maintenance 2/5 · privacy 4/5 · usability 2/5 · licence+cost 3/5 → **weighted 56/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 (project licensing — confirm from the repository licence file; open-core model with a separate commercial offering) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | AGPL-family copyleft on the open core would affect offering a modified service. More importantly, verify which capabilities are in the open version versus the commercial product before designing around it. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **low** |
+
+**Recorded cost detail.** Open core free. Spark cluster infrastructure is the real cost and it is substantial relative to single-machine alternatives. Commercial product priced separately (not verified). Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/zinggAI/zingg
+- https://docs.zingg.ai/
 
 ---
 

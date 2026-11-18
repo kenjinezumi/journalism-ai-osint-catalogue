@@ -14,12 +14,44 @@
 | **Maintainer** | Julien Voisin (jvoisin) |
 | **Maintenance** | Actively maintained |
 | **Licence** | LGPL-3.0-or-later |
+| **Licence type** | Weak copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/jvoisin/mat2) · [Documentation](https://0xacab.org/jvoisin/mat2) |
 | **Also known as** | Metadata Anonymisation Toolkit 2 |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 4/5 · licence+cost 5/5 → **weighted 94/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Weak copyleft |
+| **Exact licence (as recorded)** | LGPL-3.0-or-later |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | LGPL-3.0-or-later: linking from a proprietary tool is permitted provided the library remains replaceable; modifications to mat2 itself must be shared. Suitable for building a newsroom wrapper around. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Per-format system libraries; negligible compute. No paid dependencies.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/jvoisin/mat2/blob/master/LICENSE
+- https://github.com/jvoisin/mat2
+- https://0xacab.org/jvoisin/mat2
+- `../sources/recovered/cat/ground_truth.tsv`
+- `../sources/evidence/leads.md`
 
 ---
 

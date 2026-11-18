@@ -14,6 +14,9 @@
 | **Maintainer** | Ollama |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT (application) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ollama/ollama) · [Documentation](https://docs.ollama.com/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 5/5 · licence+cost 4/5 → **weighted 94/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (application) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | VARIES AND MATTERS: models in the library carry their own licences, from Apache-2.0 and MIT through to restrictive community licences with usage conditions. Verify each model you pull. |
+| **Restrictions** | Application unrestricted. The real exposure is model licences, which `ollama pull` does not surface prominently — a commercially operated newsroom must check each model's terms before output reaches publication. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Hardware is the cost: a GPU host for useful speed on larger models, or a capable laptop for small ones. One shared server serves a small newsroom. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ollama/ollama/blob/main/LICENSE
+- https://github.com/ollama/ollama
+- https://docs.ollama.com/
 
 ---
 

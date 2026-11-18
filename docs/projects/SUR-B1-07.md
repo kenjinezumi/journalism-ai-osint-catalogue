@@ -14,6 +14,9 @@
 | **Maintainer** | Georgia Tech InetIntel (previously CAIDA) |
 | **Maintenance** | Actively maintained |
 | **Licence** | NOT OSS — academic research and education use without fee; other uses directed to contact the university (LICENSE text read on both the CAIDA and InetIntel copies) |
+| **Licence type** | Restricted / non-OSI |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/InetIntel/ioda-ui) · [Documentation](https://ioda.inetintel.cc.gatech.edu/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 4/5 · privacy 4/5 · usability 5/5 · licence+cost 2/5 → **weighted 88/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Restricted / non-OSI |
+| **Exact licence (as recorded)** | NOT OSS — academic research and education use without fee; other uses directed to contact the university (LICENSE text read on both the CAIDA and InetIntel copies) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Published IODA data terms were not separately verified in this survey. |
+| **Restrictions** | Commercial use of the code requires contacting the university. Using the public dashboard and citing it in reporting is ordinary use of a public service; redistributing the code or data commercially is not covered. |
+| **Open-source status** | **Source available** — Source published under a restricted, non-OSI licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free to use the dashboard. Self-hosting is impractical (BGP feeds, probeable address space, a network telescope). No realistic infrastructure estimate because the architecture is not reproducible by a newsroom.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/InetIntel/ioda-ui
+- https://ioda.inetintel.cc.gatech.edu/
 
 ---
 

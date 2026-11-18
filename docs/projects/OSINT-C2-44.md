@@ -14,11 +14,42 @@
 | **Maintainer** | stac-utils |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 (licence blob read 2026-11-17; GitHub reports NOASSERTION) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/stac-utils/pystac) · [Documentation](https://pystac.readthedocs.io/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 5/5 · privacy 4/5 · usability 3/5 · licence+cost 5/5 → **weighted 83/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 (licence blob read 2026-11-17; GitHub reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Imagery licences depend entirely on the catalogue: Copernicus Sentinel data is openly licensed with attribution; Landsat is US public domain; commercial catalogues accessed via STAC carry their own restrictive terms. |
+| **Restrictions** | Library permissive. For open programmes the data restrictions are light (attribution), which is the main reason to prefer this path over commercial imagery. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee for the library and no fee for open imagery. Cost is bandwidth and storage for the scenes or windows you fetch, plus compute for analysis. Estimate: a before-and-after study of one site is gigabytes, not terabytes.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/stac-utils/pystac/blob/main/LICENSE
+- https://github.com/stac-utils/pystac
+- https://pystac.readthedocs.io/
+- `../sources/evidence/leads.md`
 
 ---
 

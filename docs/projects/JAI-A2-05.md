@@ -14,11 +14,41 @@
 | **Maintainer** | Chidi Williams |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/chidiwilliams/buzz) · [Documentation](https://chidiwilliams.github.io/buzz/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 4/5 · privacy 4/5 · usability 5/5 · licence+cost 5/5 → **weighted 90/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Whisper, whisper.cpp and faster-whisper weights are MIT. The optional OpenAI API mode uses a hosted model under OpenAI's terms instead. |
+| **Restrictions** | None material for the local path. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free. Note the project also distributes a paid App Store build on some platforms as a convenience — the GitHub release is free. Real cost is reporter wait time on CPU; a modest GPU workstation shared by the newsroom removes it. If the OpenAI backend is enabled you incur per-minute API charges — verify current rates at point of use; not priced here.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/chidiwilliams/buzz/blob/main/LICENSE
+- https://github.com/chidiwilliams/buzz
+- https://chidiwilliams.github.io/buzz/
 
 ---
 

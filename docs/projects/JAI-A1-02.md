@@ -14,6 +14,9 @@
 | **Maintainer** | Felix Hamborg (fhamborg) |
 | **Maintenance** | Archived or discontinued |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/fhamborg/news-please) · [Documentation](https://github.com/fhamborg/news-please#readme) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 0/5 · privacy 4/5 · usability 4/5 · licence+cost 5/5 → **weighted 60/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None, but the code is frozen. Forking is permitted and would be the only way forward. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Not worth operating; any use means accepting fork-and-maintain responsibility.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/fhamborg/news-please/blob/master/LICENSE
+- https://github.com/fhamborg/news-please
+- `../sources/evidence/leads.md`
 
 ---
 

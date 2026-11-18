@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/Unstructured-IO/unstructured","https://docs.unstructured.io/","https://github.com/Unstructured-IO/unstructured/blob/main/LICENSE.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Open-source ETL library that partitions documents of many formats into structured elements (titles, narrative text, tables…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":3,"usability":4,"licence_cost":4}},
 
 {"id":"JAI-A1-11","name":"MinerU","maintainer":"OpenDataLab (Shanghai AI Laboratory)","pillar":"JAI","segment":"A1","subcategory":"Document parsing","project_type":"framework","bucket":"source-available-restricted","repo_url":"https://github.com/opendatalab/MinerU","docs_url":"https://mineru.net/",
@@ -33,6 +34,7 @@
 "blockers":["Licence is Apache-2.0 plus unread additional terms recorded as restrictive — legal review required before commercial use"],
 "evidence_urls":["https://github.com/opendatalab/MinerU","../sources/recovered/a1disc/notes.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified","provisional":true,
+"summary":"Document-extraction pipeline that converts PDFs and Office documents into Markdown and JSON with layout detection…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Source published under a restricted, non-OSI licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":4,"usability":3,"licence_cost":2}},
 
 {"id":"JAI-A1-12","name":"libpff","maintainer":"Joachim Metz (libyal)","pillar":"JAI","segment":"A1","subcategory":"Email archive parsing","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/libyal/libpff","docs_url":"https://github.com/libyal/libpff/wiki",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/libyal/libpff","https://github.com/libyal/libpff/wiki","https://github.com/libyal/libpff/blob/main/COPYING.LESSER"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Library and tools to read Microsoft Personal Folder File formats (PST, OST, PAB), extracting messages, attachments…","licence_type":"Weak copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"JAI-A1-13","name":"libratom","maintainer":"RATOM project (University of North Carolina)","pillar":"JAI","segment":"A1","subcategory":"Email archive parsing","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/libratom/libratom","docs_url":"https://libratom.github.io/libratom/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/libratom/libratom","https://libratom.github.io/libratom/","https://github.com/libratom/libratom/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library and CLI for parsing and processing PST and mbox email archives, extracting messages and attachments…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":2,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A1-14","name":"Media Cloud API client","maintainer":"Media Cloud","pillar":"JAI","segment":"A1","subcategory":"News archive research","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/mediacloud/api-client","docs_url":"https://mediacloud.org/",
@@ -87,6 +91,7 @@
 "blockers":["Service dependency with unverified access terms; uneven archive coverage by country and period"],
 "evidence_urls":["https://github.com/mediacloud/api-client","https://mediacloud.org/","https://github.com/mediacloud/api-client/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Python client for the Media Cloud Online News Archive and Directory, providing search over a large multi-country corpus of news…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":3,"usability":4,"licence_cost":4}},
 
 {"id":"JAI-A1-15","name":"gdelt-doc-api","maintainer":"Alex Smith (alex9smith)","pillar":"JAI","segment":"A1","subcategory":"News archive research","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/alex9smith/gdelt-doc-api","docs_url":"https://github.com/alex9smith/gdelt-doc-api#readme",
@@ -105,6 +110,7 @@
 "blockers":["Dormant client; GDELT data noise means counts are not publishable as findings"],
 "evidence_urls":["https://github.com/alex9smith/gdelt-doc-api","https://github.com/alex9smith/gdelt-doc-api/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python client for the GDELT 2.0 Document API, providing keyword and theme search over GDELT's global news monitoring with volume…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":1,"privacy":3,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A1-16","name":"Huginn","maintainer":"Huginn community","pillar":"JAI","segment":"A1","subcategory":"Monitoring and automation","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/huginn/huginn","docs_url":"https://github.com/huginn/huginn/wiki",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/huginn/huginn","https://github.com/huginn/huginn/blob/master/LICENSE.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Self-hosted system for building agents that monitor sources and act on events: fetch web pages and feeds, extract data…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A1-17","name":"n8n","maintainer":"n8n GmbH","pillar":"JAI","segment":"A1","subcategory":"Workflow automation","project_type":"platform","bucket":"source-available-restricted","repo_url":"https://github.com/n8n-io/n8n","docs_url":"https://docs.n8n.io/",
@@ -141,5 +148,6 @@
 "blockers":["Sustainable Use Licence (fair-code) is not open source and restricts offering n8n as a service to third parties"],
 "evidence_urls":["https://github.com/n8n-io/n8n/blob/master/LICENSE.md","../sources/recovered/a1disc/notes.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Visual workflow-automation platform with hundreds of integrations, code nodes, scheduling and native AI/agent capabilities…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Source published under a restricted, non-OSI licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":5,"privacy":4,"usability":5,"licence_cost":2}}
 ]

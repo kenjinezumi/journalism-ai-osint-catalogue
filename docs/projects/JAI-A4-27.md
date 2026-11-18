@@ -14,6 +14,9 @@
 | **Maintainer** | Kaede Shiohara (mapooon), University of Tokyo |
 | **Maintenance** | Stable with low activity |
 | **Licence** | Custom research-only terms — authors state code and pretrained model are 'freely available for research purpose'; commercial use requires a separate licence agreement |
+| **Licence type** | Restricted / non-OSI |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/mapooon/SelfBlendedImages) · [Documentation](https://github.com/mapooon/SelfBlendedImages#readme) |
@@ -21,6 +24,31 @@
 **Scores** — relevance 2/5 · capability 3/5 · maintenance 3/5 · privacy 4/5 · usability 2/5 · licence+cost 1/5 → **weighted 51/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Restricted / non-OSI |
+| **Exact licence (as recorded)** | Custom research-only terms — authors state code and pretrained model are 'freely available for research purpose'; commercial use requires a separate licence agreement |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same research-only terms apply to the pretrained model. |
+| **Restrictions** | Commercial use prohibited without a separate agreement. A commercially published investigation is not research use. |
+| **Open-source status** | **Source available** — Source published under a restricted, non-OSI licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee for research use; commercial use requires a negotiated agreement (terms not publicly listed). GPU for inference; weights from Google Drive.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/mapooon/SelfBlendedImages
 
 ---
 

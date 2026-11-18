@@ -14,6 +14,9 @@
 | **Maintainer** | Documenting the Now (DocNow; transferred from edsu) |
 | **Maintenance** | Dormant |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/DocNow/diffengine) · [Documentation](https://github.com/DocNow/diffengine#readme) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 2/5 · maintenance 1/5 · privacy 3/5 · usability 1/5 · licence+cost 5/5 → **weighted 50/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None, but the code is effectively frozen. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Not worth operating as-is given dependency age.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/DocNow/diffengine/blob/main/LICENSE
+- https://github.com/DocNow/diffengine
+- `../sources/evidence/leads.md`
 
 ---
 

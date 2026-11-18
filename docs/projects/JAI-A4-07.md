@@ -14,6 +14,9 @@
 | **Maintainer** | Michael Schlichtkrull and collaborators (academic) |
 | **Maintenance** | Dormant |
 | **Licence** | NOT CONFIRMED — no LICENSE/COPYING file in the repository root, GitHub licence API reports none, README has no licence section |
+| **Licence type** | Unresolved |
+| **Open-source status** | Unverified |
+| **Software price** | **No software fee** |
 | **Confidence** | medium · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/MichSchli/AVeriTeC) · [Documentation](https://fever.ai/dataset/averitec.html) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 2/5 · capability 3/5 · maintenance 1/5 · privacy 1/5 · usability 2/5 · licence+cost 1/5 → **weighted 36/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Unresolved |
+| **Exact licence (as recorded)** | NOT CONFIRMED — no LICENSE/COPYING file in the repository root, GitHub licence API reports none, README has no licence section |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a — no weights distributed. Dataset terms also unconfirmed. |
+| **Restrictions** | Unresolved. Treat redistribution and commercial use as legally unclear until clarified with the authors. Note that the underlying claims come from fact-checking organisations whose own content terms may also apply. |
+| **Open-source status** | **Unverified** — Licence could not be confirmed — reuse legally unresolved |
+| **Software price** | **No software fee** |
+| **Additional costs** | **Mandatory paid dependency** — mandatory paid dependency; self-hosted infrastructure |
+| **Cost conditions** | **Mandatory paid dependency**; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. Requires a Google Programmable Search API key (paid above the free quota — current rates not verified here) and large local disk, plus an LLM for question generation (cost depends on provider). Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/MichSchli/AVeriTeC
+- https://fever.ai/dataset/averitec.html
+
+> **Unresolved:** the licence could not be confirmed from the evidence gathered.
 
 ---
 

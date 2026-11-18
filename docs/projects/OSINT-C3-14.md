@@ -14,6 +14,9 @@
 | **Maintainer** | Open Knowledge Brasil |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT (project licensing — confirm from the repository licence file) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/okfn-brasil/querido-diario) · [Documentation](https://queridodiario.ok.org.br/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 4/5 · licence+cost 4/5 → **weighted 83/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (project licensing — confirm from the repository licence file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Gazette content is official public record; the aggregated search service's terms were not verified here. |
+| **Restrictions** | Code permissive as published. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Public service free to use. Self-hosting thousands of scrapers plus search is a major commitment. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/okfn-brasil/querido-diario
+- https://queridodiario.ok.org.br/
 
 ---
 

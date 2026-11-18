@@ -14,11 +14,42 @@
 | **Maintainer** | Exodus Privacy (association) |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/Exodus-Privacy/exodus) · [Documentation](https://exodus-privacy.eu.org/en/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 4/5 · privacy 4/5 · usability 4/5 · licence+cost 4/5 → **weighted 86/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | The tracker database is published by the project; check its terms before redistributing the database itself. |
+| **Restrictions** | AGPL-3.0: a modified self-hosted instance offered to users obliges source publication. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Public instance free. Self-hosting estimate: a Django application plus static-analysis workers — one modest VM. Assumptions: occasional analysis volume.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/Exodus-Privacy/exodus/blob/v3/LICENSE
+- https://github.com/Exodus-Privacy/exodus
+- https://exodus-privacy.eu.org/en/
+- `../sources/evidence/b2-sources.md`
 
 ---
 

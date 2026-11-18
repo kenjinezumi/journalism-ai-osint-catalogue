@@ -14,6 +14,9 @@
 | **Maintainer** | Vibrant Labs AI (transferred from explodinggradients) |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/vibrantlabsai/ragas) · [Documentation](https://docs.ragas.io/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 3/5 · usability 4/5 · licence+cost 5/5 → **weighted 75/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a for the library; judge models carry their own terms and costs. |
+| **Restrictions** | None material. Note the organisation transfer when recording provenance. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Library free. Evaluation consumes model inference — with a local model this is GPU time, with a hosted judge it is per-token charges (not priced here). A thorough evaluation of a large corpus is a real expense. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/vibrantlabsai/ragas/blob/main/LICENSE
+- https://github.com/vibrantlabsai/ragas
+- https://docs.ragas.io/
+- `../sources/evidence/leads.md`
 
 ---
 

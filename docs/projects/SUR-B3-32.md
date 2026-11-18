@@ -14,6 +14,9 @@
 | **Maintainer** | Guardian Project |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/guardianproject/proofmode-android) · [Documentation](https://proofmode.org/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 3/5 · usability 4/5 · licence+cost 4/5 → **weighted 73/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | GPL-3.0: embedding the library in a distributed proprietary app triggers copyleft. Relevant if you build a newsroom contributor app around it. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free. No infrastructure unless you build a verification service around the proof bundles. Cost is contributor training and the storage of proof bundles alongside media.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/guardianproject/proofmode-android/blob/main/LICENSE
+- https://github.com/guardianproject/proofmode-android
+- https://proofmode.org/
+- `../sources/evidence/leads.md`
 
 ---
 

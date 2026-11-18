@@ -14,11 +14,44 @@
 | **Maintainer** | Science & Design (scidsg) |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **Unknown / not verified** — not established by the records |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/scidsg/hushline) · [Documentation](https://hushline.app/) |
 
 **Scores** — relevance 5/5 · capability 3/5 · maintenance 4/5 · privacy 4/5 · usability 5/5 · licence+cost 4/5 → **weighted 84/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | AGPL-3.0: a modified hosted instance obliges source publication. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **Unknown / not verified** — not established by the records |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure; staff effort |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Self-hosting: a small VM plus a Tor onion service — low. The hosted service has free and paid tiers whose current prices were NOT verified in this survey. Staff cost is PGP key management and monitoring the channel.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/scidsg/hushline/blob/main/LICENSE
+- https://github.com/scidsg/hushline
+- https://hushline.app/
+- `../sources/evidence/leads.md`
+
+> **Unresolved:** the price is not established by these records — this is not a statement that it is free.
 
 ---
 

@@ -15,6 +15,7 @@
 "blockers":["Operator risk in repressive jurisdictions; ASN and network name are published with results"],
 "evidence_urls":["https://github.com/ooni/probe-cli","https://ooni.org/support/ooni-probe-cli","https://github.com/ooni/probe-cli/blob/master/LICENSE.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Command-line network-measurement client implementing OONI's test suite — web connectivity, instant-messaging apps…","licence_type":"Mixed (code vs weights/data)","oss_status":"Mixed","oss_detail":"Open-source code, restricted data licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":2,"usability":3,"licence_cost":4}},
 
 {"id":"SUR-B1-02","name":"OONI Probe Multiplatform","maintainer":"Open Observatory of Network Interference (OONI)","pillar":"SUR","segment":"B1","subcategory":"Censorship measurement","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/ooni/probe-multiplatform","docs_url":"https://ooni.org/install/",
@@ -33,6 +34,7 @@
 "blockers":["Volunteer risk: app presence on device plus published network metadata"],
 "evidence_urls":["https://github.com/ooni/probe-multiplatform","https://ooni.org/install/","https://github.com/ooni/probe-multiplatform/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Kotlin Multiplatform app for Android, iOS and desktop that runs the OONI test suite with a graphical interface and publishes…","licence_type":"Mixed (code vs weights/data)","oss_status":"Mixed","oss_detail":"Open-source code, restricted data licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":2,"usability":5,"licence_cost":4}},
 
 {"id":"SUR-B1-03","name":"OONI Explorer","maintainer":"Open Observatory of Network Interference (OONI)","pillar":"SUR","segment":"B1","subcategory":"Censorship measurement","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/ooni/explorer","docs_url":"https://explorer.ooni.org/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/ooni/explorer","https://explorer.ooni.org/","https://github.com/ooni/explorer/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Web interface over OONI's measurement archive, providing per-country and per-network views of blocked sites and apps…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":4,"usability":5,"licence_cost":5}},
 
 {"id":"SUR-B1-04","name":"OONI backend","maintainer":"Open Observatory of Network Interference (OONI)","pillar":"SUR","segment":"B1","subcategory":"Censorship measurement infrastructure","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/ooni/backend","docs_url":"https://api.ooni.io/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/ooni/backend","https://api.ooni.io/","https://github.com/ooni/backend/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Server-side components of the OONI system: the measurements API, the collector that receives probe submissions…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":3,"usability":2,"licence_cost":5}},
 
 {"id":"SUR-B1-05","name":"OONI Data (oonidata / oonipipeline)","maintainer":"Open Observatory of Network Interference (OONI)","pillar":"SUR","segment":"B1","subcategory":"Censorship data pipeline","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/ooni/data","docs_url":"https://github.com/ooni/data#readme",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/ooni/data"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Tooling to download OONI's raw measurement archive in bulk and transform it into analysis-ready observation tables…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":4,"usability":2,"licence_cost":4}},
 
 {"id":"SUR-B1-06","name":"Citizen Lab URL test lists","maintainer":"Citizen Lab (University of Toronto)","pillar":"SUR","segment":"B1","subcategory":"Censorship measurement input data","project_type":"dataset","bucket":"source-available-restricted","repo_url":"https://github.com/citizenlab/test-lists","docs_url":"https://github.com/citizenlab/test-lists#readme",
@@ -105,6 +110,7 @@
 "blockers":["CC-BY-NC-SA-4.0 NonCommercial clause — blocks commercial redistribution and productisation"],
 "evidence_urls":["https://github.com/citizenlab/test-lists"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"repo-inspected",
+"summary":"Curated per-country and global lists of URLs categorised by topic (news media, human rights, political criticism, LGBT…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Restricted data licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":4,"privacy":5,"usability":4,"licence_cost":2}},
 
 {"id":"SUR-B1-07","name":"IODA (Internet Outage Detection and Analysis)","maintainer":"Georgia Tech InetIntel (previously CAIDA)","pillar":"SUR","segment":"B1","subcategory":"Outage detection","project_type":"platform","bucket":"source-available-restricted","repo_url":"https://github.com/InetIntel/ioda-ui","docs_url":"https://ioda.inetintel.cc.gatech.edu/",
@@ -123,6 +129,7 @@
 "blockers":["Academic-use licence on the code — not usable as commercial newsroom infrastructure (the public dashboard is fine to use and cite)"],
 "evidence_urls":["https://github.com/InetIntel/ioda-ui","https://ioda.inetintel.cc.gatech.edu/"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"System that detects and visualises internet outages by combining three independent signals — BGP routing withdrawals…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Source published under a restricted, non-OSI licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":5,"maintenance":4,"privacy":4,"usability":5,"licence_cost":2}},
 
 {"id":"SUR-B1-08","name":"PyBGPStream / libbgpstream","maintainer":"CAIDA (UC San Diego)","pillar":"SUR","segment":"B1","subcategory":"Routing analysis","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/CAIDA/pybgpstream","docs_url":"https://bgpstream.caida.org/docs",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/CAIDA/pybgpstream","https://bgpstream.caida.org/docs","https://github.com/CAIDA/pybgpstream/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python bindings over libBGPStream for streaming and analysing historical and near-real-time BGP routing data from RouteViews and…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":3,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"SUR-B1-09","name":"Censored Planet data analysis pipeline","maintainer":"Censored Planet (University of Michigan)","pillar":"SUR","segment":"B1","subcategory":"Censorship measurement","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/censoredplanet/censoredplanet-analysis","docs_url":"https://censoredplanet.org/",
@@ -159,6 +167,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/censoredplanet/censoredplanet-analysis","https://censoredplanet.org/","https://github.com/censoredplanet/censoredplanet-analysis/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Pipeline that processes Censored Planet's raw remote-measurement data (Hyperquack…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":3,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"SUR-B1-10","name":"CenAlert","maintainer":"Censored Planet (University of Michigan)","pillar":"SUR","segment":"B1","subcategory":"Censorship early warning","project_type":"prototype","bucket":"verified-oss","repo_url":"https://github.com/censoredplanet/cenalert","docs_url":"https://censoredplanet.org/",
@@ -177,5 +186,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/censoredplanet/cenalert","https://github.com/censoredplanet/cenalert/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified","provisional":true,
+"summary":"Research prototype that combines aggregate public search-interest signals with censorship-measurement data to raise early alerts…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":2,"maintenance":3,"privacy":3,"usability":1,"licence_cost":4}}
 ]

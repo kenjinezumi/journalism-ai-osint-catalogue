@@ -14,6 +14,9 @@
 | **Maintainer** | GAIR-NLP (Shanghai Jiao Tong University) |
 | **Maintenance** | Dormant |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/GAIR-NLP/factool) · [Documentation](https://github.com/GAIR-NLP/factool#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 2/5 · maintenance 1/5 · privacy 1/5 · usability 2/5 · licence+cost 3/5 → **weighted 42/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a — orchestrates hosted LLM APIs. |
+| **Restrictions** | Code permissive; third-party API terms govern actual use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | **Mandatory paid dependency** — mandatory paid dependency |
+| **Cost conditions** | **Mandatory paid dependency** |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Software free; operation requires paid OpenAI and search API keys (rates not verified here). Per-use cost scales with document length.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/GAIR-NLP/factool/blob/main/LICENSE
+- https://github.com/GAIR-NLP/factool
 
 ---
 

@@ -14,11 +14,41 @@
 | **Maintainer** | Open Observatory of Network Interference (OONI) |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-3-Clause |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ooni/backend) · [Documentation](https://api.ooni.io/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 3/5 · usability 2/5 · licence+cost 5/5 → **weighted 75/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | OONI measurement data is published as open data; confirm current terms for bulk redistribution. |
+| **Restrictions** | None material. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee to use the hosted API. Self-hosting would require ClickHouse/PostgreSQL-class stores and significant ops — not recommended. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ooni/backend/blob/master/LICENSE
+- https://github.com/ooni/backend
+- https://api.ooni.io/
 
 ---
 

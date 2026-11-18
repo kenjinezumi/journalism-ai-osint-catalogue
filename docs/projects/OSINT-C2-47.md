@@ -14,11 +14,41 @@
 | **Maintainer** | FlightAware |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-2.0-or-later (licence blob read 2026-11-17 — 'licensed under the GPL, v2 or later', with the maintainer inviting contact for GPL-incompatible uses; GitHub reports NOASSERTION) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/flightaware/dump1090) · [Documentation](https://github.com/flightaware/dump1090#readme) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 81/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-2.0-or-later (licence blob read 2026-11-17 — 'licensed under the GPL, v2 or later', with the maintainer inviting contact for GPL-incompatible uses; GitHub reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. The ADS-B data you receive is broadcast in the clear; your recordings are your own. |
+| **Restrictions** | GPL-2.0-or-later on the software. Note that receiving and recording broadcast ADS-B is lawful in most jurisdictions but not all — check local radio law before deploying, as this is a legal rather than licence question. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Dedicated hardware; self-hosted infrastructure |
+| **Cost conditions** | Dedicated hardware; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Hardware: an RTL-SDR dongle and antenna (tens of dollars/euros each, prices not verified here) plus a small always-on computer such as a Raspberry Pi. Storage grows with traffic volume — modest. Among the best capability-per-cost ratios in this catalogue.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/flightaware/dump1090/blob/master/LICENSE
+- https://github.com/flightaware/dump1090
+- `../sources/evidence/leads.md`
 
 ---
 

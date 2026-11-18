@@ -14,6 +14,9 @@
 | **Maintainer** | Maltego Technologies |
 | **Maintenance** | Actively maintained |
 | **Licence** | Proprietary commercial licence; Community Edition is a restricted free tier |
+| **Licence type** | Proprietary |
+| **Open-source status** | Proprietary |
+| **Software price** | **Free tier** — Community Edition free forever (200 credits/month, graph only); Entry EUR 3,000/year (incl. Hunchly); Professional EUR 7,500/year per seat, up to 5 users; Enterprise quote (verified 2026-11-16) |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Documentation](https://docs.maltego.com/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 4/5 · privacy 1/5 · usability 4/5 · licence+cost 1/5 → **weighted 59/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Proprietary |
+| **Exact licence (as recorded)** | Proprietary commercial licence; Community Edition is a restricted free tier |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Transform data comes from many providers under their own terms, several of which restrict redistribution of results. |
+| **Restrictions** | Proprietary throughout. Data-provider terms restrict republication of transform results, which matters if a graph is the basis of a published graphic. |
+| **Open-source status** | **Proprietary** — Hosted service or proprietary software — governed by service terms, not a software licence |
+| **Software price** | **Free tier** — Community Edition free forever (200 credits/month, graph only); Entry EUR 3,000/year (incl. Hunchly); Professional EUR 7,500/year per seat, up to 5 users; Enterprise quote (verified 2026-11-16) |
+| **Additional costs** | Optional paid hosting / commercial licence |
+| **Cost conditions** | Optional paid hosting or commercial licence |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Verified 2026-11-16 from the vendor pricing page: Basic free forever (200 credits/month) or Basic+ (1,000 credits/month), Community Edition graph only; Entry EUR3,000/year (10,000 credits/month, includes Hunchly); Professional EUR7,500/year (20,000-40,000 credits/month, up to 5 users, billed per seat); Enterprise custom quote (5+ users). Credits are consumed per transform, so operating cost scales with investigation intensity and is hard to forecast.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://www.maltego.com/pricing/
+- `../sources/recovered/cat/pricing.tsv`
+- `../sources/evidence/pricing.md`
 
 ---
 

@@ -14,11 +14,41 @@
 | **Maintainer** | idealo |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/idealo/imagededup) · [Documentation](https://idealo.github.io/imagededup/) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 2/5 · privacy 4/5 · usability 4/5 · licence+cost 5/5 → **weighted 66/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | CNN method uses pretrained weights fetched on first use; their licences were not individually verified in this survey. |
+| **Restrictions** | Code permissive. Verify the CNN backbone's weights licence if you use that method commercially. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. CPU sufficient for hashing; GPU optional and only helpful for CNN embeddings. Model weights fetched once. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/idealo/imagededup/blob/master/LICENSE
+- https://github.com/idealo/imagededup
+- https://idealo.github.io/imagededup/
 
 ---
 

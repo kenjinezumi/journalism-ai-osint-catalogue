@@ -14,6 +14,9 @@
 | **Maintainer** | Global Fishing Watch |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 (client library) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/GlobalFishingWatch/gfw-api-python-client) · [Documentation](https://globalfishingwatch.org/our-apis/documentation) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 4/5 · privacy 3/5 · usability 4/5 · licence+cost 4/5 → **weighted 83/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 (client library) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Global Fishing Watch data terms apply and were NOT verified in this survey — confirm attribution and redistribution conditions before publishing derived data. |
+| **Restrictions** | Client is permissive. The data terms are the unresolved item: GFW publishes data for public-interest use but with its own conditions, which must be read before republication. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Client free. API access requires a token; current access tiers and any limits were NOT verified in this survey — historically available free for research and journalism, which should be confirmed. Negligible compute.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/GlobalFishingWatch/gfw-api-python-client/blob/main/LICENSE
+- https://github.com/GlobalFishingWatch/gfw-api-python-client
+- https://globalfishingwatch.org/our-apis/documentation
 
 ---
 

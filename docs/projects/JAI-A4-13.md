@@ -14,11 +14,39 @@
 | **Maintainer** | Nicola Righetti and collaborators |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT (project-stated; GitHub API reports SPDX NOASSERTION) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/nicolarighetti/CooRTweet) · [Documentation](https://github.com/nicolarighetti/CooRTweet#readme) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 77/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (project-stated; GitHub API reports SPDX NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None material, but the SPDX mismatch means confirm the LICENSE file before redistributing. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | **Mandatory paid dependency** — mandatory paid dependency |
+| **Cost conditions** | **Mandatory paid dependency** |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Runs on a laptop in R. The real cost is obtaining social-media data — which after platform API restrictions may require paid research access, scraping (with its own legal and operational risk), or partnership with an academic data holder. Not priced here.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/nicolarighetti/CooRTweet
 
 ---
 

@@ -14,11 +14,41 @@
 | **Maintainer** | Joachim Metz (libyal) |
 | **Maintenance** | Actively maintained |
 | **Licence** | LGPL-3.0 |
+| **Licence type** | Weak copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/libyal/libpff) · [Documentation](https://github.com/libyal/libpff/wiki) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 2/5 · licence+cost 5/5 → **weighted 87/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Weak copyleft |
+| **Exact licence (as recorded)** | LGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | LGPL-3.0 permits linking from your own tooling provided the library remains replaceable; modifications must be shared. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. C build toolchain; disk for extracted messages and attachments, which can exceed the PST size. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/libyal/libpff/blob/main/COPYING.LESSER
+- https://github.com/libyal/libpff
+- https://github.com/libyal/libpff/wiki
 
 ---
 

@@ -14,11 +14,39 @@
 | **Maintainer** | Open Observatory of Network Interference (OONI) |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-3-Clause (in the oonidata/ and oonipipeline/ subpackages; the repository root has NO LICENSE file, so GitHub reports none) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ooni/data) · [Documentation](https://github.com/ooni/data#readme) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 4/5 · usability 2/5 · licence+cost 4/5 → **weighted 76/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause (in the oonidata/ and oonipipeline/ subpackages; the repository root has NO LICENSE file, so GitHub reports none) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | OONI measurement data published as open data; confirm current terms for redistribution. |
+| **Restrictions** | Code is BSD-3-Clause per subpackage licence files, but the missing root LICENSE is a compliance-review irritant — document the subpackage paths if your legal team requires it. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Infrastructure: bulk object storage for the archive (tens to hundreds of GB depending on scope) plus an analytics store. Estimate; assumes self-hosted ClickHouse or cloud equivalent.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ooni/data
 
 ---
 

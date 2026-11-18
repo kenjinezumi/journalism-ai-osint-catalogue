@@ -14,11 +14,41 @@
 | **Maintainer** | Nick Sweeting and contributors |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ArchiveBox/ArchiveBox) · [Documentation](https://docs.archivebox.io/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 5/5 · privacy 4/5 · usability 4/5 · licence+cost 5/5 → **weighted 91/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Archived content belongs to the original publishers. |
+| **Restrictions** | None material. Note the bundled extractors carry their own licences (yt-dlp is Unlicense, SingleFile AGPL-3.0), which matters only if you redistribute a bundle. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Infrastructure estimate: a container host plus substantial storage — budget several times the raw page size per URL because of multi-format capture; a few thousand pages with media can reach hundreds of GB. Assumptions: self-hosted Docker, default extractor set.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ArchiveBox/ArchiveBox/blob/dev/LICENSE
+- https://github.com/ArchiveBox/ArchiveBox
+- https://docs.archivebox.io/
 
 ---
 

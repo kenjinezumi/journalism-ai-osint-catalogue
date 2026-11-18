@@ -14,6 +14,9 @@
 | **Maintainer** | OpenSecrets (Center for Responsive Politics / Issue One) |
 | **Maintenance** | Actively maintained |
 | **Licence** | OpenSecrets data terms apply and were NOT verified in this survey — historically permitting non-commercial research use with attribution and requiring permission for bulk or commercial reuse |
+| **Licence type** | Proprietary |
+| **Open-source status** | Proprietary |
+| **Software price** | **No software fee** |
 | **Confidence** | low · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Documentation](https://www.opensecrets.org/federal-lobbying) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 4/5 · usability 4/5 · licence+cost 3/5 → **weighted 78/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Proprietary |
+| **Exact licence (as recorded)** | OpenSecrets data terms apply and were NOT verified in this survey — historically permitting non-commercial research use with attribution and requiring permission for bulk or commercial reuse |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same. Verify terms before republishing data or building a product. |
+| **Restrictions** | Not verified here, and this matters: a research organisation's data terms commonly restrict bulk and commercial reuse, so a commercially operated newsroom should confirm its position before republishing OpenSecrets data as a dataset. |
+| **Open-source status** | **Proprietary** — Hosted service or proprietary software — governed by service terms, not a software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **low** |
+
+**Recorded cost detail.** Free to read. API access and bulk data terms not verified in this survey; historically free for research use with registration. Confirm before planning.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://www.opensecrets.org/federal-lobbying
+- `../sources/evidence/b2-sources.md`
 
 ---
 

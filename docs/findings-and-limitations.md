@@ -259,6 +259,69 @@ unknown rather than estimated.
 
 ---
 
+## Licensing and pricing that remain unverified
+
+Counted from [`records/`](../records/) at build time, across all 361 projects. Licensing and payment are counted separately because they are separate questions.
+
+| Measure | Projects | What it means |
+|---|--:|---|
+| Licence unresolved or open-source status unverified | 13 | No licence file, no SPDX identifier and no licence statement that the evidence could confirm. Reuse is legally unresolved |
+| SPDX identifier not independently verified | 116 | A licence is recorded and in most cases named by the GitHub API or the project's documentation, but the licence file itself was not read in this survey. The recorded licence is a research note, not a verified SPDX determination |
+| Software price not established | 8 | The records do not establish a price. **Not** a finding that the project is free |
+| Mandatory paid dependency recorded | 12 | A paid API, dataset, model, licence or tool is required for the core function, whatever the software itself costs |
+
+### Licence unresolved or status unverified (13)
+
+| Project | Recorded licence | Status |
+|---|---|---|
+| [AVeriTeC dataset and baseline](projects/JAI-A4-07.md) | NOT CONFIRMED — no LICENSE/COPYING file in the repository root, GitHub licence API reports none, README has no licence section | Unverified |
+| [ClaimsKG extractor](projects/JAI-A4-09.md) | NOT CONFIRMED — GitHub licence API returns 404 and no LICENSE file detected; code is a fork of vwoloszyn/fake_news_extractor, compounding provenance uncertainty | Unverified |
+| [ASVspoof 2021 baseline systems](projects/JAI-A4-30.md) | NOT CONFIRMED — no root LICENSE file found (direct fetch of /blob/main/LICENSE returned 404); terms may differ per baseline subdirectory | Unverified |
+| [Deepfake-Eval-2024](projects/JAI-A4-31.md) | NOT CONFIRMED — no licence for code or data visible on the repository page | Unverified |
+| [dorks_hunter](projects/OSINT-C1-08.md) | NOT CONFIRMED — no licence detected by the GitHub API and no LICENSE file found | Unverified |
+| [rtl-ais](projects/OSINT-C2-49.md) | GPL (from source headers: derived from rtl_fm by Kyle Keen, AISDecoder by Astra Paging/AISHub and GNUAIS; GitHub reports NOASSERTION) | Open source |
+| [unitedstates/congress](projects/OSINT-C3-42.md) | Public domain / CC0 (unitedstates project convention — confirm from the repository licence file) | Open source |
+| [stalkerware-indicators](projects/SUR-B3-10.md) | NOT CONFIRMED — no licence detected by the GitHub API and no LICENSE file found (2026-11-17) | Unverified |
+| [Amnesty International investigations (indicators of compromise)](projects/SUR-B3-11.md) | NOT CONFIRMED — no licence detected by the GitHub API and no LICENSE file found (2026-11-17) | Unverified |
+| [security-misc (Kicksecure)](projects/SUR-B3-21.md) | Not detected by the GitHub API — read the repository licence file before redistribution (the Kicksecure/Whonix ecosystem is predominantly GPL-family) | Open source |
+| [Delta Chat / chatmail core](projects/SUR-B3-26.md) | Not detected by the GitHub API — read the repository licence file (the Delta Chat/chatmail ecosystem is GPL-family) before redistribution | Open source |
+| [Orbot](projects/SUR-B3-30.md) | Not detected by the GitHub API — read the repository licence file (Guardian Project projects are predominantly BSD/GPL-family) | Open source |
+| [Privacy Badger](projects/SUR-B3-33.md) | GPL-family per EFF's licensing (GitHub reports NOASSERTION — read the repository licence file for records) | Open source |
+
+### Software price not established (8)
+
+These are hosted services or platforms whose current terms were not confirmed in this survey. Several have historically had free or free-for-journalists tiers; that history is recorded on the project pages and is not treated as a current price.
+
+| Project | Recorded cost position |
+|---|---|
+| [DocumentCloud](projects/JAI-A2-13.md) | Hosted DocumentCloud access has historically been free to verified journalists with paid organisational tiers; current prices were NOT verified in this survey — treat as not publicly verified here and check with MuckRock. Cloud OCR add-ons incur the underlying vendor's per-page charges (not priced here). Self-hosting costs are Django app servers, object storage and a search index, plus substantial undocumented-deployment engineering effort. |
+| [Google Fact Check Tools API](projects/JAI-A4-16.md) | Pricing and quota NOT verified in this survey — treat as not publicly confirmed here and check the current terms before relying on it. Historically free within quota; a Google API key is required, and Search Console verification is required for the ClaimReview write API. |
+| [Perma](projects/OSINT-C1-37.md) | Hosted perma.cc uses institutional tiers (library and organisation subscriptions) whose current prices were NOT verified in this survey — check before budgeting. Self-hosting: no software fee but a Django stack plus storage, realistically a multi-VM deployment. Assumptions for self-hosting: moderate capture volume. |
+| [Microsoft Planetary Computer](projects/OSINT-C2-45.md) | Historically free for catalogue access and Hub compute, but current terms and limits were NOT verified in this survey — treat as unknown and confirm before planning work around it. No software fee. |
+| [MuckRock](projects/OSINT-C3-15.md) | Service fees and account tiers NOT verified in this survey — MuckRock has historically charged for filing credits with free tiers for some users. Confirm before planning a filing programme. Self-hosting would be a major Django deployment. Estimate. |
+| [Awesome Website Change Monitoring](projects/SUR-B1-24.md) | None to read. Note that the commercial services it catalogues have their own pricing, none of which was verified in this survey. |
+| [OpenCellID](projects/SUR-B2-19.md) | Not verified in this survey. Historically a free tier with API keys and paid tiers above it; confirm current pricing before planning. No software cost. |
+| [Hush Line](projects/SUR-B3-06.md) | Self-hosting: a small VM plus a Tor onion service — low. The hosted service has free and paid tiers whose current prices were NOT verified in this survey. Staff cost is PGP key management and monitoring the channel. |
+
+### Mandatory paid dependencies (12)
+
+| Project | Software price | What must be paid for |
+|---|---|---|
+| [yente](projects/JAI-A2-61.md) | No software fee | mandatory paid data licence for commercial use (quote); self-hosted Elasticsearch/OpenSearch |
+| [AVeriTeC dataset and baseline](projects/JAI-A4-07.md) | No software fee | mandatory paid dependency; self-hosted infrastructure |
+| [Loki (OpenFactVerification)](projects/JAI-A4-10.md) | No software fee | mandatory paid dependency; self-hosted infrastructure |
+| [DEFAME](projects/JAI-A4-11.md) | No software fee | mandatory paid dependency; self-hosted infrastructure |
+| [FacTool](projects/JAI-A4-12.md) | No software fee | mandatory paid dependency |
+| [CooRTweet](projects/JAI-A4-13.md) | No software fee | mandatory paid dependency |
+| [uncover](projects/OSINT-C1-10.md) | No software fee | mandatory paid scan-database API keys for useful coverage (Shodan, Censys, FOFA, Hunter, ZoomEye — prices not verified); negligible compute |
+| [sentinelhub-py](projects/OSINT-C2-43.md) | No software fee | mandatory paid satellite-imagery service for commercial constellations (quote required); self-hosted compute |
+| [OpenSanctions (dataset)](projects/OSINT-C3-01.md) | No software fee | mandatory paid data licence for commercial use (quote); optional hosted Screening API (prepaid credits); self-hosted Elasticsearch |
+| [Ushahidi Platform](projects/OSINT-C3-07.md) | No software fee | mandatory per-message SMS gateway charges for the SMS channel (rates vary by country, not priced); self-hosted infrastructure; staff triage effort |
+| [ethereum-etl](projects/OSINT-C3-20.md) | No software fee | mandatory archive-node access — self-run (multi-terabyte storage) or a paid commercial node provider (not priced); warehouse storage |
+| [Mihari](projects/SUR-B2-11.md) | No software fee | mandatory paid dependency; self-hosted infrastructure |
+
+---
+
 ## Remaining evidence gaps and provisional conclusions
 
 23 projects are marked **provisional** and 13 are **low confidence**. The substantive gaps:

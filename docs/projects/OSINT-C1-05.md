@@ -14,11 +14,40 @@
 | **Maintainer** | Viktor Lofgren (MarginaliaSearch) |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 (per project documentation; GitHub API reports NOASSERTION) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/MarginaliaSearch/MarginaliaSearch) · [Documentation](https://search.marginalia.nu/) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 3/5 · usability 4/5 · licence+cost 4/5 → **weighted 73/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 (per project documentation; GitHub API reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | The index is the project's own crawl; crawled content belongs to the original publishers. |
+| **Restrictions** | AGPL-3.0 network copyleft would apply to a modified self-hosted instance. Confirm the licence file before forking, given the SPDX gap. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Free to use the public instance. Self-hosting requires large storage and CPU for crawling and indexing — a substantial infrastructure commitment, not quantified here because it depends entirely on index scope.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/MarginaliaSearch/MarginaliaSearch
+- https://search.marginalia.nu/
 
 ---
 

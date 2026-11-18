@@ -14,11 +14,41 @@
 | **Maintainer** | Argos Open Technologies (argosopentech) |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/argosopentech/argos-translate) · [Documentation](https://www.argosopentech.com/) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 5/5 · usability 4/5 · licence+cost 4/5 → **weighted 79/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Per-package. Models derive from OPUS/OPUS-MT data and are mostly openly licensed, but terms vary by package and were NOT individually verified in this survey. |
+| **Restrictions** | Code is unrestricted. The uncertainty is at the weights layer: verify the specific .argosmodel package licence before relying on it for commercial publication. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. CPU-only operation on commodity hardware; each language pair is a few hundred MB of disk. Model downloads come from the Argos package index — one-time egress, then zero. Infrastructure estimate assuming a laptop or small VM.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/argosopentech/argos-translate/blob/master/LICENSE
+- https://github.com/argosopentech/argos-translate
+- https://www.argosopentech.com/
 
 ---
 

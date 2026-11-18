@@ -14,6 +14,9 @@
 | **Maintainer** | OpenCellID / Unwired Labs |
 | **Maintenance** | Uncertain |
 | **Licence** | Not verified in this survey — OpenCellID has historically offered data under a Creative Commons licence with API access tiers operated by Unwired Labs; confirm current terms before use |
+| **Licence type** | Proprietary |
+| **Open-source status** | Proprietary |
+| **Software price** | **Unknown / not verified** — not established by the records |
 | **Confidence** | low · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Documentation](https://docs.opencellid.org/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 2/5 · privacy 3/5 · usability 4/5 · licence+cost 2/5 → **weighted 63/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Proprietary |
+| **Exact licence (as recorded)** | Not verified in this survey — OpenCellID has historically offered data under a Creative Commons licence with API access tiers operated by Unwired Labs; confirm current terms before use |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same. |
+| **Restrictions** | Unverified and material: a CC-BY-SA-style licence would impose share-alike obligations on a derived dataset, and commercial API terms may restrict redistribution. Confirm before publishing derived data. |
+| **Open-source status** | **Proprietary** — Hosted service or proprietary software — governed by service terms, not a software licence |
+| **Software price** | **Unknown / not verified** — not established by the records |
+| **Additional costs** | API access tiers not verified (a free tier existed historically); bulk download avoids per-query cost |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **low** |
+
+**Recorded cost detail.** Not verified in this survey. Historically a free tier with API keys and paid tiers above it; confirm current pricing before planning. No software cost.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://docs.opencellid.org/
+- `../sources/evidence/b2-sources.md`
+
+> **Unresolved:** the price is not established by these records — this is not a statement that it is free.
 
 ---
 

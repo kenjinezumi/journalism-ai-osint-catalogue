@@ -14,6 +14,9 @@
 | **Maintainer** | Internet Archive |
 | **Maintenance** | Stable with low activity |
 | **Licence** | GPL-2.0-or-later (declared in packaging metadata; no LICENSE file and GitHub reports no SPDX) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/internetarchive/warcprox) · [Documentation](https://github.com/internetarchive/warcprox#readme) |
@@ -21,6 +24,31 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 3/5 · privacy 3/5 · usability 2/5 · licence+cost 4/5 → **weighted 64/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-2.0-or-later (declared in packaging metadata; no LICENSE file and GitHub reports no SPDX) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | GPL-2.0-or-later per packaging metadata. The absence of a LICENSE file is a compliance-record weakness — cite the packaging metadata explicitly if your legal team requires it. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. A small Python service plus WARC storage. Negligible infrastructure; non-trivial setup time for the CA certificate arrangement.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/internetarchive/warcprox
 
 ---
 

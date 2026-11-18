@@ -14,6 +14,9 @@
 | **Maintainer** | ninoseki |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT (project licensing — confirm from the repository licence file) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ninoseki/mihari) · [Documentation](https://github.com/ninoseki/mihari#readme) |
@@ -21,6 +24,31 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 3/5 · privacy 2/5 · usability 3/5 · licence+cost 3/5 → **weighted 67/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (project licensing — confirm from the repository licence file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Data comes from the configured commercial and public sources under their own terms, several of which restrict redistribution. |
+| **Restrictions** | Permissive as published. The binding constraints are the scan vendors' API terms, which typically prohibit redistributing their data — relevant if you want to publish a dataset of findings. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | **Mandatory paid dependency** — mandatory paid dependency; self-hosted infrastructure |
+| **Cost conditions** | **Mandatory paid dependency**; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Software free. Real cost is paid API subscriptions to scan databases (Shodan, Censys, FOFA and similar — prices not verified in this survey) plus a small VM. Budget the data, not the tool.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ninoseki/mihari
 
 ---
 

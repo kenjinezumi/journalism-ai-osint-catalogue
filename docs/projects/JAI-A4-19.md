@@ -14,11 +14,39 @@
 | **Maintainer** | Myung-Joon Kwon (mjkwon2021) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | Apache-2.0 (code), per the README licence section; GitHub API reports no detected licence |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/mjkwon2021/CAT-Net) · [Documentation](https://github.com/mjkwon2021/CAT-Net#readme) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 4/5 · usability 2/5 · licence+cost 4/5 → **weighted 63/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 (code), per the README licence section; GitHub API reports no detected licence |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | CC-BY-4.0 for pretrained weights and released datasets, per the README licence section. |
+| **Restrictions** | CC-BY-4.0 requires attribution — cite the model in any methodology note. No non-commercial restriction, which is the key advantage. Because GitHub detects no licence file, confirm the README statement against the repository before commercial reliance. |
+| **Open-source status** | **Open source** — Open model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. GPU for inference. Weights from third-party file hosts (mirror them). Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/mjkwon2021/CAT-Net
 
 ---
 

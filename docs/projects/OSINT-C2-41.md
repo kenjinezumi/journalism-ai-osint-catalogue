@@ -14,6 +14,9 @@
 | **Maintainer** | Open-Meteo |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/open-meteo/open-meteo) · [Documentation](https://open-meteo.com/en/docs) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 5/5 · privacy 4/5 · usability 4/5 · licence+cost 3/5 → **weighted 75/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Underlying weather models come from national services (DWD, NOAA, ECMWF and others) with their own terms, several requiring attribution and some restricting commercial redistribution. |
+| **Restrictions** | AGPL-3.0 on the server. The material caveat is the hosted service's stated non-commercial framing — confirm your position before a commercially operated newsroom depends on the free tier. Underlying model data terms vary by source and need checking before republication. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Self-hosting: no software fee but substantial model-data download and storage, plus a server — a real infrastructure commitment (estimate: hundreds of GB and a dedicated VM, depending on which models and history you need). Hosted service free for non-commercial use with paid tiers above that — current prices not verified in this survey.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/open-meteo/open-meteo/blob/main/LICENSE
+- https://github.com/open-meteo/open-meteo
+- https://open-meteo.com/en/docs
 
 ---
 

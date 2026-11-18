@@ -14,6 +14,9 @@
 | **Maintainer** | Iknaio / GraphSense community (AIT origin) |
 | **Maintenance** | Uncertain |
 | **Licence** | MIT (project licensing — confirm from the repository licence file; open-core model with commercial involvement) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | low · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/graphsense/graphsense-lib) · [Documentation](https://graphsense.github.io/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 2/5 · privacy 4/5 · usability 2/5 · licence+cost 4/5 → **weighted 64/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (project licensing — confirm from the repository licence file; open-core model with commercial involvement) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Tag datasets have their own provenance and terms, which matter because tags drive attribution. |
+| **Restrictions** | Permissive as published; verify which components are open and which are commercial before designing around it. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **low** |
+
+**Recorded cost detail.** No software fee. Infrastructure is substantial: blockchain ingestion and clustering at scale needs a cluster with large storage — the dominant cost and the practical barrier for a newsroom. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/graphsense/graphsense-lib
+- https://graphsense.github.io/
 
 ---
 

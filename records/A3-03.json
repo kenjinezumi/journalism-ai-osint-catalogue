@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/RDFLib/rdflib","https://rdflib.readthedocs.io/","https://github.com/RDFLib/rdflib/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library for working with RDF: parsers and serialisers for many formats, an in-memory and pluggable store…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":4,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A3-17","name":"Oxigraph","maintainer":"Oxigraph contributors (Tpt)","pillar":"JAI","segment":"A3","subcategory":"Knowledge graphs","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/oxigraph/oxigraph","docs_url":"https://docs.rs/oxigraph/",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/oxigraph/oxigraph","https://docs.rs/oxigraph/","https://github.com/oxigraph/oxigraph/blob/main/LICENSE-APACHE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"RDF triple store written in Rust with SPARQL 1.1 query and update support, available as an embeddable library…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A3-18","name":"Kùzu","maintainer":"Kùzu Inc.","pillar":"JAI","segment":"A3","subcategory":"Knowledge graphs","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/kuzudb/kuzu","docs_url":"https://docs.kuzudb.com/",
@@ -51,6 +53,7 @@
 "blockers":["Archived as of 2025-10-10 — a frozen database engine is an unacceptable dependency for investigation data"],
 "evidence_urls":["https://github.com/kuzudb/kuzu","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Embeddable property-graph database with Cypher query support, columnar storage and vectorised execution…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":2,"capability":4,"maintenance":0,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A3-19","name":"MLflow","maintainer":"Databricks and community (Linux Foundation)","pillar":"JAI","segment":"A3","subcategory":"Experiment tracking and provenance","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/mlflow/mlflow","docs_url":"https://mlflow.org/docs/latest/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/mlflow/mlflow","https://mlflow.org/docs/latest/","https://github.com/mlflow/mlflow/blob/master/LICENSE.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Platform for machine-learning lifecycle management: experiment tracking, parameter and metric logging, artefact storage…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":4,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A3-20","name":"Sigstore Cosign","maintainer":"Sigstore project (OpenSSF)","pillar":"JAI","segment":"A3","subcategory":"Supply-chain provenance","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/sigstore/cosign","docs_url":"https://docs.sigstore.dev/cosign/overview/",
@@ -87,5 +91,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/sigstore/cosign","https://docs.sigstore.dev/cosign/overview/","https://github.com/sigstore/cosign/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Tool for signing, verifying and storing signatures for container images and other software artefacts…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":4,"usability":3,"licence_cost":5}}
 ]

@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/Breakthrough/PySceneDetect","https://www.scenedetect.com/","https://github.com/Breakthrough/PySceneDetect/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library and CLI that detects shot boundaries in video using content, threshold, adaptive and histogram detectors…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-11","name":"Katna","maintainer":"Kepler Lab","pillar":"OSINT","segment":"C2","subcategory":"Video keyframe selection","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/keplerlab/katna","docs_url":"https://katna.readthedocs.io/",
@@ -33,6 +34,7 @@
 "blockers":["Dormant since 2024; frame selection optimises for appeal rather than completeness"],
 "evidence_urls":["https://github.com/keplerlab/katna","https://katna.readthedocs.io/","https://github.com/keplerlab/katna/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library that selects representative keyframes from video by scoring frames for blur, brightness…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":1,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C2-12","name":"Sherloq","maintainer":"Guido Bartoli","pillar":"OSINT","segment":"C2","subcategory":"Image forensics workbench","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/GuidoBartoli/sherloq","docs_url":"https://github.com/GuidoBartoli/sherloq#readme",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/GuidoBartoli/sherloq","https://github.com/GuidoBartoli/sherloq/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Desktop GUI aggregating a wide set of image-forensics techniques — metadata inspection, error-level analysis…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["staff-effort"],"additional_costs_note":"staff effort",
 "scores":{"relevance":4,"capability":4,"maintenance":3,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C2-13","name":"c2pa-rs / c2patool","maintainer":"Content Authenticity Initiative (contentauth)","pillar":"OSINT","segment":"C2","subcategory":"Content provenance","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/contentauth/c2pa-rs","docs_url":"https://opensource.contentauthenticity.org/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/contentauth/c2pa-rs","https://opensource.contentauthenticity.org/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Rust implementation of the C2PA content-provenance specification, with a CLI (c2patool) for inspecting…","licence_type":"Dual-licensed","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C2-14","name":"VFRAME","maintainer":"Adam Harvey (vframeio)","pillar":"OSINT","segment":"C2","subcategory":"Conflict-footage triage","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/vframeio/vframe","docs_url":"https://vframe.io/",
@@ -87,6 +91,7 @@
 "blockers":["Dormant since 2023; deep-learning dependency stack requires porting"],
 "evidence_urls":["https://github.com/vframeio/vframe","https://vframe.io/","https://github.com/vframeio/vframe/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Computer-vision toolkit for human-rights investigation, providing object-detection pipelines over large video archives with…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure", "staff-effort"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":3,"maintenance":1,"privacy":5,"usability":1,"licence_cost":5}},
 
 {"id":"OSINT-C2-15","name":"Bellingcat smart-image-sorter","maintainer":"Bellingcat","pillar":"OSINT","segment":"C2","subcategory":"Image triage","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/bellingcat/smart-image-sorter","docs_url":"https://github.com/bellingcat/smart-image-sorter#readme",
@@ -105,6 +110,7 @@
 "blockers":["Dormant since 2024; model generation behind current capability"],
 "evidence_urls":["https://github.com/bellingcat/smart-image-sorter","https://github.com/bellingcat/smart-image-sorter/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"CLI that classifies images into user-defined categories using zero-shot vision-language models…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":2,"maintenance":1,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-16","name":"GeoCLIP","maintainer":"Vicente Vivanco Cepeda and collaborators","pillar":"OSINT","segment":"C2","subcategory":"Image geolocation (model)","project_type":"model","bucket":"verified-oss","repo_url":"https://github.com/VicenteVivan/geo-clip","docs_url":"https://github.com/VicenteVivan/geo-clip#readme",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/VicenteVivan/geo-clip","https://github.com/VicenteVivan/geo-clip/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"CLIP-based model that predicts GPS coordinates for an image by aligning image embeddings with a learned location embedding space…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open model weights","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":4,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C2-17","name":"ShadowFinder","maintainer":"Bellingcat","pillar":"OSINT","segment":"C2","subcategory":"Chronolocation","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/bellingcat/ShadowFinder","docs_url":"https://github.com/bellingcat/ShadowFinder#readme",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/bellingcat/ShadowFinder","https://github.com/bellingcat/ShadowFinder/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Tool that computes the set of possible locations consistent with an observed shadow length and a known timestamp…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-18","name":"SunCalc","maintainer":"Vladimir Agafonkin (mourner)","pillar":"OSINT","segment":"C2","subcategory":"Solar position computation","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/mourner/suncalc","docs_url":"https://github.com/mourner/suncalc#readme",
@@ -159,5 +167,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/mourner/suncalc","https://github.com/mourner/suncalc/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Tiny JavaScript library computing sun and moon position, sunrise/sunset and twilight phases…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":5,"privacy":5,"usability":4,"licence_cost":5}}
 ]

@@ -15,6 +15,7 @@
 "blockers":["Requires dedicated hardware, an air-gapped workstation and permanent administrator capacity — a partial deployment is actively misleading to sources"],
 "evidence_urls":["https://github.com/freedomofpress/securedrop","https://docs.securedrop.org/","../sources/recovered/cat/ground_truth.tsv"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Whistleblower submission system where sources upload documents and messages over a Tor onion service to hardware controlled by…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["hardware", "infrastructure", "staff-effort"],"additional_costs_note":"dedicated hardware; self-hosted infrastructure; staff effort",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"SUR-B3-02","name":"SecureDrop Workstation","maintainer":"Freedom of the Press Foundation","pillar":"SUR","segment":"B3","subcategory":"Secure submission","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/freedomofpress/securedrop-workstation","docs_url":"https://workstation.securedrop.org/",
@@ -33,6 +34,7 @@
 "blockers":["Requires Qubes-certified hardware; narrow compatibility list"],
 "evidence_urls":["https://github.com/freedomofpress/securedrop-workstation","https://workstation.securedrop.org/","https://github.com/freedomofpress/securedrop-workstation/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Qubes OS-based journalist workstation for handling SecureDrop submissions, isolating networking, decryption…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["hardware", "infrastructure", "staff-effort"],"additional_costs_note":"dedicated hardware; self-hosted infrastructure; staff effort",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"SUR-B3-03","name":"Dangerzone","maintainer":"Freedom of the Press Foundation","pillar":"SUR","segment":"B3","subcategory":"Document sanitisation","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/freedomofpress/dangerzone","docs_url":"https://dangerzone.rocks/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/freedomofpress/dangerzone","https://dangerzone.rocks/","https://github.com/freedomofpress/dangerzone/blob/main/LICENSE","../sources/recovered/cat/ground_truth.tsv"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Desktop application that converts potentially malicious PDFs, Office documents and images into safe PDFs by rendering them to…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B3-04","name":"OnionShare","maintainer":"Micah Lee and contributors","pillar":"SUR","segment":"B3","subcategory":"Secure file transfer","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/onionshare/onionshare","docs_url":"https://docs.onionshare.org/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/onionshare/onionshare/blob/main/LICENSE.txt","https://docs.onionshare.org/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"Desktop and CLI tool that uses Tor onion services to share files, receive files…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B3-05","name":"GlobaLeaks","maintainer":"Hermes Center for Transparency and Digital Human Rights","pillar":"SUR","segment":"B3","subcategory":"Secure submission","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/globaleaks/globaleaks-whistleblowing-software","docs_url":"https://docs.globaleaks.org/",
@@ -87,6 +91,7 @@
 "blockers":["HTTPS submission path exposes source IPs; server-side decryption weakens the seizure threat model relative to SecureDrop"],
 "evidence_urls":["https://github.com/globaleaks/globaleaks-whistleblowing-software","https://docs.globaleaks.org/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Configurable whistleblowing platform supporting anonymous submissions over Tor or HTTPS, multi-tenant deployments…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":3,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B3-06","name":"Hush Line","maintainer":"Science & Design (scidsg)","pillar":"SUR","segment":"B3","subcategory":"Secure submission","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/scidsg/hushline","docs_url":"https://hushline.app/",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/scidsg/hushline","https://hushline.app/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Lightweight anonymous tip-line service with end-to-end encryption to the recipient's PGP key…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"Unknown / not verified","software_price_note":"not established by the records","cost_flags":["optional-hosted", "infrastructure", "staff-effort"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure; staff effort",
 "scores":{"relevance":5,"capability":3,"maintenance":4,"privacy":4,"usability":5,"licence_cost":4}},
 
 {"id":"SUR-B3-07","name":"mat2","aka":"Metadata Anonymisation Toolkit 2","maintainer":"Julien Voisin (jvoisin)","pillar":"SUR","segment":"B3","subcategory":"Metadata removal","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/jvoisin/mat2","docs_url":"https://0xacab.org/jvoisin/mat2",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/jvoisin/mat2","https://0xacab.org/jvoisin/mat2","../sources/recovered/cat/ground_truth.tsv","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Metadata removal tool supporting a wide range of file formats — images, documents, audio, video, archives…","licence_type":"Weak copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"SUR-B3-08","name":"MVT (Mobile Verification Toolkit)","maintainer":"MVT Project (Amnesty International Security Lab lineage)","pillar":"SUR","segment":"B3","subcategory":"Device forensics","project_type":"cli","bucket":"source-available-restricted","repo_url":"https://github.com/mvt-project/mvt","docs_url":"https://docs.mvt.re/",
@@ -141,6 +148,7 @@
 "blockers":["MVT License 1.1 §3.0 consensual-use restriction — written informed consent and a disclosed retention policy are contractual requirements, and the licence is not OSI-approved"],
 "evidence_urls":["https://github.com/mvt-project/mvt/blob/main/LICENSE","https://docs.mvt.re/","../sources/evidence/leads.md","../sources/recovered/cat/mvt.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"Forensic toolkit that acquires and analyses iOS backups and filesystem dumps and Android device data…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Source published under a restricted, non-OSI licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":5,"usability":2,"licence_cost":3}},
 
 {"id":"SUR-B3-09","name":"androidqf","maintainer":"MVT Project","pillar":"SUR","segment":"B3","subcategory":"Device forensics","project_type":"cli","bucket":"source-available-restricted","repo_url":"https://github.com/mvt-project/androidqf","docs_url":"https://github.com/mvt-project/androidqf#readme",
@@ -159,5 +167,6 @@
 "blockers":["MVT License 1.1 §3.0 consensual-use restriction; not OSI-approved"],
 "evidence_urls":["https://github.com/mvt-project/androidqf/blob/main/LICENSE","../sources/evidence/leads.md","../sources/recovered/cat/ground_truth.tsv"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"Android Quick Forensics: a cross-platform tool that rapidly collects a standard set of forensic artefacts from an Android device…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Source published under a restricted, non-OSI licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":5,"usability":3,"licence_cost":3}}
 ]

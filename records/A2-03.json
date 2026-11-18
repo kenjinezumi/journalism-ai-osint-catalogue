@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/Helsinki-NLP/Opus-MT","https://huggingface.co/Helsinki-NLP/opus-mt-ru-en"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Family of several hundred bilingual and multilingual neural MT models trained on the OPUS parallel corpora…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open model weights","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A2-22","name":"Hyperaudio Lite","maintainer":"Hyperaudio (Mark Boas)","pillar":"JAI","segment":"A2","subcategory":"Transcript publishing","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/hyperaudio/hyperaudio-lite","docs_url":"https://hyperaud.io/",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/hyperaudio/hyperaudio-lite","https://hyperaud.io/","https://github.com/hyperaudio/hyperaudio-lite/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Lightweight dependency-free JavaScript library that binds a timed transcript to an audio or video element, giving click-to-seek…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-23","name":"ICIJ Datashare","maintainer":"International Consortium of Investigative Journalists","pillar":"JAI","segment":"A2","subcategory":"Leak analysis platform","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/ICIJ/datashare","docs_url":"https://icij.gitbook.io/datashare/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/ICIJ/datashare","https://icij.gitbook.io/datashare/","https://github.com/ICIJ/datashare/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Self-hosted document-analysis platform that extracts text and entities from a document collection and gives journalists a search…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"JAI-A2-24","name":"ICIJ extract","maintainer":"International Consortium of Investigative Journalists","pillar":"JAI","segment":"A2","subcategory":"Bulk extraction pipeline","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/ICIJ/extract","docs_url":"https://github.com/ICIJ/extract#readme",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/ICIJ/extract","https://github.com/ICIJ/extract/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"JVM command-line tool that walks a file tree or archive, extracts text and metadata via Apache Tika with parallel workers and…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"JAI-A2-25","name":"ingest-file (OpenAleph fork)","maintainer":"OpenAleph / DARC (maintained fork of the archived alephdata/ingest-file)","pillar":"JAI","segment":"A2","subcategory":"Bulk extraction pipeline","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/openaleph/ingest-file","docs_url":"https://openaleph.org/docs/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/openaleph/ingest-file","https://openaleph.org/docs/","https://github.com/openaleph/ingest-file/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Worker service that ingests heterogeneous files — documents, mailboxes, archives, images, spreadsheets — converts and OCRs them…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"JAI-A2-26","name":"Kraken","maintainer":"Benjamin Kiessling (mittagessen)","pillar":"JAI","segment":"A2","subcategory":"Handwritten and historical OCR","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/mittagessen/kraken","docs_url":"https://kraken.re/",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/mittagessen/kraken","https://kraken.re/","https://github.com/mittagessen/kraken/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Trainable OCR and handwritten-text-recognition engine with baseline segmentation…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"JAI-A2-27","name":"LibreTranslate","maintainer":"LibreTranslate community (Piero Toffanin and contributors)","pillar":"JAI","segment":"A2","subcategory":"Machine translation service","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/LibreTranslate/LibreTranslate","docs_url":"https://libretranslate.com/docs/",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/LibreTranslate/LibreTranslate","https://libretranslate.com/docs/","https://github.com/LibreTranslate/LibreTranslate/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Self-hostable translation API and web UI built on Argos Translate, with a REST interface, language auto-detection…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":5,"capability":3,"maintenance":4,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"JAI-A2-28","name":"Marker","maintainer":"Datalab (datalab-to, transferred from VikParuchuri)","pillar":"JAI","segment":"A2","subcategory":"Document parsing and layout","project_type":"cli","bucket":"source-available-weights","repo_url":"https://github.com/datalab-to/marker","docs_url":"https://github.com/datalab-to/marker#readme",
@@ -141,6 +148,7 @@
 "blockers":["Weights are OpenRAIL-M with a $5M revenue-or-funding commercial threshold — a licence decision, not a technical one"],
 "evidence_urls":["https://github.com/datalab-to/marker","https://www.datalab.to/pricing","../sources/recovered/cat/pricing.tsv","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Converts PDFs, Office files and images to Markdown, JSON or HTML using the Surya model family for layout, reading order…","licence_type":"Mixed (code vs weights/data)","oss_status":"Mixed","oss_detail":"Open-source code, restricted model weights","price_class":"No fee below threshold","software_price_note":"code free; weights free below USD 5M revenue OR funding, commercial licence above (price not publicly listed). Hosted Datalab API: Free USD 0 with USD 20/10 monthly allowance, Team USD 400/month (verified 2026-11-16)","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":3,"usability":4,"licence_cost":2}},
 
 {"id":"JAI-A2-29","name":"Montreal Forced Aligner","maintainer":"Montreal Corpus Tools (McGill)","pillar":"JAI","segment":"A2","subcategory":"Audio alignment","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner","docs_url":"https://montreal-forced-aligner.readthedocs.io/",
@@ -159,6 +167,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner","https://montreal-forced-aligner.readthedocs.io/","https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Kaldi-based forced aligner that time-aligns a known transcript to an audio recording at word and phone level…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":2,"capability":4,"maintenance":4,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"JAI-A2-30","name":"nomenklatura","maintainer":"OpenSanctions","pillar":"JAI","segment":"A2","subcategory":"Entity resolution","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/opensanctions/nomenklatura","docs_url":"https://github.com/opensanctions/nomenklatura#readme",
@@ -177,5 +186,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/opensanctions/nomenklatura","https://github.com/opensanctions/nomenklatura/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Entity-resolution and deduplication toolkit for FollowTheMoney data: candidate generation, scoring algorithms…","licence_type":"Mixed (code vs weights/data)","oss_status":"Mixed","oss_detail":"Open-source code, restricted data licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":2,"licence_cost":5}}
 ]

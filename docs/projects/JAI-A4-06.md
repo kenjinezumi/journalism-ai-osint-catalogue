@@ -14,11 +14,41 @@
 | **Maintainer** | FEVER workshop organisers (repository under awslabs) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/awslabs/fever) · [Documentation](https://fever.ai/) |
 
 **Scores** — relevance 2/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 2/5 · licence+cost 4/5 → **weighted 60/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | NOT verified — baseline checkpoints are downloaded separately. The Wikipedia evidence corpus is CC-BY-SA. |
+| **Restrictions** | Code permissive. CC-BY-SA on the Wikipedia evidence corpus imposes attribution and ShareAlike obligations if you redistribute a derived evidence corpus. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Requires substantial local disk for the Wikipedia dump and dataset, plus a Python ML stack. No paid APIs. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/awslabs/fever/blob/master/LICENSE
+- https://github.com/awslabs/fever
+- https://fever.ai/
 
 ---
 

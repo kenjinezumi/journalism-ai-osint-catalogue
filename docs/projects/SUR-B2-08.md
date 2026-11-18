@@ -14,6 +14,9 @@
 | **Maintainer** | Andrew Horton (urbanadventurer) and Brendan Coles |
 | **Maintenance** | Stable with low activity |
 | **Licence** | GPL-2.0 (project licensing — confirm from the repository licence file for your records) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/urbanadventurer/WhatWeb) · [Documentation](https://github.com/urbanadventurer/WhatWeb#readme) |
@@ -21,6 +24,31 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 3/5 · usability 4/5 · licence+cost 4/5 → **weighted 64/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-2.0 (project licensing — confirm from the repository licence file for your records) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | GPL-family copyleft on the tool; immaterial for internal use. Active scanning may engage computer-misuse law depending on jurisdiction and target — a legal rather than licence question. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Ruby runtime; negligible resources.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/urbanadventurer/WhatWeb
 
 ---
 

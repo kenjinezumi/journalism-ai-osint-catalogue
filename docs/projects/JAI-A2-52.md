@@ -14,6 +14,9 @@
 | **Maintainer** | Datalab (datalab-to, transferred from VikParuchuri) |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 (code) |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Mixed |
+| **Software price** | **No fee below threshold** — code free; weights free below USD 5M revenue OR funding, commercial licence above — quote required (verified 2026-11-16) |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/datalab-to/surya) · [Documentation](https://github.com/datalab-to/surya#readme) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 4/5 · capability 5/5 · maintenance 5/5 · privacy 3/5 · usability 3/5 · licence+cost 2/5 → **weighted 78/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | Apache-2.0 (code) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | OpenRAIL-M for the weights (README 'Model License: OpenRAIL-M' linking to datalab.to/pricing). NOT OSI-approved. Commercial use above $5M revenue OR funding requires a paid licence. |
+| **Restrictions** | Revenue/funding threshold on weights; OpenRAIL-M additionally imposes use-based behavioural restrictions that flow downstream on redistribution. The Apache-2.0 code licence does not cure this. |
+| **Open-source status** | **Mixed** — Open-source code, restricted model weights |
+| **Software price** | **No fee below threshold** — code free; weights free below USD 5M revenue OR funding, commercial licence above — quote required (verified 2026-11-16) |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Code free; weights free below the threshold, otherwise a commercial licence at a price not publicly listed (quote required). Datalab's hosted API is priced separately: Free $0 with a $20/$10 monthly allowance, Team $400/month, Enterprise custom (verified 2026-11-16, USD). Self-hosted: one GPU host.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://www.datalab.to/pricing
+- https://github.com/datalab-to/surya
+- `../sources/recovered/cat/pricing.tsv`
+- `../sources/evidence/leads.md`
 
 ---
 

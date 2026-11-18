@@ -14,6 +14,9 @@
 | **Maintainer** | DuckDuckGo |
 | **Maintenance** | Actively maintained |
 | **Licence** | CC-BY-NC-SA-4.0 (licence blob read 2026-11-17; GitHub reports NOASSERTION) — a DATASET licence, not a software licence |
+| **Licence type** | Restricted / non-OSI |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/duckduckgo/tracker-radar) · [Documentation](https://github.com/duckduckgo/tracker-radar#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 4/5 · licence+cost 2/5 → **weighted 82/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Restricted / non-OSI |
+| **Exact licence (as recorded)** | CC-BY-NC-SA-4.0 (licence blob read 2026-11-17; GitHub reports NOASSERTION) — a DATASET licence, not a software licence |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same. The producing crawler (duckduckgo/tracker-radar-collector) is separately licensed and was not assessed here. |
+| **Restrictions** | NonCommercial: no commercial use without permission, which includes a commercially operated newsroom embedding it in a product. ShareAlike: derivative datasets must carry CC-BY-NC-SA-4.0, which can contaminate a combined dataset you intend to publish. DuckDuckGo logos and marks are excluded from the licence. |
+| **Open-source status** | **Source available** — Restricted data licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee for permitted non-commercial use. Commercial use requires permission — no published price. Negligible infrastructure (it is a git repository of JSON).
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/duckduckgo/tracker-radar/blob/main/LICENSE
+- `../sources/evidence/leads.md`
 
 ---
 

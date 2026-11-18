@@ -14,11 +14,42 @@
 | **Maintainer** | Rhizome (transferred from webrecorder/conifer) |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/Rhizome-Conifer/conifer) · [Documentation](https://conifer.rhizome.org/) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 2/5 · privacy 3/5 · usability 4/5 · licence+cost 5/5 → **weighted 63/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None material. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Self-hosting: no fee, a Docker stack plus storage. Hosted conifer.rhizome.org has storage quotas; any paid tiers were not verified in this survey. Estimate for self-hosting: one moderate VM plus capture storage.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/Rhizome-Conifer/conifer/blob/develop/LICENSE
+- https://github.com/Rhizome-Conifer/conifer
+- https://conifer.rhizome.org/
+- `../sources/evidence/leads.md`
 
 ---
 

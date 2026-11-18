@@ -14,11 +14,40 @@
 | **Maintainer** | Wisconsin AI Vision lab |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/WisconsinAIVision/UniversalFakeDetect) · [Documentation](https://github.com/WisconsinAIVision/UniversalFakeDetect#readme) |
 
 **Scores** — relevance 2/5 · capability 3/5 · maintenance 3/5 · privacy 4/5 · usability 2/5 · licence+cost 5/5 → **weighted 59/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Not separately stated; weights distributed by the authors under the repository terms. Evaluation datasets aggregate third-party generator outputs whose own terms may vary. |
+| **Restrictions** | Code MIT. Residual uncertainty on the aggregated evaluation datasets, which include outputs from generators with their own terms of service. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Roughly 72GB of dataset downloads plus CLIP weights; GPU for evaluation. Bandwidth and storage are the notable costs. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/WisconsinAIVision/UniversalFakeDetect/blob/main/LICENSE
+- https://github.com/WisconsinAIVision/UniversalFakeDetect
 
 ---
 

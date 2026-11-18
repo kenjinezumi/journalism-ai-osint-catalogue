@@ -14,6 +14,9 @@
 | **Maintainer** | OpenSanctions Datenbanken GmbH |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT (code) |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** — code free (MIT); the DATA is CC-BY-NC-4.0 — commercial use requires a paid licence, price not publicly listed (verified 2026-11-16) |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/opensanctions/opensanctions) · [Documentation](https://www.opensanctions.org/docs/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 5/5 · privacy 5/5 · usability 4/5 · licence+cost 3/5 → **weighted 94/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | MIT (code) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Data is CC-BY-NC 4.0; commercial use requires a paid licence (Screening Licence and Reseller/OEM are quote-only; the Screening API uses prepaid credit bundles with free credits on signup). |
+| **Restrictions** | Material and the central consideration: NonCommercial bars commercial exploitation of the data, and NGO or journalism status does not automatically satisfy it. Publishing an article informed by the data is ordinary journalistic use; building a paid product or client-facing screening service on it is not. 'OpenSanctions is open source' is true of the code only. |
+| **Open-source status** | **Source available** — Restricted data licence |
+| **Software price** | **No software fee** — code free (MIT); the DATA is CC-BY-NC-4.0 — commercial use requires a paid licence, price not publicly listed (verified 2026-11-16) |
+| **Additional costs** | **Mandatory paid dependency** — mandatory paid data licence for commercial use (quote); optional hosted Screening API (prepaid credits); self-hosted Elasticsearch |
+| **Cost conditions** | **Mandatory paid dependency**; Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Code and non-commercial data use free. Commercial data licence: quote required, not publicly listed (verified 2026-11-16). Self-hosting needs an Elasticsearch/OpenSearch node for yente. Hosted Screening API sold in prepaid credit bundles. Estimate for self-hosting: one 8-16GB VM.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://www.opensanctions.org/licensing/
+- https://github.com/opensanctions/opensanctions/blob/main/LICENSE
+- `../sources/evidence/leads.md`
+- `../sources/evidence/pricing.md`
 
 ---
 

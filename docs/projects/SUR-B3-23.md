@@ -14,6 +14,9 @@
 | **Maintainer** | Signal Foundation |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/signalapp/Signal-Android) · [Documentation](https://support.signal.org/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 5/5 · privacy 4/5 · usability 5/5 · licence+cost 4/5 → **weighted 95/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | AGPL-3.0 on client and server. Note that running a modified client against Signal's servers is contrary to the service's terms regardless of the licence — relevant to forks like Molly. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Free to use. No infrastructure. Cost is training time and the operational work of maintaining circumvention where Signal is blocked.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/signalapp/Signal-Android/blob/main/LICENSE
+- https://github.com/signalapp/Signal-Android
+- https://github.com/signalapp/Signal-Server
 
 ---
 

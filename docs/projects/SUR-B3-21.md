@@ -14,11 +14,42 @@
 | **Maintainer** | Kicksecure / Whonix developers |
 | **Maintenance** | Actively maintained |
 | **Licence** | Not detected by the GitHub API — read the repository licence file before redistribution (the Kicksecure/Whonix ecosystem is predominantly GPL-family) |
+| **Licence type** | Unresolved |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/Kicksecure/security-misc) · [Documentation](https://www.kicksecure.com/wiki/Security-misc) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 4/5 · privacy 5/5 · usability 2/5 · licence+cost 4/5 → **weighted 69/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Unresolved |
+| **Exact licence (as recorded)** | Not detected by the GitHub API — read the repository licence file before redistribution (the Kicksecure/Whonix ecosystem is predominantly GPL-family) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | Unverified in this survey; confirm from the repository before including it in a distributed image. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Cost is testing and troubleshooting time, which is non-trivial on diverse hardware.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/Kicksecure/security-misc
+- https://www.kicksecure.com/wiki/Security-misc
+
+> **Unresolved:** the licence could not be confirmed from the evidence gathered.
 
 ---
 

@@ -14,11 +14,41 @@
 | **Maintainer** | Benjamin Kiessling (mittagessen) |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/mittagessen/kraken) · [Documentation](https://kraken.re/) |
 
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 2/5 · licence+cost 4/5 → **weighted 73/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Varies by model — public models are published on Zenodo with per-model terms; not individually verified in this survey. |
+| **Restrictions** | Code permissive. Verify the licence of each Zenodo-published model before commercial use; some academic models carry non-commercial or attribution conditions. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. A GPU materially accelerates training and inference. The dominant cost is human transcription to build ground truth — budget days of specialist labour per hand. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/mittagessen/kraken/blob/main/LICENSE
+- https://github.com/mittagessen/kraken
+- https://kraken.re/
 
 ---
 

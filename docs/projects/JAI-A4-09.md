@@ -14,6 +14,9 @@
 | **Maintainer** | ClaimsKG project (academic consortium) |
 | **Maintenance** | Dormant |
 | **Licence** | NOT CONFIRMED — GitHub licence API returns 404 and no LICENSE file detected; code is a fork of vwoloszyn/fake_news_extractor, compounding provenance uncertainty |
+| **Licence type** | Unresolved |
+| **Open-source status** | Unverified |
+| **Software price** | **No software fee** |
 | **Confidence** | medium · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/claimskg/claimskg-extractor) · [Documentation](https://data.gesis.org/claimskg/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 2/5 · capability 1/5 · maintenance 1/5 · privacy 2/5 · usability 1/5 · licence+cost 1/5 → **weighted 29/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Unresolved |
+| **Exact licence (as recorded)** | NOT CONFIRMED — GitHub licence API returns 404 and no LICENSE file detected; code is a fork of vwoloszyn/fake_news_extractor, compounding provenance uncertainty |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | Unresolved. Do not redistribute or build a product on it. Separately, scraping fact-checkers' sites may breach their terms of use regardless of the code licence. |
+| **Open-source status** | **Unverified** — Licence could not be confirmed — reuse legally unresolved |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Operating cost would be scraper maintenance, which is the dominant and recurring cost of this approach.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/claimskg/claimskg-extractor
+- https://data.gesis.org/claimskg/
+
+> **Unresolved:** the licence could not be confirmed from the evidence gathered.
 
 ---
 

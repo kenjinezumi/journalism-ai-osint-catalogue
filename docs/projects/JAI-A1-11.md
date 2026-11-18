@@ -14,6 +14,9 @@
 | **Maintainer** | OpenDataLab (Shanghai AI Laboratory) |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 with ADDITIONAL TERMS recorded as restrictive (session 1 read the licence text; GitHub reports NOASSERTION) — read the full terms before commercial use |
+| **Licence type** | Restricted / non-OSI |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** |
 | **Confidence** | medium · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/opendatalab/MinerU) · [Documentation](https://mineru.net/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 5/5 · privacy 4/5 · usability 3/5 · licence+cost 2/5 → **weighted 71/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Restricted / non-OSI |
+| **Exact licence (as recorded)** | Apache-2.0 with ADDITIONAL TERMS recorded as restrictive (session 1 read the licence text; GitHub reports NOASSERTION) — read the full terms before commercial use |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Model weights distributed separately; terms NOT verified in this survey. |
+| **Restrictions** | Material and unresolved: the additional terms layered on Apache-2.0 were recorded as restrictive and have not been characterised in detail here. Obtain a legal reading before commercial deployment or redistribution. |
+| **Open-source status** | **Source available** — Source published under a restricted, non-OSI licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. GPU host required for the full pipeline — the dominant cost. Model weight downloads. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/opendatalab/MinerU
+- `../sources/recovered/a1disc/notes.md`
 
 ---
 

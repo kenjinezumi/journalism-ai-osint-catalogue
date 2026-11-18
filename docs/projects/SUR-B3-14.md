@@ -14,11 +14,41 @@
 | **Maintainer** | libimobiledevice project |
 | **Maintenance** | Actively maintained |
 | **Licence** | LGPL-2.1 |
+| **Licence type** | Weak copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/libimobiledevice/libimobiledevice) · [Documentation](https://libimobiledevice.org/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 2/5 · licence+cost 5/5 → **weighted 81/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Weak copyleft |
+| **Exact licence (as recorded)** | LGPL-2.1 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | LGPL-2.1 permits linking from your own tooling provided the library remains replaceable; modifications must be shared. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. A Linux forensic workstation and storage for backups (tens of GB per device). Build-from-source effort is the hidden cost.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/libimobiledevice/libimobiledevice/blob/master/COPYING.LESSER
+- https://github.com/libimobiledevice/libimobiledevice
+- https://libimobiledevice.org/
 
 ---
 

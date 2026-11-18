@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/langchain-ai/langchain","https://python.langchain.com/","https://github.com/langchain-ai/langchain/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Framework for building applications with language models, providing abstractions over model providers, prompts, output parsing…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":3,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A3-10","name":"LangGraph","maintainer":"LangChain Inc.","pillar":"JAI","segment":"A3","subcategory":"Agent orchestration","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/langchain-ai/langgraph","docs_url":"https://langchain-ai.github.io/langgraph/",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/langchain-ai/langgraph","https://langchain-ai.github.io/langgraph/","https://github.com/langchain-ai/langgraph/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Library for building stateful, multi-step language-model applications as explicit graphs with persistence…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":3,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A3-11","name":"smolagents","maintainer":"Hugging Face","pillar":"JAI","segment":"A3","subcategory":"Agent framework","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/huggingface/smolagents","docs_url":"https://huggingface.co/docs/smolagents/",
@@ -51,6 +53,7 @@
 "blockers":["Code-executing agents require deliberate sandboxing and egress denial before touching source material"],
 "evidence_urls":["https://github.com/huggingface/smolagents","https://huggingface.co/docs/smolagents/","https://github.com/huggingface/smolagents/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Minimal agent library where agents write and execute code to use tools, with a small core…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":3,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A3-12","name":"llm (Simon Willison's CLI)","maintainer":"Simon Willison","pillar":"JAI","segment":"A3","subcategory":"LLM command-line tooling","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/simonw/llm","docs_url":"https://llm.datasette.io/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/simonw/llm","https://llm.datasette.io/","https://github.com/simonw/llm/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Command-line tool and Python library for interacting with language models — local and remote — with a plugin system…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A3-13","name":"Ragas","maintainer":"Vibrant Labs AI (transferred from explodinggradients)","pillar":"JAI","segment":"A3","subcategory":"RAG evaluation","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/vibrantlabsai/ragas","docs_url":"https://docs.ragas.io/",
@@ -87,6 +91,7 @@
 "blockers":["LLM-as-judge metrics are relative signals, not absolute measures; a hosted judge would disclose source documents"],
 "evidence_urls":["https://github.com/vibrantlabsai/ragas","https://docs.ragas.io/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Evaluation framework for retrieval-augmented generation measuring faithfulness, answer relevance, context precision and recall…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":4,"privacy":3,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A3-14","name":"promptfoo","maintainer":"promptfoo","pillar":"JAI","segment":"A3","subcategory":"LLM evaluation and red-teaming","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/promptfoo/promptfoo","docs_url":"https://www.promptfoo.dev/docs/",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/promptfoo/promptfoo","https://www.promptfoo.dev/docs/","https://github.com/promptfoo/promptfoo/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Command-line and library tool for evaluating and comparing prompts, models and RAG configurations against test cases…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A3-15","name":"Inspect AI","maintainer":"UK AI Security Institute (UKGovernmentBEIS)","pillar":"JAI","segment":"A3","subcategory":"LLM evaluation","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/UKGovernmentBEIS/inspect_ai","docs_url":"https://inspect.aisi.org.uk/",
@@ -123,5 +129,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/UKGovernmentBEIS/inspect_ai","https://inspect.aisi.org.uk/","https://github.com/UKGovernmentBEIS/inspect_ai/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Framework for large language model evaluations with datasets, solvers, scorers and a log viewer…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":4,"usability":3,"licence_cost":5}}
 ]

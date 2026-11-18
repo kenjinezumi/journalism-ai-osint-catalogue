@@ -14,6 +14,9 @@
 | **Maintainer** | mySociety |
 | **Maintenance** | Stable with low activity |
 | **Licence** | AGPL-3.0-or-later (verified in session 1 by reading the licence text, resolving a GitHub NOASSERTION) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/mysociety/alaveteli) · [Documentation](https://alaveteli.org/docs/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 3/5 · privacy 2/5 · usability 3/5 · licence+cost 4/5 → **weighted 63/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0-or-later (verified in session 1 by reading the licence text, resolving a GitHub NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Request and response content published on an instance is public; the underlying disclosed documents remain subject to the releasing body's terms. |
+| **Restrictions** | AGPL-3.0-or-later: a modified public instance obliges source publication — which, for a platform whose purpose is public deployment, is a real obligation rather than a theoretical one. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. Running an instance: a Rails host, a database, reliable mail infrastructure and moderation staff time — the staff cost dominates and is ongoing. Not a small commitment. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/mysociety/alaveteli/blob/develop/LICENSE.txt
+- https://github.com/mysociety/alaveteli
+- https://alaveteli.org/docs/
+- `../sources/recovered/a1disc/notes.md`
 
 ---
 

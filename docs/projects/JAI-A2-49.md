@@ -14,6 +14,9 @@
 | **Maintainer** | Stanford NLP Group |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 (GitHub licence detection reports 'Other'; the LICENSE file read directly is the Apache License 2.0, Copyright 2019 Board of Trustees of Leland Stanford Junior University) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/stanfordnlp/stanza) · [Documentation](https://stanfordnlp.github.io/stanza/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 3/5 · licence+cost 3/5 → **weighted 79/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 (GitHub licence detection reports 'Other'; the LICENSE file read directly is the Apache License 2.0, Copyright 2019 Board of Trustees of Leland Stanford Junior University) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | NOT verified and materially uncertain — the Available Models documentation page states no licence for the downloadable model archives, and training treebanks/NER corpora may carry their own restrictions. |
+| **Restrictions** | Code is permissive. Model archives have no stated licence, so commercial redistribution of outputs or weights is legally unclear. Treat as an open question, not a permission. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. GPU recommended for large corpora; CPU is workable but slow. CoreNLP bridge adds a JVM. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/stanfordnlp/stanza/blob/main/LICENSE
+- https://github.com/stanfordnlp/stanza
+- https://stanfordnlp.github.io/stanza/available_models.html
 
 ---
 

@@ -14,11 +14,41 @@
 | **Maintainer** | OpenDroneMap community |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/OpenDroneMap/ODM) · [Documentation](https://docs.opendronemap.org/) |
 
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 5/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 78/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Your imagery is yours; derived models inherit whatever rights attach to the source imagery. |
+| **Restrictions** | AGPL-3.0: a modified network service built on ODM must publish source. Internal processing is unaffected. Note that WebODM (the web interface) is separately licensed — check it if you deploy that too. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Infrastructure estimate: a workstation or server with substantial RAM (16-64GB depending on image count) and hours of CPU per dataset; GPU helps some stages. Assumptions: self-hosted, hundreds of images per dataset.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/OpenDroneMap/ODM/blob/master/LICENSE
+- https://github.com/OpenDroneMap/ODM
+- https://docs.opendronemap.org/
 
 ---
 

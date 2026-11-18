@@ -14,6 +14,9 @@
 | **Maintainer** | SCLBD (Sun Yat-sen University) |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | CC-BY-NC-4.0 (GitHub API reports NOASSERTION) |
+| **Licence type** | Restricted / non-OSI |
+| **Open-source status** | Source available |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/SCLBD/DeepfakeBench) · [Documentation](https://github.com/SCLBD/DeepfakeBench#readme) |
@@ -21,6 +24,31 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 2/5 · privacy 4/5 · usability 2/5 · licence+cost 1/5 → **weighted 58/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Restricted / non-OSI |
+| **Exact licence (as recorded)** | CC-BY-NC-4.0 (GitHub API reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | CC-BY-NC-4.0 for the framework; per-dataset terms vary and the repository marks some datasets as not rights-cleared. |
+| **Restrictions** | Non-commercial only — a blocker for commercially operated newsrooms. NGO or non-profit status does not automatically satisfy NonCommercial where output is commercially published. Separately, some bundled dataset references are not rights-cleared, so dataset acquisition carries its own risk. |
+| **Open-source status** | **Source available** — Source published under a restricted, non-OSI licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee for non-commercial use. Requires GPU/CUDA infrastructure and large dataset downloads obtained under separate agreements. Engineer time for setup is substantial. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/SCLBD/DeepfakeBench
 
 ---
 

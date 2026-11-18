@@ -14,11 +14,41 @@
 | **Maintainer** | Internet Health Report project (IIJ Research Lab and collaborators) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/InternetHealthReport/ihr-website) · [Documentation](https://www.ihr.live/) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 74/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Derived indicators are published on the site; data terms not separately verified in this survey. |
+| **Restrictions** | GPL-3.0 on the website code; irrelevant for using the hosted service. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Free to use. Self-hosting the full analysis would require RIPE Atlas and BGP data feeds plus a Kafka cluster — not a realistic newsroom cost, so no estimate is offered.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/InternetHealthReport/ihr-website/blob/master/LICENSE
+- https://github.com/InternetHealthReport/ihr-website
+- https://www.ihr.live/
 
 ---
 

@@ -14,6 +14,9 @@
 | **Maintainer** | Qubes OS Project |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-2.0 (project licensing; the distribution aggregates components under their own licences) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/QubesOS/qubes-issues) · [Documentation](https://www.qubes-os.org/doc/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 4/5 · privacy 5/5 · usability 2/5 · licence+cost 4/5 → **weighted 89/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-2.0 (project licensing; the distribution aggregates components under their own licences) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | Aggregate free-software licensing; immaterial for use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Dedicated hardware; self-hosted infrastructure; staff effort |
+| **Cost conditions** | Dedicated hardware; Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. Certified hardware is the cost: a Qubes-capable laptop with substantial RAM and SSD (estimate: mid-to-upper four figures for a small team), plus training and support time. The hardware constraint is the real budget item.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://www.qubes-os.org/doc/license/
+- https://www.qubes-os.org/doc/
+- https://github.com/QubesOS/qubes-issues
 
 ---
 

@@ -14,6 +14,9 @@
 | **Maintainer** | MuckRock |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-3-Clause (add-on script); the front-end monorepo carries NO licence file, so its reuse rights are unverified |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/MuckRock/Klaxon) · [Documentation](https://www.documentcloud.org/help/add-ons/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 2/5 · usability 5/5 · licence+cost 4/5 → **weighted 72/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-3-Clause (add-on script); the front-end monorepo carries NO licence file, so its reuse rights are unverified |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | Add-on script is permissive. The extension and site code have no stated licence, so do not fork or redistribute those components without clarification. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No direct fee; requires a DocumentCloud account (verified-journalist access has historically been free, with paid organisational tiers — current prices not verified in this survey). No infrastructure cost to you.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/MuckRock/Klaxon
+- https://www.documentcloud.org/help/add-ons/
 
 ---
 

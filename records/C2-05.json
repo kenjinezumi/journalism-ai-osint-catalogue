@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/Stellarium/stellarium","https://stellarium.org/","https://github.com/Stellarium/stellarium/blob/master/COPYING"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Planetarium application that renders a photorealistic sky for any location, date and time, including stars, planets…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C2-38","name":"Skyfield","maintainer":"Brandon Rhodes (skyfielders)","pillar":"OSINT","segment":"C2","subcategory":"Astronomical computation","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/skyfielders/python-skyfield","docs_url":"https://rhodesmill.org/skyfield/",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/skyfielders/python-skyfield","https://rhodesmill.org/skyfield/","https://github.com/skyfielders/python-skyfield/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python astronomy library computing high-precision positions of the Sun, Moon, planets…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":3,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C2-39","name":"suncalc-py","maintainer":"Kyle Barron","pillar":"OSINT","segment":"C2","subcategory":"Solar position computation","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/kylebarron/suncalc-py","docs_url":"https://github.com/kylebarron/suncalc-py#readme",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/kylebarron/suncalc-py","https://github.com/kylebarron/suncalc-py/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python port of suncalc.js computing sun position, sunrise and sunset times and twilight phases…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-40","name":"meteostat","maintainer":"Meteostat","pillar":"OSINT","segment":"C2","subcategory":"Historical weather data","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/meteostat/meteostat","docs_url":"https://dev.meteostat.net/python/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/meteostat/meteostat","https://dev.meteostat.net/python/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library providing access to historical weather and climate observations from thousands of stations worldwide, with hourly…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":5,"privacy":5,"usability":5,"licence_cost":5}},
 
 {"id":"OSINT-C2-41","name":"Open-Meteo","maintainer":"Open-Meteo","pillar":"OSINT","segment":"C2","subcategory":"Weather API (self-hostable)","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/open-meteo/open-meteo","docs_url":"https://open-meteo.com/en/docs",
@@ -87,6 +91,7 @@
 "blockers":["Hosted service is framed as free for non-commercial use — commercial newsrooms must self-host or verify their position"],
 "evidence_urls":["https://github.com/open-meteo/open-meteo","https://open-meteo.com/en/docs","https://github.com/open-meteo/open-meteo/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Open-source weather API server providing forecasts and historical reanalysis data from multiple national models…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":3}},
 
 {"id":"OSINT-C2-42","name":"wetterdienst","maintainer":"earthobservations","pillar":"OSINT","segment":"C2","subcategory":"Weather data access","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/earthobservations/wetterdienst","docs_url":"https://wetterdienst.readthedocs.io/",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/earthobservations/wetterdienst","https://wetterdienst.readthedocs.io/","https://github.com/earthobservations/wetterdienst/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library providing a unified interface to open weather and climate data from many national and international providers…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C2-43","name":"sentinelhub-py","maintainer":"Sentinel Hub (Planet)","pillar":"OSINT","segment":"C2","subcategory":"Satellite imagery access","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/sentinel-hub/sentinelhub-py","docs_url":"https://sentinelhub-py.readthedocs.io/",
@@ -123,6 +129,7 @@
 "blockers":["Service pricing not publicly listed — quote required; post-acquisition availability of free/research tiers unconfirmed","Requests disclose target coordinates and dates to the vendor"],
 "evidence_urls":["https://github.com/sentinel-hub/sentinelhub-py","https://www.sentinel-hub.com/pricing/","https://www.planet.com/pricing/","../sources/evidence/pricing.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library for requesting and processing satellite imagery through Sentinel Hub services, with area-of-interest requests…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"library free (MIT); Sentinel Hub / Planet service pricing NOT publicly listed — quote required (re-verified 2026-11-17)","cost_flags":["mandatory-paid", "infrastructure"],"additional_costs_note":"mandatory paid satellite-imagery service for commercial constellations (quote required); self-hosted compute",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":2,"usability":4,"licence_cost":2}},
 
 {"id":"OSINT-C2-44","name":"PySTAC","maintainer":"stac-utils","pillar":"OSINT","segment":"C2","subcategory":"Satellite imagery catalogues","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/stac-utils/pystac","docs_url":"https://pystac.readthedocs.io/",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/stac-utils/pystac","https://pystac.readthedocs.io/","https://github.com/stac-utils/pystac/blob/main/LICENSE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library for reading, writing and querying SpatioTemporal Asset Catalogs (STAC)…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C2-45","name":"Microsoft Planetary Computer","maintainer":"Microsoft","pillar":"OSINT","segment":"C2","subcategory":"Satellite imagery platform","project_type":"platform","bucket":"proprietary-service","repo_url":"https://github.com/microsoft/PlanetaryComputer","docs_url":"https://planetarycomputer.microsoft.com/docs/",
@@ -159,5 +167,6 @@
 "blockers":["Hosted third-party custody of analysis and areas of interest; current access terms unverified"],
 "evidence_urls":["https://github.com/microsoft/PlanetaryComputer","https://planetarycomputer.microsoft.com/docs/"],
 "verification_date":"2026-11-17","confidence":"low","depth":"docs-reviewed","provisional":true,
+"summary":"Hosted platform providing a large STAC-indexed catalogue of open environmental and satellite datasets with co-located compute…","licence_type":"Proprietary","oss_status":"Proprietary","oss_detail":"Hosted service or proprietary software — governed by service terms, not a software licence","price_class":"Unknown / not verified","software_price_note":"not established by the records","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":2,"privacy":2,"usability":3,"licence_cost":4}}
 ]

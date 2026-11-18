@@ -14,6 +14,9 @@
 | **Maintainer** | Josué Encinar (Josue87) |
 | **Maintenance** | Uncertain |
 | **Licence** | MIT (project licensing — confirm from the repository licence file) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | low · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/Josue87/AnalyticsRelationships) · [Documentation](https://github.com/Josue87/AnalyticsRelationships#readme) |
@@ -21,6 +24,31 @@
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 2/5 · privacy 3/5 · usability 4/5 · licence+cost 4/5 → **weighted 67/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (project licensing — confirm from the repository licence file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. Third-party reverse-analytics services have their own terms. |
+| **Restrictions** | Permissive as published; the operative constraints are the third-party services' terms of use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **low** |
+
+**Recorded cost detail.** No fee. Negligible compute. The third-party services it queries may have rate limits or paid tiers (not verified in this survey).
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/Josue87/AnalyticsRelationships
 
 ---
 

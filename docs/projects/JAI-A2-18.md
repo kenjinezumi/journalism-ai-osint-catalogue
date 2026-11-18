@@ -14,6 +14,9 @@
 | **Maintainer** | originally OCCRP/Aleph; active development moved to OpenSanctions |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/alephdata/followthemoney) · [Documentation](https://followthemoney.tech/) |
@@ -22,6 +25,35 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 2/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 77/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Staff effort |
+| **Cost conditions** | Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Cost is engineer time writing and maintaining mappings — realistically days per complex source dataset. No paid dependencies.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/alephdata/followthemoney/blob/main/LICENSE
+- https://github.com/alephdata/followthemoney
+- https://github.com/opensanctions/followthemoney
+- https://followthemoney.tech/
+- `../sources/evidence/leads.md`
 
 ---
 

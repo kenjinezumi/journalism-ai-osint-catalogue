@@ -14,6 +14,9 @@
 | **Maintainer** | Adam Harvey (vframeio) |
 | **Maintenance** | Dormant |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/vframeio/vframe) · [Documentation](https://vframe.io/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 1/5 · privacy 5/5 · usability 1/5 · licence+cost 5/5 → **weighted 60/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Custom detection models are domain-specific and may be distributed separately; their terms were not verified in this survey. |
+| **Restrictions** | Code permissive. Model availability and terms are the open question. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure; staff effort |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. NVIDIA GPU strongly recommended; no paid API. The real cost would be training a detector for your object class — annotation labour plus GPU time. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/vframeio/vframe/blob/main/LICENSE
+- https://github.com/vframeio/vframe
+- https://vframe.io/
 
 ---
 

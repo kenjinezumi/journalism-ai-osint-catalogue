@@ -14,6 +14,9 @@
 | **Maintainer** | NVIDIA (repository reorganised from NVIDIA/NeMo to NVIDIA-NeMo/Speech) |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 (code) |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Mixed |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/NVIDIA-NeMo/Speech) · [Documentation](https://docs.nvidia.com/nemo-framework/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 3/5 · capability 5/5 · maintenance 5/5 · privacy 4/5 · usability 2/5 · licence+cost 2/5 → **weighted 73/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | Apache-2.0 (code) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | VARIES AND MATTERS: nvidia/parakeet-tdt-0.6b-v2 = CC-BY-4.0 (commercial allowed); nvidia/diar_sortformer_4spk-v1 = CC-BY-NC-4.0 (non-commercial only). Read from HuggingFace cards 2026-11-16. |
+| **Restrictions** | CC-BY-NC-4.0 on Sortformer diarisation weights bars use in commercially published journalism unless separately licensed or substituted. Do not assume NGO or non-profit status satisfies NonCommercial — it does not, where the output is commercially published. |
+| **Open-source status** | **Mixed** — Open-source code, model weights that vary by checkpoint — some non-commercial |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee. Requires NVIDIA GPU hardware or cloud GPU rental — the dominant cost, and fine-tuning multiplies it. Checkpoints are free to download. Infrastructure estimate; assumes self-hosted or rented GPU, no vendor licence.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://huggingface.co/nvidia/diar_sortformer_4spk-v1
+- https://github.com/NVIDIA-NeMo/Speech
+- https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2
+- `../sources/evidence/leads.md`
 
 ---
 

@@ -14,11 +14,42 @@
 | **Maintainer** | OSGeo / GDAL contributors |
 | **Maintenance** | Actively maintained |
 | **Licence** | Aggregate — LICENSE.TXT (read 2026-11-17) collects the licences applying across the tree: an MIT-licensed core plus many component licences. GitHub reports NOASSERTION |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/OSGeo/gdal) · [Documentation](https://gdal.org/) |
 
 **Scores** — relevance 4/5 · capability 5/5 · maintenance 5/5 · privacy 5/5 · usability 2/5 · licence+cost 4/5 → **weighted 86/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Aggregate — LICENSE.TXT (read 2026-11-17) collects the licences applying across the tree: an MIT-licensed core plus many component licences. GitHub reports NOASSERTION |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. Data you process carries its own licence. |
+| **Restrictions** | Core is MIT-style, but the aggregate file exists because components differ — some drivers depend on libraries with stricter terms. For internal use this is immaterial; for redistributing a bundled binary, read LICENSE.TXT and check which drivers you ship. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. CPU and disk proportional to imagery size — clipping a large scene is I/O-bound. Negligible licensing cost; infrastructure estimate only.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/OSGeo/gdal/blob/master/LICENSE.TXT
+- https://github.com/OSGeo/gdal
+- https://gdal.org/
+- `../sources/evidence/leads.md`
 
 ---
 

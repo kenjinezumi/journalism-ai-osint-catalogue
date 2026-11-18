@@ -14,6 +14,9 @@
 | **Maintainer** | Media Cloud |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 (client) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/mediacloud/api-client) · [Documentation](https://mediacloud.org/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 3/5 · usability 4/5 · licence+cost 4/5 → **weighted 77/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 (client) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Media Cloud archive access terms apply and were NOT verified in this survey; the underlying news content remains the publishers' copyright. |
+| **Restrictions** | Client permissive. Archive access terms unverified — confirm before publishing derived datasets, and note that republishing article text raises publisher copyright separately. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Client free. API access terms and any tiers not verified in this survey; historically free for research use with a key. Confirm before planning.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/mediacloud/api-client/blob/main/LICENSE
+- https://github.com/mediacloud/api-client
+- https://mediacloud.org/
 
 ---
 

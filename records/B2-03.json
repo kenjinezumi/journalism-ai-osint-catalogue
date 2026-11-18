@@ -15,6 +15,7 @@
 "blockers":["Some data and API access require registration, creating a record of your interest"],
 "evidence_urls":["https://sam.gov/","../sources/evidence/b2-sources.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"docs-reviewed",
+"summary":"Official US system for award management: entity registrations for organisations doing business with the federal government…","licence_type":"Proprietary","oss_status":"Proprietary","oss_detail":"Hosted service or proprietary software — governed by service terms, not a software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":4,"privacy":3,"usability":3,"licence_cost":5}},
 
 {"id":"SUR-B2-16","name":"US Senate Lobbying Disclosure Act database","maintainer":"US Senate Office of Public Records","pillar":"SUR","segment":"B2","subcategory":"Lobbying records","project_type":"dataset","bucket":"proprietary-service","repo_url":"","docs_url":"https://lda.senate.gov/system/public/",
@@ -33,6 +34,7 @@
 "blockers":["Bot protection blocks automated collection; current interface not verified in this survey"],
 "evidence_urls":["https://lda.senate.gov/system/public/","../sources/evidence/b2-sources.md"],
 "verification_date":"2026-11-17","confidence":"low","depth":"docs-reviewed","provisional":true,
+"summary":"Official searchable database of lobbying registrations and quarterly activity reports filed under the US Lobbying Disclosure Act…","licence_type":"Proprietary","oss_status":"Proprietary","oss_detail":"Hosted service or proprietary software — governed by service terms, not a software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":4,"usability":2,"licence_cost":4}},
 
 {"id":"SUR-B2-17","name":"OpenSecrets lobbying data","maintainer":"OpenSecrets (Center for Responsive Politics / Issue One)","pillar":"SUR","segment":"B2","subcategory":"Lobbying records","project_type":"dataset","bucket":"proprietary-service","repo_url":"","docs_url":"https://www.opensecrets.org/federal-lobbying",
@@ -51,6 +53,7 @@
 "blockers":["Data reuse terms not verified — confirm before republishing as a dataset"],
 "evidence_urls":["https://www.opensecrets.org/federal-lobbying","../sources/evidence/b2-sources.md"],
 "verification_date":"2026-11-17","confidence":"low","depth":"docs-reviewed","provisional":true,
+"summary":"Cleaned, standardised and aggregated database of US federal lobbying and campaign-finance data built from official filings…","licence_type":"Proprietary","oss_status":"Proprietary","oss_detail":"Hosted service or proprietary software — governed by service terms, not a software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":4,"usability":4,"licence_cost":3}},
 
 {"id":"SUR-B2-18","name":"Open Contracting Data Standard","maintainer":"Open Contracting Partnership","pillar":"SUR","segment":"B2","subcategory":"Procurement data standard","project_type":"dataset","bucket":"verified-oss","repo_url":"https://github.com/open-contracting/standard","docs_url":"https://www.open-contracting.org/data-standard/",
@@ -69,6 +72,7 @@
 "blockers":["Value depends on publisher adoption, which is uneven and often partial"],
 "evidence_urls":["https://www.open-contracting.org/data-standard/","https://github.com/open-contracting/standard","../sources/evidence/b2-sources.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"docs-reviewed",
+"summary":"Open data standard for publishing structured information about public contracting across the whole process — planning, tender…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open data licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":3,"maintenance":4,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"SUR-B2-19","name":"OpenCellID","maintainer":"OpenCellID / Unwired Labs","pillar":"SUR","segment":"B2","subcategory":"Cellular infrastructure dataset","project_type":"dataset","bucket":"proprietary-service","repo_url":"","docs_url":"https://docs.opencellid.org/",
@@ -87,6 +91,7 @@
 "blockers":["Licence and access terms unverified; crowdsourced coverage gaps mean an unknown cell is not evidence of a simulator"],
 "evidence_urls":["https://docs.opencellid.org/","../sources/evidence/b2-sources.md"],
 "verification_date":"2026-11-17","confidence":"low","depth":"docs-reviewed","provisional":true,
+"summary":"Crowdsourced database of cell-tower locations and identifiers (MCC, MNC, LAC, cell ID) worldwide…","licence_type":"Proprietary","oss_status":"Proprietary","oss_detail":"Hosted service or proprietary software — governed by service terms, not a software licence","price_class":"Unknown / not verified","software_price_note":"not established by the records","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"API access tiers not verified (a free tier existed historically); bulk download avoids per-query cost",
 "scores":{"relevance":4,"capability":3,"maintenance":2,"privacy":3,"usability":4,"licence_cost":2}},
 
 {"id":"SUR-B2-20","name":"Citizen Lab publication directory","maintainer":"Citizen Lab (Munk School, University of Toronto)","pillar":"SUR","segment":"B2","subcategory":"Surveillance-industry research","project_type":"dataset","bucket":"proprietary-service","repo_url":"","docs_url":"https://citizenlab.ca/publication-directory/",
@@ -105,5 +110,6 @@
 "blockers":[],
 "evidence_urls":["https://citizenlab.ca/publication-directory/","../sources/evidence/b2-sources.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"docs-reviewed",
+"summary":"Searchable directory of Citizen Lab's published research on targeted surveillance, censorship…","licence_type":"Proprietary","oss_status":"Proprietary","oss_detail":"Hosted service or proprietary software — governed by service terms, not a software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":4,"usability":4,"licence_cost":4}}
 ]

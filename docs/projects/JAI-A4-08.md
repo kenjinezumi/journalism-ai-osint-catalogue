@@ -14,11 +14,40 @@
 | **Maintainer** | University of Utah NLP (utahnlp) |
 | **Maintenance** | Dormant |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/utahnlp/x-fact) · [Documentation](https://github.com/utahnlp/x-fact#readme) |
 
 **Scores** — relevance 2/5 · capability 2/5 · maintenance 1/5 · privacy 5/5 · usability 2/5 · licence+cost 5/5 → **weighted 52/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a — no weights distributed. Note the underlying claims derive from fact-checking sites whose own content terms may apply to redistribution. |
+| **Restrictions** | Code and dataset packaging are MIT. Upstream publisher content rights are a residual consideration if you republish claim text. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Python ML stack plus whichever multilingual model you evaluate; GPU helpful. No paid APIs.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/utahnlp/x-fact/blob/main/LICENSE
+- https://github.com/utahnlp/x-fact
 
 ---
 

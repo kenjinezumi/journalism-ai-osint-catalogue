@@ -14,6 +14,9 @@
 | **Maintainer** | International Consortium of Investigative Journalists |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ICIJ/kuroi) · [Documentation](https://github.com/ICIJ/kuroi#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 3/5 · usability 3/5 · licence+cost 4/5 → **weighted 71/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a — depends on whichever LLM the operator configures; that model's licence and the provider's terms apply. |
+| **Restrictions** | AGPL-3.0: modified network-service redistribution triggers source-release obligations. Internal use unaffected. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure; staff effort |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Software free. Cost depends entirely on the LLM backend: a self-hosted model means GPU infrastructure; a hosted model means per-token charges (not priced here) plus an unacceptable disclosure. Human review time remains the dominant cost and is not reduced to zero.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ICIJ/kuroi/blob/main/LICENSE
+- https://github.com/ICIJ/kuroi
 
 ---
 

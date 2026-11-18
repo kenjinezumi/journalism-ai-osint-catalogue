@@ -15,6 +15,7 @@
 "blockers":["Proprietary with substantial per-seat annual cost; every transform discloses investigation targets to the vendor and data providers"],
 "evidence_urls":["https://www.maltego.com/pricing/","../sources/recovered/cat/pricing.tsv","../sources/evidence/pricing.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"docs-reviewed",
+"summary":"Commercial link-analysis platform with a graph interface and a transform ecosystem that queries data sources — infrastructure…","licence_type":"Proprietary","oss_status":"Proprietary","oss_detail":"Hosted service or proprietary software — governed by service terms, not a software licence","price_class":"Free tier","software_price_note":"Community Edition free forever (200 credits/month, graph only); Entry EUR 3,000/year (incl. Hunchly); Professional EUR 7,500/year per seat, up to 5 users; Enterprise quote (verified 2026-11-16)","cost_flags":["optional-hosted"],"additional_costs_note":"optional paid hosting / commercial licence",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":1,"usability":4,"licence_cost":1}},
 
 {"id":"OSINT-C3-37","name":"Timesketch","maintainer":"Google (open source)","pillar":"OSINT","segment":"C3","subcategory":"Collaborative timeline analysis","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/google/timesketch","docs_url":"https://timesketch.org/",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/google/timesketch","https://timesketch.org/","https://github.com/google/timesketch/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Collaborative forensic timeline-analysis platform where investigators import timestamped events from many sources…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"OSINT-C3-38","name":"DVC (Data Version Control)","maintainer":"Treeverse (transferred from Iterative)","pillar":"OSINT","segment":"C3","subcategory":"Data versioning and provenance","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/treeverse/dvc","docs_url":"https://dvc.org/doc",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/treeverse/dvc","https://dvc.org/doc","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Version-control system for data and machine-learning pipelines that tracks large files and datasets alongside git…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":4,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C3-39","name":"Quarto","maintainer":"Posit PBC","pillar":"OSINT","segment":"C3","subcategory":"Reproducible publishing","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/quarto-dev/quarto-cli","docs_url":"https://quarto.org/docs/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/quarto-dev/quarto-cli","https://quarto.org/docs/","https://github.com/quarto-dev/quarto-cli/blob/main/COPYING.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Publishing system that renders documents combining prose with executable Python, R and Julia code into HTML, PDF…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C3-40","name":"Frictionless Data (frictionless-py)","maintainer":"Open Knowledge Foundation","pillar":"OSINT","segment":"C3","subcategory":"Data packaging and validation","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/frictionlessdata/frictionless-py","docs_url":"https://framework.frictionlessdata.io/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/frictionlessdata/frictionless-py","https://framework.frictionlessdata.io/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Python framework implementing the Frictionless Data specifications for describing, validating…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C3-41","name":"OpenTimestamps","maintainer":"OpenTimestamps project (Peter Todd)","pillar":"OSINT","segment":"C3","subcategory":"Evidence timestamping","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/opentimestamps/opentimestamps-client","docs_url":"https://opentimestamps.org/",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/opentimestamps/opentimestamps-client","https://opentimestamps.org/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Client for creating and verifying trustless timestamp proofs anchored in the Bitcoin blockchain, attesting…","licence_type":"Weak copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C3-42","name":"unitedstates/congress","maintainer":"unitedstates project (civic-tech community)","pillar":"OSINT","segment":"C3","subcategory":"Legislative records","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/unitedstates/congress","docs_url":"https://github.com/unitedstates/congress#readme",
@@ -123,5 +129,6 @@
 "blockers":["US federal only; volunteer maintenance against changing official sites"],
 "evidence_urls":["https://github.com/unitedstates/congress"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Collection of scrapers and parsers for US Congressional data — bills, votes, amendments…","licence_type":"Unresolved","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":5,"usability":3,"licence_cost":5}}
 ]

@@ -14,11 +14,40 @@
 | **Maintainer** | Environmental Data and Governance Initiative (EDGI) |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/edgi-govdata-archiving/web-monitoring-db) · [Documentation](https://github.com/edgi-govdata-archiving/web-monitoring-db#readme) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 2/5 · licence+cost 4/5 → **weighted 79/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Page versions sourced from the Internet Archive are subject to IA's terms and the original publishers' rights. |
+| **Restrictions** | GPL-3.0: distributing a modified version obliges source release; hosting a modified instance for third parties is the case to review with legal counsel. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. Infrastructure estimate: Rails app servers, PostgreSQL sized to version storage (which grows with page count × capture frequency), Redis/Sidekiq workers, plus the diff service — realistically several VMs and meaningful storage for thousands of pages. Dominant cost is analyst time working the annotation queue. Assumptions: self-hosted, Wayback as version source.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/edgi-govdata-archiving/web-monitoring-db/blob/main/LICENSE
+- https://github.com/edgi-govdata-archiving/web-monitoring-db
 
 ---
 

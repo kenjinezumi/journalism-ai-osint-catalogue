@@ -14,11 +14,40 @@
 | **Maintainer** | OpenTimestamps project (Peter Todd) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | LGPL-3.0 (project licensing — confirm from the repository licence file) |
+| **Licence type** | Weak copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/opentimestamps/opentimestamps-client) · [Documentation](https://opentimestamps.org/) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 74/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Weak copyleft |
+| **Exact licence (as recorded)** | LGPL-3.0 (project licensing — confirm from the repository licence file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | LGPL permits linking from your own tooling provided the library remains replaceable. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Free. No Bitcoin transaction fee for the user — the calendar servers aggregate submissions. Negligible compute.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/opentimestamps/opentimestamps-client
+- https://opentimestamps.org/
 
 ---
 

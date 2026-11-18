@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/keplergl/kepler.gl","https://docs.kepler.gl/","https://github.com/keplergl/kepler.gl/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Web application and React component for exploratory geospatial visualisation of large datasets, with point, arc, hexbin…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":4,"usability":5,"licence_cost":5}},
 
 {"id":"JAI-A1-26","name":"Turf.js","maintainer":"Turf.js contributors","pillar":"JAI","segment":"A1","subcategory":"Geospatial computation","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/Turfjs/turf","docs_url":"https://turfjs.org/",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/Turfjs/turf","https://turfjs.org/","https://github.com/Turfjs/turf/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Modular JavaScript and TypeScript library of geospatial operations — measurement, buffering, intersection, point-in-polygon…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A1-27","name":"titiler","maintainer":"Development Seed","pillar":"JAI","segment":"A1","subcategory":"Raster tile serving","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/developmentseed/titiler","docs_url":"https://developmentseed.org/titiler/",
@@ -51,6 +53,7 @@
 "blockers":["Publishing commercial satellite imagery as tiles is redistribution and usually needs explicit permission"],
 "evidence_urls":["https://github.com/developmentseed/titiler","https://developmentseed.org/titiler/","https://github.com/developmentseed/titiler/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Modular FastAPI application for dynamically serving map tiles from cloud-optimised GeoTIFFs and STAC items…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"JAI-A1-28","name":"Alaveteli","maintainer":"mySociety","pillar":"JAI","segment":"A1","subcategory":"Freedom of information","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/mysociety/alaveteli","docs_url":"https://alaveteli.org/docs/",
@@ -69,6 +72,7 @@
 "blockers":["Publish-by-default model is unsuitable for sensitive journalistic requests"],
 "evidence_urls":["https://github.com/mysociety/alaveteli","https://alaveteli.org/docs/","../sources/recovered/a1disc/notes.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Platform for running a public freedom-of-information request site: users submit requests to public bodies…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":4,"maintenance":3,"privacy":2,"usability":3,"licence_cost":4}},
 
 {"id":"JAI-A1-29","name":"Froide","maintainer":"Open Knowledge Foundation Deutschland (okfde)","pillar":"JAI","segment":"A1","subcategory":"Freedom of information","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/okfde/froide","docs_url":"https://froide.readthedocs.io/",
@@ -87,6 +91,7 @@
 "blockers":["German-law orientation; publish-by-default unsuitable for sensitive requests"],
 "evidence_urls":["https://github.com/okfde/froide","https://froide.readthedocs.io/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Django-based freedom-of-information platform managing requests to public bodies, correspondence tracking, deadlines…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":2,"usability":3,"licence_cost":4}},
 
 {"id":"JAI-A1-30","name":"warn-scraper","maintainer":"Big Local News (Stanford)","pillar":"JAI","segment":"A1","subcategory":"Public records scraping","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/biglocalnews/warn-scraper","docs_url":"https://warn-scraper.readthedocs.io/",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/biglocalnews/warn-scraper","https://warn-scraper.readthedocs.io/","../sources/recovered/a1disc/notes.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Command-line scraper that collects WARN Act notices — statutory advance notifications of US plant closings and mass layoffs…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A1-31","name":"news-homepages","maintainer":"Ben Welsh (palewire)","pillar":"JAI","segment":"A1","subcategory":"Media monitoring archive","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/palewire/news-homepages","docs_url":"https://palewi.re/docs/news-homepages/",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/palewire/news-homepages","https://palewi.re/docs/news-homepages/","https://github.com/palewire/news-homepages/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Toolkit and running archive that captures screenshots, full-text extracts, accessibility reports and hyperlink data from hundreds…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":5,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"JAI-A1-32","name":"git-history","maintainer":"Simon Willison","pillar":"JAI","segment":"A1","subcategory":"Change analysis","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/simonw/git-history","docs_url":"https://datasette.io/tools/git-history",
@@ -141,5 +148,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/simonw/git-history","https://datasette.io/tools/git-history","https://github.com/simonw/git-history/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Tool that analyses the history of a file tracked in git — typically a scraped data file committed on a schedule…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":5,"usability":4,"licence_cost":5}}
 ]

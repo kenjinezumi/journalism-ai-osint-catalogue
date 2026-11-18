@@ -15,6 +15,7 @@
 "blockers":["Public instance forbids bulk geocoding; self-hosting required for the primary use case"],
 "evidence_urls":["https://github.com/osm-search/Nominatim","https://nominatim.org/release-docs/latest/","https://github.com/osm-search/Nominatim/blob/master/COPYING"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Geocoding and reverse-geocoding engine over OpenStreetMap data, resolving place names and addresses to coordinates and vice…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C2-29","name":"Photon (komoot geocoder)","maintainer":"komoot","pillar":"OSINT","segment":"C2","subcategory":"Geocoding","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/komoot/photon","docs_url":"https://photon.komoot.io/",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/komoot/photon","https://photon.komoot.io/","https://github.com/komoot/photon/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Elasticsearch/OpenSearch-based geocoder over OpenStreetMap data, designed for fast typo-tolerant search-as-you-type and reverse…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-30","name":"Pelias","maintainer":"Pelias contributors (originally Mapzen)","pillar":"OSINT","segment":"C2","subcategory":"Geocoding","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/pelias/api","docs_url":"https://pelias.io/",
@@ -51,6 +53,7 @@
 "blockers":["Mixed data-source licensing requires per-source review before publishing derived datasets"],
 "evidence_urls":["https://github.com/pelias/api","https://pelias.io/","https://github.com/pelias/api/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Modular open-source geocoder that blends multiple data sources — OpenStreetMap, OpenAddresses, Who's on First, geonames…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":3,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C2-31","name":"mapillary_tools","maintainer":"Mapillary (Meta)","pillar":"OSINT","segment":"C2","subcategory":"Street-level imagery","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/mapillary/mapillary_tools","docs_url":"https://github.com/mapillary/mapillary_tools#readme",
@@ -69,6 +72,7 @@
 "blockers":["Uploading discloses reporter movements with timestamps to a third-party platform"],
 "evidence_urls":["https://github.com/mapillary/mapillary_tools","https://github.com/mapillary/mapillary_tools/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Command-line tools for processing and uploading street-level imagery to Mapillary, including geotagging from GPS tracks…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":2,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C2-32","name":"streetlevel","maintainer":"sk-zk","pillar":"OSINT","segment":"C2","subcategory":"Street-level imagery","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/sk-zk/streetlevel","docs_url":"https://streetlevel.readthedocs.io/",
@@ -87,6 +91,7 @@
 "blockers":["Uses providers' internal interfaces — terms-of-service risk and breakage; queries disclose target coordinates to the providers"],
 "evidence_urls":["https://github.com/sk-zk/streetlevel","https://streetlevel.readthedocs.io/","https://github.com/sk-zk/streetlevel/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library for downloading panoramas and metadata from several street-level imagery services, including Google Street View…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":2,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C2-33","name":"SuperGlue (pretrained network)","maintainer":"Magic Leap","pillar":"OSINT","segment":"C2","subcategory":"Image feature matching","project_type":"model","bucket":"source-available-restricted","repo_url":"https://github.com/magicleap/SuperGluePretrainedNetwork","docs_url":"https://github.com/magicleap/SuperGluePretrainedNetwork#readme",
@@ -105,6 +110,7 @@
 "blockers":["Noncommercial academic-only licence — unusable by a commercial newsroom, and invisible to SPDX scanners"],
 "evidence_urls":["https://github.com/magicleap/SuperGluePretrainedNetwork/blob/master/LICENSE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"Graph-neural-network feature matcher that pairs keypoints between two images, widely used to establish whether two photographs…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Restricted model weights","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":1,"privacy":4,"usability":2,"licence_cost":0}},
 
 {"id":"OSINT-C2-34","name":"LoFTR","maintainer":"ZJU3DV (Zhejiang University)","pillar":"OSINT","segment":"C2","subcategory":"Image feature matching","project_type":"model","bucket":"verified-oss","repo_url":"https://github.com/zju3dv/LoFTR","docs_url":"https://zju3dv.github.io/loftr/",
@@ -123,6 +129,7 @@
 "blockers":["Dormant since mid-2024 — pin dependencies and expect to own maintenance"],
 "evidence_urls":["https://github.com/zju3dv/LoFTR","https://zju3dv.github.io/loftr/","https://github.com/zju3dv/LoFTR/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Detector-free local feature matching using transformers, establishing dense correspondences between two images without first…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open model weights","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":1,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"OSINT-C2-35","name":"Hierarchical-Localization (hloc)","maintainer":"Computer Vision and Geometry Group, ETH Zurich (cvg)","pillar":"OSINT","segment":"C2","subcategory":"Visual localisation pipeline","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/cvg/Hierarchical-Localization","docs_url":"https://github.com/cvg/Hierarchical-Localization#readme",
@@ -141,6 +148,7 @@
 "blockers":["Default pipelines can pull noncommercially licensed SuperGlue weights — component audit required"],
 "evidence_urls":["https://github.com/cvg/Hierarchical-Localization","https://github.com/cvg/Hierarchical-Localization/blob/master/LICENSE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Modular visual-localisation toolbox that combines image retrieval, local feature extraction and matching…","licence_type":"Mixed (code vs weights/data)","oss_status":"Mixed","oss_detail":"Open-source code, restricted model weights","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":5,"maintenance":3,"privacy":4,"usability":1,"licence_cost":3}},
 
 {"id":"OSINT-C2-36","name":"Atlos","maintainer":"Atlos","pillar":"OSINT","segment":"C2","subcategory":"Collaborative visual verification","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/atlosdotorg/atlos","docs_url":"https://docs.atlos.org/",
@@ -159,5 +167,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/atlosdotorg/atlos","https://docs.atlos.org/","https://github.com/atlosdotorg/atlos/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Collaborative workspace for visual investigations: ingests media, tracks per-incident verification status, assigns work…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":2,"privacy":4,"usability":3,"licence_cost":4}}
 ]

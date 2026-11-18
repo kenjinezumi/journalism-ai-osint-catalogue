@@ -15,6 +15,7 @@
 "blockers":["No commits or releases since July 2025 — unsuitable as a new long-term dependency"],
 "evidence_urls":["https://github.com/dedupeio/dedupe","https://docs.dedupe.io/","https://github.com/dedupeio/dedupe/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library for fuzzy deduplication and record linkage that uses active learning: it asks a human to label borderline pairs…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":2,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A2-12","name":"Docling","maintainer":"docling-project (IBM Research origin, now LF AI & Data)","pillar":"JAI","segment":"A2","subcategory":"Document parsing and layout","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/docling-project/docling","docs_url":"https://docling-project.github.io/docling/",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/docling-project/docling","https://docling-project.github.io/docling/","https://github.com/docling-project/docling/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Document conversion library that parses PDF, DOCX, PPTX, XLSX, HTML and images into a unified DoclingDocument model with layout…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-13","name":"DocumentCloud","maintainer":"MuckRock","pillar":"JAI","segment":"A2","subcategory":"Document publishing platform","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/MuckRock/documentcloud","docs_url":"https://www.documentcloud.org/help/",
@@ -51,6 +53,7 @@
 "blockers":["Hosted custody of documents is unsuitable for unpublished sensitive material in a hostile-state threat model"],
 "evidence_urls":["https://github.com/MuckRock/documentcloud","https://www.documentcloud.org/help/","https://github.com/MuckRock/documentcloud/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Hosted and open-source platform for uploading, OCR-ing, searching, annotating and embedding primary-source documents…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"Unknown / not verified","software_price_note":"not established by the records","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":2,"usability":4,"licence_cost":4}},
 
 {"id":"JAI-A2-14","name":"entity-fishing","maintainer":"Patrice Lopez (kermitt2) / Science-Miner","pillar":"JAI","segment":"A2","subcategory":"Entity linking","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/kermitt2/entity-fishing","docs_url":"https://nerd.readthedocs.io/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/kermitt2/entity-fishing","https://nerd.readthedocs.io/","https://github.com/kermitt2/entity-fishing/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Entity recognition and disambiguation service that links text mentions to Wikidata QIDs using an LMDB-backed knowledge base built…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"JAI-A2-15","name":"eScriptorium","maintainer":"Scripta / PSL (École Pratique des Hautes Études)","pillar":"JAI","segment":"A2","subcategory":"Handwritten text recognition platform","project_type":"platform","bucket":"verified-oss","repo_url":"https://gitlab.com/scripta/escriptorium","docs_url":"https://gitlab.com/scripta/escriptorium/-/wikis/home",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://gitlab.com/scripta/escriptorium","https://gitlab.com/scripta/escriptorium/-/wikis/home"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Web platform for transcribing manuscript and printed images at scale, wrapping Kraken for segmentation and recognition…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"JAI-A2-16","name":"eyecite","maintainer":"Free Law Project","pillar":"JAI","segment":"A2","subcategory":"Legal citation extraction","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/freelawproject/eyecite","docs_url":"https://github.com/freelawproject/eyecite#readme",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/freelawproject/eyecite","https://github.com/freelawproject/eyecite/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library that finds, parses and resolves US legal citations in text — full case citations, short forms, supra and id","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A2-17","name":"faster-whisper","maintainer":"SYSTRAN (transferred from guillaumekln)","pillar":"JAI","segment":"A2","subcategory":"Transcription (library)","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/SYSTRAN/faster-whisper","docs_url":"https://github.com/SYSTRAN/faster-whisper#readme",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/SYSTRAN/faster-whisper","https://github.com/SYSTRAN/faster-whisper/blob/master/LICENSE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Reimplementation of Whisper inference on CTranslate2, delivering several-fold throughput and memory improvements over the…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":4,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A2-18","name":"FollowTheMoney (alephdata 3.x line)","aka":"FtM","maintainer":"originally OCCRP/Aleph; active development moved to OpenSanctions","pillar":"JAI","segment":"A2","subcategory":"Data model and ontology","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/alephdata/followthemoney","docs_url":"https://followthemoney.tech/",
@@ -141,6 +148,7 @@
 "blockers":["This repository is a stale major version with no deprecation notice; development moved to opensanctions/followthemoney and the old URL does not redirect"],
 "evidence_urls":["https://github.com/alephdata/followthemoney","https://github.com/opensanctions/followthemoney","https://followthemoney.tech/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Entity schema and data model for investigative data — Person, Company, Ownership, Payment, Membership and related types…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["staff-effort"],"additional_costs_note":"staff effort",
 "scores":{"relevance":4,"capability":4,"maintenance":2,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A2-19","name":"GLiNER","maintainer":"Urchade Zaratiana and contributors","pillar":"JAI","segment":"A2","subcategory":"Zero-shot entity extraction","project_type":"model","bucket":"verified-oss","repo_url":"https://github.com/urchade/GLiNER","docs_url":"https://github.com/urchade/GLiNER#readme",
@@ -159,6 +167,7 @@
 "blockers":["CC-BY-NC-4.0 on the v0/v1 checkpoints — a commercial-use blocker if the wrong model ID is pinned"],
 "evidence_urls":["https://github.com/urchade/GLiNER","https://huggingface.co/urchade/gliner_multi-v2.1","https://github.com/urchade/GLiNER/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Compact bidirectional-transformer NER model that extracts arbitrary user-specified entity types at inference time without…","licence_type":"Mixed (code vs weights/data)","oss_status":"Open source","oss_detail":"Open model weights","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"JAI-A2-20","name":"GlotLID","maintainer":"cisnlp (University of Munich / CIS)","pillar":"JAI","segment":"A2","subcategory":"Language identification","project_type":"model","bucket":"verified-oss","repo_url":"https://github.com/cisnlp/GlotLID","docs_url":"https://github.com/cisnlp/GlotLID#readme",
@@ -177,5 +186,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/cisnlp/GlotLID","https://github.com/cisnlp/GlotLID/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"FastText-based language identification model covering over 2,000 language labels with script codes…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open model weights","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":5,"usability":3,"licence_cost":4}}
 ]

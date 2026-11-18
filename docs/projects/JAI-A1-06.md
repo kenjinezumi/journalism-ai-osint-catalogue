@@ -14,11 +14,41 @@
 | **Maintainer** | RSS-Bridge community |
 | **Maintenance** | Actively maintained |
 | **Licence** | Unlicense |
+| **Licence type** | Public domain |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/RSS-Bridge/rss-bridge) · [Documentation](https://rss-bridge.github.io/rss-bridge/) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 4/5 · privacy 4/5 · usability 4/5 · licence+cost 5/5 → **weighted 78/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Public domain |
+| **Exact licence (as recorded)** | Unlicense |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Feed content belongs to the source publishers. |
+| **Restrictions** | None whatsoever — public-domain dedication. Bridges may scrape sites whose terms prohibit it, which is a separate consideration. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. A small PHP host; negligible.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/RSS-Bridge/rss-bridge/blob/master/UNLICENSE
+- https://github.com/RSS-Bridge/rss-bridge
+- https://rss-bridge.github.io/rss-bridge/
 
 ---
 

@@ -14,6 +14,9 @@
 | **Maintainer** | ProjectDiscovery |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/projectdiscovery/uncover) · [Documentation](https://github.com/projectdiscovery/uncover#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 5/5 · privacy 2/5 · usability 4/5 · licence+cost 3/5 → **weighted 75/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a — the scan data belongs to the respective vendors under their terms. |
+| **Restrictions** | Code unrestricted. The binding constraints are each scan vendor's API terms, which typically restrict redistribution of their data — relevant if you want to publish a dataset derived from their results. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | **Mandatory paid dependency** — mandatory paid scan-database API keys for useful coverage (Shodan, Censys, FOFA, Hunter, ZoomEye — prices not verified); negligible compute |
+| **Cost conditions** | **Mandatory paid dependency**; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Software free. Real cost is the API keys: Shodan, Censys, FOFA, Hunter and ZoomEye each have free tiers with tight quotas and paid tiers above them — current prices not verified in this survey (check each vendor). Budget for at least one paid subscription if this is a regular workflow.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/projectdiscovery/uncover/blob/main/LICENSE
+- https://github.com/projectdiscovery/uncover
 
 ---
 

@@ -168,173 +168,173 @@ Other pillars: [Surveillance and journalist protection](surveillance.md) · [OSI
 
 32 projects.
 
-| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence |
-|--:|--:|---|---|--:|---|---|---|
-| 1 | 10 | [FreshRSS](projects/JAI-A1-03.md) | Feed aggregation | **94** | Adopt | Actively maintained | AGPL-3.0 |
-| 2 | 36 | [trafilatura](projects/JAI-A1-01.md) | Article text extraction | **91** | Adopt | Actively maintained | Apache-2.0 |
-| 3 | 46 | [RSSHub](projects/JAI-A1-05.md) | Feed generation | **89** | Adopt | Actively maintained | AGPL-3.0 |
-| 4 | 49 | [Playwright](projects/JAI-A1-08.md) | Browser automation | **89** | Adopt | Actively maintained | Apache-2.0 |
-| 5 | 58 | [libpff](projects/JAI-A1-12.md) | Email archive parsing | **87** | Adopt | Actively maintained | LGPL-3.0 |
-| 6 | 79 | [feedparser](projects/JAI-A1-07.md) | Feed parsing | **86** | Adopt | Actively maintained | BSD-2-Clause (resolved by reading the reposi |
-| 7 | 87 | [n8n](projects/JAI-A1-17.md) | Workflow automation | **85** | Monitor | Actively maintained | Sustainable Use Licence (fair-code) — NOT an |
-| 8 | 89 | [DuckDB spatial extension](projects/JAI-A1-19.md) | Analytical database | **85** | Adopt | Actively maintained | MIT |
-| 9 | 92 | [MapLibre GL JS](projects/JAI-A1-22.md) | Map publishing | **85** | Adopt | Actively maintained | BSD-3-Clause (licence blob read 2026-11-17,  |
-| 10 | 95 | [PMTiles](projects/JAI-A1-24.md) | Map publishing | **85** | Adopt | Actively maintained | BSD-3-Clause for the reference implementatio |
-| 11 | 102 | [csvkit](projects/JAI-A1-18.md) | Data journalism tooling | **84** | Adopt | Stable with low activity | MIT |
-| 12 | 109 | [Miniflux](projects/JAI-A1-04.md) | Feed aggregation | **84** | Integrate | Actively maintained | Apache-2.0 |
-| 13 | 118 | [Huginn](projects/JAI-A1-16.md) | Monitoring and automation | **83** | Integrate | Actively maintained | MIT |
-| 14 | 124 | [MarkItDown](projects/JAI-A1-09.md) | Document conversion | **83** | Integrate | Actively maintained | MIT |
-| 15 | 178 | [git-history](projects/JAI-A1-32.md) | Change analysis | **78** | Adopt | Stable with low activity | Apache-2.0 |
-| 16 | 180 | [RSS-Bridge](projects/JAI-A1-06.md) | Feed generation | **78** | Integrate | Actively maintained | Unlicense |
-| 17 | 182 | [kepler.gl](projects/JAI-A1-25.md) | Geospatial visualisation | **78** | Integrate | Actively maintained | MIT |
-| 18 | 187 | [Media Cloud API client](projects/JAI-A1-14.md) | News archive research | **77** | Integrate | Actively maintained | Apache-2.0 (client) |
-| 19 | 195 | [tippecanoe](projects/JAI-A1-23.md) | Map publishing | **77** | Adopt | Actively maintained | BSD-2-Clause |
-| 20 | 201 | [news-homepages](projects/JAI-A1-31.md) | Media monitoring archive | **76** | Integrate | Actively maintained | GPL-3.0 |
-| 21 | 209 | [libratom](projects/JAI-A1-13.md) | Email archive parsing | **75** | Integrate | Maintenance appears to be declining | MIT |
-| 22 | 217 | [titiler](projects/JAI-A1-27.md) | Raster tile serving | **75** | Monitor | Actively maintained | MIT |
-| 23 | 219 | [Turf.js](projects/JAI-A1-26.md) | Geospatial computation | **75** | Integrate | Actively maintained | MIT |
-| 24 | 220 | [warn-scraper](projects/JAI-A1-30.md) | Public records scraping | **75** | Integrate | Actively maintained | Apache-2.0 (licence blob read 2026-11-17, Co |
-| 25 | 226 | [Leaflet](projects/JAI-A1-21.md) | Map publishing | **74** | Adopt | Stable with low activity | BSD-2-Clause |
-| 26 | 233 | [Unstructured](projects/JAI-A1-10.md) | Document ingestion ETL | **74** | Monitor | Actively maintained | Apache-2.0 |
-| 27 | 262 | [MinerU](projects/JAI-A1-11.md) | Document parsing | **71** | Monitor | Actively maintained | Apache-2.0 with ADDITIONAL TERMS recorded as |
-| 28 | 300 | [Alaveteli](projects/JAI-A1-28.md) | Freedom of information | **63** | Reference only | Stable with low activity | AGPL-3.0-or-later (verified in session 1 by  |
-| 29 | 320 | [gdelt-doc-api](projects/JAI-A1-15.md) | News archive research | **60** | Integrate | Dormant | MIT |
-| 30 | 322 | [news-please](projects/JAI-A1-02.md) | News crawling and extraction | **60** | Avoid for new deployment | Archived or discontinued | Apache-2.0 |
-| 31 | 326 | [Froide](projects/JAI-A1-29.md) | Freedom of information | **59** | Reference only | Stable with low activity | MIT (project licensing — confirm from the re |
-| 32 | 336 | [Zingg](projects/JAI-A1-20.md) | Entity resolution | **56** | Monitor | Uncertain | AGPL-3.0 (project licensing — confirm from t |
+| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence | Open-source status | Software price |
+|--:|--:|---|---|--:|---|---|---|---|---|
+| 1 | 10 | [FreshRSS](projects/JAI-A1-03.md) | Feed aggregation | **94** | Adopt | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 2 | 36 | [trafilatura](projects/JAI-A1-01.md) | Article text extraction | **91** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 3 | 46 | [RSSHub](projects/JAI-A1-05.md) | Feed generation | **89** | Adopt | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 4 | 49 | [Playwright](projects/JAI-A1-08.md) | Browser automation | **89** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 5 | 58 | [libpff](projects/JAI-A1-12.md) | Email archive parsing | **87** | Adopt | Actively maintained | LGPL-3.0 | Open source | No software fee |
+| 6 | 79 | [feedparser](projects/JAI-A1-07.md) | Feed parsing | **86** | Adopt | Actively maintained | BSD-2-Clause (resolved by reading the repository licence … | Open source | No software fee |
+| 7 | 87 | [n8n](projects/JAI-A1-17.md) | Workflow automation | **85** | Monitor | Actively maintained | Sustainable Use Licence (fair-code) — NOT an OSI open-source licence … | Source available | No software fee |
+| 8 | 89 | [DuckDB spatial extension](projects/JAI-A1-19.md) | Analytical database | **85** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 9 | 92 | [MapLibre GL JS](projects/JAI-A1-22.md) | Map publishing | **85** | Adopt | Actively maintained | BSD-3-Clause | Open source | No software fee |
+| 10 | 95 | [PMTiles](projects/JAI-A1-24.md) | Map publishing | **85** | Adopt | Actively maintained | BSD-3-Clause for the reference implementations … | Open source | No software fee |
+| 11 | 102 | [csvkit](projects/JAI-A1-18.md) | Data journalism tooling | **84** | Adopt | Stable with low activity | MIT | Open source | No software fee |
+| 12 | 109 | [Miniflux](projects/JAI-A1-04.md) | Feed aggregation | **84** | Integrate | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 13 | 118 | [Huginn](projects/JAI-A1-16.md) | Monitoring and automation | **83** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 14 | 124 | [MarkItDown](projects/JAI-A1-09.md) | Document conversion | **83** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 15 | 178 | [git-history](projects/JAI-A1-32.md) | Change analysis | **78** | Adopt | Stable with low activity | Apache-2.0 | Open source | No software fee |
+| 16 | 180 | [RSS-Bridge](projects/JAI-A1-06.md) | Feed generation | **78** | Integrate | Actively maintained | Unlicense | Open source | No software fee |
+| 17 | 182 | [kepler.gl](projects/JAI-A1-25.md) | Geospatial visualisation | **78** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 18 | 187 | [Media Cloud API client](projects/JAI-A1-14.md) | News archive research | **77** | Integrate | Actively maintained | Apache-2.0 (client) | Open source | No software fee |
+| 19 | 195 | [tippecanoe](projects/JAI-A1-23.md) | Map publishing | **77** | Adopt | Actively maintained | BSD-2-Clause | Open source | No software fee |
+| 20 | 201 | [news-homepages](projects/JAI-A1-31.md) | Media monitoring archive | **76** | Integrate | Actively maintained | GPL-3.0 | Open source | No software fee |
+| 21 | 209 | [libratom](projects/JAI-A1-13.md) | Email archive parsing | **75** | Integrate | Maintenance appears to be declining | MIT | Open source | No software fee |
+| 22 | 217 | [titiler](projects/JAI-A1-27.md) | Raster tile serving | **75** | Monitor | Actively maintained | MIT | Open source | No software fee |
+| 23 | 219 | [Turf.js](projects/JAI-A1-26.md) | Geospatial computation | **75** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 24 | 220 | [warn-scraper](projects/JAI-A1-30.md) | Public records scraping | **75** | Integrate | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 25 | 226 | [Leaflet](projects/JAI-A1-21.md) | Map publishing | **74** | Adopt | Stable with low activity | BSD-2-Clause | Open source | No software fee |
+| 26 | 233 | [Unstructured](projects/JAI-A1-10.md) | Document ingestion ETL | **74** | Monitor | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 27 | 262 | [MinerU](projects/JAI-A1-11.md) | Document parsing | **71** | Monitor | Actively maintained | Apache-2.0 with ADDITIONAL TERMS recorded as restrictive (session 1 … | Source available | No software fee |
+| 28 | 300 | [Alaveteli](projects/JAI-A1-28.md) | Freedom of information | **63** | Reference only | Stable with low activity | AGPL-3.0-or-later | Open source | No software fee |
+| 29 | 320 | [gdelt-doc-api](projects/JAI-A1-15.md) | News archive research | **60** | Integrate | Dormant | MIT | Open source | No software fee |
+| 30 | 322 | [news-please](projects/JAI-A1-02.md) | News crawling and extraction | **60** | Avoid for new deployment | Archived or discontinued | Apache-2.0 | Open source | No software fee |
+| 31 | 326 | [Froide](projects/JAI-A1-29.md) | Freedom of information | **59** | Reference only | Stable with low activity | MIT | Open source | No software fee |
+| 32 | 336 | [Zingg](projects/JAI-A1-20.md) | Entity resolution | **56** | Monitor | Uncertain | AGPL-3.0 | Open source | No software fee |
 
 ## A2 · Documents and language: OCR, transcription, translation, entities, entity resolution
 
 61 projects.
 
-| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence |
-|--:|--:|---|---|--:|---|---|---|
-| 1 | 13 | [OCRmyPDF](projects/JAI-A2-33.md) | OCR pipeline | **94** | Adopt | Actively maintained | MPL-2.0 |
-| 2 | 18 | [whisper.cpp](projects/JAI-A2-59.md) | Transcription (CPU runtime) | **94** | Adopt | Actively maintained | MIT |
-| 3 | 19 | [OpenAleph](projects/JAI-A2-35.md) | Leak analysis platform | **93** | Adopt | Actively maintained | MIT |
-| 4 | 21 | [Datasette](projects/JAI-A2-09.md) | Data publishing and exploration | **93** | Adopt | Actively maintained | Apache-2.0 |
-| 5 | 25 | [ICIJ Datashare](projects/JAI-A2-23.md) | Leak analysis platform | **92** | Adopt | Actively maintained | AGPL-3.0 |
-| 6 | 31 | [Docling](projects/JAI-A2-12.md) | Document parsing and layout | **91** | Adopt | Actively maintained | MIT |
-| 7 | 32 | [noScribe](projects/JAI-A2-31.md) | Transcription (desktop application) | **91** | Adopt | Actively maintained | GPL-3.0 |
-| 8 | 33 | [pdfplumber](projects/JAI-A2-39.md) | PDF text and table extraction | **91** | Adopt | Actively maintained | MIT |
-| 9 | 39 | [Buzz](projects/JAI-A2-05.md) | Transcription (desktop application) | **90** | Adopt | Actively maintained | MIT |
-| 10 | 44 | [spaCy](projects/JAI-A2-47.md) | Named entity recognition | **90** | Adopt | Actively maintained | MIT |
-| 11 | 51 | [WhisperX](projects/JAI-A2-60.md) | Transcription with alignment and diarisation | **88** | Adopt | Actively maintained | BSD-2-Clause |
-| 12 | 52 | [Whisper](projects/JAI-A2-58.md) | Transcription (reference model) | **88** | Adopt | Stable with low activity | MIT |
-| 13 | 53 | [yente](projects/JAI-A2-61.md) | Sanctions and PEP screening API | **88** | Adopt | Actively maintained | MIT (code) |
-| 14 | 59 | [OpenRefine](projects/JAI-A2-36.md) | Data cleaning and reconciliation | **87** | Adopt | Actively maintained | BSD-3-Clause |
-| 15 | 63 | [Apache Tika](projects/JAI-A2-02.md) | Document ingestion and extraction | **87** | Adopt | Actively maintained | Apache-2.0 |
-| 16 | 64 | [faster-whisper](projects/JAI-A2-17.md) | Transcription (library) | **87** | Adopt | Actively maintained | MIT |
-| 17 | 65 | [Splink](projects/JAI-A2-48.md) | Probabilistic record linkage | **87** | Adopt | Actively maintained | MIT |
-| 18 | 66 | [Marker](projects/JAI-A2-28.md) | Document parsing and layout | **86** | Pilot | Actively maintained | Apache-2.0 (code) |
-| 19 | 73 | [PyMuPDF](projects/JAI-A2-42.md) | PDF manipulation | **86** | Integrate | Actively maintained | AGPL-3.0 (dual-licensed; Artifex sells a com |
-| 20 | 76 | [sentence-transformers](projects/JAI-A2-45.md) | Multilingual semantic search | **86** | Adopt | Actively maintained | Apache-2.0 (code) |
-| 21 | 85 | [LibreTranslate](projects/JAI-A2-27.md) | Machine translation service | **85** | Adopt | Actively maintained | AGPL-3.0 |
-| 22 | 88 | [Camelot](projects/JAI-A2-06.md) | Table extraction | **85** | Adopt | Actively maintained | MIT |
-| 23 | 99 | [Tesseract OCR](projects/JAI-A2-54.md) | OCR engine | **85** | Adopt | Actively maintained | Apache-2.0 |
-| 24 | 100 | [txtai](projects/JAI-A2-55.md) | Semantic search framework | **85** | Pilot | Actively maintained | Apache-2.0 |
-| 25 | 108 | [VisiData](projects/JAI-A2-57.md) | Tabular data exploration | **84** | Adopt | Actively maintained | GPL-3.0 |
-| 26 | 111 | [Paperless-ngx](projects/JAI-A2-38.md) | Document management | **84** | Adopt | Actively maintained | GPL-3.0 |
-| 27 | 113 | [Apache Solr](projects/JAI-A2-01.md) | Search and indexing | **84** | Integrate | Actively maintained | Apache-2.0 |
-| 28 | 114 | [CTranslate2](projects/JAI-A2-08.md) | Local inference runtime | **84** | Integrate | Actively maintained | MIT |
-| 29 | 117 | [datasketch](projects/JAI-A2-10.md) | Near-duplicate detection | **83** | Adopt | Actively maintained | MIT |
-| 30 | 121 | [rigour](projects/JAI-A2-44.md) | Name and identifier normalisation | **83** | Adopt | Actively maintained | MIT |
-| 31 | 127 | [BERTopic](projects/JAI-A2-04.md) | Topic modelling and corpus triage | **82** | Pilot | Actively maintained | MIT |
-| 32 | 139 | [GLiNER](projects/JAI-A2-19.md) | Zero-shot entity extraction | **81** | Adopt | Actively maintained | Apache-2.0 (code) |
-| 33 | 140 | [ICIJ extract](projects/JAI-A2-24.md) | Bulk extraction pipeline | **81** | Integrate | Actively maintained | MIT |
-| 34 | 143 | [nomenklatura](projects/JAI-A2-30.md) | Entity resolution | **81** | Integrate | Actively maintained | MIT |
-| 35 | 144 | [pyannote.audio](projects/JAI-A2-41.md) | Speaker diarisation | **81** | Integrate | Actively maintained | MIT |
-| 36 | 152 | [Presidio](projects/JAI-A2-40.md) | PII detection and redaction | **80** | Integrate | Actively maintained | MIT |
-| 37 | 163 | [ingest-file (OpenAleph fork)](projects/JAI-A2-25.md) | Bulk extraction pipeline | **79** | Integrate | Actively maintained | AGPL-3.0 |
-| 38 | 164 | [Stanza](projects/JAI-A2-49.md) | Multilingual NLP | **79** | Integrate | Actively maintained | Apache-2.0 (GitHub licence detection reports |
-| 39 | 166 | [Argos Translate](projects/JAI-A2-03.md) | Machine translation | **79** | Adopt | Actively maintained | MIT |
-| 40 | 169 | [eyecite](projects/JAI-A2-16.md) | Legal citation extraction | **79** | Adopt | Actively maintained | BSD-2-Clause |
-| 41 | 170 | [RapidFuzz](projects/JAI-A2-43.md) | String matching | **79** | Adopt | Actively maintained | MIT |
-| 42 | 172 | [Surya](projects/JAI-A2-52.md) | OCR and layout models | **78** | Pilot | Actively maintained | Apache-2.0 (code) |
-| 43 | 175 | [PaddleOCR / PP-StructureV3](projects/JAI-A2-37.md) | OCR and document structure | **78** | Integrate | Actively maintained | Apache-2.0 (code) |
-| 44 | 186 | [FollowTheMoney (alephdata 3.x line)](projects/JAI-A2-18.md) | Data model and ontology | **77** | Avoid for new deployment | Maintenance appears to be declining | MIT |
-| 45 | 194 | [Subtitle Edit](projects/JAI-A2-50.md) | Subtitle and caption editing | **77** | Integrate | Actively maintained | MIT |
-| 46 | 199 | [Helsinki-NLP OPUS-MT](projects/JAI-A2-21.md) | Machine translation | **76** | Adopt | Stable with low activity | MIT (code in Opus-MT and OPUS-MT-train) |
-| 47 | 213 | [eScriptorium](projects/JAI-A2-15.md) | Handwritten text recognition platform | **75** | Pilot | Actively maintained | MIT |
-| 48 | 221 | [DocumentCloud](projects/JAI-A2-13.md) | Document publishing platform | **74** | Pilot | Actively maintained | AGPL-3.0 |
-| 49 | 228 | [Tabula](projects/JAI-A2-53.md) | Table extraction (no-code) | **74** | Reference only | Dormant | MIT |
-| 50 | 236 | [dedupe](projects/JAI-A2-11.md) | Entity resolution | **73** | Monitor | Maintenance appears to be declining | MIT |
-| 51 | 240 | [NVIDIA NeMo Speech](projects/JAI-A2-32.md) | Transcription and diarisation framework | **73** | Pilot | Actively maintained | Apache-2.0 (code) |
-| 52 | 241 | [Kraken](projects/JAI-A2-26.md) | Handwritten and historical OCR | **73** | Pilot | Actively maintained | Apache-2.0 |
-| 53 | 242 | [sherpa-onnx](projects/JAI-A2-46.md) | On-device speech recognition | **73** | Integrate | Actively maintained | Apache-2.0 |
-| 54 | 246 | [olmOCR](projects/JAI-A2-34.md) | Document parsing (VLM) | **72** | Pilot | Maintenance appears to be declining | Apache-2.0 |
-| 55 | 256 | [Hyperaudio Lite](projects/JAI-A2-22.md) | Transcript publishing | **72** | Integrate | Stable with low activity | MIT |
-| 56 | 257 | [sumy](projects/JAI-A2-51.md) | Summarisation | **72** | Integrate | Stable with low activity | Apache-2.0 |
-| 57 | 279 | [entity-fishing](projects/JAI-A2-14.md) | Entity linking | **68** | Monitor | Stable with low activity | Apache-2.0 |
-| 58 | 280 | [GlotLID](projects/JAI-A2-20.md) | Language identification | **68** | Integrate | Stable with low activity | Apache-2.0 with additional notices (LICENSE  |
-| 59 | 285 | [Montreal Forced Aligner](projects/JAI-A2-29.md) | Audio alignment | **67** | Monitor | Actively maintained | MIT |
-| 60 | 290 | [Carrot2](projects/JAI-A2-07.md) | Search-result clustering | **65** | Monitor | Stable with low activity | BSD-3-Clause-style (custom Carrot2 BSD-style |
-| 61 | 314 | [uroman](projects/JAI-A2-56.md) | Transliteration | **62** | Integrate | Dormant | MIT-style permissive with an added acknowled |
+| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence | Open-source status | Software price |
+|--:|--:|---|---|--:|---|---|---|---|---|
+| 1 | 13 | [OCRmyPDF](projects/JAI-A2-33.md) | OCR pipeline | **94** | Adopt | Actively maintained | MPL-2.0 | Open source | No software fee |
+| 2 | 18 | [whisper.cpp](projects/JAI-A2-59.md) | Transcription (CPU runtime) | **94** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 3 | 19 | [OpenAleph](projects/JAI-A2-35.md) | Leak analysis platform | **93** | Adopt | Actively maintained | MIT | Mixed | No software fee |
+| 4 | 21 | [Datasette](projects/JAI-A2-09.md) | Data publishing and exploration | **93** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 5 | 25 | [ICIJ Datashare](projects/JAI-A2-23.md) | Leak analysis platform | **92** | Adopt | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 6 | 31 | [Docling](projects/JAI-A2-12.md) | Document parsing and layout | **91** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 7 | 32 | [noScribe](projects/JAI-A2-31.md) | Transcription (desktop application) | **91** | Adopt | Actively maintained | GPL-3.0 | Open source | No software fee |
+| 8 | 33 | [pdfplumber](projects/JAI-A2-39.md) | PDF text and table extraction | **91** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 9 | 39 | [Buzz](projects/JAI-A2-05.md) | Transcription (desktop application) | **90** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 10 | 44 | [spaCy](projects/JAI-A2-47.md) | Named entity recognition | **90** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 11 | 51 | [WhisperX](projects/JAI-A2-60.md) | Transcription with alignment and diarisation | **88** | Adopt | Actively maintained | BSD-2-Clause | Open source | No software fee |
+| 12 | 52 | [Whisper](projects/JAI-A2-58.md) | Transcription (reference model) | **88** | Adopt | Stable with low activity | MIT | Open source | No software fee |
+| 13 | 53 | [yente](projects/JAI-A2-61.md) | Sanctions and PEP screening API | **88** | Adopt | Actively maintained | MIT (code) | Mixed | No software fee |
+| 14 | 59 | [OpenRefine](projects/JAI-A2-36.md) | Data cleaning and reconciliation | **87** | Adopt | Actively maintained | BSD-3-Clause | Open source | No software fee |
+| 15 | 63 | [Apache Tika](projects/JAI-A2-02.md) | Document ingestion and extraction | **87** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 16 | 64 | [faster-whisper](projects/JAI-A2-17.md) | Transcription (library) | **87** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 17 | 65 | [Splink](projects/JAI-A2-48.md) | Probabilistic record linkage | **87** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 18 | 66 | [Marker](projects/JAI-A2-28.md) | Document parsing and layout | **86** | Pilot | Actively maintained | Apache-2.0 (code) | Mixed | No fee below threshold |
+| 19 | 73 | [PyMuPDF](projects/JAI-A2-42.md) | PDF manipulation | **86** | Integrate | Actively maintained | AGPL-3.0 (dual-licensed; Artifex sells a commercial licence) | Open source | No software fee |
+| 20 | 76 | [sentence-transformers](projects/JAI-A2-45.md) | Multilingual semantic search | **86** | Adopt | Actively maintained | Apache-2.0 (code) | Open source | No software fee |
+| 21 | 85 | [LibreTranslate](projects/JAI-A2-27.md) | Machine translation service | **85** | Adopt | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 22 | 88 | [Camelot](projects/JAI-A2-06.md) | Table extraction | **85** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 23 | 99 | [Tesseract OCR](projects/JAI-A2-54.md) | OCR engine | **85** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 24 | 100 | [txtai](projects/JAI-A2-55.md) | Semantic search framework | **85** | Pilot | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 25 | 108 | [VisiData](projects/JAI-A2-57.md) | Tabular data exploration | **84** | Adopt | Actively maintained | GPL-3.0 | Open source | No software fee |
+| 26 | 111 | [Paperless-ngx](projects/JAI-A2-38.md) | Document management | **84** | Adopt | Actively maintained | GPL-3.0 | Open source | No software fee |
+| 27 | 113 | [Apache Solr](projects/JAI-A2-01.md) | Search and indexing | **84** | Integrate | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 28 | 114 | [CTranslate2](projects/JAI-A2-08.md) | Local inference runtime | **84** | Integrate | Actively maintained | MIT | Mixed | No software fee |
+| 29 | 117 | [datasketch](projects/JAI-A2-10.md) | Near-duplicate detection | **83** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 30 | 121 | [rigour](projects/JAI-A2-44.md) | Name and identifier normalisation | **83** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 31 | 127 | [BERTopic](projects/JAI-A2-04.md) | Topic modelling and corpus triage | **82** | Pilot | Actively maintained | MIT | Open source | No software fee |
+| 32 | 139 | [GLiNER](projects/JAI-A2-19.md) | Zero-shot entity extraction | **81** | Adopt | Actively maintained | Apache-2.0 (code) | Open source | No software fee |
+| 33 | 140 | [ICIJ extract](projects/JAI-A2-24.md) | Bulk extraction pipeline | **81** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 34 | 143 | [nomenklatura](projects/JAI-A2-30.md) | Entity resolution | **81** | Integrate | Actively maintained | MIT | Mixed | No software fee |
+| 35 | 144 | [pyannote.audio](projects/JAI-A2-41.md) | Speaker diarisation | **81** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 36 | 152 | [Presidio](projects/JAI-A2-40.md) | PII detection and redaction | **80** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 37 | 163 | [ingest-file (OpenAleph fork)](projects/JAI-A2-25.md) | Bulk extraction pipeline | **79** | Integrate | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 38 | 164 | [Stanza](projects/JAI-A2-49.md) | Multilingual NLP | **79** | Integrate | Actively maintained | Apache-2.0 (GitHub licence detection reports 'Other' … | Open source | No software fee |
+| 39 | 166 | [Argos Translate](projects/JAI-A2-03.md) | Machine translation | **79** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 40 | 169 | [eyecite](projects/JAI-A2-16.md) | Legal citation extraction | **79** | Adopt | Actively maintained | BSD-2-Clause | Open source | No software fee |
+| 41 | 170 | [RapidFuzz](projects/JAI-A2-43.md) | String matching | **79** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 42 | 172 | [Surya](projects/JAI-A2-52.md) | OCR and layout models | **78** | Pilot | Actively maintained | Apache-2.0 (code) | Mixed | No fee below threshold |
+| 43 | 175 | [PaddleOCR / PP-StructureV3](projects/JAI-A2-37.md) | OCR and document structure | **78** | Integrate | Actively maintained | Apache-2.0 (code) | Open source | No software fee |
+| 44 | 186 | [FollowTheMoney (alephdata 3.x line)](projects/JAI-A2-18.md) | Data model and ontology | **77** | Avoid for new deployment | Maintenance appears to be declining | MIT | Open source | No software fee |
+| 45 | 194 | [Subtitle Edit](projects/JAI-A2-50.md) | Subtitle and caption editing | **77** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 46 | 199 | [Helsinki-NLP OPUS-MT](projects/JAI-A2-21.md) | Machine translation | **76** | Adopt | Stable with low activity | MIT (code in Opus-MT and OPUS-MT-train) | Open source | No software fee |
+| 47 | 213 | [eScriptorium](projects/JAI-A2-15.md) | Handwritten text recognition platform | **75** | Pilot | Actively maintained | MIT | Open source | No software fee |
+| 48 | 221 | [DocumentCloud](projects/JAI-A2-13.md) | Document publishing platform | **74** | Pilot | Actively maintained | AGPL-3.0 | Open source | Unknown / not verified |
+| 49 | 228 | [Tabula](projects/JAI-A2-53.md) | Table extraction (no-code) | **74** | Reference only | Dormant | MIT | Open source | No software fee |
+| 50 | 236 | [dedupe](projects/JAI-A2-11.md) | Entity resolution | **73** | Monitor | Maintenance appears to be declining | MIT | Open source | No software fee |
+| 51 | 240 | [NVIDIA NeMo Speech](projects/JAI-A2-32.md) | Transcription and diarisation framework | **73** | Pilot | Actively maintained | Apache-2.0 (code) | Mixed | No software fee |
+| 52 | 241 | [Kraken](projects/JAI-A2-26.md) | Handwritten and historical OCR | **73** | Pilot | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 53 | 242 | [sherpa-onnx](projects/JAI-A2-46.md) | On-device speech recognition | **73** | Integrate | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 54 | 246 | [olmOCR](projects/JAI-A2-34.md) | Document parsing (VLM) | **72** | Pilot | Maintenance appears to be declining | Apache-2.0 | Open source | No software fee |
+| 55 | 256 | [Hyperaudio Lite](projects/JAI-A2-22.md) | Transcript publishing | **72** | Integrate | Stable with low activity | MIT | Open source | No software fee |
+| 56 | 257 | [sumy](projects/JAI-A2-51.md) | Summarisation | **72** | Integrate | Stable with low activity | Apache-2.0 | Open source | No software fee |
+| 57 | 279 | [entity-fishing](projects/JAI-A2-14.md) | Entity linking | **68** | Monitor | Stable with low activity | Apache-2.0 | Open source | No software fee |
+| 58 | 280 | [GlotLID](projects/JAI-A2-20.md) | Language identification | **68** | Integrate | Stable with low activity | Apache-2.0 with additional notices (LICENSE file read directly: 'Apache … | Open source | No software fee |
+| 59 | 285 | [Montreal Forced Aligner](projects/JAI-A2-29.md) | Audio alignment | **67** | Monitor | Actively maintained | MIT | Open source | No software fee |
+| 60 | 290 | [Carrot2](projects/JAI-A2-07.md) | Search-result clustering | **65** | Monitor | Stable with low activity | BSD-3-Clause-style (custom Carrot2 BSD-style text read directly from … | Open source | No software fee |
+| 61 | 314 | [uroman](projects/JAI-A2-56.md) | Transliteration | **62** | Integrate | Dormant | MIT-style permissive with an added acknowledgement condition … | Open source | No software fee |
 
 ## A3 · RAG, research agents, knowledge graphs, provenance and AI evaluation
 
 20 projects.
 
-| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence |
-|--:|--:|---|---|--:|---|---|---|
-| 1 | 2 | [llama.cpp](projects/JAI-A3-01.md) | Local LLM inference | **96** | Adopt | Actively maintained | MIT |
-| 2 | 14 | [Ollama](projects/JAI-A3-02.md) | Local LLM inference | **94** | Adopt | Actively maintained | MIT (application) |
-| 3 | 43 | [vLLM](projects/JAI-A3-03.md) | Local LLM inference (serving) | **90** | Adopt | Actively maintained | Apache-2.0 |
-| 4 | 90 | [Haystack](projects/JAI-A3-05.md) | RAG framework | **85** | Adopt | Actively maintained | Apache-2.0 |
-| 5 | 91 | [llm (Simon Willison's CLI)](projects/JAI-A3-12.md) | LLM command-line tooling | **85** | Adopt | Actively maintained | Apache-2.0 |
-| 6 | 96 | [promptfoo](projects/JAI-A3-14.md) | LLM evaluation and red-teaming | **85** | Adopt | Actively maintained | MIT |
-| 7 | 98 | [RAGFlow](projects/JAI-A3-06.md) | RAG platform | **85** | Pilot | Actively maintained | Apache-2.0 |
-| 8 | 132 | [LlamaIndex](projects/JAI-A3-04.md) | RAG framework | **82** | Pilot | Actively maintained | MIT |
-| 9 | 134 | [Qdrant](projects/JAI-A3-07.md) | Vector database | **82** | Integrate | Actively maintained | Apache-2.0 |
-| 10 | 158 | [FAISS](projects/JAI-A3-08.md) | Vector search library | **80** | Adopt | Actively maintained | MIT |
-| 11 | 190 | [Inspect AI](projects/JAI-A3-15.md) | LLM evaluation | **77** | Pilot | Actively maintained | MIT |
-| 12 | 191 | [MLflow](projects/JAI-A3-19.md) | Experiment tracking and provenance | **77** | Monitor | Actively maintained | Apache-2.0 |
-| 13 | 193 | [Sigstore Cosign](projects/JAI-A3-20.md) | Supply-chain provenance | **77** | Integrate | Actively maintained | Apache-2.0 |
-| 14 | 211 | [Ragas](projects/JAI-A3-13.md) | RAG evaluation | **75** | Adopt | Actively maintained | Apache-2.0 |
-| 15 | 230 | [LangChain](projects/JAI-A3-09.md) | LLM application framework | **74** | Integrate | Actively maintained | MIT |
-| 16 | 231 | [LangGraph](projects/JAI-A3-10.md) | Agent orchestration | **74** | Pilot | Actively maintained | MIT |
-| 17 | 244 | [Oxigraph](projects/JAI-A3-17.md) | Knowledge graphs | **73** | Monitor | Actively maintained | Apache-2.0 |
-| 18 | 269 | [RDFLib](projects/JAI-A3-16.md) | Knowledge graphs | **70** | Integrate | Actively maintained | BSD-3-Clause |
-| 19 | 277 | [smolagents](projects/JAI-A3-11.md) | Agent framework | **69** | Pilot | Actively maintained | Apache-2.0 |
-| 20 | 318 | [Kùzu](projects/JAI-A3-18.md) | Knowledge graphs | **61** | Avoid for new deployment | Archived or discontinued | MIT |
+| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence | Open-source status | Software price |
+|--:|--:|---|---|--:|---|---|---|---|---|
+| 1 | 2 | [llama.cpp](projects/JAI-A3-01.md) | Local LLM inference | **96** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 2 | 14 | [Ollama](projects/JAI-A3-02.md) | Local LLM inference | **94** | Adopt | Actively maintained | MIT (application) | Open source | No software fee |
+| 3 | 43 | [vLLM](projects/JAI-A3-03.md) | Local LLM inference (serving) | **90** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 4 | 90 | [Haystack](projects/JAI-A3-05.md) | RAG framework | **85** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 5 | 91 | [llm (Simon Willison's CLI)](projects/JAI-A3-12.md) | LLM command-line tooling | **85** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 6 | 96 | [promptfoo](projects/JAI-A3-14.md) | LLM evaluation and red-teaming | **85** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 7 | 98 | [RAGFlow](projects/JAI-A3-06.md) | RAG platform | **85** | Pilot | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 8 | 132 | [LlamaIndex](projects/JAI-A3-04.md) | RAG framework | **82** | Pilot | Actively maintained | MIT | Open source | No software fee |
+| 9 | 134 | [Qdrant](projects/JAI-A3-07.md) | Vector database | **82** | Integrate | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 10 | 158 | [FAISS](projects/JAI-A3-08.md) | Vector search library | **80** | Adopt | Actively maintained | MIT | Open source | No software fee |
+| 11 | 190 | [Inspect AI](projects/JAI-A3-15.md) | LLM evaluation | **77** | Pilot | Actively maintained | MIT | Open source | No software fee |
+| 12 | 191 | [MLflow](projects/JAI-A3-19.md) | Experiment tracking and provenance | **77** | Monitor | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 13 | 193 | [Sigstore Cosign](projects/JAI-A3-20.md) | Supply-chain provenance | **77** | Integrate | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 14 | 211 | [Ragas](projects/JAI-A3-13.md) | RAG evaluation | **75** | Adopt | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 15 | 230 | [LangChain](projects/JAI-A3-09.md) | LLM application framework | **74** | Integrate | Actively maintained | MIT | Open source | No software fee |
+| 16 | 231 | [LangGraph](projects/JAI-A3-10.md) | Agent orchestration | **74** | Pilot | Actively maintained | MIT | Open source | No software fee |
+| 17 | 244 | [Oxigraph](projects/JAI-A3-17.md) | Knowledge graphs | **73** | Monitor | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 18 | 269 | [RDFLib](projects/JAI-A3-16.md) | Knowledge graphs | **70** | Integrate | Actively maintained | BSD-3-Clause | Open source | No software fee |
+| 19 | 277 | [smolagents](projects/JAI-A3-11.md) | Agent framework | **69** | Pilot | Actively maintained | Apache-2.0 | Open source | No software fee |
+| 20 | 318 | [Kùzu](projects/JAI-A3-18.md) | Knowledge graphs | **61** | Avoid for new deployment | Archived or discontinued | MIT | Open source | No software fee |
 
 ## A4 · Fact-checking support and media verification
 
 31 projects.
 
-| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence |
-|--:|--:|---|---|--:|---|---|---|
-| 1 | 37 | [x-ray](projects/JAI-A4-23.md) | Redaction failure detection | **91** | Adopt | Actively maintained | BSD-2-Clause |
-| 2 | 126 | [InVID-WeVerify Verification Plugin](projects/JAI-A4-04.md) | Media verification toolkit | **82** | Adopt | Actively maintained | MIT (extension code) |
-| 3 | 150 | [Meedan Check](projects/JAI-A4-01.md) | Fact-checking workflow platform | **80** | Pilot | Actively maintained | MIT |
-| 4 | 188 | [CooRTweet](projects/JAI-A4-13.md) | Coordinated behaviour detection | **77** | Adopt | Actively maintained | MIT (project-stated; GitHub API reports SPDX |
-| 5 | 259 | [kuroi](projects/JAI-A4-24.md) | Pre-publication redaction | **71** | Pilot | Actively maintained | AGPL-3.0 |
-| 6 | 291 | [Community Forensics](projects/JAI-A4-21.md) | Synthetic image detection | **65** | Pilot | Stable with low activity | MIT (code) |
-| 7 | 302 | [Alegre (Meedan)](projects/JAI-A4-02.md) | Similarity matching service | **63** | Monitor | Actively maintained | MIT |
-| 8 | 303 | [CAT-Net](projects/JAI-A4-19.md) | Image splicing detection | **63** | Pilot | Stable with low activity | Apache-2.0 (code), per the README licence se |
-| 9 | 315 | [TruFor](projects/JAI-A4-18.md) | Image forgery localisation | **61** | Monitor | Stable with low activity | NOT OSS — custom GRIP-UNINA terms: LICENSE.t |
-| 10 | 324 | [FEVER platform and baselines](projects/JAI-A4-06.md) | Fact-verification benchmark | **60** | Reference only | Stable with low activity | Apache-2.0 |
-| 11 | 327 | [PhotoHolmes](projects/JAI-A4-17.md) | Image forensics harness | **59** | Pilot | Stable with low activity | Apache-2.0 (base library only) |
-| 12 | 331 | [UniversalFakeDetect](projects/JAI-A4-20.md) | Synthetic image detection | **59** | Reference only | Stable with low activity | MIT |
-| 13 | 332 | [DeepfakeBench](projects/JAI-A4-25.md) | Deepfake detection benchmark | **58** | Monitor | Maintenance appears to be declining | CC-BY-NC-4.0 (GitHub API reports NOASSERTION |
-| 14 | 333 | [AASIST](projects/JAI-A4-29.md) | Audio spoofing detection | **58** | Pilot | Dormant | MIT |
-| 15 | 334 | [Full Fact AI Trust Benchmark](projects/JAI-A4-15.md) | AI evaluation for fact-checking | **58** | Reference only | Stable with low activity | Apache-2.0 |
-| 16 | 335 | [Google Fact Check Tools API](projects/JAI-A4-16.md) | Fact-check lookup service | **57** | Integrate | Uncertain | Not applicable (hosted service under Google  |
-| 17 | 341 | [X-FACT](projects/JAI-A4-08.md) | Multilingual fact-verification benchmark | **52** | Reference only | Dormant | MIT |
-| 18 | 342 | [ClaimBuster-Spotter](projects/JAI-A4-05.md) | Check-worthiness detection | **51** | Reference only | Dormant | GPL-3.0 |
-| 19 | 343 | [SelfBlendedImages (SBI)](projects/JAI-A4-27.md) | Deepfake detection | **51** | Monitor | Stable with low activity | Custom research-only terms — authors state c |
-| 20 | 346 | [DEFAME](projects/JAI-A4-11.md) | Multimodal claim verification | **49** | Monitor | Maintenance appears to be declining | Apache-2.0 |
-| 21 | 347 | [LAA-Net](projects/JAI-A4-28.md) | Deepfake detection | **49** | Monitor | Stable with low activity | SnT Academic License — README states copyrig |
-| 22 | 348 | [Deepfake-Eval-2024](projects/JAI-A4-31.md) | In-the-wild deepfake evaluation | **47** | Reference only | Dormant | NOT CONFIRMED — no licence for code or data  |
-| 23 | 349 | [ASVspoof 2021 baseline systems](projects/JAI-A4-30.md) | Audio spoofing evaluation | **46** | Reference only | Dormant | NOT CONFIRMED — no root LICENSE file found ( |
-| 24 | 350 | [Noiseprint](projects/JAI-A4-22.md) | Camera fingerprint forensics | **46** | Avoid for new deployment | Maintenance appears to be declining | NOT OSS — custom GRIP-UNINA terms: LICENSE.t |
-| 25 | 352 | [Fetch (Meedan ClaimReview aggregator)](projects/JAI-A4-03.md) | Fact-check feed aggregation | **43** | Reference only | Archived or discontinued | MIT |
-| 26 | 353 | [FacTool](projects/JAI-A4-12.md) | LLM output factuality checking | **42** | Reference only | Dormant | Apache-2.0 |
-| 27 | 354 | [FaceForensics++](projects/JAI-A4-26.md) | Deepfake detection dataset | **42** | Reference only | Dormant | MIT (code); data under the separate 'FaceFor |
-| 28 | 356 | [Loki (OpenFactVerification)](projects/JAI-A4-10.md) | LLM-assisted claim verification | **38** | Avoid for new deployment | Dormant | MIT |
-| 29 | 357 | [AVeriTeC dataset and baseline](projects/JAI-A4-07.md) | Fact-verification benchmark | **36** | Reference only | Dormant | NOT CONFIRMED — no LICENSE/COPYING file in t |
-| 30 | 358 | [CooRnet](projects/JAI-A4-14.md) | Coordinated behaviour detection | **36** | Reference only | Archived or discontinued | MIT |
-| 31 | 361 | [ClaimsKG extractor](projects/JAI-A4-09.md) | Fact-check aggregation | **29** | Avoid for new deployment | Dormant | NOT CONFIRMED — GitHub licence API returns 4 |
+| Seg # | Overall # | Project | Subcategory | Total | Verdict | Maintenance | Licence | Open-source status | Software price |
+|--:|--:|---|---|--:|---|---|---|---|---|
+| 1 | 37 | [x-ray](projects/JAI-A4-23.md) | Redaction failure detection | **91** | Adopt | Actively maintained | BSD-2-Clause | Open source | No software fee |
+| 2 | 126 | [InVID-WeVerify Verification Plugin](projects/JAI-A4-04.md) | Media verification toolkit | **82** | Adopt | Actively maintained | MIT (extension code) | Open source | No software fee |
+| 3 | 150 | [Meedan Check](projects/JAI-A4-01.md) | Fact-checking workflow platform | **80** | Pilot | Actively maintained | MIT | Open source | No software fee |
+| 4 | 188 | [CooRTweet](projects/JAI-A4-13.md) | Coordinated behaviour detection | **77** | Adopt | Actively maintained | MIT (project-stated; GitHub API reports SPDX NOASSERTION) | Open source | No software fee |
+| 5 | 259 | [kuroi](projects/JAI-A4-24.md) | Pre-publication redaction | **71** | Pilot | Actively maintained | AGPL-3.0 | Open source | No software fee |
+| 6 | 291 | [Community Forensics](projects/JAI-A4-21.md) | Synthetic image detection | **65** | Pilot | Stable with low activity | MIT (code) | Open source | No software fee |
+| 7 | 302 | [Alegre (Meedan)](projects/JAI-A4-02.md) | Similarity matching service | **63** | Monitor | Actively maintained | MIT | Open source | No software fee |
+| 8 | 303 | [CAT-Net](projects/JAI-A4-19.md) | Image splicing detection | **63** | Pilot | Stable with low activity | Apache-2.0 (code), per the README licence section … | Open source | No software fee |
+| 9 | 315 | [TruFor](projects/JAI-A4-18.md) | Image forgery localisation | **61** | Monitor | Stable with low activity | NOT OSS — custom GRIP-UNINA terms: LICENSE.txt restricts use to … | Source available | No software fee |
+| 10 | 324 | [FEVER platform and baselines](projects/JAI-A4-06.md) | Fact-verification benchmark | **60** | Reference only | Stable with low activity | Apache-2.0 | Open source | No software fee |
+| 11 | 327 | [PhotoHolmes](projects/JAI-A4-17.md) | Image forensics harness | **59** | Pilot | Stable with low activity | Apache-2.0 (base library only) | Mixed | No software fee |
+| 12 | 331 | [UniversalFakeDetect](projects/JAI-A4-20.md) | Synthetic image detection | **59** | Reference only | Stable with low activity | MIT | Open source | No software fee |
+| 13 | 332 | [DeepfakeBench](projects/JAI-A4-25.md) | Deepfake detection benchmark | **58** | Monitor | Maintenance appears to be declining | CC-BY-NC-4.0 (GitHub API reports NOASSERTION) | Source available | No software fee |
+| 14 | 333 | [AASIST](projects/JAI-A4-29.md) | Audio spoofing detection | **58** | Pilot | Dormant | MIT | Open source | No software fee |
+| 15 | 334 | [Full Fact AI Trust Benchmark](projects/JAI-A4-15.md) | AI evaluation for fact-checking | **58** | Reference only | Stable with low activity | Apache-2.0 | Open source | No software fee |
+| 16 | 335 | [Google Fact Check Tools API](projects/JAI-A4-16.md) | Fact-check lookup service | **57** | Integrate | Uncertain | Not applicable (hosted service under Google API Terms of Service) … | Proprietary | Unknown / not verified |
+| 17 | 341 | [X-FACT](projects/JAI-A4-08.md) | Multilingual fact-verification benchmark | **52** | Reference only | Dormant | MIT | Open source | No software fee |
+| 18 | 342 | [ClaimBuster-Spotter](projects/JAI-A4-05.md) | Check-worthiness detection | **51** | Reference only | Dormant | GPL-3.0 | Open source | No software fee |
+| 19 | 343 | [SelfBlendedImages (SBI)](projects/JAI-A4-27.md) | Deepfake detection | **51** | Monitor | Stable with low activity | Custom research-only terms — authors state code and pretrained model … | Source available | No software fee |
+| 20 | 346 | [DEFAME](projects/JAI-A4-11.md) | Multimodal claim verification | **49** | Monitor | Maintenance appears to be declining | Apache-2.0 | Open source | No software fee |
+| 21 | 347 | [LAA-Net](projects/JAI-A4-28.md) | Deepfake detection | **49** | Monitor | Stable with low activity | SnT Academic License — README states copyright University of … | Source available | No software fee |
+| 22 | 348 | [Deepfake-Eval-2024](projects/JAI-A4-31.md) | In-the-wild deepfake evaluation | **47** | Reference only | Dormant | NOT CONFIRMED — no licence for code or data visible on the repository … | Unverified | No software fee |
+| 23 | 349 | [ASVspoof 2021 baseline systems](projects/JAI-A4-30.md) | Audio spoofing evaluation | **46** | Reference only | Dormant | NOT CONFIRMED — no root LICENSE file found … | Unverified | No software fee |
+| 24 | 350 | [Noiseprint](projects/JAI-A4-22.md) | Camera fingerprint forensics | **46** | Avoid for new deployment | Maintenance appears to be declining | NOT OSS — custom GRIP-UNINA terms: LICENSE.txt restricts use to … | Source available | No software fee |
+| 25 | 352 | [Fetch (Meedan ClaimReview aggregator)](projects/JAI-A4-03.md) | Fact-check feed aggregation | **43** | Reference only | Archived or discontinued | MIT | Open source | No software fee |
+| 26 | 353 | [FacTool](projects/JAI-A4-12.md) | LLM output factuality checking | **42** | Reference only | Dormant | Apache-2.0 | Open source | No software fee |
+| 27 | 354 | [FaceForensics++](projects/JAI-A4-26.md) | Deepfake detection dataset | **42** | Reference only | Dormant | MIT (code) … | Source available | No software fee |
+| 28 | 356 | [Loki (OpenFactVerification)](projects/JAI-A4-10.md) | LLM-assisted claim verification | **38** | Avoid for new deployment | Dormant | MIT | Open source | No software fee |
+| 29 | 357 | [AVeriTeC dataset and baseline](projects/JAI-A4-07.md) | Fact-verification benchmark | **36** | Reference only | Dormant | NOT CONFIRMED — no LICENSE/COPYING file in the repository root, GitHub … | Unverified | No software fee |
+| 30 | 358 | [CooRnet](projects/JAI-A4-14.md) | Coordinated behaviour detection | **36** | Reference only | Archived or discontinued | MIT | Open source | No software fee |
+| 31 | 361 | [ClaimsKG extractor](projects/JAI-A4-09.md) | Fact-check aggregation | **29** | Avoid for new deployment | Dormant | NOT CONFIRMED — GitHub licence API returns 404 and no LICENSE file … | Unverified | No software fee |
 
 ## Distribution in this pillar
 

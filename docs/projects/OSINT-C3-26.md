@@ -14,11 +14,40 @@
 | **Maintainer** | Alban Diquet (nabla-c0d3) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | AGPL-3.0 (project licensing — confirm from the repository licence file) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/nabla-c0d3/sslyze) · [Documentation](https://nabla-c0d3.github.io/sslyze/documentation/) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 3/5 · usability 4/5 · licence+cost 4/5 → **weighted 64/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 (project licensing — confirm from the repository licence file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | Copyleft would apply to a modified network service built on it; immaterial for command-line use. Note that AGPL on a scanning tool is unusual and worth confirming if you embed it. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Negligible compute.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/nabla-c0d3/sslyze
+- https://nabla-c0d3.github.io/sslyze/documentation/
 
 ---
 

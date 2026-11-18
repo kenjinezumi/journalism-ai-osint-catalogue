@@ -14,6 +14,9 @@
 | **Maintainer** | Clova AI Research (clovaai) |
 | **Maintenance** | Dormant |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/clovaai/aasist) · [Documentation](https://github.com/clovaai/aasist#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 2/5 · maintenance 1/5 · privacy 5/5 · usability 2/5 · licence+cost 5/5 → **weighted 58/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | MIT — pretrained models shipped in-repository under the same licence. |
+| **Restrictions** | None material. The ASVspoof 2019 LA dataset used for training/evaluation has its own separate terms. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Modest GPU or even CPU for inference on short clips. ASVspoof dataset obtained separately for any retraining. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/clovaai/aasist/blob/main/LICENSE
+- https://github.com/clovaai/aasist
 
 ---
 

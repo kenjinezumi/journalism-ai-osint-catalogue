@@ -15,6 +15,7 @@
 "blockers":["No licence — redistribution legally unresolved"],
 "evidence_urls":["https://github.com/AssoEchap/stalkerware-indicators"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"repo-inspected","provisional":true,
+"summary":"Curated indicator set for consumer stalkerware and monitoring apps — package names, certificates…","licence_type":"Unresolved","oss_status":"Unverified","oss_detail":"Licence could not be confirmed — reuse legally unresolved","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":5,"capability":3,"maintenance":4,"privacy":5,"usability":3,"licence_cost":2}},
 
 {"id":"SUR-B3-11","name":"Amnesty International investigations (indicators of compromise)","maintainer":"Amnesty International Security Lab (AmnestyTech)","pillar":"SUR","segment":"B3","subcategory":"Threat indicators","project_type":"dataset","bucket":"uncertain","repo_url":"https://github.com/AmnestyTech/investigations","docs_url":"https://securitylab.amnesty.org/",
@@ -33,6 +34,7 @@
 "blockers":["No licence; repository not pushed since December 2024 — do not treat as a live indicator feed"],
 "evidence_urls":["https://github.com/AmnestyTech/investigations","https://securitylab.amnesty.org/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified","provisional":true,
+"summary":"Repository of indicators of compromise published alongside Amnesty's technical investigations into mercenary spyware and targeted…","licence_type":"Unresolved","oss_status":"Unverified","oss_detail":"Licence could not be confirmed — reuse legally unresolved","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":5,"capability":3,"maintenance":3,"privacy":5,"usability":3,"licence_cost":2}},
 
 {"id":"SUR-B3-12","name":"SpyGuard","maintainer":"SpyGuard project (fork of Kaspersky's TinyCheck)","pillar":"SUR","segment":"B3","subcategory":"Network-based spyware detection","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/SpyGuard/SpyGuard","docs_url":"https://github.com/SpyGuard/SpyGuard#readme",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/SpyGuard/SpyGuard","https://github.com/SpyGuard/SpyGuard/blob/main/LICENSE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Appliance-style tool that creates a Wi-Fi access point, captures a device's network traffic and analyses it against indicators of…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["hardware", "infrastructure"],"additional_costs_note":"dedicated hardware; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"SUR-B3-13","name":"EFF Rayhunter","maintainer":"Electronic Frontier Foundation","pillar":"SUR","segment":"B3","subcategory":"Cell-site simulator detection","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/EFForg/rayhunter","docs_url":"https://eff.org/rayhunter",
@@ -69,6 +72,7 @@
 "blockers":["Requires specific supported hotspot hardware; operating cellular monitoring may engage local radio law"],
 "evidence_urls":["https://github.com/EFForg/rayhunter","https://eff.org/rayhunter","https://github.com/EFForg/rayhunter/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Rust application that runs on an inexpensive mobile hotspot to analyse the cellular control plane and detect behaviour…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["hardware", "infrastructure"],"additional_costs_note":"dedicated hardware; self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"SUR-B3-14","name":"libimobiledevice","maintainer":"libimobiledevice project","pillar":"SUR","segment":"B3","subcategory":"Device forensics (iOS access)","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/libimobiledevice/libimobiledevice","docs_url":"https://libimobiledevice.org/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/libimobiledevice/libimobiledevice","https://libimobiledevice.org/","https://github.com/libimobiledevice/libimobiledevice/blob/master/COPYING.LESSER"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Cross-platform protocol library and tools for communicating with iOS devices without jailbreaking — creating backups…","licence_type":"Weak copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"SUR-B3-15","name":"iLEAPP","maintainer":"Alexis Brignoni (abrignoni)","pillar":"SUR","segment":"B3","subcategory":"Device forensics (iOS parsing)","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/abrignoni/iLEAPP","docs_url":"https://github.com/abrignoni/iLEAPP#readme",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/abrignoni/iLEAPP","https://github.com/abrignoni/iLEAPP/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"iOS Logs, Events And Plist Parser: processes iOS backups and filesystem extractions into readable reports covering app usage…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":5,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"SUR-B3-16","name":"ALEAPP","maintainer":"Alexis Brignoni (abrignoni)","pillar":"SUR","segment":"B3","subcategory":"Device forensics (Android parsing)","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/abrignoni/ALEAPP","docs_url":"https://github.com/abrignoni/ALEAPP#readme",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/abrignoni/ALEAPP","https://github.com/abrignoni/ALEAPP/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Android Logs Events And Protobuf Parser: processes Android extractions into readable reports across app usage, locations…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":5,"usability":2,"licence_cost":5}},
 
 {"id":"SUR-B3-17","name":"Andriller","maintainer":"Denis Sazonov (den4uk)","pillar":"SUR","segment":"B3","subcategory":"Device forensics (Android)","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/den4uk/andriller","docs_url":"https://github.com/den4uk/andriller#readme",
@@ -141,6 +148,7 @@
 "blockers":["Dormant since 2022; Android internals have changed substantially since"],
 "evidence_urls":["https://github.com/den4uk/andriller","https://github.com/den4uk/andriller/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Collection of forensic tools for Android devices with a graphical interface, performing data extraction…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":2,"capability":2,"maintenance":1,"privacy":4,"usability":3,"licence_cost":5}},
 
 {"id":"SUR-B3-18","name":"Autopsy","maintainer":"Basis Technology / Sleuth Kit project","pillar":"SUR","segment":"B3","subcategory":"Digital forensics platform","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/sleuthkit/autopsy","docs_url":"https://www.autopsy.com/",
@@ -159,5 +167,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/sleuthkit/autopsy","https://www.autopsy.com/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Graphical digital-forensics platform built on The Sleuth Kit, providing disk-image analysis, timeline reconstruction…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure", "staff-effort"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":4,"maintenance":3,"privacy":5,"usability":3,"licence_cost":4}}
 ]

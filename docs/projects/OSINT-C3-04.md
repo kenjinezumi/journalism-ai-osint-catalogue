@@ -14,6 +14,9 @@
 | **Maintainer** | Overview Project (Jonathan Stray lineage) |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | AGPL-3.0 (verified in session 1 by reading the licence text, resolving a GitHub NOASSERTION) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/overview/overview-server) · [Documentation](https://blog.overviewdocs.com/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 2/5 · privacy 4/5 · usability 4/5 · licence+cost 4/5 → **weighted 64/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 (verified in session 1 by reading the licence text, resolving a GitHub NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | AGPL-3.0: a modified instance offered to users obliges source publication. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. Self-hosting a Scala multi-service platform is a meaningful operational commitment for the capability delivered. Hosted service terms not verified. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/overview/overview-server/blob/master/LICENSE
+- https://github.com/overview/overview-server
+- `../sources/recovered/a1disc/notes.md`
 
 ---
 

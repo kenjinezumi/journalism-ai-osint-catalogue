@@ -14,6 +14,9 @@
 | **Maintainer** | Eric Price (ecprice) and collaborators |
 | **Maintenance** | Dormant |
 | **Licence** | MIT per session-1 inspection, but mixed per-file licensing was found and GitHub reports NOASSERTION — reuse requires file-by-file review |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ecprice/newsdiffs) · [Documentation](http://www.newsdiffs.org/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 2/5 · capability 1/5 · maintenance 1/5 · privacy 3/5 · usability 1/5 · licence+cost 2/5 → **weighted 34/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT per session-1 inspection, but mixed per-file licensing was found and GitHub reports NOASSERTION — reuse requires file-by-file review |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | Unclear in aggregate. Do not vendor code from it without reviewing each file's header. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Not deployable on a supported runtime without substantial porting work.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ecprice/newsdiffs
+- http://www.newsdiffs.org/
 
 ---
 

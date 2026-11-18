@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/wireservice/csvkit","https://csvkit.readthedocs.io/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Suite of command-line tools for converting to and working with CSV: format conversion, SQL querying, joining, statistics…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":5,"capability":3,"maintenance":3,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A1-19","name":"DuckDB spatial extension","aka":"duckdb-spatial","maintainer":"DuckDB Labs","pillar":"JAI","segment":"A1","subcategory":"Analytical database","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/duckdb/duckdb-spatial","docs_url":"https://duckdb.org/docs/extensions/spatial",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/duckdb/duckdb-spatial","https://duckdb.org/docs/extensions/spatial","https://github.com/duckdb/duckdb-spatial/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Spatial extension for DuckDB providing geometry types, spatial functions, spatial joins and reading of common geospatial formats…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A1-20","name":"Zingg","maintainer":"Zingg AI","pillar":"JAI","segment":"A1","subcategory":"Entity resolution","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/zinggAI/zingg","docs_url":"https://docs.zingg.ai/",
@@ -51,6 +53,7 @@
 "blockers":["Spark dependency is disproportionate for most newsroom volumes; open-core capability boundary unverified"],
 "evidence_urls":["https://github.com/zinggAI/zingg","https://docs.zingg.ai/"],
 "verification_date":"2026-11-17","confidence":"low","depth":"metadata-verified","provisional":true,
+"summary":"Spark-based entity-resolution and identity-graph tool using active learning to train match models, with blocking…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":2,"capability":4,"maintenance":2,"privacy":4,"usability":2,"licence_cost":3}},
 
 {"id":"JAI-A1-21","name":"Leaflet","maintainer":"Volodymyr Agafonkin and contributors","pillar":"JAI","segment":"A1","subcategory":"Map publishing","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/Leaflet/Leaflet","docs_url":"https://leafletjs.com/reference.html",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/Leaflet/Leaflet","https://leafletjs.com/reference.html","https://github.com/Leaflet/Leaflet/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Lightweight JavaScript library for interactive maps, with tile-layer support, vector overlays, markers…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":3,"usability":5,"licence_cost":5}},
 
 {"id":"JAI-A1-22","name":"MapLibre GL JS","maintainer":"MapLibre organisation","pillar":"JAI","segment":"A1","subcategory":"Map publishing","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/maplibre/maplibre-gl-js","docs_url":"https://maplibre.org/maplibre-gl-js/docs/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/maplibre/maplibre-gl-js","https://maplibre.org/maplibre-gl-js/docs/","https://github.com/maplibre/maplibre-gl-js/blob/main/LICENSE.txt","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"WebGL-based vector-tile map rendering library, the community fork of Mapbox GL JS from before its licence change…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A1-23","name":"tippecanoe","maintainer":"Felt (transferred from Mapbox)","pillar":"JAI","segment":"A1","subcategory":"Map publishing","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/felt/tippecanoe","docs_url":"https://github.com/felt/tippecanoe#readme",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/felt/tippecanoe","https://github.com/felt/tippecanoe/blob/main/LICENSE.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Command-line tool that builds vector tilesets from large GeoJSON collections, with zoom-dependent feature selection…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A1-24","name":"PMTiles","maintainer":"Protomaps","pillar":"JAI","segment":"A1","subcategory":"Map publishing","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/protomaps/PMTiles","docs_url":"https://docs.protomaps.com/pmtiles/",
@@ -123,5 +129,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/protomaps/PMTiles/blob/main/LICENSE","https://docs.protomaps.com/pmtiles/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"Single-file archive format for map tiles that supports HTTP range requests, allowing a whole tileset to be served from static…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":5}}
 ]

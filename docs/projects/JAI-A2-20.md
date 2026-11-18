@@ -14,11 +14,40 @@
 | **Maintainer** | cisnlp (University of Munich / CIS) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | Apache-2.0 with additional notices (LICENSE file read directly: 'Apache License 2.0 plus notices', with appended notices on training data and model behaviour; GitHub API reports NOASSERTION) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/cisnlp/GlotLID) · [Documentation](https://github.com/cisnlp/GlotLID#readme) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 68/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 with additional notices (LICENSE file read directly: 'Apache License 2.0 plus notices', with appended notices on training data and model behaviour; GitHub API reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Apache-2.0 with the same additional notices. |
+| **Restrictions** | No field-of-use restriction found. The appended notices are disclaimers about training-data provenance rather than usage limits, but read them before redistributing the model file. |
+| **Open-source status** | **Open source** — Open model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. One model file (hundreds of MB for the full label set), CPU inference, negligible cost.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/cisnlp/GlotLID/blob/main/LICENSE
+- https://github.com/cisnlp/GlotLID
 
 ---
 

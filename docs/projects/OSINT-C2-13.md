@@ -14,11 +14,41 @@
 | **Maintainer** | Content Authenticity Initiative (contentauth) |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 OR MIT (dual; GitHub reports NOASSERTION) |
+| **Licence type** | Dual-licensed |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/contentauth/c2pa-rs) · [Documentation](https://opensource.contentauthenticity.org/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 5/5 · privacy 4/5 · usability 3/5 · licence+cost 4/5 → **weighted 81/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Dual-licensed |
+| **Exact licence (as recorded)** | Apache-2.0 OR MIT (dual; GitHub reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a. Trust lists and certificates are governed by the issuing authorities' terms. |
+| **Restrictions** | Dual permissive licensing — choose either and record the choice. The practical constraints are PKI-related: obtaining a certificate recognised by the relevant trust list is a governance question, not a licence one. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. Signing requires a certificate: costs depend on the issuing authority and were NOT verified in this survey. Rust toolchain for building; negligible runtime cost. No GPU.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/contentauth/c2pa-rs/blob/main/LICENSE-MIT
+- https://github.com/contentauth/c2pa-rs
+- https://opensource.contentauthenticity.org/
 
 ---
 

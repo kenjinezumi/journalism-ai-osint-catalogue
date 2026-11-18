@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/exiftool/exiftool","https://exiftool.org/","https://github.com/exiftool/exiftool/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Perl library and command-line tool that reads, writes and edits metadata in several hundred file formats, covering EXIF, IPTC…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C2-02","name":"PyExifTool","maintainer":"sylikc and contributors","pillar":"OSINT","segment":"C2","subcategory":"Metadata extraction","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/sylikc/pyexiftool","docs_url":"https://sylikc.github.io/pyexiftool/",
@@ -33,6 +34,7 @@
 "blockers":["Dormant since 2023; have a direct-subprocess fallback in mind"],
 "evidence_urls":["https://github.com/sylikc/pyexiftool","https://sylikc.github.io/pyexiftool/"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python wrapper that runs ExifTool as a persistent subprocess and exposes its output as Python dictionaries…","licence_type":"Dual-licensed","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":3,"maintenance":1,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-03","name":"Exiv2","maintainer":"Exiv2 community","pillar":"OSINT","segment":"C2","subcategory":"Metadata extraction","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/Exiv2/exiv2","docs_url":"https://exiv2.org/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/Exiv2/exiv2","https://exiv2.org/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"C++ library and CLI for reading and writing image metadata — EXIF, IPTC, XMP and several maker-note dialects…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C2-04","name":"MediaInfo","maintainer":"MediaArea","pillar":"OSINT","segment":"C2","subcategory":"Video container analysis","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/MediaArea/MediaInfo","docs_url":"https://mediaarea.net/MediaInfo",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/MediaArea/MediaInfo","https://mediaarea.net/MediaInfo","https://github.com/MediaArea/MediaInfo/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"GUI and CLI tool reporting technical and tag information for video and audio files: container structure, codecs, bitrates…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-05","name":"ImageHash","maintainer":"Johannes Buchner","pillar":"OSINT","segment":"C2","subcategory":"Perceptual hashing","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/JohannesBuchner/imagehash","docs_url":"https://github.com/JohannesBuchner/imagehash#readme",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/JohannesBuchner/imagehash","https://github.com/JohannesBuchner/imagehash/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library implementing classic perceptual hashes — average, perceptual (DCT), difference, wavelet and colour hashes…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-06","name":"ThreatExchange (PDQ / TMK+PDQF / vPDQ and HMA)","maintainer":"Meta (repository transferred from facebook/ThreatExchange)","pillar":"OSINT","segment":"C2","subcategory":"Perceptual hashing at scale","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/meta/ThreatExchange","docs_url":"https://github.com/meta/ThreatExchange#readme",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/meta/ThreatExchange","https://github.com/meta/ThreatExchange/blob/main/LICENSE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Collection of production perceptual-hashing algorithms (PDQ for images, TMK+PDQF and vPDQ for video) plus…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C2-07","name":"imagededup","maintainer":"idealo","pillar":"OSINT","segment":"C2","subcategory":"Image deduplication","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/idealo/imagededup","docs_url":"https://idealo.github.io/imagededup/",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/idealo/imagededup","https://idealo.github.io/imagededup/","https://github.com/idealo/imagededup/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library for finding duplicate and near-duplicate images using either perceptual hashing or CNN embeddings…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":2,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C2-08","name":"pHash","maintainer":"Aetilius","pillar":"OSINT","segment":"C2","subcategory":"Perceptual hashing (audio/video)","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/aetilius/pHash","docs_url":"https://www.phash.org/",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/aetilius/pHash","https://www.phash.org/","https://github.com/aetilius/pHash/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"C++ library implementing perceptual hashes for images, audio and video, with DCT…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C2-09","name":"blockhash-python","maintainer":"Commons Machinery","pillar":"OSINT","segment":"C2","subcategory":"Perceptual hashing","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/commonsmachinery/blockhash-python","docs_url":"https://github.com/commonsmachinery/blockhash-python#readme",
@@ -159,5 +167,6 @@
 "blockers":["Dormant since 2023 and superseded by better-maintained alternatives"],
 "evidence_urls":["https://github.com/commonsmachinery/blockhash-python","https://github.com/commonsmachinery/blockhash-python/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python implementation of the blockhash perceptual-hashing algorithm, which divides an image into blocks and derives a hash from…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":2,"capability":2,"maintenance":1,"privacy":5,"usability":3,"licence_cost":5}}
 ]

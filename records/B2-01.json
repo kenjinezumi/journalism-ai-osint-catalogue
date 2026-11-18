@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/Exodus-Privacy/exodus","https://exodus-privacy.eu.org/en/","../sources/evidence/b2-sources.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Platform that statically analyses Android applications to identify embedded trackers and requested permissions…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":4,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B2-02","name":"Blacklight collector","maintainer":"The Markup","pillar":"SUR","segment":"B2","subcategory":"Tracker analysis (web)","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/the-markup/blacklight-collector","docs_url":"https://themarkup.org/blacklight",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/the-markup/blacklight-collector","https://themarkup.org/blacklight","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Node library that loads a web page in an instrumented browser and records its tracking behaviour: third-party cookies…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":3,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"SUR-B2-03","name":"DuckDuckGo Tracker Radar","maintainer":"DuckDuckGo","pillar":"SUR","segment":"B2","subcategory":"Tracker reference dataset","project_type":"dataset","bucket":"source-available-restricted","repo_url":"https://github.com/duckduckgo/tracker-radar","docs_url":"https://github.com/duckduckgo/tracker-radar#readme",
@@ -51,6 +53,7 @@
 "blockers":["CC-BY-NC-SA-4.0 — NonCommercial bars commercial productisation; ShareAlike propagates to derived datasets"],
 "evidence_urls":["https://github.com/duckduckgo/tracker-radar/blob/main/LICENSE","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"Regularly regenerated dataset describing the most common third-party domains on the web: who owns them, what they do…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Restricted data licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":2}},
 
 {"id":"SUR-B2-04","name":"MobSF (Mobile Security Framework)","maintainer":"Ajin Abraham and contributors","pillar":"SUR","segment":"B2","subcategory":"Mobile app analysis","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/MobSF/Mobile-Security-Framework-MobSF","docs_url":"https://mobsf.github.io/docs/",
@@ -69,6 +72,7 @@
 "blockers":["Reverse-engineering an app may engage terms of service and local law — obtain a legal view first"],
 "evidence_urls":["https://github.com/MobSF/Mobile-Security-Framework-MobSF","https://mobsf.github.io/docs/","https://github.com/MobSF/Mobile-Security-Framework-MobSF/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Automated mobile application security framework performing static and dynamic analysis of Android, iOS and Windows apps…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":5,"maintenance":5,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"SUR-B2-05","name":"Apktool","maintainer":"Connor Tumbleson (iBotPeaches) and contributors","pillar":"SUR","segment":"B2","subcategory":"Mobile app reverse engineering","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/iBotPeaches/Apktool","docs_url":"https://apktool.org/",
@@ -87,6 +91,7 @@
 "blockers":["Reverse engineering may breach app terms and local law"],
 "evidence_urls":["https://github.com/iBotPeaches/Apktool","https://apktool.org/","https://github.com/iBotPeaches/Apktool/blob/master/LICENSE.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Tool for reverse engineering Android APK files: decodes resources to near-original form, disassembles bytecode to smali…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"SUR-B2-06","name":"mitmproxy","maintainer":"mitmproxy project","pillar":"SUR","segment":"B2","subcategory":"Network traffic interception","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/mitmproxy/mitmproxy","docs_url":"https://docs.mitmproxy.org/",
@@ -105,5 +110,6 @@
 "blockers":["Certificate pinning blocks interception for many apps; intercepting traffic you are not authorised to intercept is unlawful"],
 "evidence_urls":["https://github.com/mitmproxy/mitmproxy","https://docs.mitmproxy.org/","https://github.com/mitmproxy/mitmproxy/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Interactive TLS-capable intercepting HTTP(S) proxy with a console UI, web interface and Python scripting API…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":5,"usability":3,"licence_cost":5}}
 ]

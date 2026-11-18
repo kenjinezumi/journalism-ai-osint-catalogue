@@ -14,11 +14,40 @@
 | **Maintainer** | Georgi Gerganov / ggml-org |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ggml-org/llama.cpp) · [Documentation](https://github.com/ggml-org/llama.cpp#readme) |
 
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 5/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 96/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a for the engine. Model weights carry their own licences, which vary enormously — this is where the licence risk in local AI actually sits. |
+| **Restrictions** | Engine unrestricted. The engine licence does not launder a restricted model licence: running a non-commercial or restricted-weights model locally is still bound by those weights' terms. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. The cost is hardware: a GPU with sufficient VRAM for your chosen model (or substantial RAM for CPU inference at lower speed). One shared GPU host serves a small newsroom. Estimate; assumes self-hosted.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ggml-org/llama.cpp/blob/master/LICENSE
+- https://github.com/ggml-org/llama.cpp
 
 ---
 

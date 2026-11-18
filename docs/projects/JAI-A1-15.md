@@ -14,6 +14,9 @@
 | **Maintainer** | Alex Smith (alex9smith) |
 | **Maintenance** | Dormant |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/alex9smith/gdelt-doc-api) · [Documentation](https://github.com/alex9smith/gdelt-doc-api#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 1/5 · privacy 3/5 · usability 4/5 · licence+cost 5/5 → **weighted 60/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | GDELT data terms apply to the underlying archive and were not verified in this survey; article content remains the publishers' copyright. |
+| **Restrictions** | Client unrestricted. Check GDELT's own terms before republishing data derived from it. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee; the GDELT Document API is free. Negligible compute.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/alex9smith/gdelt-doc-api/blob/main/LICENSE
+- https://github.com/alex9smith/gdelt-doc-api
 
 ---
 

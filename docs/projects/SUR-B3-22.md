@@ -14,6 +14,9 @@
 | **Maintainer** | IDRIX / Mounir Idrassi |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 plus TrueCrypt Licence 3.0 for inherited code (GitHub reports NOASSERTION) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/veracrypt/VeraCrypt) · [Documentation](https://veracrypt.io/en/Documentation.html) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 4/5 · licence+cost 4/5 → **weighted 83/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 plus TrueCrypt Licence 3.0 for inherited code (GitHub reports NOASSERTION) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | The TrueCrypt Licence 3.0 component is not an OSI-approved licence and has known redistribution ambiguities — relevant if you bundle VeraCrypt into a distributed product or image, immaterial for ordinary use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. No infrastructure. Cost is user training and the discipline of key management — a forgotten passphrase on an encrypted archive is a permanent data loss.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/veracrypt/VeraCrypt/blob/master/License.txt
+- https://github.com/veracrypt/VeraCrypt
+- https://veracrypt.io/en/Documentation.html
 
 ---
 

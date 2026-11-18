@@ -15,6 +15,7 @@
 "blockers":["A full scan discloses the target to many third parties at once and includes active probing"],
 "evidence_urls":["https://github.com/smicallef/spiderfoot","https://www.spiderfoot.net/documentation/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"OSINT automation platform with 200-plus modules that take a seed (domain, IP, email…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid API keys for many modules (realistic capability has a recurring cost); self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":3,"privacy":2,"usability":4,"licence_cost":3}},
 
 {"id":"OSINT-C3-30","name":"recon-ng","maintainer":"Tim Tomes (lanmaster53)","pillar":"OSINT","segment":"C3","subcategory":"OSINT automation","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/lanmaster53/recon-ng","docs_url":"https://github.com/lanmaster53/recon-ng/wiki",
@@ -33,6 +34,7 @@
 "blockers":["Slowed maintenance against degraded data sources means silent module failure"],
 "evidence_urls":["https://github.com/lanmaster53/recon-ng","https://github.com/lanmaster53/recon-ng/wiki"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Modular reconnaissance framework with a Metasploit-style interactive console, independent modules for discovery and enrichment…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":2,"privacy":3,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C3-31","name":"NetworkX","maintainer":"NetworkX developers (NumFOCUS)","pillar":"OSINT","segment":"C3","subcategory":"Link analysis","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/networkx/networkx","docs_url":"https://networkx.org/documentation/stable/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/networkx/networkx","https://networkx.org/documentation/stable/","https://github.com/networkx/networkx/blob/main/LICENSE.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library for creating, manipulating and analysing graphs and networks, with a comprehensive collection of algorithms for…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C3-32","name":"igraph","maintainer":"igraph development team","pillar":"OSINT","segment":"C3","subcategory":"Link analysis","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/igraph/igraph","docs_url":"https://igraph.org/c/doc/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/igraph/igraph","https://igraph.org/c/doc/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"C library for graph analysis with bindings for Python, R and Mathematica, implementing a wide range of algorithms with…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":4,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C3-33","name":"Gephi","maintainer":"Gephi Consortium","pillar":"OSINT","segment":"C3","subcategory":"Network visualisation","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/gephi/gephi","docs_url":"https://gephi.org/users/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/gephi/gephi","https://gephi.org/users/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Desktop application for interactive network visualisation and exploration, with force-directed layouts, filtering…","licence_type":"Dual-licensed","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":3,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C3-34","name":"sigma.js","maintainer":"Alexis Jacomy and the sigma.js community","pillar":"OSINT","segment":"C3","subcategory":"Network visualisation (web)","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/jacomyal/sigma.js","docs_url":"https://www.sigmajs.org/",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/jacomyal/sigma.js","https://www.sigmajs.org/","https://github.com/jacomyal/sigma.js/blob/main/LICENSE.txt"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"JavaScript library for rendering interactive network graphs in the browser using WebGL, with layouts…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":4,"usability":3,"licence_cost":5}},
 
 {"id":"OSINT-C3-35","name":"Neo4j Community Edition","maintainer":"Neo4j Inc.","pillar":"OSINT","segment":"C3","subcategory":"Graph database","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/neo4j/neo4j","docs_url":"https://neo4j.com/docs/",
@@ -123,5 +129,6 @@
 "blockers":["Community Edition lacks access control and clustering; Enterprise pricing is quote-only"],
 "evidence_urls":["https://github.com/neo4j/neo4j","https://neo4j.com/pricing/","../sources/recovered/cat/pricing.tsv","../sources/evidence/pricing.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Graph database with the Cypher query language, ACID transactions, indexing and a browser interface…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"Community Edition free (GPL-3.0); Enterprise and Infinigraph quote-only; AuraDB Free USD 0, Professional from USD 0.09/GB/hour, Business Critical from USD 0.20/GB/hour (verified 2026-11-16)","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid Enterprise licence or metered AuraDB hosting; self-hosted JVM infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":3}}
 ]

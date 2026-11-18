@@ -14,6 +14,9 @@
 | **Maintainer** | Microsoft |
 | **Maintenance** | Uncertain |
 | **Licence** | MIT on the public repository (documentation and tracker); the platform itself operates under Microsoft service terms, not verified in this survey |
+| **Licence type** | Proprietary |
+| **Open-source status** | Proprietary |
+| **Software price** | **Unknown / not verified** — not established by the records |
 | **Confidence** | low · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/microsoft/PlanetaryComputer) · [Documentation](https://planetarycomputer.microsoft.com/docs/) |
@@ -21,6 +24,35 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 2/5 · privacy 2/5 · usability 3/5 · licence+cost 4/5 → **weighted 60/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Proprietary |
+| **Exact licence (as recorded)** | MIT on the public repository (documentation and tracker); the platform itself operates under Microsoft service terms, not verified in this survey |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Catalogue datasets carry their own licences — predominantly open (Copernicus, USGS, CC-BY) but per-dataset verification is needed before republication. |
+| **Restrictions** | The repository licence is immaterial. The operative terms are Microsoft's service terms plus each dataset's licence; neither was verified here. |
+| **Open-source status** | **Proprietary** — Hosted service or proprietary software — governed by service terms, not a software licence |
+| **Software price** | **Unknown / not verified** — not established by the records |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **low** |
+
+**Recorded cost detail.** Historically free for catalogue access and Hub compute, but current terms and limits were NOT verified in this survey — treat as unknown and confirm before planning work around it. No software fee.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/microsoft/PlanetaryComputer/blob/main/LICENSE
+- https://github.com/microsoft/PlanetaryComputer
+- https://planetarycomputer.microsoft.com/docs/
+
+> **Unresolved:** the price is not established by these records — this is not a statement that it is free.
 
 ---
 

@@ -14,6 +14,9 @@
 | **Maintainer** | Sentinel Hub (Planet) |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT (library) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** — library free (MIT); Sentinel Hub / Planet service pricing NOT publicly listed — quote required (re-verified 2026-11-17) |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/sentinel-hub/sentinelhub-py) · [Documentation](https://sentinelhub-py.readthedocs.io/) |
@@ -21,6 +24,35 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 2/5 · usability 4/5 · licence+cost 2/5 → **weighted 70/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (library) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Imagery licences vary by source: Sentinel data is openly licensed under the Copernicus terms; commercial constellations accessed through the service carry restrictive per-scene terms including limits on redistribution of imagery and sometimes of derived products. |
+| **Restrictions** | Library is unrestricted. The imagery is where the restrictions are, and they matter for publication: confirm redistribution rights for any commercial scene you intend to publish, including whether you may publish a derived index image. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** — library free (MIT); Sentinel Hub / Planet service pricing NOT publicly listed — quote required (re-verified 2026-11-17) |
+| **Additional costs** | **Mandatory paid dependency** — mandatory paid satellite-imagery service for commercial constellations (quote required); self-hosted compute |
+| **Cost conditions** | **Mandatory paid dependency**; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** Library free. Service: **not publicly listed — quote required** (verified 2026-11-17: sentinel-hub.com/pricing redirects to planet.com/pricing, which rendered no prices). Historical free and research tiers cannot be confirmed. Budget as an unknown pending a vendor quote; do not plan against any figure from secondary sources.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/sentinel-hub/sentinelhub-py/blob/master/LICENSE.md
+- https://github.com/sentinel-hub/sentinelhub-py
+- https://www.sentinel-hub.com/pricing/
+- https://www.planet.com/pricing/
+- `../sources/evidence/pricing.md`
 
 ---
 

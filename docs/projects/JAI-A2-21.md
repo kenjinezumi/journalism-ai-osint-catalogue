@@ -14,11 +14,40 @@
 | **Maintainer** | Helsinki-NLP (University of Helsinki Language Technology group) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT (code in Opus-MT and OPUS-MT-train) |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/Helsinki-NLP/Opus-MT) · [Documentation](https://github.com/Helsinki-NLP/Opus-MT-train) |
 
 **Scores** — relevance 4/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 76/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT (code in Opus-MT and OPUS-MT-train) |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | CC-BY-4.0 verified on the HuggingFace card for Helsinki-NLP/opus-mt-ru-en; coverage varies, check each pair. |
+| **Restrictions** | CC-BY-4.0 requires attribution — include the model card citation in your methodology note. No non-commercial restriction on the verified pair. |
+| **Open-source status** | **Open source** — Open model weights |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. CPU inference, a few hundred MB per pair. No paid dependencies.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://huggingface.co/Helsinki-NLP/opus-mt-ru-en
+- https://github.com/Helsinki-NLP/Opus-MT
 
 ---
 

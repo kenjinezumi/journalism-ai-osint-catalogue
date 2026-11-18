@@ -14,6 +14,9 @@
 | **Maintainer** | Ben Busby (benbusby) |
 | **Maintenance** | Archived or discontinued |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/benbusby/whoogle-search) · [Documentation](https://github.com/benbusby/whoogle-search#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 2/5 · capability 1/5 · maintenance 0/5 · privacy 3/5 · usability 3/5 · licence+cost 4/5 → **weighted 39/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | None, but the code is frozen and non-functional for its primary purpose. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. The viable fallback path (Google Custom Search API) is a paid dependency beyond 100 free queries per day — rates not verified in this survey.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/benbusby/whoogle-search/blob/main/LICENSE
+- https://github.com/benbusby/whoogle-search
 
 ---
 

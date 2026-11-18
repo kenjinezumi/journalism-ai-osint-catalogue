@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/adbar/trafilatura","https://trafilatura.readthedocs.io/","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library and CLI that downloads web pages and extracts the main text, metadata, comments and publication dates…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A1-02","name":"news-please","maintainer":"Felix Hamborg (fhamborg)","pillar":"JAI","segment":"A1","subcategory":"News crawling and extraction","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/fhamborg/news-please","docs_url":"https://github.com/fhamborg/news-please#readme",
@@ -33,6 +34,7 @@
 "blockers":["Archived as of 2026-04-14 — read-only, and news-site changes will silently degrade coverage"],
 "evidence_urls":["https://github.com/fhamborg/news-please","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Integrated news crawler and information extractor that discovers articles from sitemaps and RSS, extracts text, title…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":0,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A1-03","name":"FreshRSS","maintainer":"FreshRSS community","pillar":"JAI","segment":"A1","subcategory":"Feed aggregation","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/FreshRSS/FreshRSS","docs_url":"https://freshrss.github.io/FreshRSS/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/FreshRSS/FreshRSS","https://freshrss.github.io/FreshRSS/","https://github.com/FreshRSS/FreshRSS/blob/edge/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Self-hosted feed aggregator supporting RSS, Atom and scraped sources, with multi-user accounts, filtering rules…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":5,"licence_cost":4}},
 
 {"id":"JAI-A1-04","name":"Miniflux","maintainer":"Frédéric Guillot","pillar":"JAI","segment":"A1","subcategory":"Feed aggregation","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/miniflux/v2","docs_url":"https://miniflux.app/docs/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/miniflux/v2","https://miniflux.app/docs/","https://github.com/miniflux/v2/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Minimalist self-hosted feed reader written in Go, with a single binary, PostgreSQL storage, filtering rules…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":5,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A1-05","name":"RSSHub","maintainer":"DIYgod and contributors","pillar":"JAI","segment":"A1","subcategory":"Feed generation","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/DIYgod/RSSHub","docs_url":"https://docs.rsshub.app/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/DIYgod/RSSHub","https://docs.rsshub.app/","https://github.com/DIYgod/RSSHub/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Extensible feed-generation service with several thousand community-maintained routes…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":4}},
 
 {"id":"JAI-A1-06","name":"RSS-Bridge","maintainer":"RSS-Bridge community","pillar":"JAI","segment":"A1","subcategory":"Feed generation","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/RSS-Bridge/rss-bridge","docs_url":"https://rss-bridge.github.io/rss-bridge/",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/RSS-Bridge/rss-bridge","https://rss-bridge.github.io/rss-bridge/","https://github.com/RSS-Bridge/rss-bridge/blob/master/UNLICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"PHP service with community-maintained 'bridges' that generate RSS, Atom and JSON feeds from websites and platforms lacking them","licence_type":"Public domain","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":3,"maintenance":4,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A1-07","name":"feedparser","maintainer":"Kurt McKee (kurtmckee)","pillar":"JAI","segment":"A1","subcategory":"Feed parsing","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/kurtmckee/feedparser","docs_url":"https://feedparser.readthedocs.io/",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/kurtmckee/feedparser","https://feedparser.readthedocs.io/","../sources/recovered/a1disc/notes.md"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python library that parses RSS, Atom and RDF feeds of any version, normalising their inconsistencies and handling malformed…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":3,"maintenance":5,"privacy":5,"usability":5,"licence_cost":5}},
 
 {"id":"JAI-A1-08","name":"Playwright","maintainer":"Microsoft","pillar":"JAI","segment":"A1","subcategory":"Browser automation","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/microsoft/playwright","docs_url":"https://playwright.dev/",
@@ -141,6 +148,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/microsoft/playwright","https://playwright.dev/","https://github.com/microsoft/playwright/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Browser-automation framework driving Chromium, Firefox and WebKit with a unified API, auto-waiting, network interception…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A1-09","name":"MarkItDown","maintainer":"Microsoft","pillar":"JAI","segment":"A1","subcategory":"Document conversion","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/microsoft/markitdown","docs_url":"https://github.com/microsoft/markitdown#readme",
@@ -159,5 +167,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/microsoft/markitdown","https://github.com/microsoft/markitdown/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Python utility that converts many file and document formats — Office documents, PDFs, HTML, images, audio, archives…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":5,"privacy":4,"usability":5,"licence_cost":5}}
 ]

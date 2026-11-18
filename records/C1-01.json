@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/searxng/searxng","https://docs.searxng.org/","https://github.com/searxng/searxng/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Self-hosted privacy-respecting metasearch engine that queries dozens of upstream engines and aggregates the results…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C1-02","name":"4get","maintainer":"lolcat (self-hosted forge git.lolcat.ca)","pillar":"OSINT","segment":"C1","subcategory":"Meta-search","project_type":"platform","bucket":"verified-oss","repo_url":"https://git.lolcat.ca/lolcat/4get","docs_url":"https://git.lolcat.ca/lolcat/4get",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://git.lolcat.ca/lolcat/4get","https://git.lolcat.ca/lolcat/4get/commits/branch/master"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"repo-inspected",
+"summary":"Lightweight PHP metasearch proxy that queries multiple upstream engines without requiring JavaScript or accounts…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C1-03","name":"LibreY","maintainer":"Ahwx and contributors","pillar":"OSINT","segment":"C1","subcategory":"Meta-search","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/Ahwxorg/LibreY","docs_url":"https://github.com/Ahwxorg/LibreY#readme",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/Ahwxorg/LibreY","https://github.com/Ahwxorg/LibreY/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Lightweight self-hosted metasearch front end in PHP that proxies queries to several upstream engines and aggregates results…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":2,"maintenance":3,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C1-04","name":"Whoogle Search","maintainer":"Ben Busby (benbusby)","pillar":"OSINT","segment":"C1","subcategory":"Meta-search","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/benbusby/whoogle-search","docs_url":"https://github.com/benbusby/whoogle-search#readme",
@@ -69,6 +72,7 @@
 "blockers":["Archived; the Google scraping path it depends on is closed"],
 "evidence_urls":["https://github.com/benbusby/whoogle-search","https://github.com/benbusby/whoogle-search/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Self-hosted, ad-free, JavaScript-free front end that proxied Google search results without cookies or tracking","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":2,"capability":1,"maintenance":0,"privacy":3,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C1-05","name":"Marginalia Search","maintainer":"Viktor Lofgren (MarginaliaSearch)","pillar":"OSINT","segment":"C1","subcategory":"Independent search index","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/MarginaliaSearch/MarginaliaSearch","docs_url":"https://search.marginalia.nu/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/MarginaliaSearch/MarginaliaSearch","https://search.marginalia.nu/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Independent search engine with its own crawler and index that deliberately de-prioritises commercial content, surfacing small…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":4,"privacy":3,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C1-06","name":"YaCy","maintainer":"YaCy community","pillar":"OSINT","segment":"C1","subcategory":"Self-hosted search index","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/yacy/yacy_search_server","docs_url":"https://yacy.net/",
@@ -105,6 +110,7 @@
 "blockers":["P2P mode would disclose index fragments — must be explicitly disabled"],
 "evidence_urls":["https://github.com/yacy/yacy_search_server","https://yacy.net/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Peer-to-peer search engine that crawls and indexes websites locally, usable as a standalone private index or federated with other…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"OSINT-C1-07","name":"pagodo","maintainer":"opsdisk","pillar":"OSINT","segment":"C1","subcategory":"Search dorking","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/opsdisk/pagodo","docs_url":"https://github.com/opsdisk/pagodo#readme",
@@ -123,6 +129,7 @@
 "blockers":["Archived; automated Google dorking is non-functional as of late 2026"],
 "evidence_urls":["https://github.com/opsdisk/pagodo","https://github.com/opsdisk/pagodo/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Tool that scraped the Google Hacking Database for dork patterns and ran them against Google to find exposed files…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":2,"capability":1,"maintenance":0,"privacy":2,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C1-08","name":"dorks_hunter","maintainer":"six2dez","pillar":"OSINT","segment":"C1","subcategory":"Search dorking","project_type":"cli","bucket":"uncertain","repo_url":"https://github.com/six2dez/dorks_hunter","docs_url":"https://github.com/six2dez/dorks_hunter#readme",
@@ -141,6 +148,7 @@
 "blockers":["No licence — reuse legally unresolved","Automated Google dorking degraded by anti-scraping measures"],
 "evidence_urls":["https://github.com/six2dez/dorks_hunter"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"repo-inspected","provisional":true,
+"summary":"Script that runs a curated set of Google dork queries against a target domain to find exposed documents, configuration files…","licence_type":"Unresolved","oss_status":"Unverified","oss_detail":"Licence could not be confirmed — reuse legally unresolved","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":2,"capability":2,"maintenance":3,"privacy":2,"usability":3,"licence_cost":1}},
 
 {"id":"OSINT-C1-09","name":"Metabigor","maintainer":"j3ssie","pillar":"OSINT","segment":"C1","subcategory":"Infrastructure footprinting","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/j3ssie/metabigor","docs_url":"https://github.com/j3ssie/metabigor#readme",
@@ -159,5 +167,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/j3ssie/metabigor","https://github.com/j3ssie/metabigor/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Go tool that gathers organisational internet footprint data — IP netblocks, ASNs, related hosts, certificate and scan data…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":3,"usability":3,"licence_cost":5}}
 ]

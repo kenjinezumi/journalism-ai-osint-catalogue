@@ -14,6 +14,9 @@
 | **Maintainer** | unitedstates project (civic-tech community) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | Public domain / CC0 (unitedstates project convention — confirm from the repository licence file) |
+| **Licence type** | Unresolved |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/unitedstates/congress) · [Documentation](https://github.com/unitedstates/congress#readme) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 3/5 · licence+cost 5/5 → **weighted 70/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Unresolved |
+| **Exact licence (as recorded)** | Public domain / CC0 (unitedstates project convention — confirm from the repository licence file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Congressional records are US government public records. |
+| **Restrictions** | None material — the unitedstates project convention is public-domain dedication, which is unusually permissive. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Negligible compute; the real cost is scraper maintenance if you extend it. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/unitedstates/congress
+
+> **Unresolved:** the licence could not be confirmed from the evidence gathered.
 
 ---
 

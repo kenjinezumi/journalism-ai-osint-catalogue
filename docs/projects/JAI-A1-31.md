@@ -14,11 +14,41 @@
 | **Maintainer** | Ben Welsh (palewire) |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/palewire/news-homepages) · [Documentation](https://palewi.re/docs/news-homepages/) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 5/5 · privacy 5/5 · usability 4/5 · licence+cost 4/5 → **weighted 76/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Captured homepage content remains the publishers' copyright; the archive is published for research use. |
+| **Restrictions** | GPL-3.0 on the toolkit. Republishing captured homepage screenshots raises publisher copyright, which is a fair-dealing judgement rather than a licence question. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee to use the published archive. Self-hosting capture: continuous browser automation plus growing storage — a real and open-ended commitment. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/palewire/news-homepages/blob/main/LICENSE
+- https://github.com/palewire/news-homepages
+- https://palewi.re/docs/news-homepages/
 
 ---
 

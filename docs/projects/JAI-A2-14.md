@@ -14,11 +14,41 @@
 | **Maintainer** | Patrice Lopez (kermitt2) / Science-Miner |
 | **Maintenance** | Stable with low activity |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/kermitt2/entity-fishing) · [Documentation](https://nerd.readthedocs.io/) |
 
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 3/5 · privacy 5/5 · usability 2/5 · licence+cost 5/5 → **weighted 68/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Ships its own models and knowledge-base builds. The knowledge base derives from Wikidata (CC0) and Wikipedia (CC-BY-SA) — the CC-BY-SA component is worth noting if you redistribute a derived knowledge base. |
+| **Restrictions** | Code permissive. Derived knowledge bases inherit Wikipedia's CC-BY-SA obligations if redistributed. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Costs are storage (tens of GB for the knowledge base) and a JVM service with several GB of RAM, plus the engineer time to build and periodically rebuild the KB. Infrastructure estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/kermitt2/entity-fishing/blob/master/LICENSE
+- https://github.com/kermitt2/entity-fishing
+- https://nerd.readthedocs.io/
 
 ---
 

@@ -14,6 +14,9 @@
 | **Maintainer** | Pelias contributors (originally Mapzen) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/pelias/api) · [Documentation](https://pelias.io/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 3/5 · privacy 5/5 · usability 2/5 · licence+cost 4/5 → **weighted 70/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Mixed by source: OpenStreetMap is ODbL 1.0; OpenAddresses sources carry a range of per-source licences, some with attribution or redistribution conditions; Who's on First is CC-BY. These differ and must be checked per region you import. |
+| **Restrictions** | Code is MIT. The data licensing is genuinely mixed and is the item needing attention: an OpenAddresses import can include sources whose terms restrict redistribution, so publishing a derived dataset requires per-source review. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Infrastructure estimate: several services plus Elasticsearch — realistically two or more VMs for a country-scale deployment, more operational attention than Photon. Assumptions: self-hosted, regional imports.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/pelias/api/blob/master/LICENSE
+- https://github.com/pelias/api
+- https://pelias.io/
 
 ---
 

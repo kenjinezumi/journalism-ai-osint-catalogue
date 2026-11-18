@@ -15,6 +15,7 @@
 "blockers":["Requires firmware access to boot from USB; possession may itself carry risk in hostile jurisdictions"],
 "evidence_urls":["https://tails.net/doc/","https://tails.net/news/index.en.html","https://gitlab.tails.boum.org/tails/tails"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"docs-reviewed",
+"summary":"Live operating system booted from a USB stick that routes all network traffic through Tor…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["staff-effort"],"additional_costs_note":"staff time to prepare and verify images; a USB stick per user (negligible)",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"SUR-B3-20","name":"Qubes OS","maintainer":"Qubes OS Project","pillar":"SUR","segment":"B3","subcategory":"Compartmentalised operating system","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/QubesOS/qubes-issues","docs_url":"https://www.qubes-os.org/doc/",
@@ -33,6 +34,7 @@
 "blockers":["Restrictive certified-hardware requirement; substantial learning curve and resource needs"],
 "evidence_urls":["https://www.qubes-os.org/doc/","https://github.com/QubesOS/qubes-issues"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"docs-reviewed",
+"summary":"Security-focused desktop operating system that runs applications in isolated Xen-based virtual machines organised by trust level…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["hardware", "infrastructure", "staff-effort"],"additional_costs_note":"dedicated hardware; self-hosted infrastructure; staff effort",
 "scores":{"relevance":5,"capability":5,"maintenance":4,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"SUR-B3-21","name":"security-misc (Kicksecure)","maintainer":"Kicksecure / Whonix developers","pillar":"SUR","segment":"B3","subcategory":"System hardening","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/Kicksecure/security-misc","docs_url":"https://www.kicksecure.com/wiki/Security-misc",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/Kicksecure/security-misc","https://www.kicksecure.com/wiki/Security-misc"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Package of Linux security-hardening settings — kernel parameters, module blacklists, access restrictions…","licence_type":"Unresolved","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":4,"privacy":5,"usability":2,"licence_cost":4}},
 
 {"id":"SUR-B3-22","name":"VeraCrypt","maintainer":"IDRIX / Mounir Idrassi","pillar":"SUR","segment":"B3","subcategory":"Disk and volume encryption","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/veracrypt/VeraCrypt","docs_url":"https://veracrypt.io/en/Documentation.html",
@@ -69,6 +72,7 @@
 "blockers":["Hidden-volume plausible deniability should not be relied on against coercive questioning"],
 "evidence_urls":["https://github.com/veracrypt/VeraCrypt","https://veracrypt.io/en/Documentation.html","https://github.com/veracrypt/VeraCrypt/blob/master/License.txt"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Disk-encryption software creating encrypted containers and full-disk encryption on Windows, macOS and Linux…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B3-23","name":"Signal (Android client)","maintainer":"Signal Foundation","pillar":"SUR","segment":"B3","subcategory":"Secure communications","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/signalapp/Signal-Android","docs_url":"https://support.signal.org/",
@@ -87,6 +91,7 @@
 "blockers":["Requires a phone number — unsuitable where the source must not be identifiable"],
 "evidence_urls":["https://github.com/signalapp/Signal-Android","https://github.com/signalapp/Signal-Server","https://github.com/signalapp/Signal-Android/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"End-to-end encrypted messaging application for text, voice and video, with disappearing messages, sealed sender…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":4,"usability":5,"licence_cost":4}},
 
 {"id":"SUR-B3-24","name":"Molly","maintainer":"Molly project (mollyim)","pillar":"SUR","segment":"B3","subcategory":"Secure communications","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/mollyim/mollyim-android","docs_url":"https://molly.im/",
@@ -105,6 +110,7 @@
 "blockers":["Release cadence trails upstream Signal — verify the current version gap before deploying"],
 "evidence_urls":["https://github.com/mollyim/mollyim-android","https://molly.im/","https://github.com/mollyim/mollyim-android/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Hardened fork of Signal for Android that adds database encryption at rest with a separate passphrase, automatic locking…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":3,"privacy":5,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B3-25","name":"SimpleX Chat","maintainer":"SimpleX Chat Ltd","pillar":"SUR","segment":"B3","subcategory":"Secure communications","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/simplex-chat/simplex-chat","docs_url":"https://simplex.chat/docs/",
@@ -123,6 +129,7 @@
 "blockers":["Much less independent cryptographic review than Signal; large open-issue backlog for security-critical software"],
 "evidence_urls":["https://github.com/simplex-chat/simplex-chat","https://simplex.chat/docs/","https://github.com/simplex-chat/simplex-chat/blob/stable/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Messaging network with no user identifiers of any kind: contacts connect via one-time invitation links through relay servers…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"SUR-B3-26","name":"Delta Chat / chatmail core","maintainer":"Chatmail (transferred from deltachat/deltachat-core-rust)","pillar":"SUR","segment":"B3","subcategory":"Secure communications","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/chatmail/core","docs_url":"https://delta.chat/en/help",
@@ -141,5 +148,6 @@
 "blockers":["Mail metadata exposes the sender-recipient relationship unless both parties use chatmail servers"],
 "evidence_urls":["https://github.com/chatmail/core","https://delta.chat/en/help","../sources/evidence/leads.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Rust core library behind Delta Chat, providing end-to-end encrypted messaging over ordinary email infrastructure (SMTP/IMAP) with…","licence_type":"Unresolved","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":3,"usability":4,"licence_cost":4}}
 ]

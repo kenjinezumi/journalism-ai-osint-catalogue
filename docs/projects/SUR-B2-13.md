@@ -14,6 +14,9 @@
 | **Maintainer** | Publications Office of the European Union |
 | **Maintenance** | Actively maintained |
 | **Licence** | EU reuse terms apply to TED data (generally permissive with attribution under the Commission's reuse decision) — specific current terms NOT verified in this survey |
+| **Licence type** | Proprietary |
+| **Open-source status** | Proprietary |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Documentation](https://ted.europa.eu/en/) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 4/5 · privacy 4/5 · usability 3/5 · licence+cost 4/5 → **weighted 84/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Proprietary |
+| **Exact licence (as recorded)** | EU reuse terms apply to TED data (generally permissive with attribution under the Commission's reuse decision) — specific current terms NOT verified in this survey |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Same. Verify the current reuse notice before republishing bulk data. |
+| **Restrictions** | Not verified here. EU public-sector information is generally reusable with attribution, but confirm the current terms before publishing a derived dataset. |
+| **Open-source status** | **Proprietary** — Hosted service or proprietary software — governed by service terms, not a software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | No material additional cost recorded |
+| **Cost conditions** | No material additional cost recorded |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Free to search and access. Infrastructure cost only if you build a monitoring pipeline over the bulk data. No fee verified.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://ted.europa.eu/en/
+- `../sources/evidence/b2-sources.md`
 
 ---
 

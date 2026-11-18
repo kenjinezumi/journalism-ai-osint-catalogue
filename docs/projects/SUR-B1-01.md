@@ -14,6 +14,9 @@
 | **Maintainer** | Open Observatory of Network Interference (OONI) |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Mixed (code vs weights/data) |
+| **Open-source status** | Mixed |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/ooni/probe-cli) · [Documentation](https://ooni.org/support/ooni-probe-cli) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 5/5 · capability 5/5 · maintenance 5/5 · privacy 2/5 · usability 3/5 · licence+cost 4/5 → **weighted 85/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Mixed (code vs weights/data) |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Published OONI measurement data is open data (CC0-style per OONI's policy — verify the current terms before bulk redistribution). The Citizen Lab test lists that drive testing are CC-BY-NC-SA-4.0, which is a separate and more restrictive licence. |
+| **Restrictions** | GPL-3.0 on the client limits embedding in proprietary tooling. Note the test lists' NonCommercial clause if you redistribute them alongside results. |
+| **Open-source status** | **Mixed** — Open-source code, restricted data licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Negligible compute. The real cost is risk borne by the person running the probe, and the time to interpret results correctly.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/ooni/probe-cli/blob/master/LICENSE.md
+- https://github.com/ooni/probe-cli
+- https://ooni.org/support/ooni-probe-cli
 
 ---
 

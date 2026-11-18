@@ -14,11 +14,41 @@
 | **Maintainer** | k2-fsa / Next-gen Kaldi |
 | **Maintenance** | Actively maintained |
 | **Licence** | Apache-2.0 |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/k2-fsa/sherpa-onnx) · [Documentation](https://k2-fsa.github.io/sherpa/onnx/) |
 
 **Scores** — relevance 3/5 · capability 4/5 · maintenance 4/5 · privacy 5/5 · usability 2/5 · licence+cost 4/5 → **weighted 73/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | Apache-2.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Varies per exported checkpoint (Whisper, Zipformer, Paraformer and others distributed separately) — verify the specific model. |
+| **Restrictions** | Code permissive. Checkpoint licences vary; some research models carry non-commercial terms, so check the specific archive you deploy. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Engineering time for integration; runs on existing or low-cost hardware |
+| **Cost conditions** | Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Runs on existing or cheap hardware (a Raspberry Pi class device suffices for small models), which is part of the point. Engineering time for integration is the real cost.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/k2-fsa/sherpa-onnx/blob/master/LICENSE
+- https://github.com/k2-fsa/sherpa-onnx
+- https://k2-fsa.github.io/sherpa/onnx/
 
 ---
 

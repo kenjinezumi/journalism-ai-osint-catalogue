@@ -14,6 +14,9 @@
 | **Maintainer** | MuckRock Foundation |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 (project licensing — confirm from the repository licence file) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **Unknown / not verified** — not established by the records |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/MuckRock/muckrock) · [Documentation](https://www.muckrock.com/) |
@@ -21,6 +24,34 @@
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 2/5 · usability 4/5 · licence+cost 4/5 → **weighted 74/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 (project licensing — confirm from the repository licence file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Released documents are public records; MuckRock's service terms govern platform use and were not verified here. |
+| **Restrictions** | Copyleft would apply to a modified hosted instance; immaterial for using the service. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **Unknown / not verified** — not established by the records |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** Service fees and account tiers NOT verified in this survey — MuckRock has historically charged for filing credits with free tiers for some users. Confirm before planning a filing programme. Self-hosting would be a major Django deployment. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/MuckRock/muckrock
+- https://www.muckrock.com/
+
+> **Unresolved:** the price is not established by these records — this is not a statement that it is free.
 
 ---
 

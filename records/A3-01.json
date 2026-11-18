@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/ggml-org/llama.cpp","https://github.com/ggml-org/llama.cpp/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"C/C++ inference engine for large language models using the ggml/GGUF format, with quantisation…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":5,"maintenance":5,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A3-02","name":"Ollama","maintainer":"Ollama","pillar":"JAI","segment":"A3","subcategory":"Local LLM inference","project_type":"application","bucket":"verified-oss","repo_url":"https://github.com/ollama/ollama","docs_url":"https://docs.ollama.com/",
@@ -33,6 +34,7 @@
 "blockers":["Model licences in the library vary and are easy to overlook — verify before publishing work derived from a pulled model"],
 "evidence_urls":["https://github.com/ollama/ollama","https://docs.ollama.com/","https://github.com/ollama/ollama/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Application that packages local model serving behind a simple CLI and HTTP API, handling model download, quantisation selection…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":5,"privacy":5,"usability":5,"licence_cost":4}},
 
 {"id":"JAI-A3-03","name":"vLLM","maintainer":"vLLM project (PyTorch Foundation)","pillar":"JAI","segment":"A3","subcategory":"Local LLM inference (serving)","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/vllm-project/vllm","docs_url":"https://docs.vllm.ai/",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/vllm-project/vllm","https://docs.vllm.ai/","https://github.com/vllm-project/vllm/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"High-throughput LLM inference and serving engine using paged attention and continuous batching…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":5,"maintenance":5,"privacy":5,"usability":3,"licence_cost":5}},
 
 {"id":"JAI-A3-04","name":"LlamaIndex","maintainer":"LlamaIndex Inc.","pillar":"JAI","segment":"A3","subcategory":"RAG framework","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/run-llama/llama_index","docs_url":"https://docs.llamaindex.ai/",
@@ -69,6 +72,7 @@
 "blockers":["Default configurations use hosted embedding and model providers — must be explicitly made local for source material"],
 "evidence_urls":["https://github.com/run-llama/llama_index","https://docs.llamaindex.ai/","https://github.com/run-llama/llama_index/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Data framework for retrieval-augmented generation: loaders for many sources, index structures, retrievers, rerankers…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":3,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A3-05","name":"Haystack","maintainer":"deepset","pillar":"JAI","segment":"A3","subcategory":"RAG framework","project_type":"framework","bucket":"verified-oss","repo_url":"https://github.com/deepset-ai/haystack","docs_url":"https://docs.haystack.deepset.ai/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/deepset-ai/haystack","https://docs.haystack.deepset.ai/","https://github.com/deepset-ai/haystack/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Framework for building search and RAG pipelines from composable components — retrievers, rankers, readers, generators…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A3-06","name":"RAGFlow","maintainer":"InfiniFlow","pillar":"JAI","segment":"A3","subcategory":"RAG platform","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/infiniflow/ragflow","docs_url":"https://ragflow.io/docs/",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/infiniflow/ragflow","https://ragflow.io/docs/","https://github.com/infiniflow/ragflow/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Deployable RAG platform with deep document understanding, a web interface for corpus management and chat…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A3-07","name":"Qdrant","maintainer":"Qdrant","pillar":"JAI","segment":"A3","subcategory":"Vector database","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/qdrant/qdrant","docs_url":"https://qdrant.tech/documentation/",
@@ -123,6 +129,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/qdrant/qdrant","https://qdrant.tech/documentation/","https://github.com/qdrant/qdrant/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Vector similarity search engine and database written in Rust, with payload filtering, quantisation, snapshots…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":5,"usability":4,"licence_cost":5}},
 
 {"id":"JAI-A3-08","name":"FAISS","maintainer":"Meta AI Research","pillar":"JAI","segment":"A3","subcategory":"Vector search library","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/facebookresearch/faiss","docs_url":"https://faiss.ai/",
@@ -141,5 +148,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/facebookresearch/faiss","https://faiss.ai/","https://github.com/facebookresearch/faiss/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Library for efficient similarity search and clustering of dense vectors, with many index types trading memory against accuracy…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":5,"privacy":5,"usability":3,"licence_cost":5}}
 ]

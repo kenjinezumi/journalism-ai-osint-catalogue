@@ -14,11 +14,41 @@
 | **Maintainer** | LibreTranslate community (Piero Toffanin and contributors) |
 | **Maintenance** | Actively maintained |
 | **Licence** | AGPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/LibreTranslate/LibreTranslate) · [Documentation](https://libretranslate.com/docs/) |
 
 **Scores** — relevance 5/5 · capability 3/5 · maintenance 4/5 · privacy 5/5 · usability 4/5 · licence+cost 4/5 → **weighted 85/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | AGPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Inherits Argos Translate model packages (largely open, derived from OPUS/OPUS-MT data); verify per language pair. |
+| **Restrictions** | AGPL-3.0: if you modify LibreTranslate and provide it over a network, you must offer your modified source to users. Running it unmodified for internal use carries no obligation. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No software fee for self-hosting. Infrastructure estimate: one CPU VM with 4-8GB RAM serves a small newsroom; each language pair adds a few hundred MB of models. The hosted libretranslate.com service has paid API tiers whose current prices were NOT verified in this survey. Assumptions: self-hosted Docker, CPU-only.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/LibreTranslate/LibreTranslate/blob/main/LICENSE
+- https://github.com/LibreTranslate/LibreTranslate
+- https://libretranslate.com/docs/
 
 ---
 

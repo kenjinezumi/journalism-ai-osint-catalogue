@@ -14,6 +14,9 @@
 | **Maintainer** | Tim Tomes (lanmaster53) |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | GPL-3.0 (project licensing — confirm from the repository licence file) |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/lanmaster53/recon-ng) · [Documentation](https://github.com/lanmaster53/recon-ng/wiki) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 2/5 · privacy 3/5 · usability 3/5 · licence+cost 4/5 → **weighted 59/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 (project licensing — confirm from the repository licence file) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Third-party sources have their own terms. |
+| **Restrictions** | Copyleft on the framework; immaterial for internal use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Optional paid hosting / commercial licence; self-hosted infrastructure |
+| **Cost conditions** | Optional paid hosting or commercial licence; Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. API keys for several modules, some paid (not priced here). Negligible compute.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/lanmaster53/recon-ng
+- https://github.com/lanmaster53/recon-ng/wiki
 
 ---
 

@@ -14,11 +14,41 @@
 | **Maintainer** | Atlos |
 | **Maintenance** | Maintenance appears to be declining |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/atlosdotorg/atlos) · [Documentation](https://docs.atlos.org/) |
 
 **Scores** — relevance 5/5 · capability 4/5 · maintenance 2/5 · privacy 4/5 · usability 3/5 · licence+cost 4/5 → **weighted 78/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Media and incident records you store are third-party content with their own rights and, often, serious privacy implications. |
+| **Restrictions** | GPL-3.0: a modified self-hosted instance offered to users obliges source publication. Internal use unaffected. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No software fee. Self-hosting estimate: an Elixir/Phoenix application plus PostgreSQL and media storage — one moderate VM plus storage growing with media volume, and the dominant cost is the unfamiliar stack's operational learning. Hosted pricing was not verified in this survey. Assumptions: self-hosted, moderate incident volume.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/atlosdotorg/atlos/blob/main/LICENSE
+- https://github.com/atlosdotorg/atlos
+- https://docs.atlos.org/
 
 ---
 

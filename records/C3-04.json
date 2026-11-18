@@ -15,6 +15,7 @@
 "blockers":["Active scanning modes are detectable and may engage computer-misuse law"],
 "evidence_urls":["https://github.com/owasp-amass/amass","https://github.com/owasp-amass/amass/wiki"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Network-mapping tool that performs attack-surface discovery through DNS enumeration, certificate transparency, web archives…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":4,"privacy":3,"usability":3,"licence_cost":4}},
 
 {"id":"OSINT-C3-23","name":"subfinder","maintainer":"ProjectDiscovery","pillar":"OSINT","segment":"C3","subcategory":"Internet infrastructure mapping","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/projectdiscovery/subfinder","docs_url":"https://github.com/projectdiscovery/subfinder#readme",
@@ -33,6 +34,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/projectdiscovery/subfinder","https://github.com/projectdiscovery/subfinder/blob/main/LICENSE.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Fast passive subdomain-enumeration tool that queries many online sources — certificate transparency, DNS datasets…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":5,"privacy":4,"usability":5,"licence_cost":5}},
 
 {"id":"OSINT-C3-24","name":"httpx","maintainer":"ProjectDiscovery","pillar":"OSINT","segment":"C3","subcategory":"Internet infrastructure probing","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/projectdiscovery/httpx","docs_url":"https://github.com/projectdiscovery/httpx#readme",
@@ -51,6 +53,7 @@
 "blockers":["Active probing is visible to the target and may engage computer-misuse law"],
 "evidence_urls":["https://github.com/projectdiscovery/httpx","https://github.com/projectdiscovery/httpx/blob/main/LICENSE.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Fast multi-purpose HTTP toolkit that probes a list of hosts and reports status codes, titles, technologies, certificates…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":5,"privacy":2,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C3-25","name":"dnstwist","maintainer":"Marcin Ulikowski (elceef)","pillar":"OSINT","segment":"C3","subcategory":"Domain analysis","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/elceef/dnstwist","docs_url":"https://dnstwist.it/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/elceef/dnstwist","https://dnstwist.it/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Tool that generates and tests permutations of a domain name — typos, homoglyphs, character swaps, alternative TLDs…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":4,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C3-26","name":"SSLyze","maintainer":"Alban Diquet (nabla-c0d3)","pillar":"OSINT","segment":"C3","subcategory":"TLS analysis","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/nabla-c0d3/sslyze","docs_url":"https://nabla-c0d3.github.io/sslyze/documentation/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/nabla-c0d3/sslyze","https://nabla-c0d3.github.io/sslyze/documentation/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"TLS and SSL configuration scanner that reports supported protocols, cipher suites, certificate chains, and known weaknesses…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":3,"usability":4,"licence_cost":4}},
 
 {"id":"OSINT-C3-27","name":"asn (nitefood)","maintainer":"nitefood","pillar":"OSINT","segment":"C3","subcategory":"Network attribution","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/nitefood/asn","docs_url":"https://github.com/nitefood/asn#readme",
@@ -105,6 +110,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/nitefood/asn"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Shell-based reconnaissance tool that resolves IP addresses, prefixes, ASNs and domains to network ownership, BGP routing…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":3,"usability":4,"licence_cost":5}},
 
 {"id":"OSINT-C3-28","name":"theHarvester","maintainer":"Christian Martorella (laramies)","pillar":"OSINT","segment":"C3","subcategory":"Public-source footprinting","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/laramies/theHarvester","docs_url":"https://github.com/laramies/theHarvester/wiki",
@@ -123,5 +129,6 @@
 "blockers":["Harvested email addresses are regulated personal data requiring a retention and protection decision"],
 "evidence_urls":["https://github.com/laramies/theHarvester","https://github.com/laramies/theHarvester/wiki"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Reconnaissance tool that gathers names, email addresses, subdomains, hosts and open ports for a domain from search engines…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":2,"usability":4,"licence_cost":4}}
 ]

@@ -14,11 +14,40 @@
 | **Maintainer** | Gephi Consortium |
 | **Maintenance** | Stable with low activity |
 | **Licence** | GPL-3.0 and CDDL dual licensing (project licensing — confirm from the repository licence files) |
+| **Licence type** | Dual-licensed |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/gephi/gephi) · [Documentation](https://gephi.org/users/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 3/5 · privacy 5/5 · usability 4/5 · licence+cost 4/5 → **weighted 80/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Dual-licensed |
+| **Exact licence (as recorded)** | GPL-3.0 and CDDL dual licensing (project licensing — confirm from the repository licence files) |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | Copyleft on the application; immaterial for desktop analytical use. The dual-licence structure is worth reading if you distribute plugins. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. An analyst workstation with adequate RAM; large graphs need more. Java runtime. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/gephi/gephi
+- https://gephi.org/users/
 
 ---
 

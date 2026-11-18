@@ -15,6 +15,7 @@
 "blockers":["Hosted LLM and external search by default — images and claims leave your infrastructure"],
 "evidence_urls":["https://github.com/multimodal-ai-lab/DEFAME","https://github.com/multimodal-ai-lab/DEFAME/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Multimodal fact-verification framework that plans and executes a sequence of tools — web search, reverse image search…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["mandatory-paid", "infrastructure"],"additional_costs_note":"mandatory paid dependency; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":2,"privacy":1,"usability":2,"licence_cost":3}},
 
 {"id":"JAI-A4-12","name":"FacTool","maintainer":"GAIR-NLP (Shanghai Jiao Tong University)","pillar":"JAI","segment":"A4","subcategory":"LLM output factuality checking","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/GAIR-NLP/factool","docs_url":"https://github.com/GAIR-NLP/factool#readme",
@@ -33,6 +34,7 @@
 "blockers":["Requires hosted LLM and search APIs","Dormant since August 2024"],
 "evidence_urls":["https://github.com/GAIR-NLP/factool","https://github.com/GAIR-NLP/factool/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Framework for detecting factual errors in generated text across scenarios (knowledge-based QA, code, maths…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["mandatory-paid"],"additional_costs_note":"mandatory paid dependency",
 "scores":{"relevance":3,"capability":2,"maintenance":1,"privacy":1,"usability":2,"licence_cost":3}},
 
 {"id":"JAI-A4-13","name":"CooRTweet","maintainer":"Nicola Righetti and collaborators","pillar":"JAI","segment":"A4","subcategory":"Coordinated behaviour detection","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/nicolarighetti/CooRTweet","docs_url":"https://github.com/nicolarighetti/CooRTweet#readme",
@@ -51,6 +53,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/nicolarighetti/CooRTweet"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"R package that detects coordinated sharing behaviour in social-media data by finding accounts repeatedly posting the same content…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["mandatory-paid"],"additional_costs_note":"mandatory paid dependency",
 "scores":{"relevance":4,"capability":3,"maintenance":4,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"JAI-A4-14","name":"CooRnet","maintainer":"Fabio Giglietto","pillar":"JAI","segment":"A4","subcategory":"Coordinated behaviour detection","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/fabiogiglietto/CooRnet","docs_url":"https://github.com/fabiogiglietto/CooRnet#readme",
@@ -69,6 +72,7 @@
 "blockers":["Archived, and its sole data source (CrowdTangle) was discontinued"],
 "evidence_urls":["https://github.com/fabiogiglietto/CooRnet","https://github.com/fabiogiglietto/CooRnet/blob/master/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"R package that detected coordinated link-sharing behaviour across Facebook and Instagram using CrowdTangle data…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":2,"capability":1,"maintenance":0,"privacy":2,"usability":2,"licence_cost":5}},
 
 {"id":"JAI-A4-15","name":"Full Fact AI Trust Benchmark","maintainer":"Full Fact","pillar":"JAI","segment":"A4","subcategory":"AI evaluation for fact-checking","project_type":"prototype","bucket":"verified-oss","repo_url":"https://github.com/FullFact/benchmark-public-release","docs_url":"https://fullfact.org/",
@@ -87,6 +91,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/FullFact/benchmark-public-release","https://github.com/FullFact/benchmark-public-release/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified","provisional":true,
+"summary":"Benchmark and evaluation harness, authored by a fact-checking organisation, for assessing whether AI assistants behave acceptably…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":2,"maintenance":3,"privacy":3,"usability":2,"licence_cost":5}},
 
 {"id":"JAI-A4-16","name":"Google Fact Check Tools API","maintainer":"Google","pillar":"JAI","segment":"A4","subcategory":"Fact-check lookup service","project_type":"platform","bucket":"proprietary-service","repo_url":"","docs_url":"https://developers.google.com/fact-check/tools/api",
@@ -105,6 +110,7 @@
 "blockers":["Hosted proprietary API with deprecation and quota risk outside your control; terms and pricing unverified in this survey"],
 "evidence_urls":["https://developers.google.com/fact-check/tools/api"],
 "verification_date":"2026-11-17","confidence":"low","depth":"docs-reviewed","provisional":true,
+"summary":"Hosted API with a Claim Search endpoint for querying fact-checks published worldwide as ClaimReview structured data…","licence_type":"Proprietary","oss_status":"Proprietary","oss_detail":"Hosted service or proprietary software — governed by service terms, not a software licence","price_class":"Unknown / not verified","software_price_note":"not established by the records","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":3,"maintenance":2,"privacy":1,"usability":4,"licence_cost":2}},
 
 {"id":"JAI-A4-17","name":"PhotoHolmes","maintainer":"photoholmes (Universidad de la República, Uruguay)","pillar":"JAI","segment":"A4","subcategory":"Image forensics harness","project_type":"library","bucket":"verified-oss","repo_url":"https://github.com/photoholmes/photoholmes","docs_url":"https://github.com/photoholmes/photoholmes#readme",
@@ -123,6 +129,7 @@
 "blockers":["Bundled methods carry mixed and partly non-commercial licences — per-method audit required before commercial publication"],
 "evidence_urls":["https://github.com/photoholmes/photoholmes","https://github.com/photoholmes/photoholmes/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Python library that packages multiple published image-forgery detection and localisation methods behind a common interface…","licence_type":"Mixed (code vs weights/data)","oss_status":"Mixed","oss_detail":"Open-source code, restricted model weights","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":4,"usability":2,"licence_cost":2}},
 
 {"id":"JAI-A4-18","name":"TruFor","maintainer":"GRIP-UNINA (University of Naples Federico II)","pillar":"JAI","segment":"A4","subcategory":"Image forgery localisation","project_type":"model","bucket":"source-available-restricted","repo_url":"https://github.com/grip-unina/TruFor","docs_url":"https://grip-unina.github.io/TruFor/",
@@ -141,6 +148,7 @@
 "blockers":["Licence restricts use to informational and non-profit purposes — commercial newsroom use requires permission"],
 "evidence_urls":["https://github.com/grip-unina/TruFor","https://grip-unina.github.io/TruFor/"],
 "verification_date":"2026-11-17","confidence":"high","depth":"repo-inspected",
+"summary":"Transformer-based image-forgery localisation model combining learned noise-residual fingerprints with RGB features…","licence_type":"Restricted / non-OSI","oss_status":"Source available","oss_detail":"Restricted model weights","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":3,"capability":4,"maintenance":3,"privacy":4,"usability":2,"licence_cost":1}},
 
 {"id":"JAI-A4-19","name":"CAT-Net","maintainer":"Myung-Joon Kwon (mjkwon2021)","pillar":"JAI","segment":"A4","subcategory":"Image splicing detection","project_type":"model","bucket":"verified-oss","repo_url":"https://github.com/mjkwon2021/CAT-Net","docs_url":"https://github.com/mjkwon2021/CAT-Net#readme",
@@ -159,6 +167,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/mjkwon2021/CAT-Net"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Neural network that detects and localises spliced regions in JPEG images by tracing compression-artefact inconsistencies…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open model weights","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":4,"usability":2,"licence_cost":4}},
 
 {"id":"JAI-A4-20","name":"UniversalFakeDetect","maintainer":"Wisconsin AI Vision lab","pillar":"JAI","segment":"A4","subcategory":"Synthetic image detection","project_type":"prototype","bucket":"verified-oss","repo_url":"https://github.com/WisconsinAIVision/UniversalFakeDetect","docs_url":"https://github.com/WisconsinAIVision/UniversalFakeDetect#readme",
@@ -177,5 +186,6 @@
 "blockers":[],
 "evidence_urls":["https://github.com/WisconsinAIVision/UniversalFakeDetect","https://github.com/WisconsinAIVision/UniversalFakeDetect/blob/main/LICENSE"],
 "verification_date":"2026-11-17","confidence":"high","depth":"metadata-verified",
+"summary":"Method and reference implementation showing that a linear classifier on frozen CLIP features generalises across image generators…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":2,"capability":3,"maintenance":3,"privacy":4,"usability":2,"licence_cost":5}}
 ]

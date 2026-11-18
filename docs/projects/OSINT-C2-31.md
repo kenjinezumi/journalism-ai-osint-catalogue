@@ -14,6 +14,9 @@
 | **Maintainer** | Mapillary (Meta) |
 | **Maintenance** | Actively maintained |
 | **Licence** | BSD-2-Clause |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/mapillary/mapillary_tools) · [Documentation](https://github.com/mapillary/mapillary_tools#readme) |
@@ -21,6 +24,32 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 4/5 · privacy 2/5 · usability 3/5 · licence+cost 4/5 → **weighted 62/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | BSD-2-Clause |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Imagery uploaded to Mapillary is licensed under the platform's terms (historically CC-BY-SA for the imagery database); imagery you consume from Mapillary carries those terms. |
+| **Restrictions** | Code permissive. The imagery licensing is the substantive point: check Mapillary's current terms before republishing imagery from the platform in a story, and understand what rights you grant when uploading. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Negligible compute; bandwidth for uploads. A Mapillary account is required to upload.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/mapillary/mapillary_tools/blob/main/LICENSE
+- https://github.com/mapillary/mapillary_tools
 
 ---
 

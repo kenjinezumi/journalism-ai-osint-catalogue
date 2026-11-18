@@ -14,11 +14,40 @@
 | **Maintainer** | Censored Planet (University of Michigan) |
 | **Maintenance** | Stable with low activity |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | medium · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/censoredplanet/cenalert) · [Documentation](https://censoredplanet.org/) |
 
 **Scores** — relevance 3/5 · capability 2/5 · maintenance 3/5 · privacy 3/5 · usability 1/5 · licence+cost 4/5 → **weighted 54/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a |
+| **Restrictions** | GPL-3.0 limits embedding in proprietary tooling; irrelevant for internal use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **medium** |
+
+**Recorded cost detail.** No fee. Requires Google Trends access (terms and rate limits outside your control; not priced here) and a Slack workspace. Minimal compute.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/censoredplanet/cenalert/blob/main/LICENSE
+- https://github.com/censoredplanet/cenalert
 
 ---
 

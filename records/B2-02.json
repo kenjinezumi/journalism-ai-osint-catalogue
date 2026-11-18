@@ -15,6 +15,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/enthec/webappanalyzer","../sources/recovered/cat/consolidate.py"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Maintained ruleset identifying the technologies behind a website — frameworks, analytics, CDNs, CRM and marketing platforms…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open data licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":4,"capability":3,"maintenance":3,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"SUR-B2-08","name":"WhatWeb","maintainer":"Andrew Horton (urbanadventurer) and Brendan Coles","pillar":"SUR","segment":"B2","subcategory":"Technology fingerprinting","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/urbanadventurer/WhatWeb","docs_url":"https://github.com/urbanadventurer/WhatWeb#readme",
@@ -33,6 +34,7 @@
 "blockers":["Active scanning is detectable and may engage computer-misuse law"],
 "evidence_urls":["https://github.com/urbanadventurer/WhatWeb"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Web technology fingerprinting scanner with over a thousand plugins that identifies content management systems, frameworks…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":3,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B2-09","name":"AnalyticsRelationships","maintainer":"Josué Encinar (Josue87)","pillar":"SUR","segment":"B2","subcategory":"Infrastructure attribution","project_type":"cli","bucket":"verified-oss","repo_url":"https://github.com/Josue87/AnalyticsRelationships","docs_url":"https://github.com/Josue87/AnalyticsRelationships#readme",
@@ -51,6 +53,7 @@
 "blockers":["Depends on third-party reverse-analytics services whose availability and terms are outside your control"],
 "evidence_urls":["https://github.com/Josue87/AnalyticsRelationships"],
 "verification_date":"2026-11-17","confidence":"low","depth":"metadata-verified","provisional":true,
+"summary":"Tool that extracts analytics identifiers (Google Analytics, Tag Manager and similar) from a website and searches for other…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["optional-hosted", "infrastructure"],"additional_costs_note":"optional paid hosting / commercial licence; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":3,"maintenance":2,"privacy":3,"usability":4,"licence_cost":4}},
 
 {"id":"SUR-B2-10","name":"certstream-server","maintainer":"Cali Dog Security","pillar":"SUR","segment":"B2","subcategory":"Certificate transparency monitoring","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/CaliDog/certstream-server","docs_url":"https://certstream.calidog.io/",
@@ -69,6 +72,7 @@
 "blockers":[],
 "evidence_urls":["https://github.com/CaliDog/certstream-server","https://certstream.calidog.io/"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Server that aggregates certificate-transparency logs into a real-time stream of newly issued TLS certificates…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":3,"privacy":5,"usability":3,"licence_cost":4}},
 
 {"id":"SUR-B2-11","name":"Mihari","maintainer":"ninoseki","pillar":"SUR","segment":"B2","subcategory":"Infrastructure monitoring and pivoting","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/ninoseki/mihari","docs_url":"https://github.com/ninoseki/mihari#readme",
@@ -87,6 +91,7 @@
 "blockers":["Continuous querying discloses your investigative watchlist to commercial scan vendors; several required APIs are paid"],
 "evidence_urls":["https://github.com/ninoseki/mihari"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Framework for continuous threat-hunting that runs saved queries against many data sources (scan databases, certificate logs…","licence_type":"Permissive","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["mandatory-paid", "infrastructure"],"additional_costs_note":"mandatory paid dependency; self-hosted infrastructure",
 "scores":{"relevance":4,"capability":4,"maintenance":3,"privacy":2,"usability":3,"licence_cost":3}},
 
 {"id":"SUR-B2-12","name":"OpenOversight","maintainer":"Lucy Parsons Labs","pillar":"SUR","segment":"B2","subcategory":"Police accountability records","project_type":"platform","bucket":"verified-oss","repo_url":"https://github.com/lucyparsons/OpenOversight","docs_url":"https://github.com/lucyparsons/OpenOversight#readme",
@@ -105,6 +110,7 @@
 "blockers":["Jurisdiction-specific coverage; operating a comparable database raises significant data-protection obligations outside the US"],
 "evidence_urls":["https://github.com/lucyparsons/OpenOversight"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"metadata-verified",
+"summary":"Public, crowdsourced database and web application for identifying police officers from photographs and badge numbers…","licence_type":"Strong copyleft","oss_status":"Open source","oss_detail":"Open-source software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure", "staff-effort"],"additional_costs_note":"self-hosted infrastructure; staff effort",
 "scores":{"relevance":3,"capability":3,"maintenance":3,"privacy":3,"usability":3,"licence_cost":4}},
 
 {"id":"SUR-B2-13","name":"TED — Tenders Electronic Daily (EU public procurement)","maintainer":"Publications Office of the European Union","pillar":"SUR","segment":"B2","subcategory":"Procurement records","project_type":"dataset","bucket":"proprietary-service","repo_url":"","docs_url":"https://ted.europa.eu/en/",
@@ -123,6 +129,7 @@
 "blockers":["Above-threshold publication only; national-security exemptions hide much surveillance procurement"],
 "evidence_urls":["https://ted.europa.eu/en/","../sources/evidence/b2-sources.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"docs-reviewed",
+"summary":"Official EU portal publishing public-procurement notices above threshold from all member states, including contract notices…","licence_type":"Proprietary","oss_status":"Proprietary","oss_detail":"Hosted service or proprietary software — governed by service terms, not a software licence","price_class":"No software fee","software_price_note":"","cost_flags":["none-material"],"additional_costs_note":"no material additional cost recorded",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":4,"usability":3,"licence_cost":4}},
 
 {"id":"SUR-B2-14","name":"USAspending.gov (custom award data)","maintainer":"US Department of the Treasury / Bureau of the Fiscal Service","pillar":"SUR","segment":"B2","subcategory":"Procurement records","project_type":"dataset","bucket":"proprietary-service","repo_url":"","docs_url":"https://www.usaspending.gov/download_center/custom_award_data",
@@ -141,5 +148,6 @@
 "blockers":["Classified and some national-security procurement excluded; recipient naming requires entity resolution before aggregation"],
 "evidence_urls":["https://www.usaspending.gov/download_center/custom_award_data","../sources/evidence/b2-sources.md"],
 "verification_date":"2026-11-17","confidence":"medium","depth":"docs-reviewed",
+"summary":"Official US federal spending portal with searchable and bulk-downloadable award data covering contracts, grants and subawards…","licence_type":"Proprietary","oss_status":"Proprietary","oss_detail":"Hosted service or proprietary software — governed by service terms, not a software licence","price_class":"No software fee","software_price_note":"","cost_flags":["infrastructure"],"additional_costs_note":"self-hosted infrastructure",
 "scores":{"relevance":5,"capability":4,"maintenance":4,"privacy":4,"usability":3,"licence_cost":5}}
 ]

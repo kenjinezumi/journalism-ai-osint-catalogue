@@ -14,6 +14,9 @@
 | **Maintainer** | Federation of American Scientists (FAS) |
 | **Maintenance** | Uncertain |
 | **Licence** | Not verified — the site states its code is GPL v3 but no public repository was found; terms of use for the data were not verified |
+| **Licence type** | Proprietary |
+| **Open-source status** | Proprietary |
+| **Software price** | **No software fee** |
 | **Confidence** | low · **provisional** |
 | **Verified** | 2026-11-17 |
 | **Links** | [Documentation](https://dataindex.us/) |
@@ -21,6 +24,31 @@
 **Scores** — relevance 3/5 · capability 3/5 · maintenance 2/5 · privacy 4/5 · usability 5/5 · licence+cost 2/5 → **weighted 62/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Proprietary |
+| **Exact licence (as recorded)** | Not verified — the site states its code is GPL v3 but no public repository was found; terms of use for the data were not verified |
+| **SPDX identifier verified** | no — resolved from the licence file or project documentation, not confirmed as an SPDX identifier |
+| **Model / dataset terms** | Not verified. Underlying federal sources are generally US government works (public domain in the US), but FAS's compilation and annotations may carry their own rights. |
+| **Restrictions** | Unverified. Link and cite rather than republishing the compilation as a dataset. |
+| **Open-source status** | **Proprietary** — Hosted service or proprietary software — governed by service terms, not a software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **low** |
+
+**Recorded cost detail.** Free to read; newsletter free. No infrastructure. Not self-hostable in practice.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://dataindex.us/
 
 ---
 

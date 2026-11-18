@@ -14,6 +14,9 @@
 | **Maintainer** | Ajin Abraham and contributors |
 | **Maintenance** | Actively maintained |
 | **Licence** | GPL-3.0 |
+| **Licence type** | Strong copyleft |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/MobSF/Mobile-Security-Framework-MobSF) · [Documentation](https://mobsf.github.io/docs/) |
@@ -21,6 +24,33 @@
 **Scores** — relevance 4/5 · capability 5/5 · maintenance 5/5 · privacy 5/5 · usability 3/5 · licence+cost 4/5 → **weighted 88/100**
 
 > **Material blockers recorded.** See [section 12](#material-blockers).
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Strong copyleft |
+| **Exact licence (as recorded)** | GPL-3.0 |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | n/a. Bundled signature and rule sets have their own sources. |
+| **Restrictions** | GPL-3.0: distributing a modified version or a product incorporating it triggers source obligations. Internal use is unaffected. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure; staff effort |
+| **Cost conditions** | Self-hosting infrastructure; Staff effort |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Infrastructure: a workstation or VM for static analysis plus an emulator or test device for dynamic analysis. Analyst time dominates. Estimate.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/MobSF/Mobile-Security-Framework-MobSF/blob/master/LICENSE
+- https://github.com/MobSF/Mobile-Security-Framework-MobSF
+- https://mobsf.github.io/docs/
 
 ---
 

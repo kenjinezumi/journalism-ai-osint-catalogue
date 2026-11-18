@@ -14,11 +14,41 @@
 | **Maintainer** | Maarten Grootendorst |
 | **Maintenance** | Actively maintained |
 | **Licence** | MIT |
+| **Licence type** | Permissive |
+| **Open-source status** | Open source |
+| **Software price** | **No software fee** |
 | **Confidence** | high |
 | **Verified** | 2026-11-17 |
 | **Links** | [Repository](https://github.com/MaartenGr/BERTopic) · [Documentation](https://maartengr.github.io/BERTopic/) |
 
 **Scores** — relevance 4/5 · capability 4/5 · maintenance 4/5 · privacy 4/5 · usability 4/5 · licence+cost 5/5 → **weighted 82/100**
+
+---
+
+## Licence and costs
+
+_Licensing and payment are two separate questions. The classifications are defined in the [directory legend](../../README.md#how-to-read-the-licence-and-cost-columns)._
+
+| | |
+|---|---|
+| **Licence classification** | Permissive |
+| **Exact licence (as recorded)** | MIT |
+| **SPDX identifier verified** | yes — read from the licence file |
+| **Model / dataset terms** | Depends entirely on the embedding model you choose; not fixed by BERTopic and not verified here. |
+| **Restrictions** | None from BERTopic itself. The licence risk is imported with the embedding model — a CC-BY-NC checkpoint would contaminate commercial use. |
+| **Open-source status** | **Open source** — Open-source software licence |
+| **Software price** | **No software fee** |
+| **Additional costs** | Self-hosted infrastructure |
+| **Cost conditions** | Self-hosting infrastructure |
+| **Verified** | 2026-11-17 · confidence **high** |
+
+**Recorded cost detail.** No fee. Embedding is the cost driver: a GPU shortens a 200k-document embedding run from many hours to tens of minutes. Expect a GPU VM for hours, or a long CPU run, per corpus. Estimate only; assumptions are a mid-size sentence-transformer and a single pass.
+
+**Evidence for the licence and cost position** (verified 2026-11-17):
+
+- Licence evidence: https://github.com/MaartenGr/BERTopic/blob/master/LICENSE
+- https://github.com/MaartenGr/BERTopic
+- https://maartengr.github.io/BERTopic/
 
 ---
 
